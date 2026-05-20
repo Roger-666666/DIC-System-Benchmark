@@ -257,6 +257,14 @@ If you have calibration data, application case studies, or corrected specificati
 
 ---
 
+## Related Articles
+
+| # | Title | Topic |
+|---|-------|-------|
+| 01 | [High-Temperature DIC and Video Extensometer Applications](articles/high-temperature-dic-video-extensometer-applications.md) | Extreme temperature measurement, thermal strain, video extensometry |
+
+---
+
 *Last updated: 2025-05*  
 *Maintained by: DIC-Benchmark contributors*
 
@@ -514,6 +522,16 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 ## 贡献
 
 如果您有标定数据、应用案例研究或更正的技术规格，请开Issue或Pull Request。这是一个社区驱动的基准评测，需要广泛参与才能持续改进。
+
+---
+
+---
+
+## 延伸阅读
+
+| 序号 | 标题 | 主题 |
+|------|------|------|
+| 01 | [高温环境下DIC技术与视频引伸计的典型应用](articles/high-temperature-dic-video-extensometer-applications.md) | 极端温度测量、热应变、视频引伸计 |
 
 ---
 
