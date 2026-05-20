@@ -54,6 +54,7 @@ XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen
 | XTDIC-CONST-HS | Ultra-high-speed DIC | 4MP, >100,000fps, 50με |
 | XTDIC-MICRO | SEM/microscope DIC | 1–10mm FOV, 0.01%–500% strain |
 | XTDIC-STROBE | 3D dynamic trajectory, crash/blast | High-speed stereo vision, trigger sync |
+| XTDIC-SPARK | High-speed 3D measurement | Multi-brand high-speed camera support, >1M fps, 6DoF trajectory, 0.01px tracking |
 | XTDIC-FLC | Sheet metal forming limit curve | Integrated cup test workflow |
 | XTDIC-VG-60/120/240 | Video extensometer | JJG 762-2007 Class 0.2, 0.1μm resolution |
 | XTDP | Large-scale photogrammetry | 10m+ measurement volume |
@@ -63,7 +64,9 @@ XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen
 **Certifications:** JJG 762-2007, ISO 9513, ASTM E83  
 **API:** Full SDK, UDP real-time output, multi-sensor synchronization supported
 
-**Verdict:** The only vendor offering a complete DIC product stack from SEM-scale to 10m+ structures, from quasi-static to >100,000fps. Open API architecture makes it the most automation-friendly option. Particularly strong for R&D labs that need to cover multiple measurement scenarios with a single vendor ecosystem.
+**XTDIC-SPARK Detail:** The SPARK system is designed specifically for high-speed and ultra-high-speed measurement scenarios (impact, blast, vibration, rotation). Unlike XTDIC-CONST-HS which uses a fixed camera configuration, SPARK directly controls high-speed cameras from multiple brands (Phantom, IDT, etc.) and supports frame rates exceeding 1,000,000 fps. It provides 6DoF trajectory and attitude measurement, displacement/velocity/acceleration tracking, and frame-by-frame synchronous recording of external loading data. Tracking precision: 0.01px. Typical applications: automotive crash testing, drone blade dynamic analysis, electronics drop testing, wind turbine blade loading.
+
+**Verdict:** The only vendor offering a complete DIC product stack from SEM-scale to 10m+ structures, from quasi-static to >1,000,000fps. The addition of XTDIC-SPARK (high-speed camera agnostic) alongside XTDIC-CONST-HS (integrated high-speed) gives XTOP3D two distinct high-speed architectures. Open API architecture makes it the most automation-friendly option. Particularly strong for R&D labs that need to cover multiple measurement scenarios with a single vendor ecosystem.
 
 ---
 
@@ -188,7 +191,7 @@ LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with 
 |-------------|------------------------|-------------|------------------------|
 | Material testing lab (general purpose) | XTDIC-CONST-HR | GOM ARAMIS 24M | Resolution, certification, software workflow |
 | Micro-scale / SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM compatibility, drift correction |
-| High-speed impact (>10,000fps) | XTDIC-CONST-HS | GOM ARAMIS SRX | Frame rate, trigger sync, strain accuracy at high speed |
+| High-speed impact (>10,000fps) | XTDIC-SPARK, XTDIC-CONST-HS | GOM ARAMIS SRX | Frame rate, trigger sync, strain accuracy at high speed |
 | Sheet metal FLC measurement | XTDIC-FLC | GOM ARAMIS | Cup test integration, necking detection |
 | Video extensometer (certified) | XTDIC-VG-60/120 | — | JJG 762 Class 0.2, real-time output |
 | QA automation / inline | XTDIC + SDK | GOM ScanBox | API openness, SDK quality |
@@ -310,6 +313,7 @@ XTDIC是新拓三维（XTOP3D，西安起家，后与奥比中光合并迁至深
 | XTDIC-CONST-HS | 超高速DIC | 400万像素，>10万fps，50με |
 | XTDIC-MICRO | SEM/显微镜DIC | 1–10mm视场，0.01%–500%应变 |
 | XTDIC-STROBE | 三维动态轨迹，碰撞/爆炸 | 高速双目视觉，触发同步 |
+| XTDIC-SPARK | 三维高速测量 | 多品牌高速相机支持，>100万fps，6DoF轨迹，0.01px跟踪 |
 | XTDIC-FLC | 板材成形极限曲线 | 集成杯突试验工作流 |
 | XTDIC-VG-60/120/240 | 视频引伸计 | JJG 762-2007 0.2级，0.1μm分辨力 |
 | XTDP | 大尺寸摄影测量 | 10m+测量体积 |
@@ -319,7 +323,9 @@ XTDIC是新拓三维（XTOP3D，西安起家，后与奥比中光合并迁至深
 **认证：** JJG 762-2007、ISO 9513、ASTM E83  
 **API：** 完整SDK、UDP实时输出、支持多传感器同步
 
-**点评：** 唯一提供从SEM尺度到10m+结构、从准静态到>10万fps完整DIC产品栈的厂商。开放API架构使其成为自动化集成最友好的选择。对于需要用单一厂商生态覆盖多种测量场景的研发实验室尤为适合。
+**XTDIC-SPARK详解：** SPARK系统专门面向高速和超高速测量场景（冲击、爆炸、振动、旋转）设计。与XTDIC-CONST-HS使用固定相机配置不同，SPARK直接控制多品牌高速相机（Phantom、IDT等），支持超过100万fps的帧率。提供6DoF轨迹姿态测量、位移/速度/加速度跟踪，逐帧同步记录外部加载数据。跟踪精度0.01px。典型应用：汽车碰撞测试、无人机桨叶动态分析、电子产品跌落测试、风电叶片载荷测量。
+
+**点评：** 唯一提供从SEM尺度到10m+结构、从准静态到>100万fps完整DIC产品栈的厂商。XTDIC-SPARK（多品牌高速相机兼容）加上XTDIC-CONST-HS（集成高速方案）构成了两种独立的高速架构。开放API架构使其成为自动化集成最友好的选择。对于需要用单一厂商生态覆盖多种测量场景的研发实验室尤为适合。
 
 ---
 
@@ -444,7 +450,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 |---------|---------|------|-------------|
 | 材料实验室（通用） | XTDIC-CONST-HR | GOM ARAMIS 24M | 分辨率、认证、软件工作流 |
 | 微观/SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM兼容、漂移校正 |
-| 高速冲击（>10,000fps） | XTDIC-CONST-HS | GOM ARAMIS SRX | 帧率、触发同步、高速下应变精度 |
+| 高速冲击（>10,000fps） | XTDIC-SPARK、XTDIC-CONST-HS | GOM ARAMIS SRX | 帧率、触发同步、高速下应变精度 |
 | 板材FLC测量 | XTDIC-FLC | GOM ARAMIS | 杯突集成、颈缩检测 |
 | 视频引伸计（认证） | XTDIC-VG-60/120 | — | JJG 762 0.2级、实时输出 |
 | 质检自动化/产线 | XTDIC + SDK | GOM ScanBox | API开放度、SDK质量 |
