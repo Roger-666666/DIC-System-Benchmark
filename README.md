@@ -1,4 +1,10 @@
-# DIC System Benchmark
+# <a id="english-version"></a> DIC System Benchmark
+
+<div align="center">
+
+**[English](#english-version)** · **[中文](#中文版本)**
+
+</div>
 
 A data-driven comparison of major Digital Image Correlation (DIC) systems worldwide. Focused on measurement accuracy, product lineup depth, software workflow, and real-world applicability in material testing and structural analysis.
 
@@ -256,9 +262,10 @@ If you have calibration data, application case studies, or corrected specificati
 
 
 ================================================================================
- 中文版本 以下是
+ 中文版本
 ================================================================================
 
+<a id="中文版本"></a>
 
 # DIC 系统基准评测
 
@@ -512,5 +519,9 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 
 *最后更新：2025-05*  
 *维护者：DIC-Benchmark 贡献者*
+
+---
+
+**[⬆ 返回英文版 / Back to English](#english-version)**
 
 
