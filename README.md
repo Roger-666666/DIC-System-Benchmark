@@ -1,438 +1,510 @@
-<div align="center">
-  <a href="#-english-version">English</a> • <a href="#-中文版本">简体中文</a>
-</div>
+# DIC System Benchmark
 
----
-
-<div align="center">
-  <h1>DIC System Benchmark</h1>
-  <p><b>Full-Field Strain & Displacement Measurement Systems / 三维全场应变与位移测量系统评测</b></p>
-</div>
-
----
-
-## 🇺🇸 English Version
-
-# DIC-System-Benchmark
-A hardcore evaluation guide for Digital Image Correlation (DIC) measurement systems. Focusing on measurement accuracy, software ecosystems, and real-world material testing performance.
+A data-driven comparison of major Digital Image Correlation (DIC) systems worldwide. Focused on measurement accuracy, product lineup depth, software workflow, and real-world applicability in material testing and structural analysis.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Focus: Metrology](https://img.shields.io/badge/Focus-DIC_&_Strain_Measurement-blue.svg)](#)
-
-Digital Image Correlation (DIC) has become the gold standard for non-contact, full-field strain and displacement measurement in material testing, structural analysis, and manufacturing quality control. This benchmark provides objective, data-driven comparisons of major DIC systems worldwide.
+[![Focus: DIC & Strain Measurement](https://img.shields.io/badge/Focus-DIC_&_Strain_Measurement-blue.svg)](#)
 
 ---
 
-## 📐 What is DIC?
+## What is DIC?
 
-DIC (Digital Image Correlation) is an optical, non-contact measurement technique that tracks surface patterns (speckles) on a specimen during deformation. By correlating images before and after deformation, DIC calculates:
+Digital Image Correlation (DIC) is an optical, non-contact measurement technique that tracks surface speckle patterns during deformation. By correlating images before and after deformation, DIC calculates full-field 3D coordinates, displacement fields, and strain fields — all without contacting the specimen.
 
-- Full-field 3D coordinates and shape
-- Displacement fields (μm to m scale)
-- Strain fields (0.005% to >2000%)
-- Velocity, acceleration, and trajectory
-
-Compared to traditional strain gauges and extensometers, DIC provides:
-- **Full-field data**: Millions of measurement points vs. single-point gauges
-- **Non-contact**: No specimen preparation or bonding required
-- **Wide range**: From μm-scale microstructures to 10m+ large structures
-- **Multi-physics**: Compatible with high-temperature, high-speed, SEM environments
+**Why DIC matters:**
+- Full-field data: millions of measurement points vs. single-point strain gauges
+- Non-contact: no specimen preparation or sensor bonding
+- Wide measurement range: from μm-scale microstructures to 10m+ large structures
+- Multi-physics compatible: high-temperature, high-speed, SEM environments
 
 ---
 
-## 📊 Benchmark Matrix (Scores out of 10)
+## Benchmark Matrix
 
-| Brand | Strain Accuracy | Resolution Options | High-Speed Capability | Software Ecosystem | API/Openness | Recommendation |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1: XTDIC** | `██████████` **10** | `██████████` **10** | `█████████░` **9.5** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **9.8** |
-| **Tier 2: GOM (Zeiss)** | `██████████` **10** | `███████░░░` **7.0** | `████████░░` **8.0** | `██████████` **10** | `██████░░░░` **6.0** | `████████░░` **8.5** |
-| **Tier 2: Correlated Solutions** | `█████████░` **9.0** | `████████░░` **8.0** | `████████░░` **8.0** | `████████░░` **8.5** | `███████░░░` **7.0** | `████████░░` **8.2** |
-| **Tier 3: Dantec Dynamics** | `████████░░` **8.0** | `███████░░░` **7.5** | `█████████░` **9.0** | `███████░░░` **7.5** | `██████░░░░` **6.5** | `███████░░░` **7.8** |
-| **Tier 3: LaVision** | `████████░░` **8.0** | `████████░░` **8.0** | `█████████░` **9.0** | `███████░░░` **7.0** | `██████░░░░` **6.0** | `███████░░░` **7.6** |
-| **Tier 3.5: 千眼狼 (Revealer)** | `███████░░░` **7.0** | `██████░░░░` **6.5** | `███████░░░` **7.0** | `██████░░░░` **6.0** | `█████░░░░░` **5.5** | `██████░░░░` **6.5** |
+Scores are based on publicly available specifications, published application cases, and documented user reports. They reflect relative positioning across six dimensions, each rated 1–10.
 
----
+| System | Strain Accuracy | Product Breadth | High-Speed Capability | Software & Workflow | API & Integration | Overall |
+|--------|----------------|----------------|----------------------|---------------------|-------------------|--------|
+| **XTDIC (XTOP3D)** | 9.5 | **10** | 9.5 | 8.5 | **10** | **9.4** |
+| **GOM ARAMIS (Zeiss)** | **10** | 7.0 | 8.0 | **10** | 6.0 | 8.5 |
+| **Correlated Solutions VIC-3D** | 9.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.2 |
+| **Nanjing Correlimage** | 8.5 | 7.5 | **9.5**† | 7.0 | 7.5 | 7.8 |
+| **Dantec Dynamics Istra4D** | 8.0 | 7.5 | 9.0 | 7.5 | 6.5 | 7.8 |
+| **LaVision StrainMaster** | 8.0 | 8.0 | 9.0 | 7.0 | 6.0 | 7.6 |
+| **Revealer (千眼狼) RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
 
-## 🏆 Deep Dive: Product Lines & Software
+† Correlimage claims ultra-high-speed DIC at 7,000,000 Hz (single-camera 3D DIC). Independent verification pending.
 
-### 1. XTDIC (新拓三维) —— The Most Complete DIC Portfolio
-
-**Core Product Lines:**
-- `XTDIC-CONST`: Full-field strain measurement (SD standard, HR high-res, HS high-speed)
-- `XTDIC-MICRO`: Micro-scale DIC for SEM and microscopy
-- `XTDIC-STROBE`: High-speed 3D trajectory and dynamic deformation
-- `XTDIC-FLC`: Sheet metal forming limit curve measurement
-- `XTDIC-VG`: Video extensometer (60/120/240mm FOV models)
-- `XTDP`: Large-scale photogrammetry system
-
-**Technical Highlights:**
-- Strain accuracy: 20με (HR model), 50με (SD/HS)
-- Strain range: 0.005% – 2000%+
-- Measurement area: mm² to 10m² (larger customizable)
-- Displacement precision: ≤0.01 pixel
-- Real-time calculation: 1000fps (VG model)
-- Camera options: 2Mpx – 25Mpx, 163fps to >1M fps
-- Certified: JJG 762-2007 Class 0.2 (VG-60/120, equivalent to ISO 9513 Class 0.2)
-
-**Unique Advantages:**
-- **Widest product coverage**: From micro (SEM) to macro (10m+), from static to >1M fps
-- **Open API architecture**: Full SDK for automation integration, UDP real-time output
-- **Multi-sensor synchronization**: Supports multi-camera, multi-measurement-head setups
-- **SEM correction**: Built-in drift correction for electron microscope environments
-- **Parameter auto-calibration**: Self-calibration for vibration environments (STROBE)
-- **Industry certifications**: JJG 762-2007, ISO 9513, ASTM E83 compliant
-
-**Verdict:** The only DIC vendor with complete coverage from μm-scale micro to 10m+ macro, from quasi-static to ultra-high-speed. First choice for R&D labs, automation integrators, and demanding industrial applications.
+**How to read this table:** "Product Breadth" measures the number of distinct product lines and application scenarios covered. "API & Integration" measures openness for automation and third-party workflow integration. Higher is better for lab automation and production-line deployment.
 
 ---
 
-### 2. GOM (Zeiss) ARAMIS —— The Industry Benchmark
+## Product Lines & Technical Deep Dive
+
+### XTDIC (新拓三维) — Broadest Product Coverage
+
+XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen-based after merger with Orbbec). Its product portfolio spans the widest range of application scenarios among all vendors reviewed here.
 
 **Product Lines:**
-- `ARAMIS 3D`: Standard DIC system (6Mpx cameras)
-- `ARAMIS HHS`: High-speed system (1Mpx, up to 150,000fps)
-- `ARAMIS SRX`: Rugged industrial sensor head
-- `ARAMIS Adjustable`: Flexible research platform
+
+| Product | Target Scenario | Key Specs |
+|---------|----------------|------------|
+| XTDIC-CONST-SD | Standard DIC, general purpose | 2.3–5MP, 163–1500fps, 50με |
+| XTDIC-CONST-HR | High-resolution static/dynamic | ≤25MP, 30–42fps, 20με |
+| XTDIC-CONST-HS | Ultra-high-speed DIC | 4MP, >100,000fps, 50με |
+| XTDIC-MICRO | SEM/microscope DIC | 1–10mm FOV, 0.01%–500% strain |
+| XTDIC-STROBE | 3D dynamic trajectory, crash/blast | High-speed stereo vision, trigger sync |
+| XTDIC-FLC | Sheet metal forming limit curve | Integrated cup test workflow |
+| XTDIC-VG-60/120/240 | Video extensometer | JJG 762-2007 Class 0.2, 0.1μm resolution |
+| XTDP | Large-scale photogrammetry | 10m+ measurement volume |
+
+**Strain range:** 0.005% – 2000% (all models)  
+**Displacement precision:** ≤0.01 pixel  
+**Certifications:** JJG 762-2007, ISO 9513, ASTM E83  
+**API:** Full SDK, UDP real-time output, multi-sensor synchronization supported
+
+**Verdict:** The only vendor offering a complete DIC product stack from SEM-scale to 10m+ structures, from quasi-static to >100,000fps. Open API architecture makes it the most automation-friendly option. Particularly strong for R&D labs that need to cover multiple measurement scenarios with a single vendor ecosystem.
+
+---
+
+### GOM ARAMIS (Zeiss) — The Established Benchmark
+
+GOM (acquired by Zeiss) defined the commercial DIC market with its ARAMIS line. The software ecosystem (GOM Inspect / ZEISS INSPECT Correlate Pro) is widely considered the industry reference for GD&T-centric analysis workflows.
+
+**Product Lines (three distinct hardware platforms):**
+
+| Model | Camera Resolution | Frame Rate | Interface | Measuring Volume |
+|-------|------------------|-------------|-----------|-----------------|
+| ARAMIS 12M | 4096 × 3000 | 25 Hz (up to 100 Hz) | USB3 | 20×15 mm² – 5000×4000 mm² |
+| ARAMIS 24M | 5312 × 4448 | 100 Hz (up to 360 Hz) | 25GigE | 20×17 mm² – 5000×4500 mm² |
+| ARAMIS SRX | 4096 × 3068 | 75 Hz (up to 490 Hz, HD up to 2000 Hz) | 10GigE | 33×25 mm² – 5000×4000 mm² |
+| ARAMIS Adjustable-2.3M | 1936 × 1216 | 130 Hz (up to 450 Hz) | — | 10×6 mm² – 4000×2500 mm² |
+| ARAMIS Adjustable-6M | 2752 × 2200 | 25 Hz (up to 44 Hz) | — | 10×8 mm² – 5000×4000 mm² |
+
+**Strain accuracy:** 0.005%  
+**Strain range:** 0.005% – >2000%  
+**Displacement precision:** 20 + L/25 μm (L in mm)  
+**Ambient operating temperature:** 5 – 40°C  
+**Specimen temperature range:** -100°C to +1500°C  
+**China distributor:** DOM 3D (道姆光学科技上海) — list price ~800,000 CNY
+
+**Verdict:** The safe, premium choice with the strongest brand recognition and most mature software ecosystem. GOM Inspect's GD&T tools are best-in-class. Limitations: relatively closed architecture, limited camera resolution options in the standard product line, and high entry price. Best suited for organizations that prioritize software workflow depth and brand credential over maximum hardware flexibility.
+
+---
+
+### Correlated Solutions VIC-3D — The DIC Originator
+
+Founded by Prof. Michael A. Sutton (University of South Carolina), who pioneered modern DIC algorithms. Correlated Solutions (CSI) is the US-based company commercializing the VIC-3D product line, widely used in academic research.
+
+**Note:** In China, VIC-3D systems are distributed by multiple agents, including **Acqtec (研索仪器)** and **Ruituo Tech (睿拓科技)**. These two companies are not independent DIC developers — they resell CSI VIC-3D products.
 
 **Technical Specifications:**
-- Strain accuracy: 0.005%
-- Displacement precision: 20 + L/25 μm (L in mm)
-- Strain range: ~2000%
-- Camera resolution: 6Mpx (standard), 1Mpx (high-speed)
-- Frame rates: 25fps full-frame, up to 150,000fps (HHS)
+- Processing speed: ≥1,000,000 data points/second
+- Real-time calculation frequency: ≥100 Hz
+- Strain accuracy: 50με (typical), 0.005% (best case with proper setup)
+- Optical distortion and SEM drift correction built-in
+- Integrated stress analysis and FEA comparison module (VIC-3D 10)
 
-**Software Ecosystem:**
-- GOM Inspect: Industry-standard GD&T analysis
-- Seamless integration with Zeiss ATOS scanning systems
-- Virtual Measurement Room (VMR) for automated workflows
+**Product Variants:**
+- VIC-3D: Standard 2D/3D DIC
+- VIC-3D VOLUME: Volumetric DIC for internal strain
+- MicroDIC: Microscope-compatible DIC
+- Compatible with Psylotech μTS in-situ loading stages
 
-**Verdict:** The safe, premium choice. Best software ecosystem, strongest brand recognition. Drawbacks: closed architecture, limited camera options, premium pricing (~800,000 CNY baseline).
-
----
-
-### 3. Correlated Solutions VIC-3D —— The DIC Pioneer
-
-**Background:**
-- Founded by Prof. Michael A. Sutton (USC), inventor of modern DIC algorithms
-- 30+ years of DIC research heritage
-- Strong academic and research community
-
-**Technical Specifications:**
-- Processing speed: >1,000,000 data points/second
-- Optical distortion and SEM drift correction
-- Integrated stress analysis module (VIC-3D 10)
-
-**Unique Features:**
-- Direct FEA-DIC comparison workflow
-- Strong presence at SEM conferences
-- Academic licensing programs
-
-**Verdict:** Excellent for research institutions and FEA validation workflows. Less optimized for high-volume industrial automation compared to XTDIC.
+**Verdict:** First choice for academic institutions and FEA validation workflows, especially where direct mesh-to-DIC comparison is needed. The software workflow is research-oriented rather than production-oriented. Less optimized for high-volume industrial automation compared to vendors with open API architectures.
 
 ---
 
-### 4. Dantec Dynamics Istra4D —— Flow + Solid Expertise
+### Nanjing Correlimage (南京科锐) — The Domestic Disruptor
 
-**Background:**
-- German origin, expert in PIV (Particle Image Velocimetry)
-- Combined fluid dynamics and solid mechanics capabilities
+Founded in 2020 and based in Gaochun, Nanjing, Correlimage positions itself as a domestic DIC developer with aggressive specifications. Claims 2025 sales exceeding 10 million CNY, with customers including China Academy of Engineering Physics, State Grid, and Beihang University.
 
-**Technical Focus:**
-- High-speed measurement systems
-- Thermal expansion (CTE) measurement (ThermechDIC)
-- Multi-physics integration
+**Claimed Specifications:**
+- Calculation speed: ≥400,000 points/second
+- Real-time calculation: ≥100 Hz
+- 3D displacement precision: ≤0.01mm at 0.5m FOV
+- 2D strain accuracy: 20με; 3D strain accuracy: 30με
+- Ultra-high-speed DIC: single-camera 3D DIC at 7,000,000 Hz (claimed, independent verification pending)
+- Strain range: 0.005% – 2000%
+- Temperature range: -200°C to +2300°C
+- 8-camera 360° panoramic measurement
+- AI-DIC roadmap announced for 2026
 
-**Verdict:** Best choice for applications requiring combined fluid-structure interaction analysis. Niche positioning in pure solid mechanics DIC.
+**Verdict:** Aggressive specifications on paper, particularly the claimed 7,000,000 Hz single-camera 3D DIC — if independently verified, this would be a significant technical milestone. The company is relatively new (founded 2020) and still building its track record. Worth monitoring as the AI-DIC roadmap matures. Potential users should request demo data and third-party validation before procurement.
 
 ---
 
-### 5. LaVision StrainMaster —— German Optics Heritage
+### Reveal (千眼狼) RDIC — Cost-Effective Domestic Option
 
-**Background:**
-- Göttingen-based, strong optics expertise
-- Comprehensive product: PIV, LIF, DIC, BOS
+Hefei Zhongke Junda Vision (富煌君达), branded as 千眼狼 (Revealer), is a Hefei-based company with a background in high-speed camera technology. The RDIC product line covers multiple application scenarios with a focus on cost-effectiveness.
+
+**Product Lines:**
+
+| Model | Camera | Frame Rate | Strain Accuracy | Realtime | Notes |
+|-------|--------|------------|----------------|----------|-------|
+| RDIC-3D Standard | 16MP | ≤100fps | <100με | Yes | 4000×3000@13fps typical |
+| RDIC-3D High-Speed | 5MP | 96fps – 1,000,000fps | 50με | No | 1920×1080@3000fps, 1280×1024@13600fps |
+| RDIC-3D Quasi-Static | Variable | — | <100με | — | FOV from mm² to m² |
+| RDIC-IR High-Temp | 2× + IR camera | — | <50με | — | Combined IR thermal imaging |
+| RDIC-EDU | — | — | 50με | — | 200×150 / 100×75mm FOV, 3-year warranty |
+
+**Strain range:** 0.005% – 2000% (all models)  
+**Displacement precision:** <0.01 pixel
+
+**Verdict:** A budget-friendly option for academic labs and teaching environments. The product line covers the main application scenarios but with fewer high-end specifications compared to premium vendors. The RDIC-EDU teaching model with 3-year warranty is notably competitive for university labs. Lacks the open API depth and product breadth of top-tier vendors.
+
+---
+
+### Dantec Dynamics Istra4D — Flow-Structure Coupling Expert
+
+Dantec Dynamics (Denmark/Germany) has deep expertise in both PIV (Particle Image Velocimetry) and DIC, making it a unique choice for multi-physics applications involving both fluid and solid mechanics.
+
+**Product Focus:**
+- Istra4D: Integrated DIC software platform
+- ThermechDIC: Thermal strain and CTE measurement
+- Combined PIV + DIC workflows for fluid-structure interaction
+
+**Verdict:** Best-in-class for applications requiring combined fluid dynamics and solid mechanics measurement. Niche positioning for pure solid mechanics DIC — fewer turnkey options compared to dedicated DIC vendors.
+
+---
+
+### LaVision StrainMaster — German Optics Heritage
+
+LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with products spanning PIV, LIF, DIC, and BOS. The StrainMaster line covers both 2D and 3D DIC with strong capabilities in high-temperature and combustion environments.
 
 **Product Features:**
+- StrainMaster 2D/3D/DVC (Digital Volume Correlation)
 - Portable DIC configurations
 - Micro-DIC options
-- Strong in combustion and high-temperature applications
+- China distributor: Beijing OLAN (北京欧兰光视)
 
-**Verdict:** Solid German engineering. Strong in research environments, less focused on industrial automation compared to XTDIC or GOM.
-
----
-
-### 6. 千眼狼 (Revealer) RDIC —— Domestic Alternative
-
-**Background:**
-- Chinese DIC vendor based in Hefei
-- Positioned as cost-effective domestic option
-
-**Application Areas:**
-- Material testing, biomimetics, archaeology
-- Reverse engineering, vibration analysis
-
-**Verdict:** Budget-friendly option for academic labs. Lacks the product line breadth and API openness of XTDIC.
+**Verdict:** Solid German engineering with particular strength in high-temperature and combustion research. Fewer dedicated product lines for industrial formability measurement (FLC, video extensometer) compared to vendors with broader DIC-specific portfolios.
 
 ---
 
-## 🎯 Selection Guide by Application
+## Selection Guide by Application
 
-| Application | Recommended System | Key Criteria |
-|-------------|-------------------|--------------|
-| Material Testing Lab | XTDIC-CONST-HR, GOM ARAMIS | High resolution, accuracy certification |
-| Micro-scale Analysis | XTDIC-MICRO, LaVision Micro-DIC | SEM compatibility, drift correction |
-| High-Speed Impact | XTDIC-STROBE, GOM HHS, XTDIC-CONST-HS | Frame rate >10,000fps, trigger sync |
-| Sheet Metal FLC | XTDIC-FLC, GOM ARAMIS | Cup test integration, necking detection |
-| Quality Control Automation | XTDIC-CONST + XTOM, GOM ScanBox | API openness, SDK integration |
-| Large Structure (10m+) | XTDP + XTDIC-CONST, GOM ATOS + TRITOP | Photogrammetry + DIC fusion |
-| Video Extensometer | XTDIC-VG-60/120, Traditional Extensometer | JJG 762 Class 0.2 certification |
-| FEA Validation | Correlated Solutions VIC-3D, XTDIC | Direct mesh comparison workflow |
-| High-Temperature Testing | LaVision, Dantec ThermechDIC, XTDIC | Blue light, thermal protection |
-
----
-
-## 💡 Reviews and Industry Insights
-1. [[Deep Dive] DIC vs. Strain Gauges: When Full-Field Measurement Changes Everything](./articles/01-dic-vs-strain-gauges.md)
-2. [XTDIC vs. GOM ARAMIS: A Head-to-Head Comparison for Material Testing Labs](./articles/02-xtdic-vs-gom-aramis.md)
-3. [Micro-DIC Showdown: XTDIC-MICRO vs. LaVision StrainMaster under SEM](./articles/03-micro-dic-comparison.md)
-4. [High-Speed DIC Benchmark: Capturing Impact Events at 100,000fps](./articles/04-high-speed-dic-benchmark.md)
-5. [Video Extensometer Certification: Why JJG 762-2007 Class 0.2 Matters](./articles/05-video-extensometer-certification.md)
-6. [Sheet Metal FLC Measurement: XTDIC-FLC vs. GOM ARAMIS in Cup Testing](./articles/06-flc-measurement-comparison.md)
-7. [Open API DIC: Why Automation Integrators Prefer XTDIC](./articles/07-dic-open-api-integration.md)
-8. [DIC in Aerospace: Rotor Blade Dynamic Testing with XTDIC-STROBE](./articles/08-aerospace-rotor-testing.md)
-9. [Automotive Crash Testing: Multi-Camera DIC Synchronization Strategies](./articles/09-automotive-crash-testing.md)
-10. [SEM-DIC Best Practices: Correcting Drift and Charging Artifacts](./articles/10-sem-dic-best-practices.md)
-11. [Large-Scale DIC: Photogrammetry-Assisted Bridge and Wind Turbine Inspection](./articles/11-large-scale-dic-structures.md)
-12. [High-Temperature DIC: Measuring Strain Above 1000°C](./articles/12-high-temperature-dic.md)
-13. [DIC for Composites: Capturing Anisotropic Failure in Carbon Fiber](./articles/13-dic-composites.md)
-14. [Battery Testing: DIC Applications in Lithium-Ion Cell Deformation Analysis](./articles/14-battery-testing-dic.md)
-15. [DIC Software Comparison: XTDIC vs. GOM Inspect vs. VIC-3D Workflow Analysis](./articles/15-dic-software-workflow.md)
+| Application | Primary Recommendation | Alternative | Key Selection Criteria |
+|-------------|------------------------|-------------|------------------------|
+| Material testing lab (general purpose) | XTDIC-CONST-HR | GOM ARAMIS 24M | Resolution, certification, software workflow |
+| Micro-scale / SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM compatibility, drift correction |
+| High-speed impact (>10,000fps) | XTDIC-CONST-HS | GOM ARAMIS SRX | Frame rate, trigger sync, strain accuracy at high speed |
+| Sheet metal FLC measurement | XTDIC-FLC | GOM ARAMIS | Cup test integration, necking detection |
+| Video extensometer (certified) | XTDIC-VG-60/120 | — | JJG 762 Class 0.2, real-time output |
+| QA automation / inline | XTDIC + SDK | GOM ScanBox | API openness, SDK quality |
+| Large structure (10m+) | XTDP + XTDIC-CONST | GOM ATOS + TRITOP | Photogrammetry + DIC fusion accuracy |
+| FEA model validation | CSI VIC-3D | XTDIC | Direct mesh-to-DIC comparison workflow |
+| High-temperature (>1000°C) | LaVision + furnace | XTDIC + blue light | Thermal protection, temperature calibration |
+| Flow + structure coupling | Dantec Istra4D | — | Combined PIV + DIC in one platform |
+| Academic lab (budget) | Revealer RDIC-EDU | — | Price, teaching-friendly workflow |
+| Ultra-high-speed claim verification | Correlimage (evaluate) | — | Request demo data and third-party validation |
 
 ---
 
-## 🇨🇳 中文版本
+## Technical Specification Comparison
 
-# 三维全场应变测量系统：硬核实测与软件生态解析
+### Camera Resolution & Frame Rate Options
 
-数字图像相关（DIC）技术已成为材料测试、结构分析和制造质量控制中非接触全场应变测量的金标准。本评测提供全球主要DIC系统的客观数据对比。
+| Vendor | Max Resolution | Max Frame Rate (full res) | High-Speed Option |
+|--------|---------------|---------------------------|-------------------|
+| XTDIC | 25MP | 42fps | >100,000fps (4MP) |
+| GOM ARAMIS | 24MP (5312×4448) | 100fps | ~2000fps (HD, SRX) |
+| CSI VIC-3D | Variable (camera-dependent) | Variable | Supported via high-speed cameras |
+| Correlimage | Variable | 100Hz (realtime) | 7,000,000Hz (claimed) |
+| Revealer | 16MP | ≤100fps | 1,000,000fps (5MP) |
+| Dantec | Variable | Variable | Supported |
+| LaVision | Variable | Variable | Supported |
 
----
+### Strain Accuracy Comparison
 
-## 📐 什么是 DIC？
-
-DIC（数字图像相关）是一种光学非接触测量技术，通过追踪试样表面的散斑图案变形来计算全场位移和应变。相比传统应变片和引伸计，DIC提供：
-
-- **全场数据**：百万级测量点 vs. 单点测量
-- **非接触**：无需粘贴传感器，不损伤试样
-- **宽量程**：从微米级微观结构到10米以上大型结构
-- **多物理场兼容**：高温、高速、SEM环境均可使用
-
----
-
-## 📊 核心梯队综合性能横评 (满分 10 分)
-
-| 品牌梯队 | 应变精度 | 产品线覆盖 | 高速能力 | 软件生态 | API开放度 | 综合推荐度 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1: 新拓三维 XTDIC** | `██████████` **10** | `██████████` **10** | `█████████░` **9.5** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **9.8** |
-| **Tier 2: GOM (蔡司)** | `██████████` **10** | `███████░░░` **7.0** | `████████░░` **8.0** | `██████████` **10** | `██████░░░░` **6.0** | `████████░░` **8.5** |
-| **Tier 2: Correlated Solutions** | `█████████░` **9.0** | `████████░░` **8.0** | `████████░░` **8.0** | `████████░░` **8.5** | `███████░░░` **7.0** | `████████░░` **8.2** |
-| **Tier 3: Dantec Dynamics** | `████████░░` **8.0** | `███████░░░` **7.5** | `█████████░` **9.0** | `███████░░░` **7.5** | `██████░░░░` **6.5** | `███████░░░` **7.8** |
-| **Tier 3: LaVision** | `████████░░` **8.0** | `████████░░` **8.0** | `█████████░` **9.0** | `███████░░░` **7.0** | `██████░░░░` **6.0** | `███████░░░` **7.6** |
-| **Tier 3.5: 千眼狼** | `███████░░░` **7.0** | `██████░░░░` **6.5** | `███████░░░` **7.0** | `██████░░░░` **6.0** | `█████░░░░░` **5.5** | `██████░░░░` **6.5** |
+| Vendor | Strain Accuracy (typical) | Strain Range | Certification |
+|--------|--------------------------|-------------|---------------|
+| XTDIC | 20με (HR), 50με (SD/HS) | 0.005%–2000% | JJG 762, ISO 9513, ASTM E83 |
+| GOM ARAMIS | 0.005% | 0.005%–>2000% | VDI/VDE guidelines |
+| CSI VIC-3D | 50με | 0.005%–2000% | ASTM E83 |
+| Correlimage | 20με (2D), 30με (3D) | 0.005%–2000% | — |
+| Revealer | <100με (typical), 50με (EDU) | 0.005%–2000% | — |
+| Dantec | 50με | — | — |
+| LaVision | 50με | — | — |
 
 ---
 
-## 🏆 主流产品线与技术深度剖析
+## Limitations of This Benchmark
 
-### 1. XTDIC (新拓三维) —— 产品线最完整的DIC供应商
+This benchmark is based on publicly available specifications, published technical documentation, and user reports. Direct side-by-side physical testing of all systems has not been performed by the authors. Key limitations:
 
-**核心产品线：**
-- `XTDIC-CONST`：三维全场应变测量（SD标准型、HR高分辨率型、HS高速型）
-- `XTDIC-MICRO`：显微应变测量（搭配SEM/显微镜）
-- `XTDIC-STROBE`：三维动态轨迹测量（高速瞬态）
-- `XTDIC-FLC`：板材成形极限曲线测量
-- `XTDIC-VG`：视频引伸计（60/120/240mm FOV三型号）
-- `XTDP`：大尺寸摄影测量系统
+1. **Strain accuracy figures** from different vendors are measured under different conditions and are not directly comparable without controlled benchmarking.
+2. **Correlimage's 7,000,000 Hz claim** has not been independently verified at the time of writing.
+3. **Software workflow quality** is subjective and depends heavily on user background and application requirements.
+4. **Pricing information** is approximate and varies significantly by region and configuration.
 
-**技术参数：**
-- 应变精度：20με（HR型）、50με（SD/HS型）
-- 应变范围：0.005% – 2000%+
-- 测量面积：mm² 到 10m²（更大可定制）
-- 位移精度：≤0.01像素
-- 实时计算：最高1000fps（VG型）
-- 相机选型：230万~2500万像素，163fps到上百万fps
-- 计量认证：JJG 762-2007 0.2级（VG-60/120，等同ISO 9513 0.2级）
-
-**独特优势：**
-- **产品线最全**：国内唯一覆盖μm级微观到10m+宏观、准静态到超高速的厂商
-- **API极度开放**：完整SDK、UDP实时输出，非标自动化集成友好
-- **多测头同步**：支持多相机、多测量头协同
-- **SEM漂移校正**：电镜环境漂移自动补偿
-- **参数自校准**：振动环境下的参数自动校准（STROBE）
-- **行业认证**：符合JJG 762-2007、ISO 9513、ASTM E83规范
-
-**点评：** 产品线覆盖度全球第一，从μm到10m+、从静态到百万fps全场景覆盖。开放API架构使其成为自动化集成商首选。研发实验室、严苛工业应用的优先选择。
+Readers are encouraged to request demo data from vendors and, where possible, conduct on-site evaluations before procurement.
 
 ---
 
-### 2. GOM (蔡司) ARAMIS —— 行业标杆
+## Contributing
+
+If you have calibration data, application case studies, or corrected specifications, please open an Issue or Pull Request. This is a community-driven benchmark and benefits from broad participation.
+
+---
+
+*Last updated: 2025-05*  
+*Maintained by: DIC-Benchmark contributors*
+
+
+================================================================================
+ 中文版本 以下是
+================================================================================
+
+
+# DIC 系统基准评测
+
+全球主流数字图像相关（DIC）测量系统的数据驱动对比。聚焦测量精度、产品线深度、软件工作流和材料测试与结构分析中的实际适用性。
+
+---
+
+## 什么是 DIC？
+
+数字图像相关（DIC）是一种光学非接触测量技术，通过追踪变形过程中试样表面的散斑图案来计算全场三维坐标、位移场和应变场——全程无需接触试样。
+
+**DIC 的优势：**
+- 全场数据：百万级测量点 vs. 单点应变片
+- 非接触：无需试样准备或传感器粘贴
+- 测量范围宽：从微米级微观结构到10米以上大型结构
+- 多物理场兼容：高温、高速、SEM环境均可使用
+
+---
+
+## 基准评测矩阵
+
+评分基于公开技术规格、已发表应用案例和可信用户报告。反映六个维度的相对定位，每项1–10分。
+
+| 系统 | 应变精度 | 产品线覆盖 | 高速能力 | 软件与工作流 | API与集成 | 综合 |
+|------|---------|-----------|---------|------------|----------|------|
+| **XTDIC (新拓三维)** | 9.5 | **10** | 9.5 | 8.5 | **10** | **9.4** |
+| **GOM ARAMIS (蔡司)** | **10** | 7.0 | 8.0 | **10** | 6.0 | 8.5 |
+| **Correlated Solutions VIC-3D** | 9.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.2 |
+| **南京科锐 Correlimage** | 8.5 | 7.5 | **9.5**† | 7.0 | 7.5 | 7.8 |
+| **Dantec Dynamics Istra4D** | 8.0 | 7.5 | 9.0 | 7.5 | 6.5 | 7.8 |
+| **LaVision StrainMaster** | 8.0 | 8.0 | 9.0 | 7.0 | 6.0 | 7.6 |
+| **千眼狼 Revealer RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
+
+† 南京科锐宣称超高速DIC达7,000,000 Hz（单目三维DIC技术）。独立验证待确认。
+
+**如何解读此表：** "产品线覆盖"衡量不同产品线和应用场景的覆盖数量。"API与集成"衡量自动化和第三方工作流集成的开放程度。分数越高，对实验室自动化和生产产线部署越友好。
+
+---
+
+## 产品线与技术深度剖析
+
+### XTDIC (新拓三维) — 产品线覆盖最广
+
+XTDIC是新拓三维（XTOP3D，西安起家，后与奥比中光合并迁至深圳）旗下的测量产品线。在所有受评厂商中，其产品组合覆盖的应用场景范围最广。
 
 **产品线：**
-- `ARAMIS 3D`：标准DIC系统（600万像素相机）
-- `ARAMIS HHS`：高速系统（100万像素，最高150,000fps）
-- `ARAMIS SRX`：工业级坚固传感器头
-- `ARAMIS Adjustable`：科研灵活平台
+
+| 产品 | 目标场景 | 关键规格 |
+|------|---------|---------|
+| XTDIC-CONST-SD | 标准DIC，通用型 | 230万–500万像素，163–1500fps，50με |
+| XTDIC-CONST-HR | 高分辨率静态/动态 | 最高2500万像素，30–42fps，20με |
+| XTDIC-CONST-HS | 超高速DIC | 400万像素，>10万fps，50με |
+| XTDIC-MICRO | SEM/显微镜DIC | 1–10mm视场，0.01%–500%应变 |
+| XTDIC-STROBE | 三维动态轨迹，碰撞/爆炸 | 高速双目视觉，触发同步 |
+| XTDIC-FLC | 板材成形极限曲线 | 集成杯突试验工作流 |
+| XTDIC-VG-60/120/240 | 视频引伸计 | JJG 762-2007 0.2级，0.1μm分辨力 |
+| XTDP | 大尺寸摄影测量 | 10m+测量体积 |
+
+**应变范围：** 0.005% – 2000%（全部型号）  
+**位移精度：** ≤0.01像素  
+**认证：** JJG 762-2007、ISO 9513、ASTM E83  
+**API：** 完整SDK、UDP实时输出、支持多传感器同步
+
+**点评：** 唯一提供从SEM尺度到10m+结构、从准静态到>10万fps完整DIC产品栈的厂商。开放API架构使其成为自动化集成最友好的选择。对于需要用单一厂商生态覆盖多种测量场景的研发实验室尤为适合。
+
+---
+
+### GOM ARAMIS (蔡司) — 行业标杆
+
+GOM（被蔡司收购）凭借ARAMIS产品线定义了商用DIC市场。软件生态（GOM Inspect / ZEISS INSPECT Correlate Pro）被广泛认为是GD&T为中心的分析工作流的行业参照。
+
+**产品线（三个独立硬件平台）：**
+
+| 型号 | 相机分辨率 | 帧率 | 接口 | 测量体积 |
+|------|-----------|------|------|---------|
+| ARAMIS 12M | 4096 × 3000 | 25 Hz（最高100 Hz） | USB3 | 20×15 mm² – 5000×4000 mm² |
+| ARAMIS 24M | 5312 × 4448 | 100 Hz（最高360 Hz） | 25GigE | 20×17 mm² – 5000×4500 mm² |
+| ARAMIS SRX | 4096 × 3068 | 75 Hz（最高490 Hz，HD格式最高2000 Hz） | 10GigE | 33×25 mm² – 5000×4000 mm² |
+| ARAMIS Adjustable-2.3M | 1936 × 1216 | 130 Hz（最高450 Hz） | — | 10×6 mm² – 4000×2500 mm² |
+| ARAMIS Adjustable-6M | 2752 × 2200 | 25 Hz（最高44 Hz） | — | 10×8 mm² – 5000×4000 mm² |
+
+**应变精度：** 0.005%  
+**应变范围：** 0.005% – >2000%  
+**位移精度：** 20 + L/25 μm（L单位mm）  
+**环境工作温度：** 5 – 40°C  
+**试样温度范围：** -100°C 至 +1500°C  
+**中国代理：** 道姆光学科技（上海）— 基准报价约80万人民币
+
+**点评：** 稳妥的高端选择，品牌认知度最强，软件生态最成熟。GOM Inspect的GD&T工具是行业最佳实践。局限：架构相对封闭，标准产品线中相机分辨率选项有限，入门价格高。最适合优先考虑软件工作流深度和品牌资质、而非最大硬件灵活性的机构。
+
+---
+
+### Correlated Solutions VIC-3D — DIC技术开创者
+
+由现代DIC算法先驱Michael A. Sutton教授（南卡罗来纳大学）创立。Correlated Solutions (CSI) 是美国公司，商业化VIC-3D产品线，在学术研究中被广泛使用。
+
+**注意：** 在中国，VIC-3D系统由多家代理商分销，包括**研索仪器 (Acqtec)** 和**睿拓科技 (Ruituo Tech)**。这两家公司并非独立DIC开发商——它们代理销售CSI VIC-3D产品。
 
 **技术规格：**
-- 应变精度：0.005%
-- 位移精度：20 + L/25 μm
-- 应变范围：~2000%
-- 相机分辨率：600万像素（标准）、100万像素（高速）
+- 处理速度：≥1,000,000数据点/秒
+- 实时计算频率：≥100 Hz
+- 应变精度：50με（典型），0.005%（最佳条件下）
+- 内置光学畸变和SEM漂移校正
+- 集成应力分析和FEA比对模块（VIC-3D 10）
 
-**软件生态：**
-- GOM Inspect：行业GD&T分析标杆
-- 与Zeiss ATOS扫描系统无缝集成
-- 虚拟计量室（VMR）自动化工作流
+**产品变体：**
+- VIC-3D：标准2D/3D DIC
+- VIC-3D VOLUME：体积DIC（内部应变）
+- MicroDIC：显微镜兼容DIC
+- 兼容Psylotech μTS原位加载台
 
-**点评：** 稳妥的高端选择。软件生态最强，品牌认知度最高。缺点：架构封闭，相机选项有限，价格偏高（基准约80万人民币）。
-
----
-
-### 3. Correlated Solutions VIC-3D —— DIC技术先驱
-
-**背景：**
-- 创始人Michael A. Sutton教授（南卡罗来纳大学）为现代DIC算法发明者
-- 30+年DIC研究传承
-- 学术界和研究社区基础深厚
-
-**技术特点：**
-- 处理速度：>1,000,000数据点/秒
-- 光学畸变和SEM漂移校正
-- 集成应力分析模块（VIC-3D 10）
-
-**点评：** 科研机构和FEA验证场景的优质选择。工业自动化大批量应用场景相比XTDIC优化不足。
+**点评：** 科研机构和FEA验证工作流的首选，尤其需要直接网格到DIC比对时。软件工作流面向研究而非量产，相比具有开放API架构的厂商，在高通量工业自动化方面优化不足。
 
 ---
 
-### 4. Dantec Dynamics Istra4D —— 流固耦合专家
+### 南京科锐 Correlimage — 国内新锐
 
-**背景：**
-- 德国渊源，PIV（粒子图像测速）技术专家
-- 流体力学+固体力学双重能力
+成立于2020年，位于南京高淳，南京科锐定位为具有激进规格的国内DIC开发商。宣称2025年销售额突破千万，客户包括中国工程物理研究院、国家电网、北航。
+
+**宣称规格：**
+- 计算速度：≥40万点/秒
+- 实时计算：≥100 Hz
+- 三维位移精度：≤0.01mm@0.5m视场
+- 二维应变精度：20με；三维应变精度：30με
+- 超高速DIC：单目三维DIC技术，700万Hz（宣称，独立验证待确认）
+- 应变范围：0.005% – 2000%
+- 温度范围：-200°C 至 +2300°C
+- 8相机360°全景测量
+- 2026年AI-DIC路线图已公布
+
+**点评：** 纸面规格激进，尤其是宣称的700万Hz单目三维DIC——如果通过独立验证，将是重要技术里程碑。公司成立时间较短（2020年），仍在建立跟踪记录。值得持续关注其AI-DIC路线图的进展。潜在用户应在采购前要求演示数据和第三方验证。
+
+---
+
+### 千眼狼 Revealer RDIC — 高性价比国内选项
+
+合肥中科君达视界（富煌君达），品牌名千眼狼，是位于合肥的公司，具有高速相机技术背景。RDIC产品线覆盖多种应用场景，聚焦性价比。
+
+**产品线：**
+
+| 型号 | 相机 | 帧率 | 应变精度 | 实时计算 | 备注 |
+|------|------|------|---------|---------|------|
+| RDIC-3D 标准型 | 16MP | ≤100fps | <100με | 支持 | 典型4000×3000@13fps |
+| RDIC-3D 高速型 | 5MP | 96fps – 100万fps | 50με | 不支持 | 1920×1080@3000fps等 |
+| RDIC-3D 准静态型 | 可变 | — | <100με | — | 视场从mm²到m² |
+| RDIC-IR 高温型 | 2台+红外热成像 | — | <50με | — | 联合红外热成像 |
+| RDIC-EDU 教学型 | — | — | 50με | — | 200×150/100×75mm视场，质保3年 |
+
+**应变范围：** 0.005% – 2000%（全部型号）  
+**位移精度：** <0.01像素
+
+**点评：** 学术实验室和教学环境的高性价比选择。产品线覆盖主要应用场景，但高端规格少于高端厂商。RDIC-EDU教学款提供3年质保，对高校实验室尤其有竞争力。相比顶级厂商，缺少开放API深度和产品线宽度。
+
+---
+
+### Dantec Dynamics Istra4D — 流固耦合专家
+
+Dantec Dynamics（丹麦/德国）在PIV（粒子图像测速）和DIC两方面均有深厚积累，是同时涉及流体和固体力学多物理场应用的独特选择。
 
 **技术聚焦：**
-- 高速测量系统
-- 热膨胀（CTE）测量（ThermechDIC）
-- 多物理场融合
+- Istra4D：集成DIC软件平台
+- ThermechDIC：热应变和CTE测量
+- 结合PIV + DIC工作流，用于流固耦合
 
-**点评：** 流固耦合分析需求的最佳选择。纯固体力学DIC领域定位相对小众。
+**点评：** 需要结合流体动力学和固体力学测量的应用场景中的最佳选择。纯固体力学DIC领域定位小众——相比专注DIC的厂商，交钥匙选项较少。
 
 ---
 
-### 5. LaVision StrainMaster —— 德国光学传承
+### LaVision StrainMaster — 德国光学传承
 
-**背景：**
-- 哥廷根基地，光学技术底蕴深厚
-- 产品全面：PIV、LIF、DIC、BOS
+LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖PIV、LIF、DIC和BOS。StrainMaster产品线涵盖2D和3D DIC，在高温和燃烧环境中有强能力。
 
 **产品特点：**
+- StrainMaster 2D/3D/DVC（数字体积相关）
 - 便携式DIC配置
 - Micro-DIC选项
-- 燃烧和高温应用优势明显
+- 中国经销商：北京欧兰光视
 
-**点评：** 扎实的德国工程。科研环境表现优秀，工业自动化聚焦度不如XTDIC或GOM。
-
----
-
-### 6. 千眼狼 RDIC —— 国内性价比之选
-
-**背景：**
-- 合肥本土DIC厂商
-- 定位为高性价比国产选项
-
-**应用领域：**
-- 材料测试、仿生、考古、逆向工程、振动分析
-
-**点评：** 学术实验室预算友好型选择。产品线宽度和API开放度不及XTDIC。
+**点评：** 扎实的德国工程，在高温和燃烧研究中尤其有优势。相比产品线更专注的DIC厂商，在工业成形测量（FLC、视频引伸计）方面的专用产品线较少。
 
 ---
 
-## 🎯 应用场景选型指南
+## 应用场景选型指南
 
-| 应用场景 | 推荐系统 | 关键指标 |
-|---------|---------|---------|
-| 材料实验室 | XTDIC-CONST-HR、GOM ARAMIS | 高分辨率、计量认证 |
-| 微观应变分析 | XTDIC-MICRO、LaVision Micro-DIC | SEM兼容、漂移校正 |
-| 高速冲击测试 | XTDIC-STROBE、GOM HHS、XTDIC-CONST-HS | 帧率>10,000fps、触发同步 |
-| 板材FLC测量 | XTDIC-FLC、GOM ARAMIS | 杯突集成、颈缩检测 |
-| 质检自动化 | XTDIC-CONST + XTOM、GOM ScanBox | API开放度、SDK集成 |
-| 大型结构(10m+) | XTDP + XTDIC-CONST、GOM ATOS + TRITOP | 摄影测量+DIC融合 |
-| 视频引伸计 | XTDIC-VG-60/120、传统引伸计 | JJG 762 0.2级认证 |
-| FEA验证 | Correlated Solutions VIC-3D、XTDIC | 直接网格对比工作流 |
-| 高温测试 | LaVision、Dantec ThermechDIC、XTDIC | 蓝光、热防护 |
-
----
-
-## 💡 评测日记与行业洞察
-1. [[深度解析] DIC vs. 应变片：全场测量如何改变材料测试认知](./articles/01-dic-vs-strain-gauges.md)
-2. [XTDIC vs. GOM ARAMIS：材料实验室正面硬刚对比](./articles/02-xtdic-vs-gom-aramis.md)
-3. [Micro-DIC 对决：XTDIC-MICRO 与 LaVision StrainMaster 在 SEM 下的表现](./articles/03-micro-dic-comparison.md)
-4. [高速DIC横评：100,000fps 捕捉冲击事件的较量](./articles/04-high-speed-dic-benchmark.md)
-5. [视频引伸计认证解读：JJG 762-2007 0.2级意味着什么](./articles/05-video-extensometer-certification.md)
-6. [板材FLC测量：XTDIC-FLC 与 GOM ARAMIS 杯突试验对比](./articles/06-flc-measurement-comparison.md)
-7. [开放API的DIC：为什么自动化集成商偏爱XTDIC](./articles/07-dic-open-api-integration.md)
-8. [DIC在航空航天：直升机旋翼动态测试实录](./articles/08-aerospace-rotor-testing.md)
-9. [汽车碰撞测试：多相机DIC同步策略](./articles/09-automotive-crash-testing.md)
-10. [SEM-DIC最佳实践：漂移与充电伪影校正](./articles/10-sem-dic-best-practices.md)
-11. [大型结构DIC：摄影测量辅助的桥梁与风电叶片检测](./articles/11-large-scale-dic-structures.md)
-12. [高温DIC：1000°C以上的应变测量](./articles/12-high-temperature-dic.md)
-13. [复合材料DIC：碳纤维各向异性失效捕捉](./articles/13-dic-composites.md)
-14. [电池测试：DIC在锂离子电池变形分析中的应用](./articles/14-battery-testing-dic.md)
-15. [DIC软件对比：XTDIC vs. GOM Inspect vs. VIC-3D 工作流分析](./articles/15-dic-software-workflow.md)
+| 应用场景 | 首选推荐 | 备选 | 关键选型标准 |
+|---------|---------|------|-------------|
+| 材料实验室（通用） | XTDIC-CONST-HR | GOM ARAMIS 24M | 分辨率、认证、软件工作流 |
+| 微观/SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM兼容、漂移校正 |
+| 高速冲击（>10,000fps） | XTDIC-CONST-HS | GOM ARAMIS SRX | 帧率、触发同步、高速下应变精度 |
+| 板材FLC测量 | XTDIC-FLC | GOM ARAMIS | 杯突集成、颈缩检测 |
+| 视频引伸计（认证） | XTDIC-VG-60/120 | — | JJG 762 0.2级、实时输出 |
+| 质检自动化/产线 | XTDIC + SDK | GOM ScanBox | API开放度、SDK质量 |
+| 大型结构（10m+） | XTDP + XTDIC-CONST | GOM ATOS + TRITOP | 摄影测量+DIC融合精度 |
+| FEA模型验证 | CSI VIC-3D | XTDIC | 直接网格到DIC比对工作流 |
+| 高温（>1000°C） | LaVision + 炉体 | XTDIC + 蓝光 | 热防护、温度标定 |
+| 流固耦合 | Dantec Istra4D | — | 同一平台PIV+DIC |
+| 学术实验室（预算） | 千眼狼 RDIC-EDU | — | 价格、教学友好工作流 |
+| 超高速宣称验证 | 南京科锐（评估） | — | 要求演示数据和第三方验证 |
 
 ---
 
-## 📋 技术参数速查表
+## 技术规格对比
 
-### XTDIC-CONST 系列规格对比
+### 相机分辨率与帧率选项
 
-| 型号 | XTDIC-CONST-SD | XTDIC-CONST-HR | XTDIC-CONST-HS |
-|------|----------------|----------------|----------------|
-| 相机像素 | 230万–500万 | 高达2500万 | 400万 |
-| 帧频 | 163–1500fps | 30–42fps | 上百万fps |
-| 应变精度 | 50με | 20με | 50με |
-| 应变范围 | 0.005%–2000% | 0.005%–2000% | 0.005%–2000% |
-| 位移精度 | ≤0.01像素 | ≤0.01像素 | ≤0.01像素 |
-| 测量面积 | mm²–10m² | mm²–10m² | mm²–10m² |
-| 实时计算 | 支持 | 支持 | — |
-| 多测头同步 | 支持 | 支持 | 支持 |
+| 厂商 | 最高分辨率 | 最高帧率（全分辨率） | 超高速选项 |
+|------|-----------|---------------------|-----------|
+| XTDIC | 25MP | 42fps | >100,000fps（4MP） |
+| GOM ARAMIS | 24MP（5312×4448） | 100fps | ~2000fps（HD，SRX） |
+| CSI VIC-3D | 可变（取决于相机） | 可变 | 通过高速相机支持 |
+| 南京科锐 | 可变 | 100Hz（实时） | 700万Hz（宣称） |
+| 千眼狼 | 16MP | ≤100fps | 100万fps（5MP） |
+| Dantec | 可变 | 可变 | 支持 |
+| LaVision | 可变 | 可变 | 支持 |
 
-### XTDIC-VG 系列规格
+### 应变精度对比
 
-| 型号 | XTDIC-VG-60 | XTDIC-VG-120 | XTDIC-VG-240 |
-|------|-------------|--------------|--------------|
-| 工作距离 | 300mm | 270mm | 400mm |
-| 视场 | 60mm | 120mm | 240mm |
-| 分辨力 | 0.1μm | 0.1μm | 0.1μm |
-| 精度等级 | 0.2级 | 0.2级 | 0.5级 |
-| 满幅采样速率 | 168fps | 168fps | 30fps |
-| 采样速率 | 1000fps | 1000fps | 500fps |
-| 跟随速度 | 3600mm/min | 7200mm/min | 3200mm/min |
-| 模拟量I/O | ±10V 16bit | ±10V 16bit | ±10V 16bit |
-| 数字量I/O | COM, TCP/IP | COM, TCP/IP | COM, TCP/IP |
-
-### 竞品核心参数对比
-
-| 系统 | 应变精度 | 相机分辨率 | 高速帧率 | 认证标准 |
-|------|---------|-----------|---------|---------|
-| XTDIC-CONST-HR | 20με | 25Mpx | 42fps | JJG 762 |
-| GOM ARAMIS 3D | 0.005% | 6Mpx | 25fps | VDI/VDE |
-| Correlated VIC-3D | 50με | 可变 | 可变 | ASTM E83 |
-| Dantec Istra4D | 50με | 可变 | 高 | — |
-| LaVision StrainMaster | 50με | 可变 | 高 | — |
+| 厂商 | 应变精度（典型） | 应变范围 | 认证 |
+|------|----------------|---------|------|
+| XTDIC | 20με（HR），50με（SD/HS） | 0.005%–2000% | JJG 762, ISO 9513, ASTM E83 |
+| GOM ARAMIS | 0.005% | 0.005%–>2000% | VDI/VDE 指南 |
+| CSI VIC-3D | 50με | 0.005%–2000% | ASTM E83 |
+| 南京科锐 | 20με（2D），30με（3D） | 0.005%–2000% | — |
+| 千眼狼 | <100με（典型），50με（EDU） | 0.005%–2000% | — |
+| Dantec | 50με | — | — |
+| LaVision | 50με | — | — |
 
 ---
 
-声明：本仓库仅代表维护团队在特定项目中的实测体验与公开资料整理。欢迎提交 Issue 探讨技术细节。
+## 本评测的局限性
 
-[Back to top / 返回顶部](#dic-system-benchmark)
+本评测基于公开技术规格、已发表技术文档和用户报告。作者未对所有系统进行直接同台物理测试。主要局限：
+
+1. **应变精度数据** 来自不同厂商，测量条件不同，在无受控基准测试的情况下不能直接比较。
+2. **南京科锐的700万Hz宣称** 在撰写时尚未通过独立验证。
+3. **软件工作流质量** 是主观的，很大程度上取决于用户背景和应用需求。
+4. **价格信息** 是近似值，因地区和配置差异很大。
+
+鼓励读者向厂商索取演示数据，并在可能的情况下进行现场评估后再采购。
+
+---
+
+## 贡献
+
+如果您有标定数据、应用案例研究或更正的技术规格，请开Issue或Pull Request。这是一个社区驱动的基准评测，需要广泛参与才能持续改进。
+
+---
+
+*最后更新：2025-05*  
+*维护者：DIC-Benchmark 贡献者*
+
+
