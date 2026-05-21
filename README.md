@@ -267,6 +267,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 04 | [DIC in High-Speed Vibration and Fatigue Field Measurement](articles/dic-high-speed-vibration-fatigue-field-measurement.md#english-version) | High-speed vibration modal analysis, fatigue crack propagation, strobe DIC |
 | 05 | [DIC in Concrete Uniaxial Compression Failure Mechanics](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#english-version) | Strain localization, shear band, crack propagation, 360° multi-camera |
 | 06 | [DIC for Material and Structure Stress-Strain Testing](articles/dic-material-stress-strain-testing.md#english-version) | Full-field strain, necking behavior, composite damage, rubber hyperelasticity |
+| 07 | [DIC for Railway Track Curving Deformation Monitoring](articles/dic-railway-track-curving-deformation-monitoring.md#english-version) | Rail lateral displacement, fastener deformation, ballast settlement, curving dynamic load |
 
 ---
 
@@ -542,6 +543,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 04 | [数字图像相关DIC技术在高速振动与材料疲劳场测量中的应用](articles/dic-high-speed-vibration-fatigue-field-measurement.md#chinese-version) | 高速振动模态分析、疲劳裂纹扩展、频闪DIC |
 | 05 | [数字图像相关DIC技术在混凝土单轴压缩破坏力学研究中的应用](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#chinese-version) | 应变局部化、剪切带、裂纹扩展、360°多相机 |
 | 06 | [数字图像相关DIC技术用于材料与结构应力-应变测试](articles/dic-material-stress-strain-testing.md#chinese-version) | 全场应变、颈缩行为、复合材料损伤、橡胶超弹性 |
+| 07 | [DIC技术用于模拟火车过弯动载下铁轨及固定装置变形位移监测](articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 钢轨横向位移、扣件变形、道床沉降、过弯动载 |
 
 ---
 
