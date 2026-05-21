@@ -263,6 +263,7 @@ If you have calibration data, application case studies, or corrected specificati
 |---|-------|-------|
 | 01 | [High-Temperature DIC and Video Extensometer Applications](articles/high-temperature-dic-video-extensometer-applications.md) | Extreme temperature measurement, thermal strain, video extensometry |
 | 02 | [DIC Technology in Automotive Reliability Assessment](articles/dic-automotive-reliability-assessment.md) | BIW stiffness, crash testing, sheet metal FLC, battery validation |
+| 03 | [DIC for PCB Vibration Modal Analysis](articles/dic-pcb-vibration-modal-analysis.md) | Non-contact modal testing, accelerometer mass effect, component lead strain |
 
 ---
 
@@ -533,6 +534,8 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 序号 | 标题 | 主题 |
 |------|------|------|
 | 01 | [高温环境下DIC技术与视频引伸计的典型应用](articles/high-temperature-dic-video-extensometer-applications.md) | 极端温度测量、热应变、视频引伸计 |
+| 02 | [DIC技术在汽车智造可靠性评估中的多维应用](articles/dic-automotive-reliability-assessment.md) | 白车身刚度、碰撞测试、钣金FLC、电池验证 |
+| 03 | [数字图像相关DIC测量系统用于电路板振动模态分析](articles/dic-pcb-vibration-modal-analysis.md) | 非接触模态测试、加速度计附加质量效应、元器件引脚应变 |
 
 ---
 
