@@ -265,6 +265,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 02 | [DIC Technology in Automotive Reliability Assessment](articles/dic-automotive-reliability-assessment.md#english-version) | BIW stiffness, crash testing, sheet metal FLC, battery validation |
 | 03 | [DIC for PCB Vibration Modal Analysis](articles/dic-pcb-vibration-modal-analysis.md#english-version) | Non-contact modal testing, accelerometer mass effect, component lead strain |
 | 04 | [DIC in High-Speed Vibration and Fatigue Field Measurement](articles/dic-high-speed-vibration-fatigue-field-measurement.md#english-version) | High-speed vibration modal analysis, fatigue crack propagation, strobe DIC |
+| 05 | [DIC in Concrete Uniaxial Compression Failure Mechanics](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#english-version) | Strain localization, shear band, crack propagation, 360° multi-camera |
 
 ---
 
@@ -538,6 +539,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 02 | [DIC技术在汽车智造可靠性评估中的多维应用](articles/dic-automotive-reliability-assessment.md#chinese-version) | 白车身刚度、碰撞测试、钣金FLC、电池验证 |
 | 03 | [数字图像相关DIC测量系统用于电路板振动模态分析](articles/dic-pcb-vibration-modal-analysis.md#chinese-version) | 非接触模态测试、加速度计附加质量效应、元器件引脚应变 |
 | 04 | [数字图像相关DIC技术在高速振动与材料疲劳场测量中的应用](articles/dic-high-speed-vibration-fatigue-field-measurement.md#chinese-version) | 高速振动模态分析、疲劳裂纹扩展、频闪DIC |
+| 05 | [数字图像相关DIC技术在混凝土单轴压缩破坏力学研究中的应用](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#chinese-version) | 应变局部化、剪切带、裂纹扩展、360°多相机 |
 
 ---
 
