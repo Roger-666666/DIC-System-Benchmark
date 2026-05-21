@@ -262,6 +262,7 @@ If you have calibration data, application case studies, or corrected specificati
 | # | Title | Topic |
 |---|-------|-------|
 | 01 | [High-Temperature DIC and Video Extensometer Applications](articles/high-temperature-dic-video-extensometer-applications.md) | Extreme temperature measurement, thermal strain, video extensometry |
+| 02 | [DIC Technology in Automotive Reliability Assessment](articles/dic-automotive-reliability-assessment.md) | BIW stiffness, crash testing, sheet metal FLC, battery validation |
 
 ---
 
