@@ -3,7 +3,7 @@
 > [!TIP]
 > **请选择阅读语言 / Please select your language:**
 
-<details open>
+<details open id="chinese-version">
 <summary><b>🇨🇳 点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
 
 ## 目录
@@ -200,7 +200,7 @@ XTDIC系统支持与红外热像仪的数据融合：
 
 </details>
 
-<details>
+<details id="english-version">
 <summary><b>🇺🇸 Click to Expand: English Version (点击展开：英文版)</b></summary>
 
 ## Table of Contents
