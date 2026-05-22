@@ -274,6 +274,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 11 | [DIC for Additive Manufacturing Metal Full-Field Deformation Analysis](articles/dic-additive-manufacturing-metal-deformation.md#english-version) | Anisotropy, residual stress, defect sensitivity, non-uniform deformation, fatigue crack growth |
 | 12 | [DIC for Full-Field Dynamic Monitoring of Metal Sheet Welding Deformation and Process Optimization](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#english-version) | Welding deformation, transverse shrinkage, angular distortion, arc radiation suppression, process optimization |
 | 13 | [DIC Technology for Wall Vibration Deformation Monitoring During Concrete Pouring](articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#english-version) | Concrete pouring, formwork deformation, vibrator excitation, lateral pressure, construction monitoring |
+| 14 | [Underwater Fishing Net Structure Monitoring: How DIC Achieves High-Precision Deformation Measurement](articles/dic-underwater-fishing-net-structure-monitoring.md#english-version) | Underwater DIC, fishing net deformation, hydrodynamic load, fatigue assessment, refraction correction |
 
 ---
 
@@ -556,6 +557,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 11 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
 | 12 | [数字散斑DIC技术用于金属薄板焊接变形全场动态监测与工艺优化](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#chinese-version) | 焊接变形、横向收缩、角变形、弧光抑制、工艺优化 |
 | 13 | [DIC技术在新型建筑混凝土浇筑过程墙壁振动变形监测中的应用](articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#chinese-version) | 混凝土浇筑、模板变形、振捣器激振、侧压力、施工监测 |
+| 14 | [水下渔网结构监测：DIC技术如何实现高精度形变测量？](articles/dic-underwater-fishing-net-structure-monitoring.md#chinese-version) | 水下DIC、渔网形变、水动力荷载、疲劳评估、折射校正 |
 
 ---
 
