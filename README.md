@@ -276,6 +276,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 13 | [DIC Technology for Wall Vibration Deformation Monitoring During Concrete Pouring](articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#english-version) | Concrete pouring, formwork deformation, vibrator excitation, lateral pressure, construction monitoring |
 | 14 | [Underwater Fishing Net Structure Monitoring: How DIC Achieves High-Precision Deformation Measurement](articles/dic-underwater-fishing-net-structure-monitoring.md#english-version) | Underwater DIC, fishing net deformation, hydrodynamic load, fatigue assessment, refraction correction |
 | 15 | [Aeroelasticity and Fluid-Structure Interaction: DIC Reveals the "Force-Deformation" Dialogue in Automotive Wind Tunnels](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#english-version) | Aeroelasticity, FSI, wind-induced vibration, aerodynamic noise source identification, multi-physics synchronization |
+| 16 | [DIC Technology: Revealing Ductility in Sheet Metal Stamping](articles/dic-sheet-metal-forming-ductility-analysis.md#english-version) | Sheet metal forming, ductility, forming limit diagram, necking detection, FLC, crack propagation |
 
 ---
 
@@ -560,6 +561,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 13 | [DIC技术在新型建筑混凝土浇筑过程墙壁振动变形监测中的应用](articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#chinese-version) | 混凝土浇筑、模板变形、振捣器激振、侧压力、施工监测 |
 | 14 | [水下渔网结构监测：DIC技术如何实现高精度形变测量？](articles/dic-underwater-fishing-net-structure-monitoring.md#chinese-version) | 水下DIC、渔网形变、水动力荷载、疲劳评估、折射校正 |
 | 15 | [气动弹性与流固耦合：DIC技术如何揭示汽车风洞中的"力-形"互动](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#chinese-version) | 气动弹性、流固耦合、风致振动、气动噪声源定位、多物理场同步测量 |
+| 16 | [数字图像相关DIC技术：揭秘金属板料冲压成形中的韧性](articles/dic-sheet-metal-forming-ductility-analysis.md#chinese-version) | 板料冲压、韧性断裂、成形极限图、颈缩检测、FLC、裂纹扩展 |
 
 ---
 
