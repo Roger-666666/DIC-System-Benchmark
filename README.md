@@ -270,6 +270,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 07 | [DIC for Railway Track Curving Deformation Monitoring](articles/dic-railway-track-curving-deformation-monitoring.md#english-version) | Rail lateral displacement, fastener deformation, ballast settlement, curving dynamic load |
 | 08 | [DIC in Automotive Wind Tunnel Testing](articles/dic-automotive-wind-tunnel-testing.md#english-version) | Body panel deformation, aeroelastic effects, hood vibration, A-pillar wind noise, CFD validation |
 | 09 | [DIC in Concrete Three-Point Bending and Fracture Evolution Analysis](articles/dic-concrete-three-point-bending-fracture.md#english-version) | FPZ quantification, double-K fracture parameters, crack propagation, recycled aggregate concrete |
+| 10 | [DIC for Additive Manufacturing Metal Full-Field Deformation Analysis](articles/dic-additive-manufacturing-metal-deformation.md#english-version) | Anisotropy, residual stress, defect sensitivity, non-uniform deformation, fatigue crack growth |
 
 ---
 
@@ -548,6 +549,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 07 | [DIC技术用于模拟火车过弯动载下铁轨及固定装置变形位移监测](articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 钢轨横向位移、扣件变形、道床沉降、过弯动载 |
 | 08 | [数字图像相关DIC技术在汽车动力学风洞试验中的应用](articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 车身面板变形、气动弹性效应、引擎盖振动、A柱风噪、CFD验证 |
 | 09 | [DIC技术在混凝土三点弯曲与断裂演化分析中的应用](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ量化、双K断裂参数、裂缝扩展、再生骨料混凝土 |
+| 10 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
 
 ---
 
