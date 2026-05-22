@@ -266,11 +266,12 @@ If you have calibration data, application case studies, or corrected specificati
 | 03 | [DIC for PCB Vibration Modal Analysis](articles/dic-pcb-vibration-modal-analysis.md#english-version) | Non-contact modal testing, accelerometer mass effect, component lead strain |
 | 04 | [DIC in High-Speed Vibration and Fatigue Field Measurement](articles/dic-high-speed-vibration-fatigue-field-measurement.md#english-version) | High-speed vibration modal analysis, fatigue crack propagation, strobe DIC |
 | 05 | [DIC in Concrete Uniaxial Compression Failure Mechanics](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#english-version) | Strain localization, shear band, crack propagation, 360° multi-camera |
-| 06 | [DIC for Material and Structure Stress-Strain Testing](articles/dic-material-stress-strain-testing.md#english-version) | Full-field strain, necking behavior, composite damage, rubber hyperelasticity |
-| 07 | [DIC for Railway Track Curving Deformation Monitoring](articles/dic-railway-track-curving-deformation-monitoring.md#english-version) | Rail lateral displacement, fastener deformation, ballast settlement, curving dynamic load |
-| 08 | [DIC in Automotive Wind Tunnel Testing](articles/dic-automotive-wind-tunnel-testing.md#english-version) | Body panel deformation, aeroelastic effects, hood vibration, A-pillar wind noise, CFD validation |
-| 09 | [DIC in Concrete Three-Point Bending and Fracture Evolution Analysis](articles/dic-concrete-three-point-bending-fracture.md#english-version) | FPZ quantification, double-K fracture parameters, crack propagation, recycled aggregate concrete |
-| 10 | [DIC for Additive Manufacturing Metal Full-Field Deformation Analysis](articles/dic-additive-manufacturing-metal-deformation.md#english-version) | Anisotropy, residual stress, defect sensitivity, non-uniform deformation, fatigue crack growth |
+| 06 | [Flexible Material Deformation Measurement: DIC in Flexible PCB Circuit Mechanical Testing](articles/dic-flexible-pcb-circuit-mechanical-testing.md#english-version) | FPC tensile, bending fatigue, large deformation, multi-layer composite, pad pull testing |
+| 07 | [DIC for Material and Structure Stress-Strain Testing](articles/dic-material-stress-strain-testing.md#english-version) | Full-field strain, necking behavior, composite damage, rubber hyperelasticity |
+| 08 | [DIC for Railway Track Curving Deformation Monitoring](articles/dic-railway-track-curving-deformation-monitoring.md#english-version) | Rail lateral displacement, fastener deformation, ballast settlement, curving dynamic load |
+| 09 | [DIC in Automotive Wind Tunnel Testing](articles/dic-automotive-wind-tunnel-testing.md#english-version) | Body panel deformation, aeroelastic effects, hood vibration, A-pillar wind noise, CFD validation |
+| 10 | [DIC in Concrete Three-Point Bending and Fracture Evolution Analysis](articles/dic-concrete-three-point-bending-fracture.md#english-version) | FPZ quantification, double-K fracture parameters, crack propagation, recycled aggregate concrete |
+| 11 | [DIC for Additive Manufacturing Metal Full-Field Deformation Analysis](articles/dic-additive-manufacturing-metal-deformation.md#english-version) | Anisotropy, residual stress, defect sensitivity, non-uniform deformation, fatigue crack growth |
 
 ---
 
@@ -545,11 +546,12 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 03 | [数字图像相关DIC测量系统用于电路板振动模态分析](articles/dic-pcb-vibration-modal-analysis.md#chinese-version) | 非接触模态测试、加速度计附加质量效应、元器件引脚应变 |
 | 04 | [数字图像相关DIC技术在高速振动与材料疲劳场测量中的应用](articles/dic-high-speed-vibration-fatigue-field-measurement.md#chinese-version) | 高速振动模态分析、疲劳裂纹扩展、频闪DIC |
 | 05 | [数字图像相关DIC技术在混凝土单轴压缩破坏力学研究中的应用](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#chinese-version) | 应变局部化、剪切带、裂纹扩展、360°多相机 |
-| 06 | [数字图像相关DIC技术用于材料与结构应力-应变测试](articles/dic-material-stress-strain-testing.md#chinese-version) | 全场应变、颈缩行为、复合材料损伤、橡胶超弹性 |
-| 07 | [DIC技术用于模拟火车过弯动载下铁轨及固定装置变形位移监测](articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 钢轨横向位移、扣件变形、道床沉降、过弯动载 |
-| 08 | [数字图像相关DIC技术在汽车动力学风洞试验中的应用](articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 车身面板变形、气动弹性效应、引擎盖振动、A柱风噪、CFD验证 |
-| 09 | [DIC技术在混凝土三点弯曲与断裂演化分析中的应用](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ量化、双K断裂参数、裂缝扩展、再生骨料混凝土 |
-| 10 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
+| 06 | [柔性材料变形测量：DIC技术在柔性PCB电路材料力学研究中的应用](articles/dic-flexible-pcb-circuit-mechanical-testing.md#chinese-version) | FPC拉伸、弯折疲劳、大变形、多层复合材料、焊盘拉力 |
+| 07 | [数字图像相关DIC技术用于材料与结构应力-应变测试](articles/dic-material-stress-strain-testing.md#chinese-version) | 全场应变、颈缩行为、复合材料损伤、橡胶超弹性 |
+| 08 | [DIC技术用于模拟火车过弯动载下铁轨及固定装置变形位移监测](articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 钢轨横向位移、扣件变形、道床沉降、过弯动载 |
+| 09 | [数字图像相关DIC技术在汽车动力学风洞试验中的应用](articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 车身面板变形、气动弹性效应、引擎盖振动、A柱风噪、CFD验证 |
+| 10 | [DIC技术在混凝土三点弯曲与断裂演化分析中的应用](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ量化、双K断裂参数、裂缝扩展、再生骨料混凝土 |
+| 11 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
 
 ---
 
