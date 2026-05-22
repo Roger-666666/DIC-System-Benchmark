@@ -277,6 +277,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 14 | [Underwater Fishing Net Structure Monitoring: How DIC Achieves High-Precision Deformation Measurement](articles/dic-underwater-fishing-net-structure-monitoring.md#english-version) | Underwater DIC, fishing net deformation, hydrodynamic load, fatigue assessment, refraction correction |
 | 15 | [Aeroelasticity and Fluid-Structure Interaction: DIC Reveals the "Force-Deformation" Dialogue in Automotive Wind Tunnels](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#english-version) | Aeroelasticity, FSI, wind-induced vibration, aerodynamic noise source identification, multi-physics synchronization |
 | 16 | [DIC Technology: Revealing Ductility in Sheet Metal Stamping](articles/dic-sheet-metal-forming-ductility-analysis.md#english-version) | Sheet metal forming, ductility, forming limit diagram, necking detection, FLC, crack propagation |
+| 17 | [3D Micro-Strain Measurement System: Decoding Thermal Stress in Electronic Component High-Low Temperature Testing](articles/dic-micro-strain-measurement-electronic-components-high-low-temperature-testing.md#english-version) | Micro-strain, electronic packaging, thermal cycling, CTE mismatch, solder joint fatigue, warpage |
 
 ---
 
@@ -562,6 +563,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 14 | [水下渔网结构监测：DIC技术如何实现高精度形变测量？](articles/dic-underwater-fishing-net-structure-monitoring.md#chinese-version) | 水下DIC、渔网形变、水动力荷载、疲劳评估、折射校正 |
 | 15 | [气动弹性与流固耦合：DIC技术如何揭示汽车风洞中的"力-形"互动](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#chinese-version) | 气动弹性、流固耦合、风致振动、气动噪声源定位、多物理场同步测量 |
 | 16 | [数字图像相关DIC技术：揭秘金属板料冲压成形中的韧性](articles/dic-sheet-metal-forming-ductility-analysis.md#chinese-version) | 板料冲压、韧性断裂、成形极限图、颈缩检测、FLC、裂纹扩展 |
+| 17 | [三维显微应变测量系统：电子元器件高低温测试中的"热力密码"](articles/dic-micro-strain-measurement-electronic-components-high-low-temperature-testing.md#chinese-version) | 显微应变、电子封装、温度循环、CTE失配、焊点疲劳、翘曲变形 |
 
 ---
 
