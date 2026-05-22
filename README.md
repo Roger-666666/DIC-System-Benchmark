@@ -283,6 +283,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 20 | [DIC Technology in Automotive Sheet Metal Forming Limit Measurement](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#english-version) | Automotive stamping, forming limit diagram, FLD, FLC, sheet metal, necking, fracture |
 | 21 | [XTDIC-SPARK 3D High-Speed Measurement System: Electronics Drop Test Solution](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#english-version) | Drop test, high-speed DIC, electronics, 6DoF, transient measurement, strain rate |
 | 22 | [Multi-Camera DIC for Truss Static Torsion Full-Field Deformation Measurement](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#english-version) | Multi-camera DIC, truss, torsion, full-field, large-scale, joint measurement |
+| 23 | [DIC for Welded Specimen Cyclic Loading Fatigue Testing](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#english-version) | Weld fatigue, crack initiation, crack growth rate, S-N curve, Paris law, full-field strain |
 
 ---
 
@@ -574,6 +575,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 20 | [数字图像相关（DIC）技术在汽车板料成形极限测量中的应用](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#chinese-version) | 汽车冲压、成形极限图、FLD、FLC、板料、颈缩、破裂 |
 | 21 | [XTDIC-SPARK三维高速测量系统：电子产品跌落测试方案](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#chinese-version) | 跌落测试、高速DIC、电子产品、6DoF、瞬态测量、应变率 |
 | 22 | [多相机数字图像相关DIC用于桁架静载扭转全场变形测量](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#chinese-version) | 多相机DIC、桁架、扭转、全场、大尺度、节点测量 |
+| 23 | [利用DIC进行焊接试样循环加载疲劳试验](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#chinese-version) | 焊接疲劳、裂纹萌生、裂纹扩展速率、S-N曲线、Paris定律、全场应变 |
 
 ---
 
