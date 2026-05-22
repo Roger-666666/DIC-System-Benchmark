@@ -285,6 +285,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 22 | [Multi-Camera DIC for Truss Static Torsion Full-Field Deformation Measurement](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#english-version) | Multi-camera DIC, truss, torsion, full-field, large-scale, joint measurement |
 | 23 | [DIC for Welded Specimen Cyclic Loading Fatigue Testing](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#english-version) | Weld fatigue, crack initiation, crack growth rate, S-N curve, Paris law, full-field strain |
 | 24 | [High-Speed DIC for Road Acrylic Cover Vehicle-Pass Full-Field Deformation Measurement](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#english-version) | High-speed DIC, acrylic cover, vehicle-pass, transient deformation, full-field strain, impact coefficient |
+| 25 | [DIC for Metal Material Crack Tip Opening Displacement (COD) Analysis](articles/dic-crack-tip-opening-displacement-cod-analysis.md#english-version) | COD, CTOD, fracture mechanics, crack tip, plastic zone, full-field strain, fracture toughness |
 
 ---
 
@@ -578,6 +579,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 22 | [多相机数字图像相关DIC用于桁架静载扭转全场变形测量](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#chinese-version) | 多相机DIC、桁架、扭转、全场、大尺度、节点测量 |
 | 23 | [利用DIC进行焊接试样循环加载疲劳试验](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#chinese-version) | 焊接疲劳、裂纹萌生、裂纹扩展速率、S-N曲线、Paris定律、全场应变 |
 | 24 | [高速DIC技术用于道路亚克力盖板车压全场变形测量](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#chinese-version) | 高速DIC、亚克力盖板、车压动态变形、瞬态测量、全场应变、冲击系数 |
+| 25 | [DIC技术用于金属材料裂纹尖端张开位移（COD）分析](articles/dic-crack-tip-opening-displacement-cod-analysis.md#chinese-version) | COD、CTOD、断裂力学、裂纹尖端、塑性区、全场应变、断裂韧性 |
 
 ---
 
