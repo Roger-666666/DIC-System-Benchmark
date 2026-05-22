@@ -281,6 +281,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 18 | [DIC Technology in Landslide Prevention Lattice Anchor Optimization Model Testing](articles/dic-landslide-prevention-lattice-anchor-model-testing.md#english-version) | Landslide prevention, lattice anchor, model testing, slip surface identification, progressive failure, geotechnical engineering |
 | 19 | [DIC 3D Strain Measurement System for Chip Wafer Thermal Deformation Measurement](articles/dic-chip-wafer-thermal-deformation-measurement.md#english-version) | Chip wafer, thermal deformation, thin film stress, warpage, overlay error, semiconductor manufacturing |
 | 20 | [DIC Technology in Automotive Sheet Metal Forming Limit Measurement](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#english-version) | Automotive stamping, forming limit diagram, FLD, FLC, sheet metal, necking, fracture |
+| 21 | [XTDIC-SPARK 3D High-Speed Measurement System: Electronics Drop Test Solution](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#english-version) | Drop test, high-speed DIC, electronics, 6DoF, transient measurement, strain rate |
 
 ---
 
@@ -570,6 +571,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 18 | [DIC技术在滑坡防治格构锚固优化模型试验中的应用](articles/dic-landslide-prevention-lattice-anchor-model-testing.md#chinese-version) | 滑坡防治、格构锚固、模型试验、滑面识别、渐进破坏、岩土工程 |
 | 19 | [DIC三维应变测量系统用于芯片晶圆热变形测量](articles/dic-chip-wafer-thermal-deformation-measurement.md#chinese-version) | 芯片晶圆、热变形、薄膜应力、翘曲、套刻误差、半导体制造 |
 | 20 | [数字图像相关（DIC）技术在汽车板料成形极限测量中的应用](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#chinese-version) | 汽车冲压、成形极限图、FLD、FLC、板料、颈缩、破裂 |
+| 21 | [XTDIC-SPARK三维高速测量系统：电子产品跌落测试方案](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#chinese-version) | 跌落测试、高速DIC、电子产品、6DoF、瞬态测量、应变率 |
 
 ---
 
