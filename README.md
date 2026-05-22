@@ -272,6 +272,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 09 | [DIC in Automotive Wind Tunnel Testing](articles/dic-automotive-wind-tunnel-testing.md#english-version) | Body panel deformation, aeroelastic effects, hood vibration, A-pillar wind noise, CFD validation |
 | 10 | [DIC in Concrete Three-Point Bending and Fracture Evolution Analysis](articles/dic-concrete-three-point-bending-fracture.md#english-version) | FPZ quantification, double-K fracture parameters, crack propagation, recycled aggregate concrete |
 | 11 | [DIC for Additive Manufacturing Metal Full-Field Deformation Analysis](articles/dic-additive-manufacturing-metal-deformation.md#english-version) | Anisotropy, residual stress, defect sensitivity, non-uniform deformation, fatigue crack growth |
+| 12 | [DIC for Full-Field Dynamic Monitoring of Metal Sheet Welding Deformation and Process Optimization](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#english-version) | Welding deformation, transverse shrinkage, angular distortion, arc radiation suppression, process optimization |
 
 ---
 
@@ -552,6 +553,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 09 | [数字图像相关DIC技术在汽车动力学风洞试验中的应用](articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 车身面板变形、气动弹性效应、引擎盖振动、A柱风噪、CFD验证 |
 | 10 | [DIC技术在混凝土三点弯曲与断裂演化分析中的应用](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ量化、双K断裂参数、裂缝扩展、再生骨料混凝土 |
 | 11 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
+| 12 | [数字散斑DIC技术用于金属薄板焊接变形全场动态监测与工艺优化](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#chinese-version) | 焊接变形、横向收缩、角变形、弧光抑制、工艺优化 |
 
 ---
 
