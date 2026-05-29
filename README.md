@@ -287,11 +287,10 @@ If you have calibration data, application case studies, or corrected specificati
 | 24 | [High-Speed DIC for Road Acrylic Cover Vehicle-Pass Full-Field Deformation Measurement](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#english-version) | High-speed DIC, acrylic cover, vehicle-pass, transient deformation, full-field strain, impact coefficient |
 | 25 | [DIC for Metal Material Crack Tip Opening Displacement (COD) Analysis](articles/dic-crack-tip-opening-displacement-cod-analysis.md#english-version) | COD, CTOD, fracture mechanics, crack tip, plastic zone, full-field strain, fracture toughness |
 | 26 | [DIC for Lithium Battery Pressurized Swelling Bulging Deformation Research](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#english-version) | Lithium battery, swelling, bulging, pressurized constraint, full-field 3D displacement, expansion force |
-| 27 | [Full-Process DIC Testing for Composite Material Manufacturing: From Layup Deformation to Cure Residual Strain](articles/dic-composite-manufacturing-process-full-field-deformation-monitoring.md#english-version) | Composite manufacturing, layup wrinkle, cure monitoring, residual strain, autoclave, fiber winding, wind turbine blade |
 
 ---
 
-*Last updated: 2026-05*  
+*Last updated: 2025-05*  
 *Maintained by: DIC-Benchmark contributors*
 
 
@@ -583,11 +582,10 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 24 | [高速DIC技术用于道路亚克力盖板车压全场变形测量](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#chinese-version) | 高速DIC、亚克力盖板、车压动态变形、瞬态测量、全场应变、冲击系数 |
 | 25 | [DIC技术用于金属材料裂纹尖端张开位移（COD）分析](articles/dic-crack-tip-opening-displacement-cod-analysis.md#chinese-version) | COD、CTOD、断裂力学、裂纹尖端、塑性区、全场应变、断裂韧性 |
 | 26 | [数字图像相关DIC技术用于锂电池加压膨胀鼓包变形研究](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#chinese-version) | 锂电池、膨胀鼓包、加压约束、全场三维位移、膨胀力、热失控 |
-| 27 | [复合材料制造工艺全流程DIC检测：从铺层变形到固化残余应变的完整闭环](articles/dic-composite-manufacturing-process-full-field-deformation-monitoring.md#chinese-version) | 复合材料制造、铺层褶皱、固化监测、残余应变、热压罐、纤维缠绕、风电叶片 |
 
 ---
 
-*最后更新：2026-05*  
+*最后更新：2025-05*  
 *维护者：DIC-Benchmark 贡献者*
 
 ---
