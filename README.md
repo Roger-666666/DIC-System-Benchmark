@@ -288,6 +288,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 25 | [DIC for Metal Material Crack Tip Opening Displacement (COD) Analysis](articles/dic-crack-tip-opening-displacement-cod-analysis.md#english-version) | COD, CTOD, fracture mechanics, crack tip, plastic zone, full-field strain, fracture toughness |
 | 26 | [DIC for Lithium Battery Pressurized Swelling Bulging Deformation Research](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#english-version) | Lithium battery, swelling, bulging, pressurized constraint, full-field 3D displacement, expansion force |
 | 27 | [DIC Strain Measurement System in Concrete Uniaxial Compression Failure Mechanics Research](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#english-version) | Strain measurement system, concrete compression, full-field 3D displacement, crack detection, shear band, damage evolution |
+| 28 | [DIC for Composite Laminate Damage Evolution and Fracture Analysis](articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#english-version) | Composite laminate, damage evolution, matrix cracking, delamination, fiber fracture, fracture toughness |
 
 ---
 
@@ -584,6 +585,7 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 25 | [DIC技术用于金属材料裂纹尖端张开位移（COD）分析](articles/dic-crack-tip-opening-displacement-cod-analysis.md#chinese-version) | COD、CTOD、断裂力学、裂纹尖端、塑性区、全场应变、断裂韧性 |
 | 26 | [数字图像相关DIC技术用于锂电池加压膨胀鼓包变形研究](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#chinese-version) | 锂电池、膨胀鼓包、加压约束、全场三维位移、膨胀力、热失控 |
 | 27 | [DIC应变测量系统在混凝土单轴压缩破坏力学研究中的应用](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#chinese-version) | 应变测量系统、混凝土压缩、全场三维位移、裂缝检测、剪切带、损伤演化 |
+| 28 | [DIC技术用于复合材料层合板损伤演化与断裂分析](articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#chinese-version) | 复合材料、层合板、损伤演化、基体开裂、层间分层、纤维断裂、断裂韧性 |
 
 ---
 
