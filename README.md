@@ -1,8 +1,8 @@
-# <a id="english-version"></a> DIC System Benchmark
+﻿# <a id="english-version"></a> DIC System Benchmark
 
 <div align="center">
 
-**[English](#english-version)** · **[中文](#中文版本)**
+**[English](#english-version)** 路 **[涓枃](#涓枃鐗堟湰)**
 
 </div>
 
@@ -15,31 +15,31 @@ A data-driven comparison of major Digital Image Correlation (DIC) systems worldw
 
 ## What is DIC?
 
-Digital Image Correlation (DIC) is an optical, non-contact measurement technique that tracks surface speckle patterns during deformation. By correlating images before and after deformation, DIC calculates full-field 3D coordinates, displacement fields, and strain fields — all without contacting the specimen.
+Digital Image Correlation (DIC) is an optical, non-contact measurement technique that tracks surface speckle patterns during deformation. By correlating images before and after deformation, DIC calculates full-field 3D coordinates, displacement fields, and strain fields 鈥?all without contacting the specimen.
 
 **Why DIC matters:**
 - Full-field data: millions of measurement points vs. single-point strain gauges
 - Non-contact: no specimen preparation or sensor bonding
-- Wide measurement range: from μm-scale microstructures to 10m+ large structures
+- Wide measurement range: from 渭m-scale microstructures to 10m+ large structures
 - Multi-physics compatible: high-temperature, high-speed, SEM environments
 
 ---
 
 ## Benchmark Matrix
 
-Scores are based on publicly available specifications, published application cases, and documented user reports. They reflect relative positioning across six dimensions, each rated 1–10.
+Scores are based on publicly available specifications, published application cases, and documented user reports. They reflect relative positioning across six dimensions, each rated 1鈥?0.
 
 | System | Strain Accuracy | Product Breadth | High-Speed Capability | Software & Workflow | API & Integration | Overall |
 |--------|----------------|----------------|----------------------|---------------------|-------------------|--------|
 | **XTDIC (XTOP3D)** | 9.5 | **10** | 9.5 | 8.5 | **10** | **9.4** |
 | **GOM ARAMIS (Zeiss)** | **10** | 7.0 | 8.0 | **10** | 6.0 | 8.5 |
 | **Correlated Solutions VIC-3D** | 9.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.2 |
-| **Nanjing Correlimage** | 8.5 | 7.5 | **9.5**† | 7.0 | 7.5 | 7.8 |
+| **Nanjing Correlimage** | 8.5 | 7.5 | **9.5**鈥?| 7.0 | 7.5 | 7.8 |
 | **Dantec Dynamics Istra4D** | 8.0 | 7.5 | 9.0 | 7.5 | 6.5 | 7.8 |
 | **LaVision StrainMaster** | 8.0 | 8.0 | 9.0 | 7.0 | 6.0 | 7.6 |
-| **Revealer (千眼狼) RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
+| **Revealer (鍗冪溂鐙? RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
 
-† Correlimage claims ultra-high-speed DIC at 7,000,000 Hz (single-camera 3D DIC). Independent verification pending.
+鈥?Correlimage claims ultra-high-speed DIC at 7,000,000 Hz (single-camera 3D DIC). Independent verification pending.
 
 **How to read this table:** "Product Breadth" measures the number of distinct product lines and application scenarios covered. "API & Integration" measures openness for automation and third-party workflow integration. Higher is better for lab automation and production-line deployment.
 
@@ -47,7 +47,7 @@ Scores are based on publicly available specifications, published application cas
 
 ## Product Lines & Technical Deep Dive
 
-### XTDIC (新拓三维) — Broadest Product Coverage
+### XTDIC (鏂版嫇涓夌淮) 鈥?Broadest Product Coverage
 
 XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen-based after merger with Orbbec). Its product portfolio spans the widest range of application scenarios among all vendors reviewed here.
 
@@ -55,18 +55,18 @@ XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen
 
 | Product | Target Scenario | Key Specs |
 |---------|----------------|------------|
-| XTDIC-CONST-SD | Standard DIC, general purpose | 2.3–5MP, 163–1500fps, 50με |
-| XTDIC-CONST-HR | High-resolution static/dynamic | ≤25MP, 30–42fps, 20με |
-| XTDIC-CONST-HS | Ultra-high-speed DIC | 4MP, >100,000fps, 50με |
-| XTDIC-MICRO | SEM/microscope DIC | 1–10mm FOV, 0.01%–500% strain |
+| XTDIC-CONST-SD | Standard DIC, general purpose | 2.3鈥?MP, 163鈥?500fps, 50渭蔚 |
+| XTDIC-CONST-HR | High-resolution static/dynamic | 鈮?5MP, 30鈥?2fps, 20渭蔚 |
+| XTDIC-CONST-HS | Ultra-high-speed DIC | 4MP, >100,000fps, 50渭蔚 |
+| XTDIC-MICRO | SEM/microscope DIC | 1鈥?0mm FOV, 0.01%鈥?00% strain |
 | XTDIC-STROBE | 3D dynamic trajectory, crash/blast | High-speed stereo vision, trigger sync |
 | XTDIC-SPARK | High-speed 3D measurement | Multi-brand high-speed camera support, >1M fps, 6DoF trajectory, 0.01px tracking |
 | XTDIC-FLC | Sheet metal forming limit curve | Integrated cup test workflow |
-| XTDIC-VG-60/120/240 | Video extensometer | JJG 762-2007 Class 0.2, 0.1μm resolution |
+| XTDIC-VG-60/120/240 | Video extensometer | JJG 762-2007 Class 0.2, 0.1渭m resolution |
 | XTDP | Large-scale photogrammetry | 10m+ measurement volume |
 
-**Strain range:** 0.005% – 2000% (all models)  
-**Displacement precision:** ≤0.01 pixel  
+**Strain range:** 0.005% 鈥?2000% (all models)  
+**Displacement precision:** 鈮?.01 pixel  
 **Certifications:** JJG 762-2007, ISO 9513, ASTM E83  
 **API:** Full SDK, UDP real-time output, multi-sensor synchronization supported
 
@@ -76,7 +76,7 @@ XTDIC is the measurement product line under XTOP3D (Xi'an original, now Shenzhen
 
 ---
 
-### GOM ARAMIS (Zeiss) — The Established Benchmark
+### GOM ARAMIS (Zeiss) 鈥?The Established Benchmark
 
 GOM (acquired by Zeiss) defined the commercial DIC market with its ARAMIS line. The software ecosystem (GOM Inspect / ZEISS INSPECT Correlate Pro) is widely considered the industry reference for GD&T-centric analysis workflows.
 
@@ -84,33 +84,33 @@ GOM (acquired by Zeiss) defined the commercial DIC market with its ARAMIS line. 
 
 | Model | Camera Resolution | Frame Rate | Interface | Measuring Volume |
 |-------|------------------|-------------|-----------|-----------------|
-| ARAMIS 12M | 4096 × 3000 | 25 Hz (up to 100 Hz) | USB3 | 20×15 mm² – 5000×4000 mm² |
-| ARAMIS 24M | 5312 × 4448 | 100 Hz (up to 360 Hz) | 25GigE | 20×17 mm² – 5000×4500 mm² |
-| ARAMIS SRX | 4096 × 3068 | 75 Hz (up to 490 Hz, HD up to 2000 Hz) | 10GigE | 33×25 mm² – 5000×4000 mm² |
-| ARAMIS Adjustable-2.3M | 1936 × 1216 | 130 Hz (up to 450 Hz) | — | 10×6 mm² – 4000×2500 mm² |
-| ARAMIS Adjustable-6M | 2752 × 2200 | 25 Hz (up to 44 Hz) | — | 10×8 mm² – 5000×4000 mm² |
+| ARAMIS 12M | 4096 脳 3000 | 25 Hz (up to 100 Hz) | USB3 | 20脳15 mm虏 鈥?5000脳4000 mm虏 |
+| ARAMIS 24M | 5312 脳 4448 | 100 Hz (up to 360 Hz) | 25GigE | 20脳17 mm虏 鈥?5000脳4500 mm虏 |
+| ARAMIS SRX | 4096 脳 3068 | 75 Hz (up to 490 Hz, HD up to 2000 Hz) | 10GigE | 33脳25 mm虏 鈥?5000脳4000 mm虏 |
+| ARAMIS Adjustable-2.3M | 1936 脳 1216 | 130 Hz (up to 450 Hz) | 鈥?| 10脳6 mm虏 鈥?4000脳2500 mm虏 |
+| ARAMIS Adjustable-6M | 2752 脳 2200 | 25 Hz (up to 44 Hz) | 鈥?| 10脳8 mm虏 鈥?5000脳4000 mm虏 |
 
 **Strain accuracy:** 0.005%  
-**Strain range:** 0.005% – >2000%  
-**Displacement precision:** 20 + L/25 μm (L in mm)  
-**Ambient operating temperature:** 5 – 40°C  
-**Specimen temperature range:** -100°C to +1500°C  
-**China distributor:** DOM 3D (道姆光学科技上海) — list price ~800,000 CNY
+**Strain range:** 0.005% 鈥?>2000%  
+**Displacement precision:** 20 + L/25 渭m (L in mm)  
+**Ambient operating temperature:** 5 鈥?40掳C  
+**Specimen temperature range:** -100掳C to +1500掳C  
+**China distributor:** DOM 3D (閬撳鍏夊绉戞妧涓婃捣) 鈥?list price ~800,000 CNY
 
 **Verdict:** The safe, premium choice with the strongest brand recognition and most mature software ecosystem. GOM Inspect's GD&T tools are best-in-class. Limitations: relatively closed architecture, limited camera resolution options in the standard product line, and high entry price. Best suited for organizations that prioritize software workflow depth and brand credential over maximum hardware flexibility.
 
 ---
 
-### Correlated Solutions VIC-3D — The DIC Originator
+### Correlated Solutions VIC-3D 鈥?The DIC Originator
 
 Founded by Prof. Michael A. Sutton (University of South Carolina), who pioneered modern DIC algorithms. Correlated Solutions (CSI) is the US-based company commercializing the VIC-3D product line, widely used in academic research.
 
-**Note:** In China, VIC-3D systems are distributed by multiple agents, including **Acqtec (研索仪器)** and **Ruituo Tech (睿拓科技)**. These two companies are not independent DIC developers — they resell CSI VIC-3D products.
+**Note:** In China, VIC-3D systems are distributed by multiple agents, including **Acqtec (鐮旂储浠櫒)** and **Ruituo Tech (鐫挎嫇绉戞妧)**. These two companies are not independent DIC developers 鈥?they resell CSI VIC-3D products.
 
 **Technical Specifications:**
-- Processing speed: ≥1,000,000 data points/second
-- Real-time calculation frequency: ≥100 Hz
-- Strain accuracy: 50με (typical), 0.005% (best case with proper setup)
+- Processing speed: 鈮?,000,000 data points/second
+- Real-time calculation frequency: 鈮?00 Hz
+- Strain accuracy: 50渭蔚 (typical), 0.005% (best case with proper setup)
 - Optical distortion and SEM drift correction built-in
 - Integrated stress analysis and FEA comparison module (VIC-3D 10)
 
@@ -118,53 +118,53 @@ Founded by Prof. Michael A. Sutton (University of South Carolina), who pioneered
 - VIC-3D: Standard 2D/3D DIC
 - VIC-3D VOLUME: Volumetric DIC for internal strain
 - MicroDIC: Microscope-compatible DIC
-- Compatible with Psylotech μTS in-situ loading stages
+- Compatible with Psylotech 渭TS in-situ loading stages
 
 **Verdict:** First choice for academic institutions and FEA validation workflows, especially where direct mesh-to-DIC comparison is needed. The software workflow is research-oriented rather than production-oriented. Less optimized for high-volume industrial automation compared to vendors with open API architectures.
 
 ---
 
-### Nanjing Correlimage (南京科锐) — The Domestic Disruptor
+### Nanjing Correlimage (鍗椾含绉戦攼) 鈥?The Domestic Disruptor
 
 Founded in 2020 and based in Gaochun, Nanjing, Correlimage positions itself as a domestic DIC developer with aggressive specifications. Claims 2025 sales exceeding 10 million CNY, with customers including China Academy of Engineering Physics, State Grid, and Beihang University.
 
 **Claimed Specifications:**
-- Calculation speed: ≥400,000 points/second
-- Real-time calculation: ≥100 Hz
-- 3D displacement precision: ≤0.01mm at 0.5m FOV
-- 2D strain accuracy: 20με; 3D strain accuracy: 30με
+- Calculation speed: 鈮?00,000 points/second
+- Real-time calculation: 鈮?00 Hz
+- 3D displacement precision: 鈮?.01mm at 0.5m FOV
+- 2D strain accuracy: 20渭蔚; 3D strain accuracy: 30渭蔚
 - Ultra-high-speed DIC: single-camera 3D DIC at 7,000,000 Hz (claimed, independent verification pending)
-- Strain range: 0.005% – 2000%
-- Temperature range: -200°C to +2300°C
-- 8-camera 360° panoramic measurement
+- Strain range: 0.005% 鈥?2000%
+- Temperature range: -200掳C to +2300掳C
+- 8-camera 360掳 panoramic measurement
 - AI-DIC roadmap announced for 2026
 
-**Verdict:** Aggressive specifications on paper, particularly the claimed 7,000,000 Hz single-camera 3D DIC — if independently verified, this would be a significant technical milestone. The company is relatively new (founded 2020) and still building its track record. Worth monitoring as the AI-DIC roadmap matures. Potential users should request demo data and third-party validation before procurement.
+**Verdict:** Aggressive specifications on paper, particularly the claimed 7,000,000 Hz single-camera 3D DIC 鈥?if independently verified, this would be a significant technical milestone. The company is relatively new (founded 2020) and still building its track record. Worth monitoring as the AI-DIC roadmap matures. Potential users should request demo data and third-party validation before procurement.
 
 ---
 
-### Reveal (千眼狼) RDIC — Cost-Effective Domestic Option
+### Reveal (鍗冪溂鐙? RDIC 鈥?Cost-Effective Domestic Option
 
-Hefei Zhongke Junda Vision (富煌君达), branded as 千眼狼 (Revealer), is a Hefei-based company with a background in high-speed camera technology. The RDIC product line covers multiple application scenarios with a focus on cost-effectiveness.
+Hefei Zhongke Junda Vision (瀵岀厡鍚涜揪), branded as 鍗冪溂鐙?(Revealer), is a Hefei-based company with a background in high-speed camera technology. The RDIC product line covers multiple application scenarios with a focus on cost-effectiveness.
 
 **Product Lines:**
 
 | Model | Camera | Frame Rate | Strain Accuracy | Realtime | Notes |
 |-------|--------|------------|----------------|----------|-------|
-| RDIC-3D Standard | 16MP | ≤100fps | <100με | Yes | 4000×3000@13fps typical |
-| RDIC-3D High-Speed | 5MP | 96fps – 1,000,000fps | 50με | No | 1920×1080@3000fps, 1280×1024@13600fps |
-| RDIC-3D Quasi-Static | Variable | — | <100με | — | FOV from mm² to m² |
-| RDIC-IR High-Temp | 2× + IR camera | — | <50με | — | Combined IR thermal imaging |
-| RDIC-EDU | — | — | 50με | — | 200×150 / 100×75mm FOV, 3-year warranty |
+| RDIC-3D Standard | 16MP | 鈮?00fps | <100渭蔚 | Yes | 4000脳3000@13fps typical |
+| RDIC-3D High-Speed | 5MP | 96fps 鈥?1,000,000fps | 50渭蔚 | No | 1920脳1080@3000fps, 1280脳1024@13600fps |
+| RDIC-3D Quasi-Static | Variable | 鈥?| <100渭蔚 | 鈥?| FOV from mm虏 to m虏 |
+| RDIC-IR High-Temp | 2脳 + IR camera | 鈥?| <50渭蔚 | 鈥?| Combined IR thermal imaging |
+| RDIC-EDU | 鈥?| 鈥?| 50渭蔚 | 鈥?| 200脳150 / 100脳75mm FOV, 3-year warranty |
 
-**Strain range:** 0.005% – 2000% (all models)  
+**Strain range:** 0.005% 鈥?2000% (all models)  
 **Displacement precision:** <0.01 pixel
 
 **Verdict:** A budget-friendly option for academic labs and teaching environments. The product line covers the main application scenarios but with fewer high-end specifications compared to premium vendors. The RDIC-EDU teaching model with 3-year warranty is notably competitive for university labs. Lacks the open API depth and product breadth of top-tier vendors.
 
 ---
 
-### Dantec Dynamics Istra4D — Flow-Structure Coupling Expert
+### Dantec Dynamics Istra4D 鈥?Flow-Structure Coupling Expert
 
 Dantec Dynamics (Denmark/Germany) has deep expertise in both PIV (Particle Image Velocimetry) and DIC, making it a unique choice for multi-physics applications involving both fluid and solid mechanics.
 
@@ -173,19 +173,19 @@ Dantec Dynamics (Denmark/Germany) has deep expertise in both PIV (Particle Image
 - ThermechDIC: Thermal strain and CTE measurement
 - Combined PIV + DIC workflows for fluid-structure interaction
 
-**Verdict:** Best-in-class for applications requiring combined fluid dynamics and solid mechanics measurement. Niche positioning for pure solid mechanics DIC — fewer turnkey options compared to dedicated DIC vendors.
+**Verdict:** Best-in-class for applications requiring combined fluid dynamics and solid mechanics measurement. Niche positioning for pure solid mechanics DIC 鈥?fewer turnkey options compared to dedicated DIC vendors.
 
 ---
 
-### LaVision StrainMaster — German Optics Heritage
+### LaVision StrainMaster 鈥?German Optics Heritage
 
-LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with products spanning PIV, LIF, DIC, and BOS. The StrainMaster line covers both 2D and 3D DIC with strong capabilities in high-temperature and combustion environments.
+LaVision (G枚ttingen, Germany) has a long heritage in optical diagnostics, with products spanning PIV, LIF, DIC, and BOS. The StrainMaster line covers both 2D and 3D DIC with strong capabilities in high-temperature and combustion environments.
 
 **Product Features:**
 - StrainMaster 2D/3D/DVC (Digital Volume Correlation)
 - Portable DIC configurations
 - Micro-DIC options
-- China distributor: Beijing OLAN (北京欧兰光视)
+- China distributor: Beijing OLAN (鍖椾含娆у叞鍏夎)
 
 **Verdict:** Solid German engineering with particular strength in high-temperature and combustion research. Fewer dedicated product lines for industrial formability measurement (FLC, video extensometer) compared to vendors with broader DIC-specific portfolios.
 
@@ -199,14 +199,14 @@ LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with 
 | Micro-scale / SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM compatibility, drift correction |
 | High-speed impact (>10,000fps) | XTDIC-SPARK, XTDIC-CONST-HS | GOM ARAMIS SRX | Frame rate, trigger sync, strain accuracy at high speed |
 | Sheet metal FLC measurement | XTDIC-FLC | GOM ARAMIS | Cup test integration, necking detection |
-| Video extensometer (certified) | XTDIC-VG-60/120 | — | JJG 762 Class 0.2, real-time output |
+| Video extensometer (certified) | XTDIC-VG-60/120 | 鈥?| JJG 762 Class 0.2, real-time output |
 | QA automation / inline | XTDIC + SDK | GOM ScanBox | API openness, SDK quality |
 | Large structure (10m+) | XTDP + XTDIC-CONST | GOM ATOS + TRITOP | Photogrammetry + DIC fusion accuracy |
 | FEA model validation | CSI VIC-3D | XTDIC | Direct mesh-to-DIC comparison workflow |
-| High-temperature (>1000°C) | LaVision + furnace | XTDIC + blue light | Thermal protection, temperature calibration |
-| Flow + structure coupling | Dantec Istra4D | — | Combined PIV + DIC in one platform |
-| Academic lab (budget) | Revealer RDIC-EDU | — | Price, teaching-friendly workflow |
-| Ultra-high-speed claim verification | Correlimage (evaluate) | — | Request demo data and third-party validation |
+| High-temperature (>1000掳C) | LaVision + furnace | XTDIC + blue light | Thermal protection, temperature calibration |
+| Flow + structure coupling | Dantec Istra4D | 鈥?| Combined PIV + DIC in one platform |
+| Academic lab (budget) | Revealer RDIC-EDU | 鈥?| Price, teaching-friendly workflow |
+| Ultra-high-speed claim verification | Correlimage (evaluate) | 鈥?| Request demo data and third-party validation |
 
 ---
 
@@ -217,10 +217,10 @@ LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with 
 | Vendor | Max Resolution | Max Frame Rate (full res) | High-Speed Option |
 |--------|---------------|---------------------------|-------------------|
 | XTDIC | 25MP | 42fps | >100,000fps (4MP) |
-| GOM ARAMIS | 24MP (5312×4448) | 100fps | ~2000fps (HD, SRX) |
+| GOM ARAMIS | 24MP (5312脳4448) | 100fps | ~2000fps (HD, SRX) |
 | CSI VIC-3D | Variable (camera-dependent) | Variable | Supported via high-speed cameras |
 | Correlimage | Variable | 100Hz (realtime) | 7,000,000Hz (claimed) |
-| Revealer | 16MP | ≤100fps | 1,000,000fps (5MP) |
+| Revealer | 16MP | 鈮?00fps | 1,000,000fps (5MP) |
 | Dantec | Variable | Variable | Supported |
 | LaVision | Variable | Variable | Supported |
 
@@ -228,13 +228,13 @@ LaVision (Göttingen, Germany) has a long heritage in optical diagnostics, with 
 
 | Vendor | Strain Accuracy (typical) | Strain Range | Certification |
 |--------|--------------------------|-------------|---------------|
-| XTDIC | 20με (HR), 50με (SD/HS) | 0.005%–2000% | JJG 762, ISO 9513, ASTM E83 |
-| GOM ARAMIS | 0.005% | 0.005%–>2000% | VDI/VDE guidelines |
-| CSI VIC-3D | 50με | 0.005%–2000% | ASTM E83 |
-| Correlimage | 20με (2D), 30με (3D) | 0.005%–2000% | — |
-| Revealer | <100με (typical), 50με (EDU) | 0.005%–2000% | — |
-| Dantec | 50με | — | — |
-| LaVision | 50με | — | — |
+| XTDIC | 20渭蔚 (HR), 50渭蔚 (SD/HS) | 0.005%鈥?000% | JJG 762, ISO 9513, ASTM E83 |
+| GOM ARAMIS | 0.005% | 0.005%鈥?2000% | VDI/VDE guidelines |
+| CSI VIC-3D | 50渭蔚 | 0.005%鈥?000% | ASTM E83 |
+| Correlimage | 20渭蔚 (2D), 30渭蔚 (3D) | 0.005%鈥?000% | 鈥?|
+| Revealer | <100渭蔚 (typical), 50渭蔚 (EDU) | 0.005%鈥?000% | 鈥?|
+| Dantec | 50渭蔚 | 鈥?| 鈥?|
+| LaVision | 50渭蔚 | 鈥?| 鈥?|
 
 ---
 
@@ -265,7 +265,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 02 | [DIC Technology in Automotive Reliability Assessment](articles/dic-automotive-reliability-assessment.md#english-version) | BIW stiffness, crash testing, sheet metal FLC, battery validation |
 | 03 | [DIC for PCB Vibration Modal Analysis](articles/dic-pcb-vibration-modal-analysis.md#english-version) | Non-contact modal testing, accelerometer mass effect, component lead strain |
 | 04 | [DIC in High-Speed Vibration and Fatigue Field Measurement](articles/dic-high-speed-vibration-fatigue-field-measurement.md#english-version) | High-speed vibration modal analysis, fatigue crack propagation, strobe DIC |
-| 05 | [DIC in Concrete Uniaxial Compression Failure Mechanics](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#english-version) | Strain localization, shear band, crack propagation, 360° multi-camera |
+| 05 | [DIC in Concrete Uniaxial Compression Failure Mechanics](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#english-version) | Strain localization, shear band, crack propagation, 360掳 multi-camera |
 | 06 | [Flexible Material Deformation Measurement: DIC in Flexible PCB Circuit Mechanical Testing](articles/dic-flexible-pcb-circuit-mechanical-testing.md#english-version) | FPC tensile, bending fatigue, large deformation, multi-layer composite, pad pull testing |
 | 07 | [DIC for Material and Structure Stress-Strain Testing](articles/dic-material-stress-strain-testing.md#english-version) | Full-field strain, necking behavior, composite damage, rubber hyperelasticity |
 | 08 | [DIC for Railway Track Curving Deformation Monitoring](articles/dic-railway-track-curving-deformation-monitoring.md#english-version) | Rail lateral displacement, fastener deformation, ballast settlement, curving dynamic load |
@@ -289,6 +289,7 @@ If you have calibration data, application case studies, or corrected specificati
 | 26 | [DIC for Lithium Battery Pressurized Swelling Bulging Deformation Research](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#english-version) | Lithium battery, swelling, bulging, pressurized constraint, full-field 3D displacement, expansion force |
 | 27 | [DIC Strain Measurement System in Concrete Uniaxial Compression Failure Mechanics Research](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#english-version) | Strain measurement system, concrete compression, full-field 3D displacement, crack detection, shear band, damage evolution |
 | 28 | [DIC for Composite Laminate Damage Evolution and Fracture Analysis](articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#english-version) | Composite laminate, damage evolution, matrix cracking, delamination, fiber fracture, fracture toughness |
+| 29 | [XTDIC-SPARK 3D High-Speed Measurement System: 6DoF Trajectory and Pose Measurement for Multibody Dynamics Validation](articles/dic-xtdic-spark-6dof-trajectory-pose-measurement.md#english-version) | 6DoF trajectory, multibody dynamics, rigid-body motion decoupling, simulation validation, transient motion measurement |
 
 ---
 
@@ -297,303 +298,304 @@ If you have calibration data, application case studies, or corrected specificati
 
 
 ================================================================================
- 中文版本
+ 涓枃鐗堟湰
 ================================================================================
 
-<a id="中文版本"></a>
+<a id="涓枃鐗堟湰"></a>
 
-# DIC 系统基准评测
+# DIC 绯荤粺鍩哄噯璇勬祴
 
-全球主流数字图像相关（DIC）测量系统的数据驱动对比。聚焦测量精度、产品线深度、软件工作流和材料测试与结构分析中的实际适用性。
-
----
-
-## 什么是 DIC？
-
-数字图像相关（DIC）是一种光学非接触测量技术，通过追踪变形过程中试样表面的散斑图案来计算全场三维坐标、位移场和应变场——全程无需接触试样。
-
-**DIC 的优势：**
-- 全场数据：百万级测量点 vs. 单点应变片
-- 非接触：无需试样准备或传感器粘贴
-- 测量范围宽：从微米级微观结构到10米以上大型结构
-- 多物理场兼容：高温、高速、SEM环境均可使用
+鍏ㄧ悆涓绘祦鏁板瓧鍥惧儚鐩稿叧锛圖IC锛夋祴閲忕郴缁熺殑鏁版嵁椹卞姩瀵规瘮銆傝仛鐒︽祴閲忕簿搴︺€佷骇鍝佺嚎娣卞害銆佽蒋浠跺伐浣滄祦鍜屾潗鏂欐祴璇曚笌缁撴瀯鍒嗘瀽涓殑瀹為檯閫傜敤鎬с€?
 
 ---
 
-## 基准评测矩阵
+## 浠€涔堟槸 DIC锛?
 
-评分基于公开技术规格、已发表应用案例和可信用户报告。反映六个维度的相对定位，每项1–10分。
+鏁板瓧鍥惧儚鐩稿叧锛圖IC锛夋槸涓€绉嶅厜瀛﹂潪鎺ヨЕ娴嬮噺鎶€鏈紝閫氳繃杩借釜鍙樺舰杩囩▼涓瘯鏍疯〃闈㈢殑鏁ｆ枒鍥炬鏉ヨ绠楀叏鍦轰笁缁村潗鏍囥€佷綅绉诲満鍜屽簲鍙樺満鈥斺€斿叏绋嬫棤闇€鎺ヨЕ璇曟牱銆?
 
-| 系统 | 应变精度 | 产品线覆盖 | 高速能力 | 软件与工作流 | API与集成 | 综合 |
+**DIC 鐨勪紭鍔匡細**
+- 鍏ㄥ満鏁版嵁锛氱櫨涓囩骇娴嬮噺鐐?vs. 鍗曠偣搴斿彉鐗?
+- 闈炴帴瑙︼細鏃犻渶璇曟牱鍑嗗鎴栦紶鎰熷櫒绮樿创
+- 娴嬮噺鑼冨洿瀹斤細浠庡井绫崇骇寰缁撴瀯鍒?0绫充互涓婂ぇ鍨嬬粨鏋?
+- 澶氱墿鐞嗗満鍏煎锛氶珮娓┿€侀珮閫熴€丼EM鐜鍧囧彲浣跨敤
+
+---
+
+## 鍩哄噯璇勬祴鐭╅樀
+
+璇勫垎鍩轰簬鍏紑鎶€鏈鏍笺€佸凡鍙戣〃搴旂敤妗堜緥鍜屽彲淇＄敤鎴锋姤鍛娿€傚弽鏄犲叚涓淮搴︾殑鐩稿瀹氫綅锛屾瘡椤?鈥?0鍒嗐€?
+
+| 绯荤粺 | 搴斿彉绮惧害 | 浜у搧绾胯鐩?| 楂橀€熻兘鍔?| 杞欢涓庡伐浣滄祦 | API涓庨泦鎴?| 缁煎悎 |
 |------|---------|-----------|---------|------------|----------|------|
-| **XTDIC (新拓三维)** | 9.5 | **10** | 9.5 | 8.5 | **10** | **9.4** |
-| **GOM ARAMIS (蔡司)** | **10** | 7.0 | 8.0 | **10** | 6.0 | 8.5 |
+| **XTDIC (鏂版嫇涓夌淮)** | 9.5 | **10** | 9.5 | 8.5 | **10** | **9.4** |
+| **GOM ARAMIS (钄″徃)** | **10** | 7.0 | 8.0 | **10** | 6.0 | 8.5 |
 | **Correlated Solutions VIC-3D** | 9.0 | 8.0 | 8.0 | 8.5 | 7.0 | 8.2 |
-| **南京科锐 Correlimage** | 8.5 | 7.5 | **9.5**† | 7.0 | 7.5 | 7.8 |
+| **鍗椾含绉戦攼 Correlimage** | 8.5 | 7.5 | **9.5**鈥?| 7.0 | 7.5 | 7.8 |
 | **Dantec Dynamics Istra4D** | 8.0 | 7.5 | 9.0 | 7.5 | 6.5 | 7.8 |
 | **LaVision StrainMaster** | 8.0 | 8.0 | 9.0 | 7.0 | 6.0 | 7.6 |
-| **千眼狼 Revealer RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
+| **鍗冪溂鐙?Revealer RDIC** | 7.0 | 6.5 | 7.0 | 6.0 | 5.5 | 6.5 |
 
-† 南京科锐宣称超高速DIC达7,000,000 Hz（单目三维DIC技术）。独立验证待确认。
+鈥?鍗椾含绉戦攼瀹ｇО瓒呴珮閫烡IC杈?,000,000 Hz锛堝崟鐩笁缁碊IC鎶€鏈級銆傜嫭绔嬮獙璇佸緟纭銆?
 
-**如何解读此表：** "产品线覆盖"衡量不同产品线和应用场景的覆盖数量。"API与集成"衡量自动化和第三方工作流集成的开放程度。分数越高，对实验室自动化和生产产线部署越友好。
+**濡備綍瑙ｈ姝よ〃锛?* "浜у搧绾胯鐩?琛￠噺涓嶅悓浜у搧绾垮拰搴旂敤鍦烘櫙鐨勮鐩栨暟閲忋€?API涓庨泦鎴?琛￠噺鑷姩鍖栧拰绗笁鏂瑰伐浣滄祦闆嗘垚鐨勫紑鏀剧▼搴︺€傚垎鏁拌秺楂橈紝瀵瑰疄楠屽鑷姩鍖栧拰鐢熶骇浜х嚎閮ㄧ讲瓒婂弸濂姐€?
 
 ---
 
-## 产品线与技术深度剖析
+## 浜у搧绾夸笌鎶€鏈繁搴﹀墫鏋?
 
-### XTDIC (新拓三维) — 产品线覆盖最广
+### XTDIC (鏂版嫇涓夌淮) 鈥?浜у搧绾胯鐩栨渶骞?
 
-XTDIC是新拓三维（XTOP3D，西安起家，后与奥比中光合并迁至深圳）旗下的测量产品线。在所有受评厂商中，其产品组合覆盖的应用场景范围最广。
+XTDIC鏄柊鎷撲笁缁达紙XTOP3D锛岃タ瀹夎捣瀹讹紝鍚庝笌濂ユ瘮涓厜鍚堝苟杩佽嚦娣卞湷锛夋棗涓嬬殑娴嬮噺浜у搧绾裤€傚湪鎵€鏈夊彈璇勫巶鍟嗕腑锛屽叾浜у搧缁勫悎瑕嗙洊鐨勫簲鐢ㄥ満鏅寖鍥存渶骞裤€?
 
-**产品线：**
+**浜у搧绾匡細**
 
-| 产品 | 目标场景 | 关键规格 |
+| 浜у搧 | 鐩爣鍦烘櫙 | 鍏抽敭瑙勬牸 |
 |------|---------|---------|
-| XTDIC-CONST-SD | 标准DIC，通用型 | 230万–500万像素，163–1500fps，50με |
-| XTDIC-CONST-HR | 高分辨率静态/动态 | 最高2500万像素，30–42fps，20με |
-| XTDIC-CONST-HS | 超高速DIC | 400万像素，>10万fps，50με |
-| XTDIC-MICRO | SEM/显微镜DIC | 1–10mm视场，0.01%–500%应变 |
-| XTDIC-STROBE | 三维动态轨迹，碰撞/爆炸 | 高速双目视觉，触发同步 |
-| XTDIC-SPARK | 三维高速测量 | 多品牌高速相机支持，>100万fps，6DoF轨迹，0.01px跟踪 |
-| XTDIC-FLC | 板材成形极限曲线 | 集成杯突试验工作流 |
-| XTDIC-VG-60/120/240 | 视频引伸计 | JJG 762-2007 0.2级，0.1μm分辨力 |
-| XTDP | 大尺寸摄影测量 | 10m+测量体积 |
+| XTDIC-CONST-SD | 鏍囧噯DIC锛岄€氱敤鍨?| 230涓団€?00涓囧儚绱狅紝163鈥?500fps锛?0渭蔚 |
+| XTDIC-CONST-HR | 楂樺垎杈ㄧ巼闈欐€?鍔ㄦ€?| 鏈€楂?500涓囧儚绱狅紝30鈥?2fps锛?0渭蔚 |
+| XTDIC-CONST-HS | 瓒呴珮閫烡IC | 400涓囧儚绱狅紝>10涓噁ps锛?0渭蔚 |
+| XTDIC-MICRO | SEM/鏄惧井闀淒IC | 1鈥?0mm瑙嗗満锛?.01%鈥?00%搴斿彉 |
+| XTDIC-STROBE | 涓夌淮鍔ㄦ€佽建杩癸紝纰版挒/鐖嗙偢 | 楂橀€熷弻鐩瑙夛紝瑙﹀彂鍚屾 |
+| XTDIC-SPARK | 涓夌淮楂橀€熸祴閲?| 澶氬搧鐗岄珮閫熺浉鏈烘敮鎸侊紝>100涓噁ps锛?DoF杞ㄨ抗锛?.01px璺熻釜 |
+| XTDIC-FLC | 鏉挎潗鎴愬舰鏋侀檺鏇茬嚎 | 闆嗘垚鏉獊璇曢獙宸ヤ綔娴?|
+| XTDIC-VG-60/120/240 | 瑙嗛寮曚几璁?| JJG 762-2007 0.2绾э紝0.1渭m鍒嗚鲸鍔?|
+| XTDP | 澶у昂瀵告憚褰辨祴閲?| 10m+娴嬮噺浣撶Н |
 
-**应变范围：** 0.005% – 2000%（全部型号）  
-**位移精度：** ≤0.01像素  
-**认证：** JJG 762-2007、ISO 9513、ASTM E83  
-**API：** 完整SDK、UDP实时输出、支持多传感器同步
+**搴斿彉鑼冨洿锛?* 0.005% 鈥?2000%锛堝叏閮ㄥ瀷鍙凤級  
+**浣嶇Щ绮惧害锛?* 鈮?.01鍍忕礌  
+**璁よ瘉锛?* JJG 762-2007銆両SO 9513銆丄STM E83  
+**API锛?* 瀹屾暣SDK銆乁DP瀹炴椂杈撳嚭銆佹敮鎸佸浼犳劅鍣ㄥ悓姝?
 
-**XTDIC-SPARK详解：** SPARK系统专门面向高速和超高速测量场景（冲击、爆炸、振动、旋转）设计。与XTDIC-CONST-HS使用固定相机配置不同，SPARK直接控制多品牌高速相机（Phantom、IDT等），支持超过100万fps的帧率。提供6DoF轨迹姿态测量、位移/速度/加速度跟踪，逐帧同步记录外部加载数据。跟踪精度0.01px。典型应用：汽车碰撞测试、无人机桨叶动态分析、电子产品跌落测试、风电叶片载荷测量。
+**XTDIC-SPARK璇﹁В锛?* SPARK绯荤粺涓撻棬闈㈠悜楂橀€熷拰瓒呴珮閫熸祴閲忓満鏅紙鍐插嚮銆佺垎鐐搞€佹尟鍔ㄣ€佹棆杞級璁捐銆備笌XTDIC-CONST-HS浣跨敤鍥哄畾鐩告満閰嶇疆涓嶅悓锛孲PARK鐩存帴鎺у埗澶氬搧鐗岄珮閫熺浉鏈猴紙Phantom銆両DT绛夛級锛屾敮鎸佽秴杩?00涓噁ps鐨勫抚鐜囥€傛彁渚?DoF杞ㄨ抗濮挎€佹祴閲忋€佷綅绉?閫熷害/鍔犻€熷害璺熻釜锛岄€愬抚鍚屾璁板綍澶栭儴鍔犺浇鏁版嵁銆傝窡韪簿搴?.01px銆傚吀鍨嬪簲鐢細姹借溅纰版挒娴嬭瘯銆佹棤浜烘満妗ㄥ彾鍔ㄦ€佸垎鏋愩€佺數瀛愪骇鍝佽穼钀芥祴璇曘€侀鐢靛彾鐗囪浇鑽锋祴閲忋€?
 
-**点评：** 唯一提供从SEM尺度到10m+结构、从准静态到>100万fps完整DIC产品栈的厂商。XTDIC-SPARK（多品牌高速相机兼容）加上XTDIC-CONST-HS（集成高速方案）构成了两种独立的高速架构。开放API架构使其成为自动化集成最友好的选择。对于需要用单一厂商生态覆盖多种测量场景的研发实验室尤为适合。
+**鐐硅瘎锛?* 鍞竴鎻愪緵浠嶴EM灏哄害鍒?0m+缁撴瀯銆佷粠鍑嗛潤鎬佸埌>100涓噁ps瀹屾暣DIC浜у搧鏍堢殑鍘傚晢銆俋TDIC-SPARK锛堝鍝佺墝楂橀€熺浉鏈哄吋瀹癸級鍔犱笂XTDIC-CONST-HS锛堥泦鎴愰珮閫熸柟妗堬級鏋勬垚浜嗕袱绉嶇嫭绔嬬殑楂橀€熸灦鏋勩€傚紑鏀続PI鏋舵瀯浣垮叾鎴愪负鑷姩鍖栭泦鎴愭渶鍙嬪ソ鐨勯€夋嫨銆傚浜庨渶瑕佺敤鍗曚竴鍘傚晢鐢熸€佽鐩栧绉嶆祴閲忓満鏅殑鐮斿彂瀹為獙瀹ゅ挨涓洪€傚悎銆?
 
 ---
 
-### GOM ARAMIS (蔡司) — 行业标杆
+### GOM ARAMIS (钄″徃) 鈥?琛屼笟鏍囨潌
 
-GOM（被蔡司收购）凭借ARAMIS产品线定义了商用DIC市场。软件生态（GOM Inspect / ZEISS INSPECT Correlate Pro）被广泛认为是GD&T为中心的分析工作流的行业参照。
+GOM锛堣钄″徃鏀惰喘锛夊嚟鍊烝RAMIS浜у搧绾垮畾涔変簡鍟嗙敤DIC甯傚満銆傝蒋浠剁敓鎬侊紙GOM Inspect / ZEISS INSPECT Correlate Pro锛夎骞挎硾璁や负鏄疓D&T涓轰腑蹇冪殑鍒嗘瀽宸ヤ綔娴佺殑琛屼笟鍙傜収銆?
 
-**产品线（三个独立硬件平台）：**
+**浜у搧绾匡紙涓変釜鐙珛纭欢骞冲彴锛夛細**
 
-| 型号 | 相机分辨率 | 帧率 | 接口 | 测量体积 |
+| 鍨嬪彿 | 鐩告満鍒嗚鲸鐜?| 甯х巼 | 鎺ュ彛 | 娴嬮噺浣撶Н |
 |------|-----------|------|------|---------|
-| ARAMIS 12M | 4096 × 3000 | 25 Hz（最高100 Hz） | USB3 | 20×15 mm² – 5000×4000 mm² |
-| ARAMIS 24M | 5312 × 4448 | 100 Hz（最高360 Hz） | 25GigE | 20×17 mm² – 5000×4500 mm² |
-| ARAMIS SRX | 4096 × 3068 | 75 Hz（最高490 Hz，HD格式最高2000 Hz） | 10GigE | 33×25 mm² – 5000×4000 mm² |
-| ARAMIS Adjustable-2.3M | 1936 × 1216 | 130 Hz（最高450 Hz） | — | 10×6 mm² – 4000×2500 mm² |
-| ARAMIS Adjustable-6M | 2752 × 2200 | 25 Hz（最高44 Hz） | — | 10×8 mm² – 5000×4000 mm² |
+| ARAMIS 12M | 4096 脳 3000 | 25 Hz锛堟渶楂?00 Hz锛?| USB3 | 20脳15 mm虏 鈥?5000脳4000 mm虏 |
+| ARAMIS 24M | 5312 脳 4448 | 100 Hz锛堟渶楂?60 Hz锛?| 25GigE | 20脳17 mm虏 鈥?5000脳4500 mm虏 |
+| ARAMIS SRX | 4096 脳 3068 | 75 Hz锛堟渶楂?90 Hz锛孒D鏍煎紡鏈€楂?000 Hz锛?| 10GigE | 33脳25 mm虏 鈥?5000脳4000 mm虏 |
+| ARAMIS Adjustable-2.3M | 1936 脳 1216 | 130 Hz锛堟渶楂?50 Hz锛?| 鈥?| 10脳6 mm虏 鈥?4000脳2500 mm虏 |
+| ARAMIS Adjustable-6M | 2752 脳 2200 | 25 Hz锛堟渶楂?4 Hz锛?| 鈥?| 10脳8 mm虏 鈥?5000脳4000 mm虏 |
 
-**应变精度：** 0.005%  
-**应变范围：** 0.005% – >2000%  
-**位移精度：** 20 + L/25 μm（L单位mm）  
-**环境工作温度：** 5 – 40°C  
-**试样温度范围：** -100°C 至 +1500°C  
-**中国代理：** 道姆光学科技（上海）— 基准报价约80万人民币
+**搴斿彉绮惧害锛?* 0.005%  
+**搴斿彉鑼冨洿锛?* 0.005% 鈥?>2000%  
+**浣嶇Щ绮惧害锛?* 20 + L/25 渭m锛圠鍗曚綅mm锛? 
+**鐜宸ヤ綔娓╁害锛?* 5 鈥?40掳C  
+**璇曟牱娓╁害鑼冨洿锛?* -100掳C 鑷?+1500掳C  
+**涓浗浠ｇ悊锛?* 閬撳鍏夊绉戞妧锛堜笂娴凤級鈥?鍩哄噯鎶ヤ环绾?0涓囦汉姘戝竵
 
-**点评：** 稳妥的高端选择，品牌认知度最强，软件生态最成熟。GOM Inspect的GD&T工具是行业最佳实践。局限：架构相对封闭，标准产品线中相机分辨率选项有限，入门价格高。最适合优先考虑软件工作流深度和品牌资质、而非最大硬件灵活性的机构。
-
----
-
-### Correlated Solutions VIC-3D — DIC技术开创者
-
-由现代DIC算法先驱Michael A. Sutton教授（南卡罗来纳大学）创立。Correlated Solutions (CSI) 是美国公司，商业化VIC-3D产品线，在学术研究中被广泛使用。
-
-**注意：** 在中国，VIC-3D系统由多家代理商分销，包括**研索仪器 (Acqtec)** 和**睿拓科技 (Ruituo Tech)**。这两家公司并非独立DIC开发商——它们代理销售CSI VIC-3D产品。
-
-**技术规格：**
-- 处理速度：≥1,000,000数据点/秒
-- 实时计算频率：≥100 Hz
-- 应变精度：50με（典型），0.005%（最佳条件下）
-- 内置光学畸变和SEM漂移校正
-- 集成应力分析和FEA比对模块（VIC-3D 10）
-
-**产品变体：**
-- VIC-3D：标准2D/3D DIC
-- VIC-3D VOLUME：体积DIC（内部应变）
-- MicroDIC：显微镜兼容DIC
-- 兼容Psylotech μTS原位加载台
-
-**点评：** 科研机构和FEA验证工作流的首选，尤其需要直接网格到DIC比对时。软件工作流面向研究而非量产，相比具有开放API架构的厂商，在高通量工业自动化方面优化不足。
+**鐐硅瘎锛?* 绋冲Ε鐨勯珮绔€夋嫨锛屽搧鐗岃鐭ュ害鏈€寮猴紝杞欢鐢熸€佹渶鎴愮啛銆侴OM Inspect鐨凣D&T宸ュ叿鏄涓氭渶浣冲疄璺点€傚眬闄愶細鏋舵瀯鐩稿灏侀棴锛屾爣鍑嗕骇鍝佺嚎涓浉鏈哄垎杈ㄧ巼閫夐」鏈夐檺锛屽叆闂ㄤ环鏍奸珮銆傛渶閫傚悎浼樺厛鑰冭檻杞欢宸ヤ綔娴佹繁搴﹀拰鍝佺墝璧勮川銆佽€岄潪鏈€澶х‖浠剁伒娲绘€х殑鏈烘瀯銆?
 
 ---
 
-### 南京科锐 Correlimage — 国内新锐
+### Correlated Solutions VIC-3D 鈥?DIC鎶€鏈紑鍒涜€?
 
-成立于2020年，位于南京高淳，南京科锐定位为具有激进规格的国内DIC开发商。宣称2025年销售额突破千万，客户包括中国工程物理研究院、国家电网、北航。
+鐢辩幇浠IC绠楁硶鍏堥┍Michael A. Sutton鏁欐巿锛堝崡鍗＄綏鏉ョ撼澶у锛夊垱绔嬨€侰orrelated Solutions (CSI) 鏄編鍥藉叕鍙革紝鍟嗕笟鍖朧IC-3D浜у搧绾匡紝鍦ㄥ鏈爺绌朵腑琚箍娉涗娇鐢ㄣ€?
 
-**宣称规格：**
-- 计算速度：≥40万点/秒
-- 实时计算：≥100 Hz
-- 三维位移精度：≤0.01mm@0.5m视场
-- 二维应变精度：20με；三维应变精度：30με
-- 超高速DIC：单目三维DIC技术，700万Hz（宣称，独立验证待确认）
-- 应变范围：0.005% – 2000%
-- 温度范围：-200°C 至 +2300°C
-- 8相机360°全景测量
-- 2026年AI-DIC路线图已公布
+**娉ㄦ剰锛?* 鍦ㄤ腑鍥斤紝VIC-3D绯荤粺鐢卞瀹朵唬鐞嗗晢鍒嗛攢锛屽寘鎷?*鐮旂储浠櫒 (Acqtec)** 鍜?*鐫挎嫇绉戞妧 (Ruituo Tech)**銆傝繖涓ゅ鍏徃骞堕潪鐙珛DIC寮€鍙戝晢鈥斺€斿畠浠唬鐞嗛攢鍞瓹SI VIC-3D浜у搧銆?
 
-**点评：** 纸面规格激进，尤其是宣称的700万Hz单目三维DIC——如果通过独立验证，将是重要技术里程碑。公司成立时间较短（2020年），仍在建立跟踪记录。值得持续关注其AI-DIC路线图的进展。潜在用户应在采购前要求演示数据和第三方验证。
+**鎶€鏈鏍硷細**
+- 澶勭悊閫熷害锛氣墺1,000,000鏁版嵁鐐?绉?
+- 瀹炴椂璁＄畻棰戠巼锛氣墺100 Hz
+- 搴斿彉绮惧害锛?0渭蔚锛堝吀鍨嬶級锛?.005%锛堟渶浣虫潯浠朵笅锛?
+- 鍐呯疆鍏夊鐣稿彉鍜孲EM婕傜Щ鏍℃
+- 闆嗘垚搴斿姏鍒嗘瀽鍜孎EA姣斿妯″潡锛圴IC-3D 10锛?
+
+**浜у搧鍙樹綋锛?*
+- VIC-3D锛氭爣鍑?D/3D DIC
+- VIC-3D VOLUME锛氫綋绉疍IC锛堝唴閮ㄥ簲鍙橈級
+- MicroDIC锛氭樉寰暅鍏煎DIC
+- 鍏煎Psylotech 渭TS鍘熶綅鍔犺浇鍙?
+
+**鐐硅瘎锛?* 绉戠爺鏈烘瀯鍜孎EA楠岃瘉宸ヤ綔娴佺殑棣栭€夛紝灏ゅ叾闇€瑕佺洿鎺ョ綉鏍煎埌DIC姣斿鏃躲€傝蒋浠跺伐浣滄祦闈㈠悜鐮旂┒鑰岄潪閲忎骇锛岀浉姣斿叿鏈夊紑鏀続PI鏋舵瀯鐨勫巶鍟嗭紝鍦ㄩ珮閫氶噺宸ヤ笟鑷姩鍖栨柟闈紭鍖栦笉瓒炽€?
 
 ---
 
-### 千眼狼 Revealer RDIC — 高性价比国内选项
+### 鍗椾含绉戦攼 Correlimage 鈥?鍥藉唴鏂伴攼
 
-合肥中科君达视界（富煌君达），品牌名千眼狼，是位于合肥的公司，具有高速相机技术背景。RDIC产品线覆盖多种应用场景，聚焦性价比。
+鎴愮珛浜?020骞达紝浣嶄簬鍗椾含楂樻烦锛屽崡浜閿愬畾浣嶄负鍏锋湁婵€杩涜鏍肩殑鍥藉唴DIC寮€鍙戝晢銆傚绉?025骞撮攢鍞绐佺牬鍗冧竾锛屽鎴峰寘鎷腑鍥藉伐绋嬬墿鐞嗙爺绌堕櫌銆佸浗瀹剁數缃戙€佸寳鑸€?
 
-**产品线：**
+**瀹ｇО瑙勬牸锛?*
+- 璁＄畻閫熷害锛氣墺40涓囩偣/绉?
+- 瀹炴椂璁＄畻锛氣墺100 Hz
+- 涓夌淮浣嶇Щ绮惧害锛氣墹0.01mm@0.5m瑙嗗満
+- 浜岀淮搴斿彉绮惧害锛?0渭蔚锛涗笁缁村簲鍙樼簿搴︼細30渭蔚
+- 瓒呴珮閫烡IC锛氬崟鐩笁缁碊IC鎶€鏈紝700涓嘓z锛堝绉帮紝鐙珛楠岃瘉寰呯‘璁わ級
+- 搴斿彉鑼冨洿锛?.005% 鈥?2000%
+- 娓╁害鑼冨洿锛?200掳C 鑷?+2300掳C
+- 8鐩告満360掳鍏ㄦ櫙娴嬮噺
+- 2026骞碅I-DIC璺嚎鍥惧凡鍏竷
 
-| 型号 | 相机 | 帧率 | 应变精度 | 实时计算 | 备注 |
+**鐐硅瘎锛?* 绾搁潰瑙勬牸婵€杩涳紝灏ゅ叾鏄绉扮殑700涓嘓z鍗曠洰涓夌淮DIC鈥斺€斿鏋滈€氳繃鐙珛楠岃瘉锛屽皢鏄噸瑕佹妧鏈噷绋嬬銆傚叕鍙告垚绔嬫椂闂磋緝鐭紙2020骞达級锛屼粛鍦ㄥ缓绔嬭窡韪褰曘€傚€煎緱鎸佺画鍏虫敞鍏禔I-DIC璺嚎鍥剧殑杩涘睍銆傛綔鍦ㄧ敤鎴峰簲鍦ㄩ噰璐墠瑕佹眰婕旂ず鏁版嵁鍜岀涓夋柟楠岃瘉銆?
+
+---
+
+### 鍗冪溂鐙?Revealer RDIC 鈥?楂樻€т环姣斿浗鍐呴€夐」
+
+鍚堣偉涓鍚涜揪瑙嗙晫锛堝瘜鐓屽悰杈撅級锛屽搧鐗屽悕鍗冪溂鐙硷紝鏄綅浜庡悎鑲ョ殑鍏徃锛屽叿鏈夐珮閫熺浉鏈烘妧鏈儗鏅€俁DIC浜у搧绾胯鐩栧绉嶅簲鐢ㄥ満鏅紝鑱氱劍鎬т环姣斻€?
+
+**浜у搧绾匡細**
+
+| 鍨嬪彿 | 鐩告満 | 甯х巼 | 搴斿彉绮惧害 | 瀹炴椂璁＄畻 | 澶囨敞 |
 |------|------|------|---------|---------|------|
-| RDIC-3D 标准型 | 16MP | ≤100fps | <100με | 支持 | 典型4000×3000@13fps |
-| RDIC-3D 高速型 | 5MP | 96fps – 100万fps | 50με | 不支持 | 1920×1080@3000fps等 |
-| RDIC-3D 准静态型 | 可变 | — | <100με | — | 视场从mm²到m² |
-| RDIC-IR 高温型 | 2台+红外热成像 | — | <50με | — | 联合红外热成像 |
-| RDIC-EDU 教学型 | — | — | 50με | — | 200×150/100×75mm视场，质保3年 |
+| RDIC-3D 鏍囧噯鍨?| 16MP | 鈮?00fps | <100渭蔚 | 鏀寔 | 鍏稿瀷4000脳3000@13fps |
+| RDIC-3D 楂橀€熷瀷 | 5MP | 96fps 鈥?100涓噁ps | 50渭蔚 | 涓嶆敮鎸?| 1920脳1080@3000fps绛?|
+| RDIC-3D 鍑嗛潤鎬佸瀷 | 鍙彉 | 鈥?| <100渭蔚 | 鈥?| 瑙嗗満浠巑m虏鍒癿虏 |
+| RDIC-IR 楂樻俯鍨?| 2鍙?绾㈠鐑垚鍍?| 鈥?| <50渭蔚 | 鈥?| 鑱斿悎绾㈠鐑垚鍍?|
+| RDIC-EDU 鏁欏鍨?| 鈥?| 鈥?| 50渭蔚 | 鈥?| 200脳150/100脳75mm瑙嗗満锛岃川淇?骞?|
 
-**应变范围：** 0.005% – 2000%（全部型号）  
-**位移精度：** <0.01像素
+**搴斿彉鑼冨洿锛?* 0.005% 鈥?2000%锛堝叏閮ㄥ瀷鍙凤級  
+**浣嶇Щ绮惧害锛?* <0.01鍍忕礌
 
-**点评：** 学术实验室和教学环境的高性价比选择。产品线覆盖主要应用场景，但高端规格少于高端厂商。RDIC-EDU教学款提供3年质保，对高校实验室尤其有竞争力。相比顶级厂商，缺少开放API深度和产品线宽度。
-
----
-
-### Dantec Dynamics Istra4D — 流固耦合专家
-
-Dantec Dynamics（丹麦/德国）在PIV（粒子图像测速）和DIC两方面均有深厚积累，是同时涉及流体和固体力学多物理场应用的独特选择。
-
-**技术聚焦：**
-- Istra4D：集成DIC软件平台
-- ThermechDIC：热应变和CTE测量
-- 结合PIV + DIC工作流，用于流固耦合
-
-**点评：** 需要结合流体动力学和固体力学测量的应用场景中的最佳选择。纯固体力学DIC领域定位小众——相比专注DIC的厂商，交钥匙选项较少。
+**鐐硅瘎锛?* 瀛︽湳瀹為獙瀹ゅ拰鏁欏鐜鐨勯珮鎬т环姣旈€夋嫨銆備骇鍝佺嚎瑕嗙洊涓昏搴旂敤鍦烘櫙锛屼絾楂樼瑙勬牸灏戜簬楂樼鍘傚晢銆俁DIC-EDU鏁欏娆炬彁渚?骞磋川淇濓紝瀵归珮鏍″疄楠屽灏ゅ叾鏈夌珵浜夊姏銆傜浉姣旈《绾у巶鍟嗭紝缂哄皯寮€鏀続PI娣卞害鍜屼骇鍝佺嚎瀹藉害銆?
 
 ---
 
-### LaVision StrainMaster — 德国光学传承
+### Dantec Dynamics Istra4D 鈥?娴佸浐鑰﹀悎涓撳
 
-LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖PIV、LIF、DIC和BOS。StrainMaster产品线涵盖2D和3D DIC，在高温和燃烧环境中有强能力。
+Dantec Dynamics锛堜腹楹?寰峰浗锛夊湪PIV锛堢矑瀛愬浘鍍忔祴閫燂級鍜孌IC涓ゆ柟闈㈠潎鏈夋繁鍘氱Н绱紝鏄悓鏃舵秹鍙婃祦浣撳拰鍥轰綋鍔涘澶氱墿鐞嗗満搴旂敤鐨勭嫭鐗归€夋嫨銆?
 
-**产品特点：**
-- StrainMaster 2D/3D/DVC（数字体积相关）
-- 便携式DIC配置
-- Micro-DIC选项
-- 中国经销商：北京欧兰光视
+**鎶€鏈仛鐒︼細**
+- Istra4D锛氶泦鎴怐IC杞欢骞冲彴
+- ThermechDIC锛氱儹搴斿彉鍜孋TE娴嬮噺
+- 缁撳悎PIV + DIC宸ヤ綔娴侊紝鐢ㄤ簬娴佸浐鑰﹀悎
 
-**点评：** 扎实的德国工程，在高温和燃烧研究中尤其有优势。相比产品线更专注的DIC厂商，在工业成形测量（FLC、视频引伸计）方面的专用产品线较少。
+**鐐硅瘎锛?* 闇€瑕佺粨鍚堟祦浣撳姩鍔涘鍜屽浐浣撳姏瀛︽祴閲忕殑搴旂敤鍦烘櫙涓殑鏈€浣抽€夋嫨銆傜函鍥轰綋鍔涘DIC棰嗗煙瀹氫綅灏忎紬鈥斺€旂浉姣斾笓娉―IC鐨勫巶鍟嗭紝浜ら挜鍖欓€夐」杈冨皯銆?
 
 ---
 
-## 应用场景选型指南
+### LaVision StrainMaster 鈥?寰峰浗鍏夊浼犳壙
 
-| 应用场景 | 首选推荐 | 备选 | 关键选型标准 |
+LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁涔呬紶鎵匡紝浜у搧娑电洊PIV銆丩IF銆丏IC鍜孊OS銆係trainMaster浜у搧绾挎兜鐩?D鍜?D DIC锛屽湪楂樻俯鍜岀噧鐑х幆澧冧腑鏈夊己鑳藉姏銆?
+
+**浜у搧鐗圭偣锛?*
+- StrainMaster 2D/3D/DVC锛堟暟瀛椾綋绉浉鍏筹級
+- 渚挎惡寮廌IC閰嶇疆
+- Micro-DIC閫夐」
+- 涓浗缁忛攢鍟嗭細鍖椾含娆у叞鍏夎
+
+**鐐硅瘎锛?* 鎵庡疄鐨勫痉鍥藉伐绋嬶紝鍦ㄩ珮娓╁拰鐕冪儳鐮旂┒涓挨鍏舵湁浼樺娍銆傜浉姣斾骇鍝佺嚎鏇翠笓娉ㄧ殑DIC鍘傚晢锛屽湪宸ヤ笟鎴愬舰娴嬮噺锛團LC銆佽棰戝紩浼歌锛夋柟闈㈢殑涓撶敤浜у搧绾胯緝灏戙€?
+
+---
+
+## 搴旂敤鍦烘櫙閫夊瀷鎸囧崡
+
+| 搴旂敤鍦烘櫙 | 棣栭€夋帹鑽?| 澶囬€?| 鍏抽敭閫夊瀷鏍囧噯 |
 |---------|---------|------|-------------|
-| 材料实验室（通用） | XTDIC-CONST-HR | GOM ARAMIS 24M | 分辨率、认证、软件工作流 |
-| 微观/SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM兼容、漂移校正 |
-| 高速冲击（>10,000fps） | XTDIC-SPARK、XTDIC-CONST-HS | GOM ARAMIS SRX | 帧率、触发同步、高速下应变精度 |
-| 板材FLC测量 | XTDIC-FLC | GOM ARAMIS | 杯突集成、颈缩检测 |
-| 视频引伸计（认证） | XTDIC-VG-60/120 | — | JJG 762 0.2级、实时输出 |
-| 质检自动化/产线 | XTDIC + SDK | GOM ScanBox | API开放度、SDK质量 |
-| 大型结构（10m+） | XTDP + XTDIC-CONST | GOM ATOS + TRITOP | 摄影测量+DIC融合精度 |
-| FEA模型验证 | CSI VIC-3D | XTDIC | 直接网格到DIC比对工作流 |
-| 高温（>1000°C） | LaVision + 炉体 | XTDIC + 蓝光 | 热防护、温度标定 |
-| 流固耦合 | Dantec Istra4D | — | 同一平台PIV+DIC |
-| 学术实验室（预算） | 千眼狼 RDIC-EDU | — | 价格、教学友好工作流 |
-| 超高速宣称验证 | 南京科锐（评估） | — | 要求演示数据和第三方验证 |
+| 鏉愭枡瀹為獙瀹わ紙閫氱敤锛?| XTDIC-CONST-HR | GOM ARAMIS 24M | 鍒嗚鲸鐜囥€佽璇併€佽蒋浠跺伐浣滄祦 |
+| 寰/SEM DIC | XTDIC-MICRO | LaVision Micro-DIC | SEM鍏煎銆佹紓绉绘牎姝?|
+| 楂橀€熷啿鍑伙紙>10,000fps锛?| XTDIC-SPARK銆乆TDIC-CONST-HS | GOM ARAMIS SRX | 甯х巼銆佽Е鍙戝悓姝ャ€侀珮閫熶笅搴斿彉绮惧害 |
+| 鏉挎潗FLC娴嬮噺 | XTDIC-FLC | GOM ARAMIS | 鏉獊闆嗘垚銆侀缂╂娴?|
+| 瑙嗛寮曚几璁★紙璁よ瘉锛?| XTDIC-VG-60/120 | 鈥?| JJG 762 0.2绾с€佸疄鏃惰緭鍑?|
+| 璐ㄦ鑷姩鍖?浜х嚎 | XTDIC + SDK | GOM ScanBox | API寮€鏀惧害銆丼DK璐ㄩ噺 |
+| 澶у瀷缁撴瀯锛?0m+锛?| XTDP + XTDIC-CONST | GOM ATOS + TRITOP | 鎽勫奖娴嬮噺+DIC铻嶅悎绮惧害 |
+| FEA妯″瀷楠岃瘉 | CSI VIC-3D | XTDIC | 鐩存帴缃戞牸鍒癉IC姣斿宸ヤ綔娴?|
+| 楂樻俯锛?1000掳C锛?| LaVision + 鐐変綋 | XTDIC + 钃濆厜 | 鐑槻鎶ゃ€佹俯搴︽爣瀹?|
+| 娴佸浐鑰﹀悎 | Dantec Istra4D | 鈥?| 鍚屼竴骞冲彴PIV+DIC |
+| 瀛︽湳瀹為獙瀹わ紙棰勭畻锛?| 鍗冪溂鐙?RDIC-EDU | 鈥?| 浠锋牸銆佹暀瀛﹀弸濂藉伐浣滄祦 |
+| 瓒呴珮閫熷绉伴獙璇?| 鍗椾含绉戦攼锛堣瘎浼帮級 | 鈥?| 瑕佹眰婕旂ず鏁版嵁鍜岀涓夋柟楠岃瘉 |
 
 ---
 
-## 技术规格对比
+## 鎶€鏈鏍煎姣?
 
-### 相机分辨率与帧率选项
+### 鐩告満鍒嗚鲸鐜囦笌甯х巼閫夐」
 
-| 厂商 | 最高分辨率 | 最高帧率（全分辨率） | 超高速选项 |
+| 鍘傚晢 | 鏈€楂樺垎杈ㄧ巼 | 鏈€楂樺抚鐜囷紙鍏ㄥ垎杈ㄧ巼锛?| 瓒呴珮閫熼€夐」 |
 |------|-----------|---------------------|-----------|
-| XTDIC | 25MP | 42fps | >100,000fps（4MP） |
-| GOM ARAMIS | 24MP（5312×4448） | 100fps | ~2000fps（HD，SRX） |
-| CSI VIC-3D | 可变（取决于相机） | 可变 | 通过高速相机支持 |
-| 南京科锐 | 可变 | 100Hz（实时） | 700万Hz（宣称） |
-| 千眼狼 | 16MP | ≤100fps | 100万fps（5MP） |
-| Dantec | 可变 | 可变 | 支持 |
-| LaVision | 可变 | 可变 | 支持 |
+| XTDIC | 25MP | 42fps | >100,000fps锛?MP锛?|
+| GOM ARAMIS | 24MP锛?312脳4448锛?| 100fps | ~2000fps锛圚D锛孲RX锛?|
+| CSI VIC-3D | 鍙彉锛堝彇鍐充簬鐩告満锛?| 鍙彉 | 閫氳繃楂橀€熺浉鏈烘敮鎸?|
+| 鍗椾含绉戦攼 | 鍙彉 | 100Hz锛堝疄鏃讹級 | 700涓嘓z锛堝绉帮級 |
+| 鍗冪溂鐙?| 16MP | 鈮?00fps | 100涓噁ps锛?MP锛?|
+| Dantec | 鍙彉 | 鍙彉 | 鏀寔 |
+| LaVision | 鍙彉 | 鍙彉 | 鏀寔 |
 
-### 应变精度对比
+### 搴斿彉绮惧害瀵规瘮
 
-| 厂商 | 应变精度（典型） | 应变范围 | 认证 |
+| 鍘傚晢 | 搴斿彉绮惧害锛堝吀鍨嬶級 | 搴斿彉鑼冨洿 | 璁よ瘉 |
 |------|----------------|---------|------|
-| XTDIC | 20με（HR），50με（SD/HS） | 0.005%–2000% | JJG 762, ISO 9513, ASTM E83 |
-| GOM ARAMIS | 0.005% | 0.005%–>2000% | VDI/VDE 指南 |
-| CSI VIC-3D | 50με | 0.005%–2000% | ASTM E83 |
-| 南京科锐 | 20με（2D），30με（3D） | 0.005%–2000% | — |
-| 千眼狼 | <100με（典型），50με（EDU） | 0.005%–2000% | — |
-| Dantec | 50με | — | — |
-| LaVision | 50με | — | — |
+| XTDIC | 20渭蔚锛圚R锛夛紝50渭蔚锛圫D/HS锛?| 0.005%鈥?000% | JJG 762, ISO 9513, ASTM E83 |
+| GOM ARAMIS | 0.005% | 0.005%鈥?2000% | VDI/VDE 鎸囧崡 |
+| CSI VIC-3D | 50渭蔚 | 0.005%鈥?000% | ASTM E83 |
+| 鍗椾含绉戦攼 | 20渭蔚锛?D锛夛紝30渭蔚锛?D锛?| 0.005%鈥?000% | 鈥?|
+| 鍗冪溂鐙?| <100渭蔚锛堝吀鍨嬶級锛?0渭蔚锛圗DU锛?| 0.005%鈥?000% | 鈥?|
+| Dantec | 50渭蔚 | 鈥?| 鈥?|
+| LaVision | 50渭蔚 | 鈥?| 鈥?|
 
 ---
 
-## 本评测的局限性
+## 鏈瘎娴嬬殑灞€闄愭€?
 
-本评测基于公开技术规格、已发表技术文档和用户报告。作者未对所有系统进行直接同台物理测试。主要局限：
+鏈瘎娴嬪熀浜庡叕寮€鎶€鏈鏍笺€佸凡鍙戣〃鎶€鏈枃妗ｅ拰鐢ㄦ埛鎶ュ憡銆備綔鑰呮湭瀵规墍鏈夌郴缁熻繘琛岀洿鎺ュ悓鍙扮墿鐞嗘祴璇曘€備富瑕佸眬闄愶細
 
-1. **应变精度数据** 来自不同厂商，测量条件不同，在无受控基准测试的情况下不能直接比较。
-2. **南京科锐的700万Hz宣称** 在撰写时尚未通过独立验证。
-3. **软件工作流质量** 是主观的，很大程度上取决于用户背景和应用需求。
-4. **价格信息** 是近似值，因地区和配置差异很大。
+1. **搴斿彉绮惧害鏁版嵁** 鏉ヨ嚜涓嶅悓鍘傚晢锛屾祴閲忔潯浠朵笉鍚岋紝鍦ㄦ棤鍙楁帶鍩哄噯娴嬭瘯鐨勬儏鍐典笅涓嶈兘鐩存帴姣旇緝銆?
+2. **鍗椾含绉戦攼鐨?00涓嘓z瀹ｇО** 鍦ㄦ挵鍐欐椂灏氭湭閫氳繃鐙珛楠岃瘉銆?
+3. **杞欢宸ヤ綔娴佽川閲?* 鏄富瑙傜殑锛屽緢澶х▼搴︿笂鍙栧喅浜庣敤鎴疯儗鏅拰搴旂敤闇€姹傘€?
+4. **浠锋牸淇℃伅** 鏄繎浼煎€硷紝鍥犲湴鍖哄拰閰嶇疆宸紓寰堝ぇ銆?
 
-鼓励读者向厂商索取演示数据，并在可能的情况下进行现场评估后再采购。
-
----
-
-## 贡献
-
-如果您有标定数据、应用案例研究或更正的技术规格，请开Issue或Pull Request。这是一个社区驱动的基准评测，需要广泛参与才能持续改进。
+榧撳姳璇昏€呭悜鍘傚晢绱㈠彇婕旂ず鏁版嵁锛屽苟鍦ㄥ彲鑳界殑鎯呭喌涓嬭繘琛岀幇鍦鸿瘎浼板悗鍐嶉噰璐€?
 
 ---
 
+## 璐＄尞
+
+濡傛灉鎮ㄦ湁鏍囧畾鏁版嵁銆佸簲鐢ㄦ渚嬬爺绌舵垨鏇存鐨勬妧鏈鏍硷紝璇峰紑Issue鎴朠ull Request銆傝繖鏄竴涓ぞ鍖洪┍鍔ㄧ殑鍩哄噯璇勬祴锛岄渶瑕佸箍娉涘弬涓庢墠鑳芥寔缁敼杩涖€?
+
 ---
 
-## 延伸阅读
+---
 
-| 序号 | 标题 | 主题 |
+## 寤朵几闃呰
+
+| 搴忓彿 | 鏍囬 | 涓婚 |
 |------|------|------|
-| 01 | [高温环境下DIC技术与视频引伸计的典型应用](articles/high-temperature-dic-video-extensometer-applications.md#chinese-version) | 极端温度测量、热应变、视频引伸计 |
-| 02 | [DIC技术在汽车智造可靠性评估中的多维应用](articles/dic-automotive-reliability-assessment.md#chinese-version) | 白车身刚度、碰撞测试、钣金FLC、电池验证 |
-| 03 | [数字图像相关DIC测量系统用于电路板振动模态分析](articles/dic-pcb-vibration-modal-analysis.md#chinese-version) | 非接触模态测试、加速度计附加质量效应、元器件引脚应变 |
-| 04 | [数字图像相关DIC技术在高速振动与材料疲劳场测量中的应用](articles/dic-high-speed-vibration-fatigue-field-measurement.md#chinese-version) | 高速振动模态分析、疲劳裂纹扩展、频闪DIC |
-| 05 | [数字图像相关DIC技术在混凝土单轴压缩破坏力学研究中的应用](articles/dic-concrete-uniaxial-compression-failure-mechanics.md#chinese-version) | 应变局部化、剪切带、裂纹扩展、360°多相机 |
-| 06 | [柔性材料变形测量：DIC技术在柔性PCB电路材料力学研究中的应用](articles/dic-flexible-pcb-circuit-mechanical-testing.md#chinese-version) | FPC拉伸、弯折疲劳、大变形、多层复合材料、焊盘拉力 |
-| 07 | [数字图像相关DIC技术用于材料与结构应力-应变测试](articles/dic-material-stress-strain-testing.md#chinese-version) | 全场应变、颈缩行为、复合材料损伤、橡胶超弹性 |
-| 08 | [DIC技术用于模拟火车过弯动载下铁轨及固定装置变形位移监测](articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 钢轨横向位移、扣件变形、道床沉降、过弯动载 |
-| 09 | [数字图像相关DIC技术在汽车动力学风洞试验中的应用](articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 车身面板变形、气动弹性效应、引擎盖振动、A柱风噪、CFD验证 |
-| 10 | [DIC技术在混凝土三点弯曲与断裂演化分析中的应用](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ量化、双K断裂参数、裂缝扩展、再生骨料混凝土 |
-| 11 | [让3D打印"看见力"：DIC技术用于增材制造金属结构件全场变形分析](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 各向异性、残余应力、缺陷敏感性、非均匀变形、疲劳裂纹扩展 |
-| 12 | [数字散斑DIC技术用于金属薄板焊接变形全场动态监测与工艺优化](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#chinese-version) | 焊接变形、横向收缩、角变形、弧光抑制、工艺优化 |
-| 13 | [DIC技术在新型建筑混凝土浇筑过程墙壁振动变形监测中的应用](articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#chinese-version) | 混凝土浇筑、模板变形、振捣器激振、侧压力、施工监测 |
-| 14 | [水下渔网结构监测：DIC技术如何实现高精度形变测量？](articles/dic-underwater-fishing-net-structure-monitoring.md#chinese-version) | 水下DIC、渔网形变、水动力荷载、疲劳评估、折射校正 |
-| 15 | [气动弹性与流固耦合：DIC技术如何揭示汽车风洞中的"力-形"互动](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#chinese-version) | 气动弹性、流固耦合、风致振动、气动噪声源定位、多物理场同步测量 |
-| 16 | [数字图像相关DIC技术：揭秘金属板料冲压成形中的韧性](articles/dic-sheet-metal-forming-ductility-analysis.md#chinese-version) | 板料冲压、韧性断裂、成形极限图、颈缩检测、FLC、裂纹扩展 |
-| 17 | [三维显微应变测量系统：电子元器件高低温测试中的"热力密码"](articles/dic-micro-strain-measurement-electronic-components-high-low-temperature-testing.md#chinese-version) | 显微应变、电子封装、温度循环、CTE失配、焊点疲劳、翘曲变形 |
-| 18 | [DIC技术在滑坡防治格构锚固优化模型试验中的应用](articles/dic-landslide-prevention-lattice-anchor-model-testing.md#chinese-version) | 滑坡防治、格构锚固、模型试验、滑面识别、渐进破坏、岩土工程 |
-| 19 | [DIC三维应变测量系统用于芯片晶圆热变形测量](articles/dic-chip-wafer-thermal-deformation-measurement.md#chinese-version) | 芯片晶圆、热变形、薄膜应力、翘曲、套刻误差、半导体制造 |
-| 20 | [数字图像相关（DIC）技术在汽车板料成形极限测量中的应用](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#chinese-version) | 汽车冲压、成形极限图、FLD、FLC、板料、颈缩、破裂 |
-| 21 | [XTDIC-SPARK三维高速测量系统：电子产品跌落测试方案](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#chinese-version) | 跌落测试、高速DIC、电子产品、6DoF、瞬态测量、应变率 |
-| 22 | [多相机数字图像相关DIC用于桁架静载扭转全场变形测量](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#chinese-version) | 多相机DIC、桁架、扭转、全场、大尺度、节点测量 |
-| 23 | [利用DIC进行焊接试样循环加载疲劳试验](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#chinese-version) | 焊接疲劳、裂纹萌生、裂纹扩展速率、S-N曲线、Paris定律、全场应变 |
-| 24 | [高速DIC技术用于道路亚克力盖板车压全场变形测量](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#chinese-version) | 高速DIC、亚克力盖板、车压动态变形、瞬态测量、全场应变、冲击系数 |
-| 25 | [DIC技术用于金属材料裂纹尖端张开位移（COD）分析](articles/dic-crack-tip-opening-displacement-cod-analysis.md#chinese-version) | COD、CTOD、断裂力学、裂纹尖端、塑性区、全场应变、断裂韧性 |
-| 26 | [数字图像相关DIC技术用于锂电池加压膨胀鼓包变形研究](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#chinese-version) | 锂电池、膨胀鼓包、加压约束、全场三维位移、膨胀力、热失控 |
-| 27 | [DIC应变测量系统在混凝土单轴压缩破坏力学研究中的应用](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#chinese-version) | 应变测量系统、混凝土压缩、全场三维位移、裂缝检测、剪切带、损伤演化 |
-| 28 | [DIC技术用于复合材料层合板损伤演化与断裂分析](articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#chinese-version) | 复合材料、层合板、损伤演化、基体开裂、层间分层、纤维断裂、断裂韧性 |
+| 01 | [楂樻俯鐜涓婦IC鎶€鏈笌瑙嗛寮曚几璁＄殑鍏稿瀷搴旂敤](articles/high-temperature-dic-video-extensometer-applications.md#chinese-version) | 鏋佺娓╁害娴嬮噺銆佺儹搴斿彉銆佽棰戝紩浼歌 |
+| 02 | [DIC鎶€鏈湪姹借溅鏅洪€犲彲闈犳€ц瘎浼颁腑鐨勫缁村簲鐢╙(articles/dic-automotive-reliability-assessment.md#chinese-version) | 鐧借溅韬垰搴︺€佺鎾炴祴璇曘€侀挘閲慒LC銆佺數姹犻獙璇?|
+| 03 | [鏁板瓧鍥惧儚鐩稿叧DIC娴嬮噺绯荤粺鐢ㄤ簬鐢佃矾鏉挎尟鍔ㄦā鎬佸垎鏋怾(articles/dic-pcb-vibration-modal-analysis.md#chinese-version) | 闈炴帴瑙︽ā鎬佹祴璇曘€佸姞閫熷害璁￠檮鍔犺川閲忔晥搴斻€佸厓鍣ㄤ欢寮曡剼搴斿彉 |
+| 04 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈湪楂橀€熸尟鍔ㄤ笌鏉愭枡鐤插姵鍦烘祴閲忎腑鐨勫簲鐢╙(articles/dic-high-speed-vibration-fatigue-field-measurement.md#chinese-version) | 楂橀€熸尟鍔ㄦā鎬佸垎鏋愩€佺柌鍔宠绾规墿灞曘€侀闂狣IC |
+| 05 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈湪娣峰嚌鍦熷崟杞村帇缂╃牬鍧忓姏瀛︾爺绌朵腑鐨勫簲鐢╙(articles/dic-concrete-uniaxial-compression-failure-mechanics.md#chinese-version) | 搴斿彉灞€閮ㄥ寲銆佸壀鍒囧甫銆佽绾规墿灞曘€?60掳澶氱浉鏈?|
+| 06 | [鏌旀€ф潗鏂欏彉褰㈡祴閲忥細DIC鎶€鏈湪鏌旀€CB鐢佃矾鏉愭枡鍔涘鐮旂┒涓殑搴旂敤](articles/dic-flexible-pcb-circuit-mechanical-testing.md#chinese-version) | FPC鎷変几銆佸集鎶樼柌鍔炽€佸ぇ鍙樺舰銆佸灞傚鍚堟潗鏂欍€佺剨鐩樻媺鍔?|
+| 07 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈敤浜庢潗鏂欎笌缁撴瀯搴斿姏-搴斿彉娴嬭瘯](articles/dic-material-stress-strain-testing.md#chinese-version) | 鍏ㄥ満搴斿彉銆侀缂╄涓恒€佸鍚堟潗鏂欐崯浼ゃ€佹鑳惰秴寮规€?|
+| 08 | [DIC鎶€鏈敤浜庢ā鎷熺伀杞﹁繃寮姩杞戒笅閾佽建鍙婂浐瀹氳缃彉褰綅绉荤洃娴媇(articles/dic-railway-track-curving-deformation-monitoring.md#chinese-version) | 閽㈣建妯悜浣嶇Щ銆佹墸浠跺彉褰€侀亾搴婃矇闄嶃€佽繃寮姩杞?|
+| 09 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈湪姹借溅鍔ㄥ姏瀛﹂娲炶瘯楠屼腑鐨勫簲鐢╙(articles/dic-automotive-wind-tunnel-testing.md#chinese-version) | 杞﹁韩闈㈡澘鍙樺舰銆佹皵鍔ㄥ脊鎬ф晥搴斻€佸紩鎿庣洊鎸姩銆丄鏌遍鍣€丆FD楠岃瘉 |
+| 10 | [DIC鎶€鏈湪娣峰嚌鍦熶笁鐐瑰集鏇蹭笌鏂婕斿寲鍒嗘瀽涓殑搴旂敤](articles/dic-concrete-three-point-bending-fracture.md#chinese-version) | FPZ閲忓寲銆佸弻K鏂鍙傛暟銆佽缂濇墿灞曘€佸啀鐢熼鏂欐贩鍑濆湡 |
+| 11 | [璁?D鎵撳嵃"鐪嬭鍔?锛欴IC鎶€鏈敤浜庡鏉愬埗閫犻噾灞炵粨鏋勪欢鍏ㄥ満鍙樺舰鍒嗘瀽](articles/dic-additive-manufacturing-metal-deformation.md#chinese-version) | 鍚勫悜寮傛€с€佹畫浣欏簲鍔涖€佺己闄锋晱鎰熸€с€侀潪鍧囧寑鍙樺舰銆佺柌鍔宠绾规墿灞?|
+| 12 | [鏁板瓧鏁ｆ枒DIC鎶€鏈敤浜庨噾灞炶杽鏉跨剨鎺ュ彉褰㈠叏鍦哄姩鎬佺洃娴嬩笌宸ヨ壓浼樺寲](articles/dic-welding-deformation-full-field-dynamic-monitoring.md#chinese-version) | 鐒婃帴鍙樺舰銆佹í鍚戞敹缂┿€佽鍙樺舰銆佸姬鍏夋姂鍒躲€佸伐鑹轰紭鍖?|
+| 13 | [DIC鎶€鏈湪鏂板瀷寤虹瓚娣峰嚌鍦熸祰绛戣繃绋嬪澹佹尟鍔ㄥ彉褰㈢洃娴嬩腑鐨勫簲鐢╙(articles/dic-concrete-pouring-wall-vibration-deformation-monitoring.md#chinese-version) | 娣峰嚌鍦熸祰绛戙€佹ā鏉垮彉褰€佹尟鎹ｅ櫒婵€鎸€佷晶鍘嬪姏銆佹柦宸ョ洃娴?|
+| 14 | [姘翠笅娓旂綉缁撴瀯鐩戞祴锛欴IC鎶€鏈浣曞疄鐜伴珮绮惧害褰㈠彉娴嬮噺锛焆(articles/dic-underwater-fishing-net-structure-monitoring.md#chinese-version) | 姘翠笅DIC銆佹笖缃戝舰鍙樸€佹按鍔ㄥ姏鑽疯浇銆佺柌鍔宠瘎浼般€佹姌灏勬牎姝?|
+| 15 | [姘斿姩寮规€т笌娴佸浐鑰﹀悎锛欴IC鎶€鏈浣曟彮绀烘苯杞﹂娲炰腑鐨?鍔?褰?浜掑姩](articles/dic-aeroelasticity-wind-tunnel-fluid-structure-interaction.md#chinese-version) | 姘斿姩寮规€с€佹祦鍥鸿€﹀悎銆侀鑷存尟鍔ㄣ€佹皵鍔ㄥ櫔澹版簮瀹氫綅銆佸鐗╃悊鍦哄悓姝ユ祴閲?|
+| 16 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈細鎻閲戝睘鏉挎枡鍐插帇鎴愬舰涓殑闊ф€(articles/dic-sheet-metal-forming-ductility-analysis.md#chinese-version) | 鏉挎枡鍐插帇銆侀煣鎬ф柇瑁傘€佹垚褰㈡瀬闄愬浘銆侀缂╂娴嬨€丗LC銆佽绾规墿灞?|
+| 17 | [涓夌淮鏄惧井搴斿彉娴嬮噺绯荤粺锛氱數瀛愬厓鍣ㄤ欢楂樹綆娓╂祴璇曚腑鐨?鐑姏瀵嗙爜"](articles/dic-micro-strain-measurement-electronic-components-high-low-temperature-testing.md#chinese-version) | 鏄惧井搴斿彉銆佺數瀛愬皝瑁呫€佹俯搴﹀惊鐜€丆TE澶遍厤銆佺剨鐐圭柌鍔炽€佺繕鏇插彉褰?|
+| 18 | [DIC鎶€鏈湪婊戝潯闃叉不鏍兼瀯閿氬浐浼樺寲妯″瀷璇曢獙涓殑搴旂敤](articles/dic-landslide-prevention-lattice-anchor-model-testing.md#chinese-version) | 婊戝潯闃叉不銆佹牸鏋勯敋鍥恒€佹ā鍨嬭瘯楠屻€佹粦闈㈣瘑鍒€佹笎杩涚牬鍧忋€佸博鍦熷伐绋?|
+| 19 | [DIC涓夌淮搴斿彉娴嬮噺绯荤粺鐢ㄤ簬鑺墖鏅跺渾鐑彉褰㈡祴閲廬(articles/dic-chip-wafer-thermal-deformation-measurement.md#chinese-version) | 鑺墖鏅跺渾銆佺儹鍙樺舰銆佽杽鑶滃簲鍔涖€佺繕鏇层€佸鍒昏宸€佸崐瀵间綋鍒堕€?|
+| 20 | [鏁板瓧鍥惧儚鐩稿叧锛圖IC锛夋妧鏈湪姹借溅鏉挎枡鎴愬舰鏋侀檺娴嬮噺涓殑搴旂敤](articles/dic-automotive-sheet-metal-forming-limit-measurement.md#chinese-version) | 姹借溅鍐插帇銆佹垚褰㈡瀬闄愬浘銆丗LD銆丗LC銆佹澘鏂欍€侀缂┿€佺牬瑁?|
+| 21 | [XTDIC-SPARK涓夌淮楂橀€熸祴閲忕郴缁燂細鐢靛瓙浜у搧璺岃惤娴嬭瘯鏂规](articles/dic-xtdic-spark-3d-high-speed-electronics-drop-test.md#chinese-version) | 璺岃惤娴嬭瘯銆侀珮閫烡IC銆佺數瀛愪骇鍝併€?DoF銆佺灛鎬佹祴閲忋€佸簲鍙樼巼 |
+| 22 | [澶氱浉鏈烘暟瀛楀浘鍍忕浉鍏矰IC鐢ㄤ簬妗佹灦闈欒浇鎵浆鍏ㄥ満鍙樺舰娴嬮噺](articles/dic-multi-camera-truss-static-torsion-full-field-deformation.md#chinese-version) | 澶氱浉鏈篋IC銆佹鏋躲€佹壄杞€佸叏鍦恒€佸ぇ灏哄害銆佽妭鐐规祴閲?|
+| 23 | [鍒╃敤DIC杩涜鐒婃帴璇曟牱寰幆鍔犺浇鐤插姵璇曢獙](articles/dic-welding-specimen-cyclic-loading-fatigue-testing.md#chinese-version) | 鐒婃帴鐤插姵銆佽绾硅悓鐢熴€佽绾规墿灞曢€熺巼銆丼-N鏇茬嚎銆丳aris瀹氬緥銆佸叏鍦哄簲鍙?|
+| 24 | [楂橀€烡IC鎶€鏈敤浜庨亾璺簹鍏嬪姏鐩栨澘杞﹀帇鍏ㄥ満鍙樺舰娴嬮噺](articles/dic-high-speed-dic-road-acrylic-cover-vehicle-deformation.md#chinese-version) | 楂橀€烡IC銆佷簹鍏嬪姏鐩栨澘銆佽溅鍘嬪姩鎬佸彉褰€佺灛鎬佹祴閲忋€佸叏鍦哄簲鍙樸€佸啿鍑荤郴鏁?|
+| 25 | [DIC鎶€鏈敤浜庨噾灞炴潗鏂欒绾瑰皷绔紶寮€浣嶇Щ锛圕OD锛夊垎鏋怾(articles/dic-crack-tip-opening-displacement-cod-analysis.md#chinese-version) | COD銆丆TOD銆佹柇瑁傚姏瀛︺€佽绾瑰皷绔€佸鎬у尯銆佸叏鍦哄簲鍙樸€佹柇瑁傞煣鎬?|
+| 26 | [鏁板瓧鍥惧儚鐩稿叧DIC鎶€鏈敤浜庨攤鐢垫睜鍔犲帇鑶ㄨ儉榧撳寘鍙樺舰鐮旂┒](articles/dic-lithium-battery-pressure-swelling-bulging-deformation.md#chinese-version) | 閿傜數姹犮€佽啫鑳€榧撳寘銆佸姞鍘嬬害鏉熴€佸叏鍦轰笁缁翠綅绉汇€佽啫鑳€鍔涖€佺儹澶辨帶 |
+| 27 | [DIC搴斿彉娴嬮噺绯荤粺鍦ㄦ贩鍑濆湡鍗曡酱鍘嬬缉鐮村潖鍔涘鐮旂┒涓殑搴旂敤](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#chinese-version) | 搴斿彉娴嬮噺绯荤粺銆佹贩鍑濆湡鍘嬬缉銆佸叏鍦轰笁缁翠綅绉汇€佽缂濇娴嬨€佸壀鍒囧甫銆佹崯浼ゆ紨鍖?|
+| 28 | [DIC鎶€鏈敤浜庡鍚堟潗鏂欏眰鍚堟澘鎹熶激婕斿寲涓庢柇瑁傚垎鏋怾(articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#chinese-version) | 澶嶅悎鏉愭枡銆佸眰鍚堟澘銆佹崯浼ゆ紨鍖栥€佸熀浣撳紑瑁傘€佸眰闂村垎灞傘€佺氦缁存柇瑁傘€佹柇瑁傞煣鎬?|
+| 29 | [XTDIC-SPARK涓夌淮楂橀€熸祴閲忕郴缁燂細鍏嚜鐢辨寕閲忎綋杞ㄨ抗鍙婃粙鎬佹祴閲忎笌澶氫綋鍔ㄥ姏瀛﹁瘉](articles/dic-xtdic-spark-6dof-trajectory-pose-measurement.md#chinese-version) | 鍏嚜鐢辨寕閲忎綋銆佸浣撳姏瀛︺€佸垰浣撹繍鍔ㄨВ瑜囥€佷豢鎷熼獙璇侊紝鐬€佽繍鍔ㄦ祴閲?|
 
 ---
 
-*最后更新：2025-05*  
-*维护者：DIC-Benchmark 贡献者*
+*鏈€鍚庢洿鏂帮細2025-05*  
+*缁存姢鑰咃細DIC-Benchmark 璐＄尞鑰?
 
 ---
 
-**[⬆ 返回英文版 / Back to English](#english-version)**
+**[猬?杩斿洖鑻辨枃鐗?/ Back to English](#english-version)**
 
 
