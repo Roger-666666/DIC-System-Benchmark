@@ -290,10 +290,15 @@ If you have calibration data, application case studies, or corrected specificati
 | 27 | [DIC Strain Measurement System in Concrete Uniaxial Compression Failure Mechanics Research](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#english-version) | Strain measurement system, concrete compression, full-field 3D displacement, crack detection, shear band, damage evolution |
 | 28 | [DIC for Composite Laminate Damage Evolution and Fracture Analysis](articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#english-version) | Composite laminate, damage evolution, matrix cracking, delamination, fiber fracture, fracture toughness |
 | 29 | [XTDIC-SPARK 3D High-Speed Measurement System: 6DoF Trajectory and Pose Measurement for Multibody Dynamics Validation](articles/dic-xtdic-spark-6dof-trajectory-pose-measurement.md#english-version) | 6DoF trajectory, multibody dynamics, rigid-body motion decoupling, simulation validation, transient motion measurement |
+| 30 | [DIC for Full-Field Compression Deformation Measurement of Lattice-Shaped Irregular Parts: Principle Analysis](articles/dic-lattice-shaped-irregular-compression-full-field-measurement-principles.md#english-version) | Lattice-shaped irregular parts, compression deformation, 3D DIC, full-field displacement, principal strain |
+| 31 | [Compression Deformation Path of Lattice-Shaped Irregular Parts: A Full-Field DIC Application Case](articles/dic-lattice-irregular-compression-application-case.md#english-version) | Application case, quasi-static compression, XTDIC, displacement map, strain concentration |
+| 32 | [DIC vs Displacement Sensors and Strain Gauges for Lattice-Shaped Irregular Compression Testing](articles/dic-lattice-irregular-compression-efficiency-comparison.md#english-version) | Measurement comparison, strain gauges, LVDT, full-field testing, FEA calibration |
+| 33 | [Solving Compression Test Pain Points for Lattice-Shaped Irregular Parts with 3D DIC](articles/dic-lattice-irregular-compression-pain-point-solution.md#english-version) | Pain-point solution, boundary calculation, load synchronization, weak-zone identification |
+| 34 | [Mechanical Testing Trends for Complex Lattice Structures: DIC, Simulation Calibration, and Automated Analysis](articles/dic-lattice-irregular-compression-future-trends.md#english-version) | Future trends, full-field DIC, simulation-test closure, automated feature recognition |
 
 ---
 
-*Last updated: 2025-05*  
+*Last updated: 2026-06*
 *Maintained by: DIC-Benchmark contributors*
 
 
@@ -588,14 +593,18 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 27 | [DIC搴斿彉娴嬮噺绯荤粺鍦ㄦ贩鍑濆湡鍗曡酱鍘嬬缉鐮村潖鍔涘鐮旂┒涓殑搴旂敤](articles/dic-strain-measurement-system-concrete-uniaxial-compression.md#chinese-version) | 搴斿彉娴嬮噺绯荤粺銆佹贩鍑濆湡鍘嬬缉銆佸叏鍦轰笁缁翠綅绉汇€佽缂濇娴嬨€佸壀鍒囧甫銆佹崯浼ゆ紨鍖?|
 | 28 | [DIC鎶€鏈敤浜庡鍚堟潗鏂欏眰鍚堟澘鎹熶激婕斿寲涓庢柇瑁傚垎鏋怾(articles/dic-composite-laminate-damage-evolution-fracture-analysis.md#chinese-version) | 澶嶅悎鏉愭枡銆佸眰鍚堟澘銆佹崯浼ゆ紨鍖栥€佸熀浣撳紑瑁傘€佸眰闂村垎灞傘€佺氦缁存柇瑁傘€佹柇瑁傞煣鎬?|
 | 29 | [XTDIC-SPARK涓夌淮楂橀€熸祴閲忕郴缁燂細鍏嚜鐢辨寕閲忎綋杞ㄨ抗鍙婃粙鎬佹祴閲忎笌澶氫綋鍔ㄥ姏瀛﹁瘉](articles/dic-xtdic-spark-6dof-trajectory-pose-measurement.md#chinese-version) | 鍏嚜鐢辨寕閲忎綋銆佸浣撳姏瀛︺€佸垰浣撹繍鍔ㄨВ瑜囥€佷豢鎷熼獙璇侊紝鐬€佽繍鍔ㄦ祴閲?|
+| 30 | [DIC技术在网格状异形件压缩变形全场测量中的应用：原理解析](articles/dic-lattice-shaped-irregular-compression-full-field-measurement-principles.md#chinese-version) | 网格状异形件、压缩变形、三维DIC、全场位移、主应变 |
+| 31 | [从压缩试验看网格状异形件变形路径：DIC全场测量应用案例](articles/dic-lattice-irregular-compression-application-case.md#chinese-version) | 应用案例、准静态压缩、XTDIC、位移云图、应变集中 |
+| 32 | [DIC、位移传感器与应变片如何选：网格状异形件压缩测试效率对比](articles/dic-lattice-irregular-compression-efficiency-comparison.md#chinese-version) | 测量方法对比、应变片、LVDT、全场测量、有限元校准 |
+| 33 | [网格状异形件压缩测试痛点解决方案：用三维DIC识别位移、主应变与薄弱区](articles/dic-lattice-irregular-compression-pain-point-solution.md#chinese-version) | 痛点解决方案、边界计算、载荷同步、薄弱区识别 |
+| 34 | [复杂网格结构件力学测试趋势：DIC全场测量、仿真校准与自动化分析](articles/dic-lattice-irregular-compression-future-trends.md#chinese-version) | 未来趋势、DIC全场测量、仿真闭环、自动化分析 |
 
 ---
 
-*鏈€鍚庢洿鏂帮細2025-05*  
-*缁存姢鑰咃細DIC-Benchmark 璐＄尞鑰?
+*最后更新：2026-06*
+*维护者：DIC-Benchmark 贡献者*
 
 ---
 
 **[猬?杩斿洖鑻辨枃鐗?/ Back to English](#english-version)**
-
 
