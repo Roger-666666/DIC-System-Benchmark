@@ -295,6 +295,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 32 | [DIC vs Displacement Sensors and Strain Gauges for Lattice-Shaped Irregular Compression Testing](articles/dic-lattice-irregular-compression-efficiency-comparison.md#english-version) | Measurement comparison, strain gauges, LVDT, full-field testing, FEA calibration |
 | 33 | [Solving Compression Test Pain Points for Lattice-Shaped Irregular Parts with 3D DIC](articles/dic-lattice-irregular-compression-pain-point-solution.md#english-version) | Pain-point solution, boundary calculation, load synchronization, weak-zone identification |
 | 34 | [Mechanical Testing Trends for Complex Lattice Structures: DIC, Simulation Calibration, and Automated Analysis](articles/dic-lattice-irregular-compression-future-trends.md#english-version) | Future trends, full-field DIC, simulation-test closure, automated feature recognition |
+| 35 | [XTDIC-VG Video Extensometer for Metal Fatigue Testing: Principle Analysis](articles/dic-xtdic-vg-video-extensometer-metal-fatigue-principles.md#english-version) | XTDIC-VG, video extensometer, metal fatigue testing, non-contact dynamic strain, data continuity |
+| 36 | [XTDIC-VG Video Extensometer for Aluminum-Magnesium Alloy Tensile Fatigue Testing](articles/dic-xtdic-vg-metal-fatigue-test-application-case.md#english-version) | Application case, XTDIC-VG-120, aluminum-magnesium alloy, tensile fatigue, fatigue strain curve |
+| 37 | [Video Extensometer vs Strain Gauge and Contact Extensometer for Metal Fatigue Testing](articles/dic-xtdic-vg-fatigue-measurement-efficiency-comparison.md#english-version) | Measurement comparison, strain gauge, contact extensometer, virtual gauge length, fatigue testing |
+| 38 | [Solving Metal Fatigue Testing Pain Points with XTDIC-VG Video Extensometry](articles/dic-xtdic-vg-metal-fatigue-testing-pain-point-solution.md#english-version) | Data interruption, human error, non-contact measurement, UDP synchronization, fatigue monitoring |
+| 39 | [Future Trends in Metal Fatigue Testing: XTDIC-VG, Synchronized Data, and Automated Life Evaluation](articles/dic-xtdic-vg-fatigue-testing-automation-future-trends.md#english-version) | Future trends, fatigue database, synchronized strain data, pre-failure warning, AI-assisted analysis |
 
 ---
 
@@ -598,6 +603,11 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 32 | [DIC、位移传感器与应变片如何选：网格状异形件压缩测试效率对比](articles/dic-lattice-irregular-compression-efficiency-comparison.md#chinese-version) | 测量方法对比、应变片、LVDT、全场测量、有限元校准 |
 | 33 | [网格状异形件压缩测试痛点解决方案：用三维DIC识别位移、主应变与薄弱区](articles/dic-lattice-irregular-compression-pain-point-solution.md#chinese-version) | 痛点解决方案、边界计算、载荷同步、薄弱区识别 |
 | 34 | [复杂网格结构件力学测试趋势：DIC全场测量、仿真校准与自动化分析](articles/dic-lattice-irregular-compression-future-trends.md#chinese-version) | 未来趋势、DIC全场测量、仿真闭环、自动化分析 |
+| 35 | [告别数据中断与人为误差：XTDIC-VG视频引伸计用于金属材料疲劳测试的原理解析](articles/dic-xtdic-vg-video-extensometer-metal-fatigue-principles.md#chinese-version) | XTDIC-VG、视频引伸计、金属疲劳测试、非接触动态应变、数据连续性 |
+| 36 | [XTDIC-VG视频引伸计用于铝镁合金拉伸疲劳测试：非接触动态应变应用案例](articles/dic-xtdic-vg-metal-fatigue-test-application-case.md#chinese-version) | 应用案例、XTDIC-VG-120、铝镁合金、拉伸疲劳、疲劳应变曲线 |
+| 37 | [金属疲劳测试怎么选测量方法：XTDIC-VG视频引伸计、应变片与接触式引伸计效率对比](articles/dic-xtdic-vg-fatigue-measurement-efficiency-comparison.md#chinese-version) | 测量方法对比、应变片、接触式引伸计、虚拟标距、疲劳测试 |
+| 38 | [金属疲劳测试痛点解决方案：用XTDIC-VG视频引伸计减少数据中断与人为误差](articles/dic-xtdic-vg-metal-fatigue-testing-pain-point-solution.md#chinese-version) | 数据中断、人为误差、非接触测量、UDP同步、疲劳监测 |
+| 39 | [金属疲劳测试的下一步：XTDIC-VG视频引伸计、同步数据与自动化寿命评估](articles/dic-xtdic-vg-fatigue-testing-automation-future-trends.md#chinese-version) | 未来趋势、疲劳数据库、同步应变数据、失效前预警、AI辅助分析 |
 
 ---
 
