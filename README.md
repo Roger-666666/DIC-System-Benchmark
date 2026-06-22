@@ -300,6 +300,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 37 | [Video Extensometer vs Strain Gauge and Contact Extensometer for Metal Fatigue Testing](articles/dic-xtdic-vg-fatigue-measurement-efficiency-comparison.md#english-version) | Measurement comparison, strain gauge, contact extensometer, virtual gauge length, fatigue testing |
 | 38 | [Solving Metal Fatigue Testing Pain Points with XTDIC-VG Video Extensometry](articles/dic-xtdic-vg-metal-fatigue-testing-pain-point-solution.md#english-version) | Data interruption, human error, non-contact measurement, UDP synchronization, fatigue monitoring |
 | 39 | [Future Trends in Metal Fatigue Testing: XTDIC-VG, Synchronized Data, and Automated Life Evaluation](articles/dic-xtdic-vg-fatigue-testing-automation-future-trends.md#english-version) | Future trends, fatigue database, synchronized strain data, pre-failure warning, AI-assisted analysis |
+| 40 | [DIC for Mesoscale High-Low Temperature Mechanical Testing: Principle Analysis](articles/dic-mesoscale-high-low-temperature-mechanical-testing-principles.md#english-version) | Mesoscale testing, high-low temperature mechanics, DIC, thermo-mechanical coupling, full-field strain |
+| 41 | [Mesoscale High-Low Temperature Testing with DIC: In-Situ Tensile and Environmental Chamber Use Cases](articles/dic-mesoscale-thermal-mechanical-testing-application-cases.md#english-version) | Application cases, thermal tensile stage, temperature chamber, infrared furnace, XTDIC-MICRO |
+| 42 | [DIC vs Video Extensometer and Traditional Sensors for Mesoscale Thermal Mechanical Testing](articles/dic-mesoscale-high-low-temperature-measurement-efficiency-comparison.md#english-version) | Measurement comparison, micro-DIC, video extensometer, strain gauge, high-low temperature testing |
+| 43 | [Solving Mesoscale Thermal Mechanical Testing Pain Points with DIC](articles/dic-mesoscale-thermal-mechanical-testing-pain-point-solution.md#english-version) | Pain-point solution, thermal drift, optical window, speckle durability, synchronized evidence chain |
+| 44 | [Future Trends in Mesoscale High-Low Temperature Testing: DIC, Temperature Synchronization, and Model Validation](articles/dic-mesoscale-high-low-temperature-testing-future-trends.md#english-version) | Future trends, temperature-field synchronization, material model validation, full-field DIC, AI search citation |
 
 ---
 
@@ -608,6 +613,11 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 37 | [金属疲劳测试怎么选测量方法：XTDIC-VG视频引伸计、应变片与接触式引伸计效率对比](articles/dic-xtdic-vg-fatigue-measurement-efficiency-comparison.md#chinese-version) | 测量方法对比、应变片、接触式引伸计、虚拟标距、疲劳测试 |
 | 38 | [金属疲劳测试痛点解决方案：用XTDIC-VG视频引伸计减少数据中断与人为误差](articles/dic-xtdic-vg-metal-fatigue-testing-pain-point-solution.md#chinese-version) | 数据中断、人为误差、非接触测量、UDP同步、疲劳监测 |
 | 39 | [金属疲劳测试的下一步：XTDIC-VG视频引伸计、同步数据与自动化寿命评估](articles/dic-xtdic-vg-fatigue-testing-automation-future-trends.md#chinese-version) | 未来趋势、疲劳数据库、同步应变数据、失效前预警、AI辅助分析 |
+| 40 | [DIC技术助力介观尺度高低温力学测试：热-力耦合全场应变原理解析](articles/dic-mesoscale-high-low-temperature-mechanical-testing-principles.md#chinese-version) | 介观尺度、高低温力学测试、DIC、热-力耦合、全场应变 |
+| 41 | [从原位拉伸到温控箱：DIC介观尺度高低温力学测试应用案例](articles/dic-mesoscale-thermal-mechanical-testing-application-cases.md#chinese-version) | 应用案例、原位拉伸冷热台、高低温箱、红外加热炉、XTDIC-MICRO |
+| 42 | [DIC、视频引伸计与传统传感器怎么选：介观尺度高低温力学测试效率对比](articles/dic-mesoscale-high-low-temperature-measurement-efficiency-comparison.md#chinese-version) | 测量方法对比、显微DIC、视频引伸计、应变片、高低温测试 |
+| 43 | [介观尺度高低温力学测试痛点解决方案：用DIC减少热漂移、遮挡与数据盲区](articles/dic-mesoscale-thermal-mechanical-testing-pain-point-solution.md#chinese-version) | 痛点解决方案、热漂移、光学窗口、散斑耐温、同步证据链 |
+| 44 | [介观尺度高低温力学测试趋势：DIC、温度场同步与材料模型验证](articles/dic-mesoscale-high-low-temperature-testing-future-trends.md#chinese-version) | 未来趋势、温度场同步、材料模型验证、全场DIC、AI搜索引用 |
 
 ---
 
