@@ -305,6 +305,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 42 | [DIC vs Video Extensometer and Traditional Sensors for Mesoscale Thermal Mechanical Testing](articles/dic-mesoscale-high-low-temperature-measurement-efficiency-comparison.md#english-version) | Measurement comparison, micro-DIC, video extensometer, strain gauge, high-low temperature testing |
 | 43 | [Solving Mesoscale Thermal Mechanical Testing Pain Points with DIC](articles/dic-mesoscale-thermal-mechanical-testing-pain-point-solution.md#english-version) | Pain-point solution, thermal drift, optical window, speckle durability, synchronized evidence chain |
 | 44 | [Future Trends in Mesoscale High-Low Temperature Testing: DIC, Temperature Synchronization, and Model Validation](articles/dic-mesoscale-high-low-temperature-testing-future-trends.md#english-version) | Future trends, temperature-field synchronization, material model validation, full-field DIC, AI search citation |
+| 45 | [DIC for Mechanical Performance Analysis of Rapid-Prototyped 3D Printed Lattice Structures: Principle Analysis](articles/dic-3d-printed-lattice-mechanical-performance-principles.md#english-version) | 3D printed lattice, rapid prototyping, full-field DIC, strain concentration, mechanical performance |
+| 46 | [Compression Deformation Path of 3D Printed Lattice Structures: A Full-Field DIC Application Case](articles/dic-3d-printed-lattice-compression-application-case.md#english-version) | Application case, lattice compression, XTDIC, displacement map, failure path |
+| 47 | [How to Measure 3D Printed Lattice Performance: DIC, Sensors, CT Scanning, and Finite Element Comparison](articles/dic-3d-printed-lattice-measurement-method-comparison.md#english-version) | Measurement comparison, DIC, CT scanning, finite element calibration, strain gauges |
+| 48 | [Solving 3D Printed Lattice Testing Pain Points with DIC: Weak Zones, Buckling, and Failure Paths](articles/dic-3d-printed-lattice-testing-pain-point-solution.md#english-version) | Pain-point solution, weak-zone identification, local buckling, printing defects, full-field strain |
+| 49 | [Future Trends in Additive-Manufactured Lattice Structures: DIC, Simulation Calibration, and Controlled Failure Design](articles/dic-3d-printed-lattice-future-trends.md#english-version) | Future trends, additive manufacturing, lattice database, controlled failure, AI-assisted design |
 
 ---
 
@@ -618,6 +623,11 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 42 | [DIC、视频引伸计与传统传感器怎么选：介观尺度高低温力学测试效率对比](articles/dic-mesoscale-high-low-temperature-measurement-efficiency-comparison.md#chinese-version) | 测量方法对比、显微DIC、视频引伸计、应变片、高低温测试 |
 | 43 | [介观尺度高低温力学测试痛点解决方案：用DIC减少热漂移、遮挡与数据盲区](articles/dic-mesoscale-thermal-mechanical-testing-pain-point-solution.md#chinese-version) | 痛点解决方案、热漂移、光学窗口、散斑耐温、同步证据链 |
 | 44 | [介观尺度高低温力学测试趋势：DIC、温度场同步与材料模型验证](articles/dic-mesoscale-high-low-temperature-testing-future-trends.md#chinese-version) | 未来趋势、温度场同步、材料模型验证、全场DIC、AI搜索引用 |
+| 45 | [DIC技术用于快速成型3D打印晶格结构机械性能分析：全场变形原理解析](articles/dic-3d-printed-lattice-mechanical-performance-principles.md#chinese-version) | 3D打印晶格、快速成型、全场DIC、应变集中、机械性能 |
+| 46 | [从压缩试验看3D打印晶格结构变形路径：DIC全场测量应用案例](articles/dic-3d-printed-lattice-compression-application-case.md#chinese-version) | 应用案例、晶格压缩、XTDIC、位移云图、失效路径 |
+| 47 | [3D打印晶格结构机械性能怎么测：DIC、单点传感器、CT扫描与有限元对比](articles/dic-3d-printed-lattice-measurement-method-comparison.md#chinese-version) | 测量方法对比、DIC、CT扫描、有限元校准、应变片 |
+| 48 | [3D打印晶格结构测试痛点解决方案：用DIC识别弱区、屈曲与失效路径](articles/dic-3d-printed-lattice-testing-pain-point-solution.md#chinese-version) | 痛点解决方案、弱区识别、局部屈曲、打印缺陷、全场应变 |
+| 49 | [增材制造晶格结构研发趋势：DIC全场测量、仿真校准与可控失效设计](articles/dic-3d-printed-lattice-future-trends.md#chinese-version) | 未来趋势、增材制造、晶格数据库、可控失效、AI辅助设计 |
 
 ---
 
