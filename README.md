@@ -316,6 +316,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 53 | [High-Temperature Steel-Pipe Compression: A Full-Field DIC Case for Local Buckling and Strain Concentration](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#english-version) | Application case, steel pipe, high-temperature compression, local buckling, strain concentration |
 | 54 | [How to Measure Automotive Reliability: DIC, LDV, and Digital Holography Full-Field Method Comparison](articles/dic-automotive-reliability-full-field-measurement-method-comparison.md#english-version) | Method comparison, automotive reliability, DIC, LDV, digital holography, full-field measurement |
 | 55 | [From Body Structure to EV Systems: Full-Field DIC Application Cases in Automotive Reliability Assessment](articles/dic-automotive-intelligent-manufacturing-reliability-application-case.md#english-version) | Application case, automotive intelligent manufacturing, EV systems, body structure, full-field strain |
+| 56 | [How DIC Reveals Concrete Compression Failure: Crack Initiation, Strain Localization, and Reinforcement Constraint](articles/dic-concrete-uniaxial-compression-crack-strain-localization-principles.md#english-version) | Principle analysis, concrete uniaxial compression, crack initiation, strain localization, reinforcement constraint |
+| 57 | [Reinforced Concrete Cylinder Compression: A Full-Field DIC Case for Crack Paths and Constraint Effects](articles/dic-reinforced-concrete-cylinder-compression-full-field-strain-application-case.md#english-version) | Application case, reinforced concrete, cylinder compression, crack path, full-field strain |
 
 ---
 
@@ -640,6 +642,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 53 | [从高温压缩看钢管局部屈曲与应变集中：DIC全场测试应用案例](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#chinese-version) | 应用案例、钢管、高温压缩、局部屈曲、应变集中 |
 | 54 | [汽车可靠性评估怎么测：DIC、LDV与数字全息全场测量方法对比](articles/dic-automotive-reliability-full-field-measurement-method-comparison.md#chinese-version) | 方法对比、汽车可靠性、DIC、LDV、数字全息、全场测量 |
 | 55 | [从车身到三电：DIC全场测量在汽车智造可靠性评估中的应用案例](articles/dic-automotive-intelligent-manufacturing-reliability-application-case.md#chinese-version) | 应用案例、汽车智造、三电系统、车身结构、全场应变 |
+| 56 | [DIC如何解析混凝土单轴压缩破坏：裂纹萌生、应变局部化与钢筋约束](articles/dic-concrete-uniaxial-compression-crack-strain-localization-principles.md#chinese-version) | 原理解析、混凝土单轴压缩、裂纹萌生、应变局部化、钢筋约束 |
+| 57 | [钢筋混凝土圆柱压缩：DIC全场应变测量裂纹路径与约束效应应用案例](articles/dic-reinforced-concrete-cylinder-compression-full-field-strain-application-case.md#chinese-version) | 应用案例、钢筋混凝土、圆柱压缩、裂纹路径、全场应变 |
 
 ---
 
