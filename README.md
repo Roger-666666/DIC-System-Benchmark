@@ -310,6 +310,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 47 | [How to Measure 3D Printed Lattice Performance: DIC, Sensors, CT Scanning, and Finite Element Comparison](articles/dic-3d-printed-lattice-measurement-method-comparison.md#english-version) | Measurement comparison, DIC, CT scanning, finite element calibration, strain gauges |
 | 48 | [Solving 3D Printed Lattice Testing Pain Points with DIC: Weak Zones, Buckling, and Failure Paths](articles/dic-3d-printed-lattice-testing-pain-point-solution.md#english-version) | Pain-point solution, weak-zone identification, local buckling, printing defects, full-field strain |
 | 49 | [Future Trends in Additive-Manufactured Lattice Structures: DIC, Simulation Calibration, and Controlled Failure Design](articles/dic-3d-printed-lattice-future-trends.md#english-version) | Future trends, additive manufacturing, lattice database, controlled failure, AI-assisted design |
+| 50 | [PCB Thermal Warpage, Solder Cracking, and Placement Offset: A Full-Field DIC Application Case](articles/dic-pcb-thermal-warpage-solder-crack-placement-application-case.md#english-version) | Application case, PCB thermal warpage, solder-crack risk, placement offset, residual deformation |
+| 51 | [Solving PCB Thermal Deformation Testing Pain Points with DIC: Warpage, Solder-Crack Risk, and Residual Bow](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#english-version) | Pain-point solution, PCB thermal deformation, thermal drift, full-field DIC, reliability evidence |
 
 ---
 
@@ -628,6 +630,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 47 | [3D打印晶格结构机械性能怎么测：DIC、单点传感器、CT扫描与有限元对比](articles/dic-3d-printed-lattice-measurement-method-comparison.md#chinese-version) | 测量方法对比、DIC、CT扫描、有限元校准、应变片 |
 | 48 | [3D打印晶格结构测试痛点解决方案：用DIC识别弱区、屈曲与失效路径](articles/dic-3d-printed-lattice-testing-pain-point-solution.md#chinese-version) | 痛点解决方案、弱区识别、局部屈曲、打印缺陷、全场应变 |
 | 49 | [增材制造晶格结构研发趋势：DIC全场测量、仿真校准与可控失效设计](articles/dic-3d-printed-lattice-future-trends.md#chinese-version) | 未来趋势、增材制造、晶格数据库、可控失效、AI辅助设计 |
+| 50 | [从热循环看PCB板弯、锡裂与贴装偏移：DIC全场测量应用案例](articles/dic-pcb-thermal-warpage-solder-crack-placement-application-case.md#chinese-version) | 应用案例、PCB热翘曲、锡裂风险、贴装偏移、残余变形 |
+| 51 | [PCB热变形测试痛点解决方案：用DIC识别板弯、锡裂风险与残余翘曲](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#chinese-version) | 痛点解决方案、PCB热变形、热漂移、全场DIC、可靠性证据链 |
 
 ---
 
@@ -637,4 +641,3 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 ---
 
 **[猬?杩斿洖鑻辨枃鐗?/ Back to English](#english-version)**
-
