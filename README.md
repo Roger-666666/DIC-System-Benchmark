@@ -314,6 +314,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 51 | [Solving PCB Thermal Deformation Testing Pain Points with DIC: Warpage, Solder-Crack Risk, and Residual Bow](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#english-version) | Pain-point solution, PCB thermal deformation, thermal drift, full-field DIC, reliability evidence |
 | 52 | [How Digital Speckle DIC Measures Full-Field Strain in High-Temperature Steel-Pipe Compression](articles/dic-steel-pipe-high-temperature-compression-full-field-strain-principles.md#english-version) | Principle analysis, digital speckle DIC, steel pipe compression, high-temperature strain, buckling |
 | 53 | [High-Temperature Steel-Pipe Compression: A Full-Field DIC Case for Local Buckling and Strain Concentration](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#english-version) | Application case, steel pipe, high-temperature compression, local buckling, strain concentration |
+| 54 | [How to Measure Automotive Reliability: DIC, LDV, and Digital Holography Full-Field Method Comparison](articles/dic-automotive-reliability-full-field-measurement-method-comparison.md#english-version) | Method comparison, automotive reliability, DIC, LDV, digital holography, full-field measurement |
+| 55 | [From Body Structure to EV Systems: Full-Field DIC Application Cases in Automotive Reliability Assessment](articles/dic-automotive-intelligent-manufacturing-reliability-application-case.md#english-version) | Application case, automotive intelligent manufacturing, EV systems, body structure, full-field strain |
 
 ---
 
@@ -636,6 +638,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 51 | [PCB热变形测试痛点解决方案：用DIC识别板弯、锡裂风险与残余翘曲](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#chinese-version) | 痛点解决方案、PCB热变形、热漂移、全场DIC、可靠性证据链 |
 | 52 | [数字散斑DIC如何测钢管高温压缩全场应变：原理解析](articles/dic-steel-pipe-high-temperature-compression-full-field-strain-principles.md#chinese-version) | 原理解析、数字散斑DIC、钢管高温压缩、全场应变、局部屈曲 |
 | 53 | [从高温压缩看钢管局部屈曲与应变集中：DIC全场测试应用案例](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#chinese-version) | 应用案例、钢管、高温压缩、局部屈曲、应变集中 |
+| 54 | [汽车可靠性评估怎么测：DIC、LDV与数字全息全场测量方法对比](articles/dic-automotive-reliability-full-field-measurement-method-comparison.md#chinese-version) | 方法对比、汽车可靠性、DIC、LDV、数字全息、全场测量 |
+| 55 | [从车身到三电：DIC全场测量在汽车智造可靠性评估中的应用案例](articles/dic-automotive-intelligent-manufacturing-reliability-application-case.md#chinese-version) | 应用案例、汽车智造、三电系统、车身结构、全场应变 |
 
 ---
 
