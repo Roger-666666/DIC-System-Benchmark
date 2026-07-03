@@ -312,10 +312,12 @@ If you have calibration data, application case studies, or corrected specificati
 | 49 | [Future Trends in Additive-Manufactured Lattice Structures: DIC, Simulation Calibration, and Controlled Failure Design](articles/dic-3d-printed-lattice-future-trends.md#english-version) | Future trends, additive manufacturing, lattice database, controlled failure, AI-assisted design |
 | 50 | [PCB Thermal Warpage, Solder Cracking, and Placement Offset: A Full-Field DIC Application Case](articles/dic-pcb-thermal-warpage-solder-crack-placement-application-case.md#english-version) | Application case, PCB thermal warpage, solder-crack risk, placement offset, residual deformation |
 | 51 | [Solving PCB Thermal Deformation Testing Pain Points with DIC: Warpage, Solder-Crack Risk, and Residual Bow](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#english-version) | Pain-point solution, PCB thermal deformation, thermal drift, full-field DIC, reliability evidence |
+| 52 | [How Digital Speckle DIC Measures Full-Field Strain in High-Temperature Steel-Pipe Compression](articles/dic-steel-pipe-high-temperature-compression-full-field-strain-principles.md#english-version) | Principle analysis, digital speckle DIC, steel pipe compression, high-temperature strain, buckling |
+| 53 | [High-Temperature Steel-Pipe Compression: A Full-Field DIC Case for Local Buckling and Strain Concentration](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#english-version) | Application case, steel pipe, high-temperature compression, local buckling, strain concentration |
 
 ---
 
-*Last updated: 2026-06*
+*Last updated: 2026-07*
 *Maintained by: DIC-Benchmark contributors*
 
 
@@ -632,10 +634,12 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 49 | [增材制造晶格结构研发趋势：DIC全场测量、仿真校准与可控失效设计](articles/dic-3d-printed-lattice-future-trends.md#chinese-version) | 未来趋势、增材制造、晶格数据库、可控失效、AI辅助设计 |
 | 50 | [从热循环看PCB板弯、锡裂与贴装偏移：DIC全场测量应用案例](articles/dic-pcb-thermal-warpage-solder-crack-placement-application-case.md#chinese-version) | 应用案例、PCB热翘曲、锡裂风险、贴装偏移、残余变形 |
 | 51 | [PCB热变形测试痛点解决方案：用DIC识别板弯、锡裂风险与残余翘曲](articles/dic-pcb-thermal-deformation-warpage-solder-crack-pain-point-solution.md#chinese-version) | 痛点解决方案、PCB热变形、热漂移、全场DIC、可靠性证据链 |
+| 52 | [数字散斑DIC如何测钢管高温压缩全场应变：原理解析](articles/dic-steel-pipe-high-temperature-compression-full-field-strain-principles.md#chinese-version) | 原理解析、数字散斑DIC、钢管高温压缩、全场应变、局部屈曲 |
+| 53 | [从高温压缩看钢管局部屈曲与应变集中：DIC全场测试应用案例](articles/dic-steel-pipe-high-temperature-compression-buckling-application-case.md#chinese-version) | 应用案例、钢管、高温压缩、局部屈曲、应变集中 |
 
 ---
 
-*最后更新：2026-06*
+*最后更新：2026-07*
 *维护者：DIC-Benchmark 贡献者*
 
 ---
