@@ -320,6 +320,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 57 | [Reinforced Concrete Cylinder Compression: A Full-Field DIC Case for Crack Paths and Constraint Effects](articles/dic-reinforced-concrete-cylinder-compression-full-field-strain-application-case.md#english-version) | Application case, reinforced concrete, cylinder compression, crack path, full-field strain |
 | 58 | [How DIC Enables Global Crack Identification and Reconstruction in Concrete Beams](articles/dic-concrete-beam-crack-global-identification-reconstruction-principles.md#english-version) | Principle analysis, concrete beam, crack identification, crack reconstruction, full-field strain |
 | 59 | [From Wide Beams to Slender Beams: A Full-Field DIC Case for Concrete Beam Crack Reconstruction](articles/dic-concrete-beam-crack-reconstruction-application-case.md#english-version) | Application case, concrete beam, wide-section beam, slender beam, crack path reconstruction |
+| 60 | [How to Measure PCB Thermal Deformation: DIC, Warpage Tools, Strain Gauges, and Thermal Imaging](articles/dic-pcb-thermal-warpage-measurement-method-comparison.md#english-version) | Method comparison, PCB thermal deformation, warpage, solder cracking, DIC |
+| 61 | [From Thermal Cycling to Process Optimization: DIC Builds a PCB Warpage, Solder-Crack, and Placement-Offset Quality Loop](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#english-version) | Future trends, PCB thermal reliability, SMT process, residual deformation, AI analysis |
 
 ---
 
@@ -648,6 +650,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 57 | [钢筋混凝土圆柱压缩：DIC全场应变测量裂纹路径与约束效应应用案例](articles/dic-reinforced-concrete-cylinder-compression-full-field-strain-application-case.md#chinese-version) | 应用案例、钢筋混凝土、圆柱压缩、裂纹路径、全场应变 |
 | 58 | [DIC技术如何实现混凝土梁裂缝全局识别与重构：原理解析](articles/dic-concrete-beam-crack-global-identification-reconstruction-principles.md#chinese-version) | 原理解析、混凝土梁、裂缝识别、裂缝重构、全场应变 |
 | 59 | [从宽梁到细长梁：DIC全场测量用于混凝土梁裂缝识别与重构应用案例](articles/dic-concrete-beam-crack-reconstruction-application-case.md#chinese-version) | 应用案例、混凝土梁、宽截面梁、细长梁、裂缝路径重构 |
+| 60 | [PCB热变形测试怎么选：DIC、翘曲仪、应变片与热像方法对比](articles/dic-pcb-thermal-warpage-measurement-method-comparison.md#chinese-version) | 方法对比、PCB热变形、板弯、锡裂、DIC |
+| 61 | [从热循环到制程优化：DIC如何建立PCB板弯、锡裂与贴装偏移质量闭环](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#chinese-version) | 未来趋势、PCB热可靠性、SMT制程、残余变形、AI分析 |
 
 ---
 
