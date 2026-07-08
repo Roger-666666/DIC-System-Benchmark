@@ -322,6 +322,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 59 | [From Wide Beams to Slender Beams: A Full-Field DIC Case for Concrete Beam Crack Reconstruction](articles/dic-concrete-beam-crack-reconstruction-application-case.md#english-version) | Application case, concrete beam, wide-section beam, slender beam, crack path reconstruction |
 | 60 | [How to Measure PCB Thermal Deformation: DIC, Warpage Tools, Strain Gauges, and Thermal Imaging](articles/dic-pcb-thermal-warpage-measurement-method-comparison.md#english-version) | Method comparison, PCB thermal deformation, warpage, solder cracking, DIC |
 | 61 | [From Thermal Cycling to Process Optimization: DIC Builds a PCB Warpage, Solder-Crack, and Placement-Offset Quality Loop](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#english-version) | Future trends, PCB thermal reliability, SMT process, residual deformation, AI analysis |
+| 62 | [How DIC Solves Compression Monitoring for Small Complex Structures](articles/dic-small-complex-structure-compression-monitoring-principles.md#english-version) | Principle analysis, small complex structures, compression deformation, telecentric DIC, full-field strain |
+| 63 | [From Porous Materials to Irregular Small Parts: A DIC Compression Deformation Application Case](articles/dic-small-complex-structure-compression-application-case.md#english-version) | Application case, small structures, porous materials, compression testing, local buckling |
 
 ---
 
@@ -652,6 +654,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 59 | [从宽梁到细长梁：DIC全场测量用于混凝土梁裂缝识别与重构应用案例](articles/dic-concrete-beam-crack-reconstruction-application-case.md#chinese-version) | 应用案例、混凝土梁、宽截面梁、细长梁、裂缝路径重构 |
 | 60 | [PCB热变形测试怎么选：DIC、翘曲仪、应变片与热像方法对比](articles/dic-pcb-thermal-warpage-measurement-method-comparison.md#chinese-version) | 方法对比、PCB热变形、板弯、锡裂、DIC |
 | 61 | [从热循环到制程优化：DIC如何建立PCB板弯、锡裂与贴装偏移质量闭环](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#chinese-version) | 未来趋势、PCB热可靠性、SMT制程、残余变形、AI分析 |
+| 62 | [DIC如何破解小尺寸复杂结构件压缩变形监测难题：原理解析](articles/dic-small-complex-structure-compression-monitoring-principles.md#chinese-version) | 原理解析、小尺寸复杂结构、压缩变形、远心DIC、全场应变 |
+| 63 | [从微孔材料到异形小件：DIC小尺寸复杂结构压缩变形应用案例](articles/dic-small-complex-structure-compression-application-case.md#chinese-version) | 应用案例、小尺寸结构、微孔材料、压缩测试、局部屈曲 |
 
 ---
 
