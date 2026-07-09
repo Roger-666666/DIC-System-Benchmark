@@ -324,6 +324,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 61 | [From Thermal Cycling to Process Optimization: DIC Builds a PCB Warpage, Solder-Crack, and Placement-Offset Quality Loop](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#english-version) | Future trends, PCB thermal reliability, SMT process, residual deformation, AI analysis |
 | 62 | [How DIC Solves Compression Monitoring for Small Complex Structures](articles/dic-small-complex-structure-compression-monitoring-principles.md#english-version) | Principle analysis, small complex structures, compression deformation, telecentric DIC, full-field strain |
 | 63 | [From Porous Materials to Irregular Small Parts: A DIC Compression Deformation Application Case](articles/dic-small-complex-structure-compression-application-case.md#english-version) | Application case, small structures, porous materials, compression testing, local buckling |
+| 64 | [Why Use DIC for Structural Beam Bending: Full-Field Displacement, Strain Maps, and Deflection Curves](articles/dic-structural-beam-bending-full-field-deformation-principles.md#english-version) | Principle analysis, structural beam bending, full-field deformation, strain maps, deflection curves |
+| 65 | [From Loading to Deflection Curves: A Full-Field DIC Case for Structural Beam Bending Mechanics](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#english-version) | Application case, structural beam bending, full-field DIC, deflection curve, finite element calibration |
 
 ---
 
@@ -656,6 +658,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 61 | [从热循环到制程优化：DIC如何建立PCB板弯、锡裂与贴装偏移质量闭环](articles/dic-pcb-thermal-deformation-process-quality-loop-future-trends.md#chinese-version) | 未来趋势、PCB热可靠性、SMT制程、残余变形、AI分析 |
 | 62 | [DIC如何破解小尺寸复杂结构件压缩变形监测难题：原理解析](articles/dic-small-complex-structure-compression-monitoring-principles.md#chinese-version) | 原理解析、小尺寸复杂结构、压缩变形、远心DIC、全场应变 |
 | 63 | [从微孔材料到异形小件：DIC小尺寸复杂结构压缩变形应用案例](articles/dic-small-complex-structure-compression-application-case.md#chinese-version) | 应用案例、小尺寸结构、微孔材料、压缩测试、局部屈曲 |
+| 64 | [结构梁弯曲变形为什么要用DIC：全场位移、应变云图与挠度曲线原理解析](articles/dic-structural-beam-bending-full-field-deformation-principles.md#chinese-version) | 原理解析、结构梁弯曲、DIC全场测量、应变云图、挠度曲线 |
+| 65 | [从加载到挠度曲线：DIC用于结构梁弯曲变形力学实验应用案例](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#chinese-version) | 应用案例、结构梁弯曲、全场变形、挠度曲线、有限元校准 |
 
 ---
 
