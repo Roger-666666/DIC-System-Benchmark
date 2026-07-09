@@ -326,6 +326,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 63 | [From Porous Materials to Irregular Small Parts: A DIC Compression Deformation Application Case](articles/dic-small-complex-structure-compression-application-case.md#english-version) | Application case, small structures, porous materials, compression testing, local buckling |
 | 64 | [Why Use DIC for Structural Beam Bending: Full-Field Displacement, Strain Maps, and Deflection Curves](articles/dic-structural-beam-bending-full-field-deformation-principles.md#english-version) | Principle analysis, structural beam bending, full-field deformation, strain maps, deflection curves |
 | 65 | [From Loading to Deflection Curves: A Full-Field DIC Case for Structural Beam Bending Mechanics](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#english-version) | Application case, structural beam bending, full-field DIC, deflection curve, finite element calibration |
+| 66 | [How Monocular High-Speed DIC Captures Micron-Level High-Frequency Vibration in Precision Parts](articles/dic-monocular-high-speed-dic-precision-part-micron-vibration-principles.md#english-version) | Principle analysis, monocular high-speed DIC, precision parts, micron vibration, FFT analysis |
+| 67 | [From Shaker Testing to Time-History Curves: A Monocular High-Speed DIC Case for Precision-Part Vibration](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#english-version) | Application case, precision-part vibration, XTDIC-SPARK, displacement curves, acceleration analysis |
 
 ---
 
@@ -660,6 +662,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 63 | [从微孔材料到异形小件：DIC小尺寸复杂结构压缩变形应用案例](articles/dic-small-complex-structure-compression-application-case.md#chinese-version) | 应用案例、小尺寸结构、微孔材料、压缩测试、局部屈曲 |
 | 64 | [结构梁弯曲变形为什么要用DIC：全场位移、应变云图与挠度曲线原理解析](articles/dic-structural-beam-bending-full-field-deformation-principles.md#chinese-version) | 原理解析、结构梁弯曲、DIC全场测量、应变云图、挠度曲线 |
 | 65 | [从加载到挠度曲线：DIC用于结构梁弯曲变形力学实验应用案例](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#chinese-version) | 应用案例、结构梁弯曲、全场变形、挠度曲线、有限元校准 |
+| 66 | [单目高速DIC如何捕捉精密件微米级高频振动：原理解析](articles/dic-monocular-high-speed-dic-precision-part-micron-vibration-principles.md#chinese-version) | 原理解析、单目高速DIC、精密件、微米级振动、FFT分析 |
+| 67 | [从振动台到时程曲线：单目高速DIC精密件高频振动工程实测案例](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#chinese-version) | 应用案例、精密件振动、XTDIC-SPARK、位移曲线、加速度分析 |
 
 ---
 
