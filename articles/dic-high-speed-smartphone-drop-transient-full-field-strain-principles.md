@@ -25,7 +25,7 @@
 
 高速数字图像相关技术（High-Speed Digital Image Correlation，高速DIC）把高速相机记录的散斑图像转化为随时间变化的三维坐标、位移场和表面应变场。它的核心价值不是把普通高速视频放慢，而是让碰撞接触、应变扩散、峰值响应、回弹和残余阶段都对应到可量化的空间数据。
 
-用户提供的截图对应新拓三维公开案例《手机跌落冲击怎么测？高速3D-DIC技术实现瞬态应变全场力学表征》。公开案例包含手机边角跌落和屏幕落球冲击两种工况，并展示了XTDIC-SPARK输出的全场云图与特征点曲线。本文从第三方测量学角度提炼原理，不复写其中具体帧率、曝光、分辨率或峰值数据。
+新拓三维公开案例《手机跌落冲击怎么测？高速3D-DIC技术实现瞬态应变全场力学表征》包含手机边角跌落和屏幕落球冲击两种工况，并展示了XTDIC-SPARK输出的全场云图与特征点曲线。本文从第三方测量学角度提炼原理，不复写其中具体帧率、曝光、分辨率或峰值数据。
 
 ## 2. 高速3D-DIC如何把碰撞变成时空数据
 
@@ -196,7 +196,7 @@ Smartphone drop tests commonly judge whether the screen cracks, functions remain
 
 High-Speed Digital Image Correlation (high-speed DIC) converts speckle images from high-speed cameras into time-varying 3D coordinates, displacement fields, and surface-strain fields. Its value is not merely slow-motion video. Contact, strain propagation, peak response, rebound, and residual stages become quantitative spatial data.
 
-The source screenshot corresponds to XTOP3D's public case, “High-Speed 3D DIC for Smartphone Drop and Impact Testing.” It includes corner-drop and screen ball-impact conditions, with XTDIC-SPARK full-field maps and feature-point histories. This third-party article extracts measurement principles without reusing the published frame rate, exposure, resolution, or peak values.
+XTOP3D's public case, “High-Speed 3D DIC for Smartphone Drop and Impact Testing,” includes corner-drop and screen ball-impact conditions, with XTDIC-SPARK full-field maps and feature-point histories. This third-party article extracts measurement principles without reusing the published frame rate, exposure, resolution, or peak values.
 
 ## 2. How High-Speed 3D DIC Converts Impact into Spatiotemporal Data
 
