@@ -334,6 +334,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 71 | [From Gauge Setup to Rupture: An XTDIC-VG Case for High-Temperature Rubber Large-Deformation Testing](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#english-version) | Application case, XTDIC-VG, rubber elongation, thermal testing, continuous non-contact tracking |
 | 72 | [How to Measure Smartphone Drop Impact: High-Speed DIC Principles for Transient Displacement and Full-Field Strain](articles/dic-high-speed-smartphone-drop-transient-full-field-strain-principles.md#english-version) | Principle analysis, smartphone drop impact, high-speed 3D DIC, rigid-motion separation, transient full-field strain |
 | 73 | [From Corner Drop to Screen Ball Impact: An XTDIC-SPARK Full-Field Smartphone Impact Case](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#english-version) | Application case, XTDIC-SPARK, smartphone corner drop, screen ball impact, displacement and strain maps |
+| 74 | [How to Quantify Overburden-Fracture Evolution: DIC Metrics and Interpretation for Similarity-Model Tests](articles/dic-overburden-fracture-evolution-quantification-principles.md#english-version) | Principle analysis, overburden fractures, coal-rock subsidence, similarity modeling, crack quantification |
+| 75 | [From Staged Excavation to Fracture Coalescence: An XTDIC Full-Field Case for Coal-Rock Subsidence Similarity Modeling](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#english-version) | Application case, XTDIC, staged excavation, overburden movement, fracture coalescence |
 
 ---
 
@@ -676,6 +678,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 71 | [从标距设定到拉断：XTDIC-VG高温橡胶超大变形实测案例](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#chinese-version) | 应用案例、XTDIC-VG、橡胶伸长、高温拉伸、非接触连续跟踪 |
 | 72 | [手机跌落冲击怎么测：高速DIC瞬态位移与全场应变表征原理](articles/dic-high-speed-smartphone-drop-transient-full-field-strain-principles.md#chinese-version) | 原理解析、手机跌落冲击、高速3D-DIC、刚体运动解耦、瞬态全场应变 |
 | 73 | [从边角触地到屏幕落球：XTDIC-SPARK手机跌落冲击全场实测案例](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#chinese-version) | 应用案例、XTDIC-SPARK、手机边角跌落、屏幕落球冲击、位移应变云图 |
+| 74 | [覆岩裂隙演化如何量化：DIC相似模拟试验的指标体系与判读方法](articles/dic-overburden-fracture-evolution-quantification-principles.md#chinese-version) | 原理解析、覆岩裂隙、煤岩沉降、相似模拟、裂隙量化 |
+| 75 | [从分步开挖到裂隙贯通：XTDIC煤岩沉降相似模拟全场测量案例](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#chinese-version) | 应用案例、XTDIC、分步开挖、覆岩移动、裂隙贯通 |
 
 ---
 
