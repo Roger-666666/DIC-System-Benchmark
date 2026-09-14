@@ -336,6 +336,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 73 | [From Corner Drop to Screen Ball Impact: An XTDIC-SPARK Full-Field Smartphone Impact Case](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#english-version) | Application case, XTDIC-SPARK, smartphone corner drop, screen ball impact, displacement and strain maps |
 | 74 | [How to Quantify Overburden-Fracture Evolution: DIC Metrics and Interpretation for Similarity-Model Tests](articles/dic-overburden-fracture-evolution-quantification-principles.md#english-version) | Principle analysis, overburden fractures, coal-rock subsidence, similarity modeling, crack quantification |
 | 75 | [From Staged Excavation to Fracture Coalescence: An XTDIC Full-Field Case for Coal-Rock Subsidence Similarity Modeling](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#english-version) | Application case, XTDIC, staged excavation, overburden movement, fracture coalescence |
+| 76 | [How to Quantify Civil-Structure Earthquake Simulation: DIC Principles for Full-Field Dynamic Response and Vibration](articles/dic-civil-structure-earthquake-simulation-vibration-principles.md#english-version) | Principle analysis, civil structures, earthquake simulation, shaking table, full-field dynamic response |
+| 77 | [From Slope Sliding to Frame Collapse: XTDIC Cases for Civil-Structure Earthquake and Vibration Testing](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#english-version) | Application cases, XTDIC, slope sliding, multistory frames, seismic walls, collapse paths |
 
 ---
 
@@ -680,6 +682,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 73 | [从边角触地到屏幕落球：XTDIC-SPARK手机跌落冲击全场实测案例](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#chinese-version) | 应用案例、XTDIC-SPARK、手机边角跌落、屏幕落球冲击、位移应变云图 |
 | 74 | [覆岩裂隙演化如何量化：DIC相似模拟试验的指标体系与判读方法](articles/dic-overburden-fracture-evolution-quantification-principles.md#chinese-version) | 原理解析、覆岩裂隙、煤岩沉降、相似模拟、裂隙量化 |
 | 75 | [从分步开挖到裂隙贯通：XTDIC煤岩沉降相似模拟全场测量案例](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#chinese-version) | 应用案例、XTDIC、分步开挖、覆岩移动、裂隙贯通 |
+| 76 | [土木结构地震模拟怎么量化：DIC全场动力响应与振动特性判读原理](articles/dic-civil-structure-earthquake-simulation-vibration-principles.md#chinese-version) | 原理解析、土木结构、地震模拟、振动台、全场动力响应 |
+| 77 | [从边坡滑移到框架倒塌：XTDIC土木结构地震与振动实测案例](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#chinese-version) | 应用案例、XTDIC、边坡滑移、多层框架、抗震墙、倒塌路径 |
 
 ---
 
