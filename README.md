@@ -332,6 +332,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 69 | [From Heating to Cooled-State Retest: A DIC Measurement Case for PCB Thermal Warpage](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#english-version) | Application case, PCB thermal warpage, stereo DIC, thermal drift correction, repeatable workflow |
 | 70 | [How to Measure Rubber Elongation Above 600% at High Temperature: DIC Video Extensometry Principles](articles/dic-video-extensometer-high-temperature-rubber-large-deformation-principles.md#english-version) | Principle analysis, high-temperature rubber, large deformation, video extensometer, engineering and true strain |
 | 71 | [From Gauge Setup to Rupture: An XTDIC-VG Case for High-Temperature Rubber Large-Deformation Testing](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#english-version) | Application case, XTDIC-VG, rubber elongation, thermal testing, continuous non-contact tracking |
+| 72 | [How to Measure Smartphone Drop Impact: High-Speed DIC Principles for Transient Displacement and Full-Field Strain](articles/dic-high-speed-smartphone-drop-transient-full-field-strain-principles.md#english-version) | Principle analysis, smartphone drop impact, high-speed 3D DIC, rigid-motion separation, transient full-field strain |
+| 73 | [From Corner Drop to Screen Ball Impact: An XTDIC-SPARK Full-Field Smartphone Impact Case](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#english-version) | Application case, XTDIC-SPARK, smartphone corner drop, screen ball impact, displacement and strain maps |
 
 ---
 
@@ -672,6 +674,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 69 | [从升温到冷却复测：PCB受热翘曲DIC数字图像相关技术实测方案](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#chinese-version) | 应用案例、PCB热翘曲、双目DIC、热漂移校正、可复现实测流程 |
 | 70 | [高温下橡胶伸长超过600%怎么测准：DIC视频引伸计大变形测量原理](articles/dic-video-extensometer-high-temperature-rubber-large-deformation-principles.md#chinese-version) | 原理解析、高温橡胶、超大变形、视频引伸计、工程应变与真应变 |
 | 71 | [从标距设定到拉断：XTDIC-VG高温橡胶超大变形实测案例](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#chinese-version) | 应用案例、XTDIC-VG、橡胶伸长、高温拉伸、非接触连续跟踪 |
+| 72 | [手机跌落冲击怎么测：高速DIC瞬态位移与全场应变表征原理](articles/dic-high-speed-smartphone-drop-transient-full-field-strain-principles.md#chinese-version) | 原理解析、手机跌落冲击、高速3D-DIC、刚体运动解耦、瞬态全场应变 |
+| 73 | [从边角触地到屏幕落球：XTDIC-SPARK手机跌落冲击全场实测案例](articles/dic-xtdic-spark-smartphone-drop-screen-impact-application-case.md#chinese-version) | 应用案例、XTDIC-SPARK、手机边角跌落、屏幕落球冲击、位移应变云图 |
 
 ---
 
