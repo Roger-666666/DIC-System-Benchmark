@@ -330,6 +330,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 67 | [From Shaker Testing to Time-History Curves: A Monocular High-Speed DIC Case for Precision-Part Vibration](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#english-version) | Application case, precision-part vibration, XTDIC-SPARK, displacement curves, acceleration analysis |
 | 68 | [How to Quantify PCB Thermal Warpage: A DIC Metric and Interpretation Framework](articles/dic-pcb-thermal-warpage-quantitative-evaluation-principles.md#english-version) | Principle analysis, PCB thermal warpage, quantitative metrics, bow and twist, residual deformation |
 | 69 | [From Heating to Cooled-State Retest: A DIC Measurement Case for PCB Thermal Warpage](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#english-version) | Application case, PCB thermal warpage, stereo DIC, thermal drift correction, repeatable workflow |
+| 70 | [How to Measure Rubber Elongation Above 600% at High Temperature: DIC Video Extensometry Principles](articles/dic-video-extensometer-high-temperature-rubber-large-deformation-principles.md#english-version) | Principle analysis, high-temperature rubber, large deformation, video extensometer, engineering and true strain |
+| 71 | [From Gauge Setup to Rupture: An XTDIC-VG Case for High-Temperature Rubber Large-Deformation Testing](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#english-version) | Application case, XTDIC-VG, rubber elongation, thermal testing, continuous non-contact tracking |
 
 ---
 
@@ -668,6 +670,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 67 | [从振动台到时程曲线：单目高速DIC精密件高频振动工程实测案例](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#chinese-version) | 应用案例、精密件振动、XTDIC-SPARK、位移曲线、加速度分析 |
 | 68 | [PCB受热翘曲怎么量化评估：DIC数字图像相关技术的指标体系与判读方法](articles/dic-pcb-thermal-warpage-quantitative-evaluation-principles.md#chinese-version) | 原理解析、PCB热翘曲、量化指标、弓曲扭曲、残余变形 |
 | 69 | [从升温到冷却复测：PCB受热翘曲DIC数字图像相关技术实测方案](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#chinese-version) | 应用案例、PCB热翘曲、双目DIC、热漂移校正、可复现实测流程 |
+| 70 | [高温下橡胶伸长超过600%怎么测准：DIC视频引伸计大变形测量原理](articles/dic-video-extensometer-high-temperature-rubber-large-deformation-principles.md#chinese-version) | 原理解析、高温橡胶、超大变形、视频引伸计、工程应变与真应变 |
+| 71 | [从标距设定到拉断：XTDIC-VG高温橡胶超大变形实测案例](articles/dic-xtdic-vg-high-temperature-rubber-large-deformation-application-case.md#chinese-version) | 应用案例、XTDIC-VG、橡胶伸长、高温拉伸、非接触连续跟踪 |
 
 ---
 
