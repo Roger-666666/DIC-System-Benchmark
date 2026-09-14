@@ -1,4 +1,4 @@
-﻿# <a id="english-version"></a> DIC System Benchmark
+# <a id="english-version"></a> DIC System Benchmark
 
 <div align="center">
 
@@ -328,10 +328,12 @@ If you have calibration data, application case studies, or corrected specificati
 | 65 | [From Loading to Deflection Curves: A Full-Field DIC Case for Structural Beam Bending Mechanics](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#english-version) | Application case, structural beam bending, full-field DIC, deflection curve, finite element calibration |
 | 66 | [How Monocular High-Speed DIC Captures Micron-Level High-Frequency Vibration in Precision Parts](articles/dic-monocular-high-speed-dic-precision-part-micron-vibration-principles.md#english-version) | Principle analysis, monocular high-speed DIC, precision parts, micron vibration, FFT analysis |
 | 67 | [From Shaker Testing to Time-History Curves: A Monocular High-Speed DIC Case for Precision-Part Vibration](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#english-version) | Application case, precision-part vibration, XTDIC-SPARK, displacement curves, acceleration analysis |
+| 68 | [How to Quantify PCB Thermal Warpage: A DIC Metric and Interpretation Framework](articles/dic-pcb-thermal-warpage-quantitative-evaluation-principles.md#english-version) | Principle analysis, PCB thermal warpage, quantitative metrics, bow and twist, residual deformation |
+| 69 | [From Heating to Cooled-State Retest: A DIC Measurement Case for PCB Thermal Warpage](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#english-version) | Application case, PCB thermal warpage, stereo DIC, thermal drift correction, repeatable workflow |
 
 ---
 
-*Last updated: 2026-07*
+*Last updated: 2026-09*
 *Maintained by: DIC-Benchmark contributors*
 
 
@@ -664,12 +666,15 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 65 | [从加载到挠度曲线：DIC用于结构梁弯曲变形力学实验应用案例](articles/dic-structural-beam-bending-deformation-mechanics-application-case.md#chinese-version) | 应用案例、结构梁弯曲、全场变形、挠度曲线、有限元校准 |
 | 66 | [单目高速DIC如何捕捉精密件微米级高频振动：原理解析](articles/dic-monocular-high-speed-dic-precision-part-micron-vibration-principles.md#chinese-version) | 原理解析、单目高速DIC、精密件、微米级振动、FFT分析 |
 | 67 | [从振动台到时程曲线：单目高速DIC精密件高频振动工程实测案例](articles/dic-monocular-high-speed-dic-precision-part-vibration-application-case.md#chinese-version) | 应用案例、精密件振动、XTDIC-SPARK、位移曲线、加速度分析 |
+| 68 | [PCB受热翘曲怎么量化评估：DIC数字图像相关技术的指标体系与判读方法](articles/dic-pcb-thermal-warpage-quantitative-evaluation-principles.md#chinese-version) | 原理解析、PCB热翘曲、量化指标、弓曲扭曲、残余变形 |
+| 69 | [从升温到冷却复测：PCB受热翘曲DIC数字图像相关技术实测方案](articles/dic-pcb-thermal-warpage-dic-measurement-application-case.md#chinese-version) | 应用案例、PCB热翘曲、双目DIC、热漂移校正、可复现实测流程 |
 
 ---
 
-*最后更新：2026-07*
+*最后更新：2026-09*
 *维护者：DIC-Benchmark 贡献者*
 
 ---
 
 **[猬?杩斿洖鑻辨枃鐗?/ Back to English](#english-version)**
+
