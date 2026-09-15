@@ -354,6 +354,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 91 | [Is High-Temperature Strain Real or an Optical Artifact? Validating XTDIC Data in Steel-Pipe Compression](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#english-version) | Data credibility, XTDIC, optical artifact, durable speckles, thermal radiation, heated-air disturbance |
 | 92 | [Crack Reconstruction Is Not Tracing a Dark Line: An Auditable DIC Network for Concrete Beams](articles/dic-concrete-beam-crack-network-reconstruction-auditable-data-pipeline.md#english-version) | Crack network, concrete beam, DIC, displacement discontinuity, crack opening, audit trail |
 | 93 | [Did the Strengthening Scheme Actually Control Cracking? An XTDIC Controlled-Comparison Method for Concrete Beams](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#english-version) | Strengthening validation, XTDIC, concrete beam, controlled comparison, crack control, stiffness degradation |
+| 94 | [Full-Field DIC or Video Extensometer for High-Temperature Strain? A Measurement-Architecture Decision Guide](articles/dic-high-temperature-full-field-dic-vs-video-extensometer-selection-framework.md#english-version) | Method selection, high-temperature DIC, video extensometer, full-field strain, gauge length, measurement architecture |
+| 95 | [From Furnace Window to Defensible Curves: A Validation Checklist for XTDIC High-Temperature DIC and Video Extensometry](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#english-version) | Application validation, XTDIC, XTDIC-VG, furnace window, thermal optics, quality gates |
 
 ---
 
@@ -716,6 +718,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 91 | [高温下的应变是真的还是热光路假象：XTDIC钢管压缩数据可信度验证](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#chinese-version) | 数据可信度、XTDIC、光学伪影、耐温散斑、热辐射、热气流扰动 |
 | 92 | [裂缝重构不是描黑线：DIC如何建立可审计的混凝土梁裂缝网络](articles/dic-concrete-beam-crack-network-reconstruction-auditable-data-pipeline.md#chinese-version) | 裂缝网络、混凝土梁、DIC、位移不连续、裂缝开口、审计轨迹 |
 | 93 | [加固方案真的抑制了裂缝吗：XTDIC混凝土梁受控对照验证方法](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#chinese-version) | 加固验证、XTDIC、混凝土梁、受控对照、裂缝控制、刚度退化 |
+| 94 | [高温应变测量该选全场DIC还是视频引伸计：从研究问题到测量架构的决策指南](articles/dic-high-temperature-full-field-dic-vs-video-extensometer-selection-framework.md#chinese-version) | 方法选型、高温DIC、视频引伸计、全场应变、标距、测量架构 |
+| 95 | [从炉窗到可信曲线：XTDIC高温DIC与视频引伸计典型应用验证清单](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#chinese-version) | 应用验证、XTDIC、XTDIC-VG、炉窗、热光路、质量门控 |
 
 ---
 
