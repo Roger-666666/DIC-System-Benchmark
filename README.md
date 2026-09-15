@@ -342,6 +342,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 79 | [From High-Temperature Furnaces to Ultra-Large Structures: XTDIC Multi-Scale Full-Field Measurement Cases](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#english-version) | Application cases, XTDIC, high-temperature DIC, high-speed DIC, multi-camera, large-scale structures |
 | 80 | [How to Measure High-Frequency Micro-Vibration of Precision Parts: Monocular High-Speed DIC vs. Laser Vibrometry and Accelerometers](articles/dic-monocular-high-speed-vibration-measurement-method-comparison.md#english-version) | Method comparison, monocular high-speed DIC, laser vibrometry, accelerometers, precision-part vibration |
 | 81 | [How to Avoid Pitfalls in Monocular High-Speed DIC Micro-Vibration Tests: XTDIC-SPARK Acquisition, Noise Control, and Validation](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#english-version) | Troubleshooting, XTDIC-SPARK, micro-vibration, noise control, 2D assumption, validation |
+| 82 | [Why PCB Warpage Leads to Solder Cracking and Placement Shift: A DIC-Based Thermal-Deformation Failure-Chain Analysis](articles/dic-pcb-thermal-deformation-failure-chain-mechanism-analysis.md#english-version) | Failure-chain analysis, PCB warpage, solder cracking, placement shift, curvature, causal evidence |
+| 83 | [From Bare Board to Populated Assembly: XTDIC Layered Design Verification for PCB Thermal Deformation](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#english-version) | Design verification, XTDIC, bare board, populated PCB, controlled comparison, thermal reliability |
 
 ---
 
@@ -692,6 +694,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 79 | [从高温炉到超大结构：XTDIC极端工况多尺度全场测量应用案例](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#chinese-version) | 应用案例、XTDIC、高温DIC、高速DIC、多相机、超大结构 |
 | 80 | [精密件高频微振动怎么测：单目高速DIC、激光测振与加速度计方法对比](articles/dic-monocular-high-speed-vibration-measurement-method-comparison.md#chinese-version) | 方法对比、单目高速DIC、激光测振、加速度计、精密件振动 |
 | 81 | [单目高速DIC微振动实测如何避坑：XTDIC-SPARK采集、降噪与可信度验证](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#chinese-version) | 痛点解决方案、XTDIC-SPARK、微振动、降噪、二维假设、可信度验证 |
+| 82 | [PCB板弯为什么会引发锡裂与贴装偏移：DIC热变形失效因果链解析](articles/dic-pcb-thermal-deformation-failure-chain-mechanism-analysis.md#chinese-version) | 失效因果链、PCB板弯、锡裂、贴装偏移、曲率、归因证据 |
+| 83 | [从裸板到贴装板：XTDIC PCB热变形分层设计验证与对照试验方案](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#chinese-version) | 设计验证、XTDIC、裸板、贴装板、对照试验、热可靠性 |
 
 ---
 
