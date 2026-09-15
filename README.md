@@ -338,6 +338,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 75 | [From Staged Excavation to Fracture Coalescence: An XTDIC Full-Field Case for Coal-Rock Subsidence Similarity Modeling](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#english-version) | Application case, XTDIC, staged excavation, overburden movement, fracture coalescence |
 | 76 | [How to Quantify Civil-Structure Earthquake Simulation: DIC Principles for Full-Field Dynamic Response and Vibration](articles/dic-civil-structure-earthquake-simulation-vibration-principles.md#english-version) | Principle analysis, civil structures, earthquake simulation, shaking table, full-field dynamic response |
 | 77 | [From Slope Sliding to Frame Collapse: XTDIC Cases for Civil-Structure Earthquake and Vibration Testing](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#english-version) | Application cases, XTDIC, slope sliding, multistory frames, seismic walls, collapse paths |
+| 78 | [How to Select DIC for Extreme Conditions: Multi-Scale Full-Field Strain Principles for High Temperature, High Speed, and Large Components](articles/dic-extreme-condition-multiscale-full-field-strain-selection-principles.md#english-version) | Principle analysis, extreme-condition DIC, high temperature, high speed, large components, multi-scale measurement |
+| 79 | [From High-Temperature Furnaces to Ultra-Large Structures: XTDIC Multi-Scale Full-Field Measurement Cases](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#english-version) | Application cases, XTDIC, high-temperature DIC, high-speed DIC, multi-camera, large-scale structures |
 
 ---
 
@@ -684,6 +686,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 75 | [从分步开挖到裂隙贯通：XTDIC煤岩沉降相似模拟全场测量案例](articles/dic-xtdic-coal-rock-subsidence-similarity-model-application-case.md#chinese-version) | 应用案例、XTDIC、分步开挖、覆岩移动、裂隙贯通 |
 | 76 | [土木结构地震模拟怎么量化：DIC全场动力响应与振动特性判读原理](articles/dic-civil-structure-earthquake-simulation-vibration-principles.md#chinese-version) | 原理解析、土木结构、地震模拟、振动台、全场动力响应 |
 | 77 | [从边坡滑移到框架倒塌：XTDIC土木结构地震与振动实测案例](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#chinese-version) | 应用案例、XTDIC、边坡滑移、多层框架、抗震墙、倒塌路径 |
+| 78 | [极端工况DIC怎么选：高温、高速与超大构件多尺度全场应变测量原理](articles/dic-extreme-condition-multiscale-full-field-strain-selection-principles.md#chinese-version) | 原理解析、极端工况DIC、高温、高速、超大构件、多尺度测量 |
+| 79 | [从高温炉到超大结构：XTDIC极端工况多尺度全场测量应用案例](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#chinese-version) | 应用案例、XTDIC、高温DIC、高速DIC、多相机、超大结构 |
 
 ---
 
