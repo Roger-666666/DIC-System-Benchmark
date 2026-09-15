@@ -348,6 +348,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 85 | [How to Align Results across Temperatures and Test Rigs: Reproducibility and Data Governance for XTDIC Mesoscale Thermal Testing](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#english-version) | Reproducibility, XTDIC, cross-temperature alignment, data governance, thermal drift, uncertainty |
 | 86 | [From Unit Cell to Component: How DIC Builds Multiscale Equivalent-Mechanical Evidence for 3D-Printed Lattices](articles/dic-3d-printed-lattice-multiscale-equivalent-mechanics-validation.md#english-version) | Multiscale characterization, 3D-printed lattice, unit cell, equivalent mechanics, stereo DIC, model validation |
 | 87 | [Why Identical CAD Produces Different Results: XTDIC Batch Consistency and Process-Window Validation for 3D-Printed Lattices](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#english-version) | Batch consistency, XTDIC, process window, additive manufacturing, quality validation, failure mode |
+| 88 | [Is a Compression Test Measuring the Irregular Part or Its Fixture? Using DIC to Separate Contact, Eccentricity, and Coupled Bending-Torsion](articles/dic-lattice-irregular-compression-boundary-condition-diagnosis.md#english-version) | Boundary diagnosis, lattice-shaped irregular part, contact seating, eccentric loading, bending-torsion, stereo DIC |
+| 89 | [Why a Matching Global Curve Can Still Hide a Wrong Model: XTDIC Field-to-Field Validation for Lattice-Shaped Irregular Parts](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#english-version) | Field-to-field validation, XTDIC, finite elements, surface registration, load path, model credibility |
 
 ---
 
@@ -704,6 +706,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 85 | [跨温区、跨装置结果怎么对齐：XTDIC介观高低温力学测试复现与数据治理方案](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#chinese-version) | 可复现性、XTDIC、跨温区对齐、数据治理、热漂移、不确定度 |
 | 86 | [从单元到整件：DIC如何建立3D打印晶格结构多尺度等效力学表征](articles/dic-3d-printed-lattice-multiscale-equivalent-mechanics-validation.md#chinese-version) | 多尺度表征、3D打印晶格、单元胞、等效力学、三维DIC、模型验证 |
 | 87 | [同一CAD为何结果不同：XTDIC用于3D打印晶格结构批次一致性与工艺窗口验证](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#chinese-version) | 批次一致性、XTDIC、工艺窗口、增材制造、质量验证、失效模式 |
+| 88 | [异形件压缩测到的是结构还是装夹？DIC分离接触、偏心与弯扭耦合](articles/dic-lattice-irregular-compression-boundary-condition-diagnosis.md#chinese-version) | 边界诊断、网格状异形件、接触就位、偏心加载、弯扭耦合、三维DIC |
+| 89 | [全局曲线一致为何仿真仍可能错：XTDIC网格状异形件场到场验证方法](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#chinese-version) | 场到场验证、XTDIC、有限元、表面配准、载荷路径、模型可信度 |
 
 ---
 
