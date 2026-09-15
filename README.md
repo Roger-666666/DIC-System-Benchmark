@@ -350,6 +350,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 87 | [Why Identical CAD Produces Different Results: XTDIC Batch Consistency and Process-Window Validation for 3D-Printed Lattices](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#english-version) | Batch consistency, XTDIC, process window, additive manufacturing, quality validation, failure mode |
 | 88 | [Is a Compression Test Measuring the Irregular Part or Its Fixture? Using DIC to Separate Contact, Eccentricity, and Coupled Bending-Torsion](articles/dic-lattice-irregular-compression-boundary-condition-diagnosis.md#english-version) | Boundary diagnosis, lattice-shaped irregular part, contact seating, eccentric loading, bending-torsion, stereo DIC |
 | 89 | [Why a Matching Global Curve Can Still Hide a Wrong Model: XTDIC Field-to-Field Validation for Lattice-Shaped Irregular Parts](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#english-version) | Field-to-field validation, XTDIC, finite elements, surface registration, load path, model credibility |
+| 90 | [When Does High-Temperature Steel-Pipe Buckling Begin? DIC Full-Field Indicators and Staged Criteria](articles/dic-steel-pipe-high-temperature-compression-buckling-onset-indicators.md#english-version) | Buckling onset, high-temperature steel pipe, full-field DIC, out-of-plane displacement, localization, staged criteria |
+| 91 | [Is High-Temperature Strain Real or an Optical Artifact? Validating XTDIC Data in Steel-Pipe Compression](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#english-version) | Data credibility, XTDIC, optical artifact, durable speckles, thermal radiation, heated-air disturbance |
 
 ---
 
@@ -708,6 +710,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 87 | [同一CAD为何结果不同：XTDIC用于3D打印晶格结构批次一致性与工艺窗口验证](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#chinese-version) | 批次一致性、XTDIC、工艺窗口、增材制造、质量验证、失效模式 |
 | 88 | [异形件压缩测到的是结构还是装夹？DIC分离接触、偏心与弯扭耦合](articles/dic-lattice-irregular-compression-boundary-condition-diagnosis.md#chinese-version) | 边界诊断、网格状异形件、接触就位、偏心加载、弯扭耦合、三维DIC |
 | 89 | [全局曲线一致为何仿真仍可能错：XTDIC网格状异形件场到场验证方法](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#chinese-version) | 场到场验证、XTDIC、有限元、表面配准、载荷路径、模型可信度 |
+| 90 | [钢管高温压缩何时开始屈曲：DIC全场指标与分阶段判据](articles/dic-steel-pipe-high-temperature-compression-buckling-onset-indicators.md#chinese-version) | 屈曲起始、高温钢管、全场DIC、离面位移、应变局部化、分阶段判据 |
+| 91 | [高温下的应变是真的还是热光路假象：XTDIC钢管压缩数据可信度验证](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#chinese-version) | 数据可信度、XTDIC、光学伪影、耐温散斑、热辐射、热气流扰动 |
 
 ---
 
