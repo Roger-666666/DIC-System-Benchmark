@@ -346,6 +346,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 83 | [From Bare Board to Populated Assembly: XTDIC Layered Design Verification for PCB Thermal Deformation](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#english-version) | Design verification, XTDIC, bare board, populated PCB, controlled comparison, thermal reliability |
 | 84 | [What Can Mesoscale High-Low Temperature DIC Reveal? From Strain Localization to Material-Model Validation](articles/dic-mesoscale-thermal-mechanical-research-question-model-validation.md#english-version) | Research methodology, mesoscale DIC, thermal mechanics, strain localization, interface slip, model validation |
 | 85 | [How to Align Results across Temperatures and Test Rigs: Reproducibility and Data Governance for XTDIC Mesoscale Thermal Testing](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#english-version) | Reproducibility, XTDIC, cross-temperature alignment, data governance, thermal drift, uncertainty |
+| 86 | [From Unit Cell to Component: How DIC Builds Multiscale Equivalent-Mechanical Evidence for 3D-Printed Lattices](articles/dic-3d-printed-lattice-multiscale-equivalent-mechanics-validation.md#english-version) | Multiscale characterization, 3D-printed lattice, unit cell, equivalent mechanics, stereo DIC, model validation |
+| 87 | [Why Identical CAD Produces Different Results: XTDIC Batch Consistency and Process-Window Validation for 3D-Printed Lattices](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#english-version) | Batch consistency, XTDIC, process window, additive manufacturing, quality validation, failure mode |
 
 ---
 
@@ -700,6 +702,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 83 | [从裸板到贴装板：XTDIC PCB热变形分层设计验证与对照试验方案](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#chinese-version) | 设计验证、XTDIC、裸板、贴装板、对照试验、热可靠性 |
 | 84 | [介观尺度高低温DIC能研究什么：从应变局部化到材料模型验证](articles/dic-mesoscale-thermal-mechanical-research-question-model-validation.md#chinese-version) | 科研方法、介观DIC、高低温力学、应变局部化、界面滑移、模型验证 |
 | 85 | [跨温区、跨装置结果怎么对齐：XTDIC介观高低温力学测试复现与数据治理方案](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#chinese-version) | 可复现性、XTDIC、跨温区对齐、数据治理、热漂移、不确定度 |
+| 86 | [从单元到整件：DIC如何建立3D打印晶格结构多尺度等效力学表征](articles/dic-3d-printed-lattice-multiscale-equivalent-mechanics-validation.md#chinese-version) | 多尺度表征、3D打印晶格、单元胞、等效力学、三维DIC、模型验证 |
+| 87 | [同一CAD为何结果不同：XTDIC用于3D打印晶格结构批次一致性与工艺窗口验证](articles/dic-xtdic-3d-printed-lattice-batch-consistency-process-window-validation.md#chinese-version) | 批次一致性、XTDIC、工艺窗口、增材制造、质量验证、失效模式 |
 
 ---
 
