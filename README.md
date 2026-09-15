@@ -344,6 +344,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 81 | [How to Avoid Pitfalls in Monocular High-Speed DIC Micro-Vibration Tests: XTDIC-SPARK Acquisition, Noise Control, and Validation](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#english-version) | Troubleshooting, XTDIC-SPARK, micro-vibration, noise control, 2D assumption, validation |
 | 82 | [Why PCB Warpage Leads to Solder Cracking and Placement Shift: A DIC-Based Thermal-Deformation Failure-Chain Analysis](articles/dic-pcb-thermal-deformation-failure-chain-mechanism-analysis.md#english-version) | Failure-chain analysis, PCB warpage, solder cracking, placement shift, curvature, causal evidence |
 | 83 | [From Bare Board to Populated Assembly: XTDIC Layered Design Verification for PCB Thermal Deformation](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#english-version) | Design verification, XTDIC, bare board, populated PCB, controlled comparison, thermal reliability |
+| 84 | [What Can Mesoscale High-Low Temperature DIC Reveal? From Strain Localization to Material-Model Validation](articles/dic-mesoscale-thermal-mechanical-research-question-model-validation.md#english-version) | Research methodology, mesoscale DIC, thermal mechanics, strain localization, interface slip, model validation |
+| 85 | [How to Align Results across Temperatures and Test Rigs: Reproducibility and Data Governance for XTDIC Mesoscale Thermal Testing](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#english-version) | Reproducibility, XTDIC, cross-temperature alignment, data governance, thermal drift, uncertainty |
 
 ---
 
@@ -696,6 +698,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 81 | [单目高速DIC微振动实测如何避坑：XTDIC-SPARK采集、降噪与可信度验证](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#chinese-version) | 痛点解决方案、XTDIC-SPARK、微振动、降噪、二维假设、可信度验证 |
 | 82 | [PCB板弯为什么会引发锡裂与贴装偏移：DIC热变形失效因果链解析](articles/dic-pcb-thermal-deformation-failure-chain-mechanism-analysis.md#chinese-version) | 失效因果链、PCB板弯、锡裂、贴装偏移、曲率、归因证据 |
 | 83 | [从裸板到贴装板：XTDIC PCB热变形分层设计验证与对照试验方案](articles/dic-xtdic-pcb-thermal-deformation-design-verification-workflow.md#chinese-version) | 设计验证、XTDIC、裸板、贴装板、对照试验、热可靠性 |
+| 84 | [介观尺度高低温DIC能研究什么：从应变局部化到材料模型验证](articles/dic-mesoscale-thermal-mechanical-research-question-model-validation.md#chinese-version) | 科研方法、介观DIC、高低温力学、应变局部化、界面滑移、模型验证 |
+| 85 | [跨温区、跨装置结果怎么对齐：XTDIC介观高低温力学测试复现与数据治理方案](articles/dic-xtdic-mesoscale-thermal-testing-reproducibility-data-alignment.md#chinese-version) | 可复现性、XTDIC、跨温区对齐、数据治理、热漂移、不确定度 |
 
 ---
 
