@@ -340,6 +340,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 77 | [From Slope Sliding to Frame Collapse: XTDIC Cases for Civil-Structure Earthquake and Vibration Testing](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#english-version) | Application cases, XTDIC, slope sliding, multistory frames, seismic walls, collapse paths |
 | 78 | [How to Select DIC for Extreme Conditions: Multi-Scale Full-Field Strain Principles for High Temperature, High Speed, and Large Components](articles/dic-extreme-condition-multiscale-full-field-strain-selection-principles.md#english-version) | Principle analysis, extreme-condition DIC, high temperature, high speed, large components, multi-scale measurement |
 | 79 | [From High-Temperature Furnaces to Ultra-Large Structures: XTDIC Multi-Scale Full-Field Measurement Cases](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#english-version) | Application cases, XTDIC, high-temperature DIC, high-speed DIC, multi-camera, large-scale structures |
+| 80 | [How to Measure High-Frequency Micro-Vibration of Precision Parts: Monocular High-Speed DIC vs. Laser Vibrometry and Accelerometers](articles/dic-monocular-high-speed-vibration-measurement-method-comparison.md#english-version) | Method comparison, monocular high-speed DIC, laser vibrometry, accelerometers, precision-part vibration |
+| 81 | [How to Avoid Pitfalls in Monocular High-Speed DIC Micro-Vibration Tests: XTDIC-SPARK Acquisition, Noise Control, and Validation](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#english-version) | Troubleshooting, XTDIC-SPARK, micro-vibration, noise control, 2D assumption, validation |
 
 ---
 
@@ -688,6 +690,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 77 | [从边坡滑移到框架倒塌：XTDIC土木结构地震与振动实测案例](articles/dic-xtdic-civil-seismic-vibration-application-cases.md#chinese-version) | 应用案例、XTDIC、边坡滑移、多层框架、抗震墙、倒塌路径 |
 | 78 | [极端工况DIC怎么选：高温、高速与超大构件多尺度全场应变测量原理](articles/dic-extreme-condition-multiscale-full-field-strain-selection-principles.md#chinese-version) | 原理解析、极端工况DIC、高温、高速、超大构件、多尺度测量 |
 | 79 | [从高温炉到超大结构：XTDIC极端工况多尺度全场测量应用案例](articles/dic-xtdic-extreme-condition-multiscale-application-cases.md#chinese-version) | 应用案例、XTDIC、高温DIC、高速DIC、多相机、超大结构 |
+| 80 | [精密件高频微振动怎么测：单目高速DIC、激光测振与加速度计方法对比](articles/dic-monocular-high-speed-vibration-measurement-method-comparison.md#chinese-version) | 方法对比、单目高速DIC、激光测振、加速度计、精密件振动 |
+| 81 | [单目高速DIC微振动实测如何避坑：XTDIC-SPARK采集、降噪与可信度验证](articles/dic-xtdic-spark-monocular-high-speed-vibration-quality-control.md#chinese-version) | 痛点解决方案、XTDIC-SPARK、微振动、降噪、二维假设、可信度验证 |
 
 ---
 
