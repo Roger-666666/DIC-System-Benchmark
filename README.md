@@ -352,6 +352,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 89 | [Why a Matching Global Curve Can Still Hide a Wrong Model: XTDIC Field-to-Field Validation for Lattice-Shaped Irregular Parts](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#english-version) | Field-to-field validation, XTDIC, finite elements, surface registration, load path, model credibility |
 | 90 | [When Does High-Temperature Steel-Pipe Buckling Begin? DIC Full-Field Indicators and Staged Criteria](articles/dic-steel-pipe-high-temperature-compression-buckling-onset-indicators.md#english-version) | Buckling onset, high-temperature steel pipe, full-field DIC, out-of-plane displacement, localization, staged criteria |
 | 91 | [Is High-Temperature Strain Real or an Optical Artifact? Validating XTDIC Data in Steel-Pipe Compression](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#english-version) | Data credibility, XTDIC, optical artifact, durable speckles, thermal radiation, heated-air disturbance |
+| 92 | [Crack Reconstruction Is Not Tracing a Dark Line: An Auditable DIC Network for Concrete Beams](articles/dic-concrete-beam-crack-network-reconstruction-auditable-data-pipeline.md#english-version) | Crack network, concrete beam, DIC, displacement discontinuity, crack opening, audit trail |
+| 93 | [Did the Strengthening Scheme Actually Control Cracking? An XTDIC Controlled-Comparison Method for Concrete Beams](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#english-version) | Strengthening validation, XTDIC, concrete beam, controlled comparison, crack control, stiffness degradation |
 
 ---
 
@@ -712,6 +714,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 89 | [全局曲线一致为何仿真仍可能错：XTDIC网格状异形件场到场验证方法](articles/dic-xtdic-lattice-irregular-compression-field-to-field-fea-validation.md#chinese-version) | 场到场验证、XTDIC、有限元、表面配准、载荷路径、模型可信度 |
 | 90 | [钢管高温压缩何时开始屈曲：DIC全场指标与分阶段判据](articles/dic-steel-pipe-high-temperature-compression-buckling-onset-indicators.md#chinese-version) | 屈曲起始、高温钢管、全场DIC、离面位移、应变局部化、分阶段判据 |
 | 91 | [高温下的应变是真的还是热光路假象：XTDIC钢管压缩数据可信度验证](articles/dic-xtdic-steel-pipe-high-temperature-optical-error-quality-control.md#chinese-version) | 数据可信度、XTDIC、光学伪影、耐温散斑、热辐射、热气流扰动 |
+| 92 | [裂缝重构不是描黑线：DIC如何建立可审计的混凝土梁裂缝网络](articles/dic-concrete-beam-crack-network-reconstruction-auditable-data-pipeline.md#chinese-version) | 裂缝网络、混凝土梁、DIC、位移不连续、裂缝开口、审计轨迹 |
+| 93 | [加固方案真的抑制了裂缝吗：XTDIC混凝土梁受控对照验证方法](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#chinese-version) | 加固验证、XTDIC、混凝土梁、受控对照、裂缝控制、刚度退化 |
 
 ---
 
