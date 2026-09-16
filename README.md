@@ -360,6 +360,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 97 | [From Test Contours to Credible CAE: XTDIC Field-to-Field Validation and Model Updating for Automotive Structures](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#english-version) | CAE validation, XTDIC, automotive structures, field-to-field comparison, model updating, load path |
 | 98 | [Is the Mode Shape From the PCB or the Fixture? DIC Boundary Diagnosis and False-Mode Screening](articles/dic-pcb-modal-boundary-diagnosis-false-mode-screening.md#english-version) | Boundary diagnosis, PCB modal analysis, DIC, ODS, fixture resonance, false-mode screening |
 | 99 | [Similar Mode Shapes Are Not Enough: XTDIC Test–FE Modal Correlation and Design Validation for PCBs](articles/dic-xtdic-pcb-test-fe-modal-correlation-design-validation.md#english-version) | Modal correlation, XTDIC-SPARK, PCB, finite elements, MAC, model updating |
+| 100 | [Fast Acquisition Is Not the Same as Accurate Measurement: A Multi-Rate, Phase-Synchronized DIC Method for High-Speed Vibration and Fatigue Fields](articles/dic-high-speed-vibration-fatigue-multirate-phase-synchronous-measurement.md#english-version) | Multi-rate acquisition, high-speed DIC, vibration, phase synchronization, fatigue-field measurement |
+| 101 | [From Strain Hotspots to Crack Precursors: An Auditable XTDIC Evidence Chain for Fatigue-Damage Evolution Under Cyclic Loading](articles/dic-xtdic-fatigue-damage-evolution-auditable-evidence-chain.md#english-version) | Fatigue damage, XTDIC, cyclic loading, strain localization, crack precursor, traceability |
 
 ---
 
@@ -728,6 +730,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 97 | [从试验云图到可信CAE：XTDIC汽车结构场到场验证与模型更新方法](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#chinese-version) | CAE验证、XTDIC、汽车结构、场到场比较、模型更新、载荷路径 |
 | 98 | [测到的是PCB还是夹具：DIC电路板振动模态边界诊断与伪模态排查](articles/dic-pcb-modal-boundary-diagnosis-false-mode-screening.md#chinese-version) | 边界诊断、PCB模态分析、DIC、ODS、夹具共振、伪模态排查 |
 | 99 | [振型看起来一致还不够：XTDIC PCB试验—有限元模态相关与设计验证](articles/dic-xtdic-pcb-test-fe-modal-correlation-design-validation.md#chinese-version) | 模态相关、XTDIC-SPARK、PCB、有限元、MAC、模型更新 |
+| 100 | [采得快不等于测得准：DIC高速振动与疲劳场的多速率同步测量方法](articles/dic-high-speed-vibration-fatigue-multirate-phase-synchronous-measurement.md#chinese-version) | 多速率采集、高速DIC、振动、相位同步、疲劳场测量 |
+| 101 | [从应变热点到裂纹前兆：XTDIC循环载荷疲劳损伤演化与可审计证据链](articles/dic-xtdic-fatigue-damage-evolution-auditable-evidence-chain.md#chinese-version) | 疲劳损伤、XTDIC、循环载荷、应变局部化、裂纹前兆、数据追溯 |
 
 ---
 
