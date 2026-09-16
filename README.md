@@ -356,6 +356,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 93 | [Did the Strengthening Scheme Actually Control Cracking? An XTDIC Controlled-Comparison Method for Concrete Beams](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#english-version) | Strengthening validation, XTDIC, concrete beam, controlled comparison, crack control, stiffness degradation |
 | 94 | [Full-Field DIC or Video Extensometer for High-Temperature Strain? A Measurement-Architecture Decision Guide](articles/dic-high-temperature-full-field-dic-vs-video-extensometer-selection-framework.md#english-version) | Method selection, high-temperature DIC, video extensometer, full-field strain, gauge length, measurement architecture |
 | 95 | [From Furnace Window to Defensible Curves: A Validation Checklist for XTDIC High-Temperature DIC and Video Extensometry](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#english-version) | Application validation, XTDIC, XTDIC-VG, furnace window, thermal optics, quality gates |
+| 96 | [Is an Automotive Reliability Failure Caused by Design, Manufacturing, or Boundary Conditions? A DIC Full-Field Root-Cause Framework](articles/dic-automotive-reliability-design-manufacturing-boundary-root-cause-diagnosis.md#english-version) | Root-cause diagnosis, automotive reliability, full-field DIC, manufacturing variation, boundary conditions, measurement artifact |
+| 97 | [From Test Contours to Credible CAE: XTDIC Field-to-Field Validation and Model Updating for Automotive Structures](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#english-version) | CAE validation, XTDIC, automotive structures, field-to-field comparison, model updating, load path |
 
 ---
 
@@ -720,6 +722,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 93 | [加固方案真的抑制了裂缝吗：XTDIC混凝土梁受控对照验证方法](articles/dic-xtdic-concrete-beam-strengthening-crack-control-comparative-validation.md#chinese-version) | 加固验证、XTDIC、混凝土梁、受控对照、裂缝控制、刚度退化 |
 | 94 | [高温应变测量该选全场DIC还是视频引伸计：从研究问题到测量架构的决策指南](articles/dic-high-temperature-full-field-dic-vs-video-extensometer-selection-framework.md#chinese-version) | 方法选型、高温DIC、视频引伸计、全场应变、标距、测量架构 |
 | 95 | [从炉窗到可信曲线：XTDIC高温DIC与视频引伸计典型应用验证清单](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#chinese-version) | 应用验证、XTDIC、XTDIC-VG、炉窗、热光路、质量门控 |
+| 96 | [汽车可靠性异常来自设计、制造还是边界：DIC全场证据的根因诊断框架](articles/dic-automotive-reliability-design-manufacturing-boundary-root-cause-diagnosis.md#chinese-version) | 根因诊断、汽车可靠性、全场DIC、制造波动、边界条件、测量伪影 |
+| 97 | [从试验云图到可信CAE：XTDIC汽车结构场到场验证与模型更新方法](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#chinese-version) | CAE验证、XTDIC、汽车结构、场到场比较、模型更新、载荷路径 |
 
 ---
 
