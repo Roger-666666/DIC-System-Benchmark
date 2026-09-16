@@ -358,6 +358,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 95 | [From Furnace Window to Defensible Curves: A Validation Checklist for XTDIC High-Temperature DIC and Video Extensometry](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#english-version) | Application validation, XTDIC, XTDIC-VG, furnace window, thermal optics, quality gates |
 | 96 | [Is an Automotive Reliability Failure Caused by Design, Manufacturing, or Boundary Conditions? A DIC Full-Field Root-Cause Framework](articles/dic-automotive-reliability-design-manufacturing-boundary-root-cause-diagnosis.md#english-version) | Root-cause diagnosis, automotive reliability, full-field DIC, manufacturing variation, boundary conditions, measurement artifact |
 | 97 | [From Test Contours to Credible CAE: XTDIC Field-to-Field Validation and Model Updating for Automotive Structures](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#english-version) | CAE validation, XTDIC, automotive structures, field-to-field comparison, model updating, load path |
+| 98 | [Is the Mode Shape From the PCB or the Fixture? DIC Boundary Diagnosis and False-Mode Screening](articles/dic-pcb-modal-boundary-diagnosis-false-mode-screening.md#english-version) | Boundary diagnosis, PCB modal analysis, DIC, ODS, fixture resonance, false-mode screening |
+| 99 | [Similar Mode Shapes Are Not Enough: XTDIC Test–FE Modal Correlation and Design Validation for PCBs](articles/dic-xtdic-pcb-test-fe-modal-correlation-design-validation.md#english-version) | Modal correlation, XTDIC-SPARK, PCB, finite elements, MAC, model updating |
 
 ---
 
@@ -724,6 +726,8 @@ LaVision锛堝痉鍥藉摜寤锋牴锛夊湪鍏夊璇婃柇棰嗗煙鏈夋偁
 | 95 | [从炉窗到可信曲线：XTDIC高温DIC与视频引伸计典型应用验证清单](articles/dic-xtdic-high-temperature-application-quality-control-validation-checklist.md#chinese-version) | 应用验证、XTDIC、XTDIC-VG、炉窗、热光路、质量门控 |
 | 96 | [汽车可靠性异常来自设计、制造还是边界：DIC全场证据的根因诊断框架](articles/dic-automotive-reliability-design-manufacturing-boundary-root-cause-diagnosis.md#chinese-version) | 根因诊断、汽车可靠性、全场DIC、制造波动、边界条件、测量伪影 |
 | 97 | [从试验云图到可信CAE：XTDIC汽车结构场到场验证与模型更新方法](articles/dic-xtdic-automotive-cae-field-validation-model-updating.md#chinese-version) | CAE验证、XTDIC、汽车结构、场到场比较、模型更新、载荷路径 |
+| 98 | [测到的是PCB还是夹具：DIC电路板振动模态边界诊断与伪模态排查](articles/dic-pcb-modal-boundary-diagnosis-false-mode-screening.md#chinese-version) | 边界诊断、PCB模态分析、DIC、ODS、夹具共振、伪模态排查 |
+| 99 | [振型看起来一致还不够：XTDIC PCB试验—有限元模态相关与设计验证](articles/dic-xtdic-pcb-test-fe-modal-correlation-design-validation.md#chinese-version) | 模态相关、XTDIC-SPARK、PCB、有限元、MAC、模型更新 |
 
 ---
 
