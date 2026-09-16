@@ -364,6 +364,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 101 | [From Strain Hotspots to Crack Precursors: An Auditable XTDIC Evidence Chain for Fatigue-Damage Evolution Under Cyclic Loading](articles/dic-xtdic-fatigue-damage-evolution-auditable-evidence-chain.md#english-version) | Fatigue damage, XTDIC, cyclic loading, strain localization, crack precursor, traceability |
 | 102 | [Material Failure or End Restraint? Using DIC to Diagnose Friction, Eccentricity, and Shear Bands in Concrete Uniaxial Compression](articles/dic-concrete-uniaxial-compression-boundary-friction-eccentricity-diagnosis.md#english-version) | Boundary diagnosis, concrete compression, platen friction, eccentric loading, shear band, 3D DIC |
 | 103 | [From Strain Contours to Constitutive Credibility: Field-to-Field Validation of Concrete Compression Damage Models With XTDIC](articles/dic-xtdic-concrete-compression-damage-model-field-validation.md#english-version) | Model validation, XTDIC, concrete damage, field-to-field comparison, parameter identification, FEA |
+| 104 | [Does DIC Directly Measure Stress? Definitions, Gauge Length, and Data Comparability in Material and Structural Stress–Strain Testing](articles/dic-stress-strain-definition-gauge-length-data-comparability.md#english-version) | Stress definition, DIC strain, virtual gauge, engineering strain, true strain, data comparability |
+| 105 | [From Material Coupons to Engineering Structures: XTDIC Scenario Selection and Quality Gates for Stress–Strain Testing](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#english-version) | Scenario selection, XTDIC, material testing, structural testing, quality gates, measurement architecture |
 
 ---
 
@@ -736,6 +738,8 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 101 | [从应变热点到裂纹前兆：XTDIC循环载荷疲劳损伤演化与可审计证据链](articles/dic-xtdic-fatigue-damage-evolution-auditable-evidence-chain.md#chinese-version) | 疲劳损伤、XTDIC、循环载荷、应变局部化、裂纹前兆、数据追溯 |
 | 102 | [测到的是材料破坏还是端部约束：DIC诊断混凝土单轴压缩中的摩擦、偏心与剪切带](articles/dic-concrete-uniaxial-compression-boundary-friction-eccentricity-diagnosis.md#chinese-version) | 边界诊断、混凝土压缩、压板摩擦、偏心加载、剪切带、三维DIC |
 | 103 | [从应变云图到本构可信度：XTDIC混凝土压缩损伤模型的场到场验证方法](articles/dic-xtdic-concrete-compression-damage-model-field-validation.md#chinese-version) | 模型验证、XTDIC、混凝土损伤、场到场比较、参数识别、有限元 |
+| 104 | [DIC真的能直接测应力吗：材料与结构应力—应变数据定义、标距与可比性](articles/dic-stress-strain-definition-gauge-length-data-comparability.md#chinese-version) | 应力定义、DIC应变、虚拟标距、工程应变、真应变、数据可比性 |
+| 105 | [从材料试样到工程结构：XTDIC应力—应变测试场景选型与质量门控](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#chinese-version) | 场景选型、XTDIC、材料测试、结构测试、质量门控、测量架构 |
 
 ---
 
