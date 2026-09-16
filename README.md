@@ -366,6 +366,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 103 | [From Strain Contours to Constitutive Credibility: Field-to-Field Validation of Concrete Compression Damage Models With XTDIC](articles/dic-xtdic-concrete-compression-damage-model-field-validation.md#english-version) | Model validation, XTDIC, concrete damage, field-to-field comparison, parameter identification, FEA |
 | 104 | [Does DIC Directly Measure Stress? Definitions, Gauge Length, and Data Comparability in Material and Structural Stress–Strain Testing](articles/dic-stress-strain-definition-gauge-length-data-comparability.md#english-version) | Stress definition, DIC strain, virtual gauge, engineering strain, true strain, data comparability |
 | 105 | [From Material Coupons to Engineering Structures: XTDIC Scenario Selection and Quality Gates for Stress–Strain Testing](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#english-version) | Scenario selection, XTDIC, material testing, structural testing, quality gates, measurement architecture |
+| 106 | [How Can Composite-Material DIC Data Be Proven Reliable? A Laboratory Validation Matrix and Auditable Evidence Chain](articles/dic-composite-material-laboratory-reliability-validation-evidence-chain.md#english-version) | Composite DIC, reliability validation, evidence chain, anisotropy, NDT correlation, quality gates |
+| 107 | [From Strain Maps to Updatable Models: XTDIC Multimodal Fusion, AI Assistance, and Digital-Twin Practice for Composites](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#english-version) | XTDIC, composite monitoring, multimodal fusion, AI-assisted detection, digital twin, multiscale DIC |
 
 ---
 
@@ -740,6 +742,8 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 103 | [从应变云图到本构可信度：XTDIC混凝土压缩损伤模型的场到场验证方法](articles/dic-xtdic-concrete-compression-damage-model-field-validation.md#chinese-version) | 模型验证、XTDIC、混凝土损伤、场到场比较、参数识别、有限元 |
 | 104 | [DIC真的能直接测应力吗：材料与结构应力—应变数据定义、标距与可比性](articles/dic-stress-strain-definition-gauge-length-data-comparability.md#chinese-version) | 应力定义、DIC应变、虚拟标距、工程应变、真应变、数据可比性 |
 | 105 | [从材料试样到工程结构：XTDIC应力—应变测试场景选型与质量门控](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#chinese-version) | 场景选型、XTDIC、材料测试、结构测试、质量门控、测量架构 |
+| 106 | [复合材料DIC数据怎样证明可靠：实验室验证矩阵与可审计证据链](articles/dic-composite-material-laboratory-reliability-validation-evidence-chain.md#chinese-version) | 复合材料DIC、可靠性验证、证据链、各向异性、无损检测配准、质量门控 |
+| 107 | [从应变云图到可更新模型：XTDIC复合材料多源融合、AI辅助与数字孪生实践](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#chinese-version) | XTDIC、复合材料监测、多源融合、AI辅助识别、数字孪生、多尺度DIC |
 
 ---
 
