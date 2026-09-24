@@ -370,6 +370,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 107 | [From Strain Maps to Updatable Models: XTDIC Multimodal Fusion, AI Assistance, and Digital-Twin Practice for Composites](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#english-version) | XTDIC, composite monitoring, multimodal fusion, AI-assisted detection, digital twin, multiscale DIC |
 | 108 | [When the Cameras Vibrate and the Target Moves: How Rigid-Reference Dynamic Extrinsic Correction Improves 3D-DIC Displacement Credibility](articles/dic-rigid-reference-dynamic-extrinsic-correction-vibration-principles.md#english-version) | Dynamic extrinsic correction, rigid reference, 3D DIC, camera vibration, stereo reconstruction, displacement credibility |
 | 109 | [From Commanded Displacement to the Real Trajectory: XTDIC Validation of 3D-Printer Stage Accuracy Under Vibration](articles/dic-xtdic-3d-printer-stage-displacement-accuracy-vibration-validation.md#english-version) | XTDIC, 3D-printer stage, displacement accuracy, vibration, trajectory validation, error separation |
+| 110 | [Is the Measured Rail Vibration Structural or Instrumental? Sampling, Synchronization, and Reference-Frame Credibility in High-Speed 3D DIC](articles/dic-high-speed-rail-vibration-sampling-synchronization-reference-quality.md#english-version) | High-speed 3D DIC, rail vibration, sampling, synchronization, reference frame, frequency-domain quality |
+| 111 | [From Rail to Fastener and Sleeper: An XTDIC-SPARK Layered Diagnosis Plan for Track Vibration and Displacement](articles/dic-xtdic-spark-rail-fastener-sleeper-relative-motion-diagnosis.md#english-version) | XTDIC-SPARK, rail, fastener, sleeper, relative displacement, layered vibration diagnosis |
 
 ---
 
@@ -748,6 +750,8 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 107 | [从应变云图到可更新模型：XTDIC复合材料多源融合、AI辅助与数字孪生实践](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#chinese-version) | XTDIC、复合材料监测、多源融合、AI辅助识别、数字孪生、多尺度DIC |
 | 108 | [相机在振、目标也在动：刚体参考点动态外参修正如何提升3D-DIC位移可信度](articles/dic-rigid-reference-dynamic-extrinsic-correction-vibration-principles.md#chinese-version) | 动态外参修正、刚体参考点、3D-DIC、相机振动、双目重建、位移可信度 |
 | 109 | [从指令位移到真实轨迹：XTDIC验证3D打印机载物台振动工况位移精度](articles/dic-xtdic-3d-printer-stage-displacement-accuracy-vibration-validation.md#chinese-version) | XTDIC、3D打印机载物台、位移精度、振动工况、轨迹验证、误差分离 |
+| 110 | [轨道振动测到的是结构还是测量链：高速3D-DIC采样、同步与参考坐标可信度](articles/dic-high-speed-rail-vibration-sampling-synchronization-reference-quality.md#chinese-version) | 高速3D-DIC、轨道振动、采样、同步、参考坐标、频域质量 |
+| 111 | [从钢轨到扣件与轨枕：XTDIC-SPARK轨道振动位移分层诊断方案](articles/dic-xtdic-spark-rail-fastener-sleeper-relative-motion-diagnosis.md#chinese-version) | XTDIC-SPARK、钢轨、扣件、轨枕、相对位移、分层振动诊断 |
 
 ---
 
