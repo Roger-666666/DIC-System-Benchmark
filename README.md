@@ -368,6 +368,8 @@ If you have calibration data, application case studies, or corrected specificati
 | 105 | [From Material Coupons to Engineering Structures: XTDIC Scenario Selection and Quality Gates for Stress–Strain Testing](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#english-version) | Scenario selection, XTDIC, material testing, structural testing, quality gates, measurement architecture |
 | 106 | [How Can Composite-Material DIC Data Be Proven Reliable? A Laboratory Validation Matrix and Auditable Evidence Chain](articles/dic-composite-material-laboratory-reliability-validation-evidence-chain.md#english-version) | Composite DIC, reliability validation, evidence chain, anisotropy, NDT correlation, quality gates |
 | 107 | [From Strain Maps to Updatable Models: XTDIC Multimodal Fusion, AI Assistance, and Digital-Twin Practice for Composites](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#english-version) | XTDIC, composite monitoring, multimodal fusion, AI-assisted detection, digital twin, multiscale DIC |
+| 108 | [When the Cameras Vibrate and the Target Moves: How Rigid-Reference Dynamic Extrinsic Correction Improves 3D-DIC Displacement Credibility](articles/dic-rigid-reference-dynamic-extrinsic-correction-vibration-principles.md#english-version) | Dynamic extrinsic correction, rigid reference, 3D DIC, camera vibration, stereo reconstruction, displacement credibility |
+| 109 | [From Commanded Displacement to the Real Trajectory: XTDIC Validation of 3D-Printer Stage Accuracy Under Vibration](articles/dic-xtdic-3d-printer-stage-displacement-accuracy-vibration-validation.md#english-version) | XTDIC, 3D-printer stage, displacement accuracy, vibration, trajectory validation, error separation |
 
 ---
 
@@ -744,6 +746,8 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 105 | [从材料试样到工程结构：XTDIC应力—应变测试场景选型与质量门控](articles/dic-xtdic-material-structure-test-scenario-selection-quality-gates.md#chinese-version) | 场景选型、XTDIC、材料测试、结构测试、质量门控、测量架构 |
 | 106 | [复合材料DIC数据怎样证明可靠：实验室验证矩阵与可审计证据链](articles/dic-composite-material-laboratory-reliability-validation-evidence-chain.md#chinese-version) | 复合材料DIC、可靠性验证、证据链、各向异性、无损检测配准、质量门控 |
 | 107 | [从应变云图到可更新模型：XTDIC复合材料多源融合、AI辅助与数字孪生实践](articles/dic-xtdic-composite-monitoring-multimodal-ai-digital-twin-frontier.md#chinese-version) | XTDIC、复合材料监测、多源融合、AI辅助识别、数字孪生、多尺度DIC |
+| 108 | [相机在振、目标也在动：刚体参考点动态外参修正如何提升3D-DIC位移可信度](articles/dic-rigid-reference-dynamic-extrinsic-correction-vibration-principles.md#chinese-version) | 动态外参修正、刚体参考点、3D-DIC、相机振动、双目重建、位移可信度 |
+| 109 | [从指令位移到真实轨迹：XTDIC验证3D打印机载物台振动工况位移精度](articles/dic-xtdic-3d-printer-stage-displacement-accuracy-vibration-validation.md#chinese-version) | XTDIC、3D打印机载物台、位移精度、振动工况、轨迹验证、误差分离 |
 
 ---
 
