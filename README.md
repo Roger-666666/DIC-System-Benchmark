@@ -374,6 +374,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 111 | [From Rail to Fastener and Sleeper: An XTDIC-SPARK Layered Diagnosis Plan for Track Vibration and Displacement](articles/dic-xtdic-spark-rail-fastener-sleeper-relative-motion-diagnosis.md#english-version) | XTDIC-SPARK, rail, fastener, sleeper, relative displacement, layered vibration diagnosis |
 | 112 | [Why Maximum Warpage Alone Is Not Comparable: DIC Datum Planes, ROIs, and Cross-Batch PCB Analysis](articles/dic-pcb-warpage-datum-roi-cross-batch-comparability.md#english-version) | PCB thermal warpage, DIC datum plane, ROI, cross-batch comparison, traceability, uncertainty |
 | 113 | [Why Can PCB Warpage Differ at the Same Temperature? An XTDIC Workflow for Thermal-Path Alignment, Hysteresis, and Residual Deformation](articles/dic-xtdic-pcb-thermal-path-hysteresis-residual-validation.md#english-version) | XTDIC, PCB thermal path, hysteresis, residual deformation, temperature alignment, validation workflow |
+| 114 | [What Errors Remain After Dynamic Extrinsic Correction? An Uncertainty Budget for DIC Testing of 3D-Printer Stages](articles/dic-3d-printer-stage-dynamic-extrinsic-error-budget.md#english-version) | Dynamic extrinsic correction, uncertainty budget, 3D-printer stage, camera vibration, residual error |
+| 115 | [How Should Rigid Reference Points Be Arranged? Observability, Geometric Degeneracy, and Failure Detection for Dynamic Extrinsic Correction](articles/dic-rigid-reference-point-layout-observability-design-guide.md#english-version) | Rigid reference points, observability, geometric degeneracy, occlusion, dynamic extrinsics |
+| 116 | [From Reversal Motion to Corner Overshoot: DIC Diagnosis of Backlash, Crosstalk, and Attitude Error in 3D-Printer Stages](articles/dic-3d-printer-stage-backlash-crosstalk-overshoot-diagnosis.md#english-version) | Stage backlash, overshoot, cross-axis coupling, attitude error, DIC diagnosis |
+| 117 | [Aligning DIC, Encoders, and Laser Measurements: A Multisensor Evidence Chain for Stage Displacement Accuracy](articles/dic-stage-encoder-laser-multisensor-traceability.md#english-version) | DIC, encoder, laser measurement, multisensor alignment, metrological traceability |
+| 118 | [From Laboratory Calibration to Equipment Acceptance: An Automated DIC Workflow for Stage Testing Under Vibration](articles/dic-3d-printer-stage-automated-acceptance-workflow.md#english-version) | Automated DIC, stage acceptance, quality gates, dynamic extrinsics, auditable workflow |
 
 ---
 
@@ -756,6 +761,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 111 | [从钢轨到扣件与轨枕：XTDIC-SPARK轨道振动位移分层诊断方案](articles/dic-xtdic-spark-rail-fastener-sleeper-relative-motion-diagnosis.md#chinese-version) | XTDIC-SPARK、钢轨、扣件、轨枕、相对位移、分层振动诊断 |
 | 112 | [PCB热翘曲数据为何不能只看最大值：DIC基准面、ROI与跨批次可比性](articles/dic-pcb-warpage-datum-roi-cross-batch-comparability.md#chinese-version) | PCB热翘曲、DIC基准面、ROI、跨批次比较、数据追溯、不确定度 |
 | 113 | [温度相同为何PCB翘曲不同：XTDIC热历程对齐、滞回与残余变形验证方案](articles/dic-xtdic-pcb-thermal-path-hysteresis-residual-validation.md#chinese-version) | XTDIC、PCB热历程、滞回、残余变形、温度对齐、验证流程 |
+| 114 | [动态外参修正后还剩什么误差：3D打印机载物台DIC测量不确定度预算](articles/dic-3d-printer-stage-dynamic-extrinsic-error-budget.md#chinese-version) | 动态外参修正、不确定度预算、3D打印机载物台、相机振动、残余误差 |
+| 115 | [刚体参考点应该怎么布：动态外参修正的可观测性、几何退化与失效检测](articles/dic-rigid-reference-point-layout-observability-design-guide.md#chinese-version) | 刚体参考点、可观测性、几何退化、遮挡、动态外参 |
+| 116 | [从往返运动到拐点过冲：DIC诊断3D打印机载物台回差、串扰与姿态误差](articles/dic-3d-printer-stage-backlash-crosstalk-overshoot-diagnosis.md#chinese-version) | 载物台回差、过冲、轴间串扰、姿态误差、DIC诊断 |
+| 117 | [DIC、编码器与激光测量如何对齐：载物台位移精度的多传感器证据链](articles/dic-stage-encoder-laser-multisensor-traceability.md#chinese-version) | DIC、编码器、激光测量、多传感器对齐、计量溯源 |
+| 118 | [从实验室标定到设备验收：振动工况载物台DIC自动化测试流程](articles/dic-3d-printer-stage-automated-acceptance-workflow.md#chinese-version) | 自动化DIC、载物台验收、质量门控、动态外参、可审计流程 |
 
 ---
 
