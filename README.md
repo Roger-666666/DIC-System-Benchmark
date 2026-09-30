@@ -394,6 +394,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 131 | [Is a Sudden Contour Change Real Impact or Decorrelation? Image-Quality Diagnosis for High-Speed DIC Smartphone Drops](articles/dic-smartphone-drop-image-quality-decorrelation-diagnosis.md#english-version) | Smartphone drop, motion blur, decorrelation, stereo occlusion, DIC quality control |
 | 132 | [How Should DIC, Accelerometers, and a Force Platform Cross-Validate a Smartphone Drop Test?](articles/dic-smartphone-drop-dic-accelerometer-force-platform-multisensor-validation.md#english-version) | Smartphone drop, DIC, accelerometer, force platform, multisensor validation, synchronization |
 | 133 | [Is a Similar-Looking Animation Enough? Field-to-Field DIC Validation of Explicit Smartphone Drop Models](articles/dic-smartphone-drop-field-to-field-explicit-dynamics-validation.md#english-version) | Smartphone drop simulation, explicit dynamics, field-to-field validation, DIC, model updating |
+| 134 | [How Trustworthy Is a High-Temperature Rubber Large-Strain Result? DIC Uncertainty and Repeatability Validation](articles/dic-high-temperature-rubber-large-strain-uncertainty-repeatability.md#english-version) | High-temperature rubber, large strain, DIC uncertainty, repeatability, reproducibility |
+| 135 | [Material Extension or Grip Slip? DIC Boundary Diagnosis and Multi-Gauge Consistency for Hot Rubber Testing](articles/dic-high-temperature-rubber-grip-slip-multigauge-boundary-diagnosis.md#english-version) | Hot rubber testing, grip slip, multi-gauge strain, boundary diagnosis, DIC |
+| 136 | [Why Does the Same Elongation Carry a Different Load? DIC Test Design for Rate, Relaxation, and Hysteresis in Hot Rubber](articles/dic-high-temperature-rubber-rate-relaxation-hysteresis-test-design.md#english-version) | High-temperature rubber, strain rate, stress relaxation, hysteresis, viscoelasticity, DIC |
+| 137 | [Can DIC Keep Tracking after the Speckles Stretch Apart? Texture and Adaptive Correlation for Hot Rubber at Very Large Strain](articles/dic-high-temperature-rubber-speckle-adaptive-correlation-tracking.md#english-version) | Rubber large deformation, speckle pattern, adaptive correlation, incremental tracking, DIC |
+| 138 | [Does a Good Curve Fit Prove the Model? DIC Field Validation of Hyperelastic–Viscoelastic Hot-Rubber Models](articles/dic-high-temperature-rubber-hyperelastic-viscoelastic-field-validation.md#english-version) | Rubber constitutive model, hyperelasticity, viscoelasticity, field validation, DIC |
 
 ---
 
@@ -796,6 +801,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 131 | [云图突变是冲击还是失相关：手机跌落高速DIC图像质量与异常诊断](articles/dic-smartphone-drop-image-quality-decorrelation-diagnosis.md#chinese-version) | 手机跌落、运动模糊、失相关、双目遮挡、DIC质量控制 |
 | 132 | [DIC、加速度计和测力台怎么对时互证：手机跌落多传感器同步证据链](articles/dic-smartphone-drop-dic-accelerometer-force-platform-multisensor-validation.md#chinese-version) | 手机跌落、DIC、加速度计、测力台、多传感器互证、同步 |
 | 133 | [仿真回放看起来很像就够了吗：手机跌落DIC场到场显式动力学验证](articles/dic-smartphone-drop-field-to-field-explicit-dynamics-validation.md#chinese-version) | 手机跌落仿真、显式动力学、场到场验证、DIC、模型更新 |
+| 134 | [高温橡胶大变形结果有多可信：DIC测量不确定度与重复性验证](articles/dic-high-temperature-rubber-large-strain-uncertainty-repeatability.md#chinese-version) | 高温橡胶、大变形、DIC不确定度、重复性、再现性 |
+| 135 | [材料伸长还是夹头在滑：高温橡胶DIC边界诊断与多标距一致性](articles/dic-high-temperature-rubber-grip-slip-multigauge-boundary-diagnosis.md#chinese-version) | 高温橡胶、夹头滑移、多标距应变、边界诊断、DIC |
+| 136 | [同一伸长为何载荷不同：高温橡胶DIC应变率、松弛与滞回测试设计](articles/dic-high-temperature-rubber-rate-relaxation-hysteresis-test-design.md#chinese-version) | 高温橡胶、应变率、应力松弛、滞回、粘弹性、DIC |
+| 137 | [散斑被拉散后还能跟踪吗：高温橡胶超大变形DIC纹理与自适应相关策略](articles/dic-high-temperature-rubber-speckle-adaptive-correlation-tracking.md#chinese-version) | 橡胶大变形、散斑纹理、自适应相关、增量跟踪、DIC |
+| 138 | [曲线拟合好就代表模型对吗：高温橡胶DIC用于超弹—粘弹本构场验证](articles/dic-high-temperature-rubber-hyperelastic-viscoelastic-field-validation.md#chinese-version) | 橡胶本构模型、超弹性、粘弹性、场验证、DIC |
 
 ---
 
