@@ -399,6 +399,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 136 | [Why Does the Same Elongation Carry a Different Load? DIC Test Design for Rate, Relaxation, and Hysteresis in Hot Rubber](articles/dic-high-temperature-rubber-rate-relaxation-hysteresis-test-design.md#english-version) | High-temperature rubber, strain rate, stress relaxation, hysteresis, viscoelasticity, DIC |
 | 137 | [Can DIC Keep Tracking after the Speckles Stretch Apart? Texture and Adaptive Correlation for Hot Rubber at Very Large Strain](articles/dic-high-temperature-rubber-speckle-adaptive-correlation-tracking.md#english-version) | Rubber large deformation, speckle pattern, adaptive correlation, incremental tracking, DIC |
 | 138 | [Does a Good Curve Fit Prove the Model? DIC Field Validation of Hyperelastic–Viscoelastic Hot-Rubber Models](articles/dic-high-temperature-rubber-hyperelastic-viscoelastic-field-validation.md#english-version) | Rubber constitutive model, hyperelasticity, viscoelasticity, field validation, DIC |
+| 139 | [When the Shake Table Moves with the Structure: Base-Motion Compensation and Relative-Displacement Decomposition with DIC](articles/dic-seismic-shake-table-base-motion-compensation-relative-displacement.md#english-version) | Shake-table testing, base-motion compensation, relative displacement, coordinate frames, DIC |
+| 140 | [Is Interstory Drift Enough? DIC Measurement of Floor Drift, Torsion, and Local Member Deformation](articles/dic-seismic-interstory-drift-torsion-local-deformation.md#english-version) | Interstory drift, floor torsion, local deformation, seismic testing, full-field DIC |
+| 141 | [Does a Frequency Shift Prove Damage? Full-Field DIC Identification of Modes, Damping, and Time-Varying Dynamics](articles/dic-seismic-full-field-modal-damping-time-varying-identification.md#english-version) | Modal identification, damping, time-varying dynamics, structural damage, full-field DIC |
+| 142 | [How Does a Structure Degrade before Visible Cracking? DIC-Based Stiffness Loss and Damage Localization under Cyclic Seismic Loading](articles/dic-seismic-cyclic-stiffness-degradation-damage-localization.md#english-version) | Cyclic seismic loading, stiffness degradation, damage localization, crack initiation, DIC |
+| 143 | [Why Do DIC, Accelerometers, and Displacement Sensors Disagree? Multisensor Synchronization and Model Validation in Seismic Tests](articles/dic-seismic-dic-accelerometer-displacement-multisensor-model-validation.md#english-version) | DIC, accelerometer, displacement sensor, synchronization, seismic model validation |
 
 ---
 
@@ -806,6 +811,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 136 | [同一伸长为何载荷不同：高温橡胶DIC应变率、松弛与滞回测试设计](articles/dic-high-temperature-rubber-rate-relaxation-hysteresis-test-design.md#chinese-version) | 高温橡胶、应变率、应力松弛、滞回、粘弹性、DIC |
 | 137 | [散斑被拉散后还能跟踪吗：高温橡胶超大变形DIC纹理与自适应相关策略](articles/dic-high-temperature-rubber-speckle-adaptive-correlation-tracking.md#chinese-version) | 橡胶大变形、散斑纹理、自适应相关、增量跟踪、DIC |
 | 138 | [曲线拟合好就代表模型对吗：高温橡胶DIC用于超弹—粘弹本构场验证](articles/dic-high-temperature-rubber-hyperelastic-viscoelastic-field-validation.md#chinese-version) | 橡胶本构模型、超弹性、粘弹性、场验证、DIC |
+| 139 | [振动台在动，结构也在动：DIC地震模拟基底运动补偿与相对位移分解](articles/dic-seismic-shake-table-base-motion-compensation-relative-displacement.md#chinese-version) | 振动台试验、基底运动补偿、相对位移、坐标系、DIC |
+| 140 | [层间位移角够不够：DIC提取楼层漂移、扭转与局部构件变形](articles/dic-seismic-interstory-drift-torsion-local-deformation.md#chinese-version) | 层间位移角、楼层扭转、局部变形、地震模拟、全场DIC |
+| 141 | [频率变了就代表损伤吗：DIC全场模态、阻尼与时变振动特性识别](articles/dic-seismic-full-field-modal-damping-time-varying-identification.md#chinese-version) | 模态识别、阻尼、时变动力特性、结构损伤、全场DIC |
+| 142 | [裂缝出现之前结构已如何退化：DIC循环地震加载刚度衰减与损伤定位](articles/dic-seismic-cyclic-stiffness-degradation-damage-localization.md#chinese-version) | 循环地震加载、刚度衰减、损伤定位、裂缝萌生、DIC |
+| 143 | [DIC、加速度计与位移计为何对不上：地震模拟多传感器同步与模型验证](articles/dic-seismic-dic-accelerometer-displacement-multisensor-model-validation.md#chinese-version) | DIC、加速度计、位移计、同步、地震模型验证 |
 
 ---
 
