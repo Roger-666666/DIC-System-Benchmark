@@ -389,6 +389,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 126 | [Why Do Free, Clamped, and Assembled PCBs Warp Differently? A Controlled DIC Study of Boundary Conditions](articles/dic-pcb-free-clamped-assembled-boundary-condition-comparison.md#english-version) | PCB boundary conditions, free board, clamped board, assembled PCB, controlled DIC comparison |
 | 127 | [From Board-Level Bow to Local Package Deformation: Multiscale DIC Measurement and Coordinate Fusion for PCBs](articles/dic-pcb-multiscale-board-package-coordinate-fusion.md#english-version) | Multiscale DIC, PCB warpage, package deformation, coordinate fusion, local ROI |
 | 128 | [Is Matching One Peak Enough? Field-to-Field DIC Validation and Model Updating for PCB Thermal Warpage](articles/dic-pcb-thermal-warpage-field-to-field-fea-validation.md#english-version) | PCB thermal warpage, field-to-field validation, finite-element model, DIC, model updating |
+| 129 | [Which Frame Contains First Contact? Triggering, Time Zero, and Event Segmentation for High-Speed DIC Smartphone Drop Tests](articles/dic-smartphone-drop-trigger-time-zero-event-segmentation.md#english-version) | Smartphone drop, high-speed DIC, first contact, time zero, event segmentation, synchronization |
+| 130 | [Which Part Responds First: Using High-Speed DIC to Trace Interface Motion and Load Paths in Smartphone Drops](articles/dic-smartphone-drop-interface-relative-motion-load-path.md#english-version) | Smartphone drop, interface motion, load path, screen and frame, full-field DIC |
+| 131 | [Is a Sudden Contour Change Real Impact or Decorrelation? Image-Quality Diagnosis for High-Speed DIC Smartphone Drops](articles/dic-smartphone-drop-image-quality-decorrelation-diagnosis.md#english-version) | Smartphone drop, motion blur, decorrelation, stereo occlusion, DIC quality control |
+| 132 | [How Should DIC, Accelerometers, and a Force Platform Cross-Validate a Smartphone Drop Test?](articles/dic-smartphone-drop-dic-accelerometer-force-platform-multisensor-validation.md#english-version) | Smartphone drop, DIC, accelerometer, force platform, multisensor validation, synchronization |
+| 133 | [Is a Similar-Looking Animation Enough? Field-to-Field DIC Validation of Explicit Smartphone Drop Models](articles/dic-smartphone-drop-field-to-field-explicit-dynamics-validation.md#english-version) | Smartphone drop simulation, explicit dynamics, field-to-field validation, DIC, model updating |
 
 ---
 
@@ -786,6 +791,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 126 | [自由板、夹持板与装联板为何翘曲不同：PCB热变形边界条件对照试验](articles/dic-pcb-free-clamped-assembled-boundary-condition-comparison.md#chinese-version) | PCB边界条件、自由板、夹持板、装联板、DIC对照试验 |
 | 127 | [从整板弓曲到封装局部变形：PCB多尺度DIC测量与坐标融合方法](articles/dic-pcb-multiscale-board-package-coordinate-fusion.md#chinese-version) | 多尺度DIC、PCB翘曲、封装变形、坐标融合、局部ROI |
 | 128 | [仿真峰值对上就够了吗：PCB热翘曲DIC场到场验证与模型更新方法](articles/dic-pcb-thermal-warpage-field-to-field-fea-validation.md#chinese-version) | PCB热翘曲、场到场验证、有限元模型、DIC、模型更新 |
+| 129 | [接触发生在哪一帧：手机跌落高速DIC触发、时间零点与事件分段方法](articles/dic-smartphone-drop-trigger-time-zero-event-segmentation.md#chinese-version) | 手机跌落、高速DIC、首次接触、时间零点、事件分段、同步 |
+| 130 | [屏幕、边框与后盖谁先受力：手机跌落DIC界面相对运动与载荷路径分析](articles/dic-smartphone-drop-interface-relative-motion-load-path.md#chinese-version) | 手机跌落、界面相对运动、载荷路径、屏幕边框、全场DIC |
+| 131 | [云图突变是冲击还是失相关：手机跌落高速DIC图像质量与异常诊断](articles/dic-smartphone-drop-image-quality-decorrelation-diagnosis.md#chinese-version) | 手机跌落、运动模糊、失相关、双目遮挡、DIC质量控制 |
+| 132 | [DIC、加速度计和测力台怎么对时互证：手机跌落多传感器同步证据链](articles/dic-smartphone-drop-dic-accelerometer-force-platform-multisensor-validation.md#chinese-version) | 手机跌落、DIC、加速度计、测力台、多传感器互证、同步 |
+| 133 | [仿真回放看起来很像就够了吗：手机跌落DIC场到场显式动力学验证](articles/dic-smartphone-drop-field-to-field-explicit-dynamics-validation.md#chinese-version) | 手机跌落仿真、显式动力学、场到场验证、DIC、模型更新 |
 
 ---
 
