@@ -384,6 +384,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 121 | [Managing Lighting, Camera Vibration, and Occlusion: A Field Quality-Control Guide for High-Speed 3D DIC on Railway Tracks](articles/dic-rail-field-lighting-vibration-occlusion-quality-control.md#english-version) | Field rail DIC, lighting, camera vibration, occlusion, reference stability, quality gates |
 | 122 | [Cross-Validating DIC, Accelerometers, LVDTs, and Laser Vibrometry: A Multisensor Method for Railway Dynamic Testing](articles/dic-rail-accelerometer-lvdt-laser-multisensor-validation.md#english-version) | DIC, accelerometer, LVDT, laser vibrometry, multisensor validation, railway dynamics |
 | 123 | [From One-Off Tests to a Condition Baseline: Repeat Rail DIC Inspection, Trend Interpretation, and Automated Reporting](articles/dic-rail-repeat-inspection-baseline-trend-automated-reporting.md#english-version) | Repeat rail inspection, DIC baseline, trend analysis, automated reporting, data governance |
+| 124 | [How Trustworthy Is a PCB Thermal-Warpage Result? DIC Uncertainty, Repeatability, and Reproducibility](articles/dic-pcb-thermal-warpage-uncertainty-repeatability-reproducibility.md#english-version) | PCB thermal warpage, DIC uncertainty, repeatability, reproducibility, measurement quality |
+| 125 | [Is the PCB Moving or the Optical Path? A Guide to Identifying Thermal-Optical Artifacts in High-Temperature DIC](articles/dic-pcb-thermal-optical-artifact-identification-correction.md#english-version) | PCB thermal warpage, thermal-optical artifacts, window refraction, heat shimmer, DIC quality control |
+| 126 | [Why Do Free, Clamped, and Assembled PCBs Warp Differently? A Controlled DIC Study of Boundary Conditions](articles/dic-pcb-free-clamped-assembled-boundary-condition-comparison.md#english-version) | PCB boundary conditions, free board, clamped board, assembled PCB, controlled DIC comparison |
+| 127 | [From Board-Level Bow to Local Package Deformation: Multiscale DIC Measurement and Coordinate Fusion for PCBs](articles/dic-pcb-multiscale-board-package-coordinate-fusion.md#english-version) | Multiscale DIC, PCB warpage, package deformation, coordinate fusion, local ROI |
+| 128 | [Is Matching One Peak Enough? Field-to-Field DIC Validation and Model Updating for PCB Thermal Warpage](articles/dic-pcb-thermal-warpage-field-to-field-fea-validation.md#english-version) | PCB thermal warpage, field-to-field validation, finite-element model, DIC, model updating |
 
 ---
 
@@ -776,6 +781,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 121 | [现场光照、相机振动与遮挡怎么管：轨道高速3D-DIC外场质量控制指南](articles/dic-rail-field-lighting-vibration-occlusion-quality-control.md#chinese-version) | 轨道外场DIC、光照、相机振动、遮挡、参考稳定、质量门控 |
 | 122 | [DIC、加速度计、LVDT与激光测振如何互证：轨道动态测试多传感器融合方法](articles/dic-rail-accelerometer-lvdt-laser-multisensor-validation.md#chinese-version) | DIC、加速度计、LVDT、激光测振、多传感器验证、轨道动力学 |
 | 123 | [从单次试验到状态基线：轨道DIC重复检测、趋势判读与自动化报告](articles/dic-rail-repeat-inspection-baseline-trend-automated-reporting.md#chinese-version) | 轨道重复检测、DIC基线、趋势分析、自动化报告、数据治理 |
+| 124 | [PCB热翘曲结果有多可信：DIC测量不确定度、重复性与再现性评估](articles/dic-pcb-thermal-warpage-uncertainty-repeatability-reproducibility.md#chinese-version) | PCB热翘曲、DIC不确定度、重复性、再现性、测量质量 |
+| 125 | [云图在变还是PCB在变：高温DIC热光路伪差识别与校正指南](articles/dic-pcb-thermal-optical-artifact-identification-correction.md#chinese-version) | PCB热翘曲、热光路伪差、观察窗折射、热气流、DIC质量控制 |
+| 126 | [自由板、夹持板与装联板为何翘曲不同：PCB热变形边界条件对照试验](articles/dic-pcb-free-clamped-assembled-boundary-condition-comparison.md#chinese-version) | PCB边界条件、自由板、夹持板、装联板、DIC对照试验 |
+| 127 | [从整板弓曲到封装局部变形：PCB多尺度DIC测量与坐标融合方法](articles/dic-pcb-multiscale-board-package-coordinate-fusion.md#chinese-version) | 多尺度DIC、PCB翘曲、封装变形、坐标融合、局部ROI |
+| 128 | [仿真峰值对上就够了吗：PCB热翘曲DIC场到场验证与模型更新方法](articles/dic-pcb-thermal-warpage-field-to-field-fea-validation.md#chinese-version) | PCB热翘曲、场到场验证、有限元模型、DIC、模型更新 |
 
 ---
 
