@@ -419,6 +419,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 156 | [Can Member Instability Be Detected Early? DIC Curvature–Strain-Gradient Tracking for Local Buckling in Irregular Lattices](articles/dic-lattice-irregular-compression-local-buckling-precursor-tracking.md#english-version) | Local buckling, curvature, strain gradient, instability precursor, lattice compression |
 | 157 | [How Can Different Lattice Topologies Be Compared Fairly? Homologous-Region Registration and Dimensionless DIC Evaluation](articles/dic-lattice-irregular-compression-topology-orientation-comparison-framework.md#english-version) | Lattice topology, homologous regions, dimensionless metrics, design comparison, DIC |
 | 158 | [How Much Remains Measurable After Occlusion? Multi-View DIC Coverage and Continuity Design for Irregular Lattice Parts](articles/dic-lattice-irregular-compression-multiview-occlusion-coverage-management.md#english-version) | Multi-view DIC, occlusion, valid coverage, data continuity, irregular lattice |
+| 159 | [Why Can Body Stiffness Fall Before a Joint Breaks? DIC Measurement of Opening, Slip, and Load Transfer in Automotive Connections](articles/dic-automotive-joint-weld-adhesive-relative-motion-load-transfer.md#english-version) | Automotive joints, welds, adhesives, interface opening, slip, load transfer, DIC |
+| 160 | [Is Global Deflection Enough for a Large Automotive Casting? Multiscale DIC From Body Twist to Local Rib Response](articles/dic-automotive-large-casting-global-local-multiscale-coordinate-fusion.md#english-version) | Integrated casting, multiscale DIC, global-local measurement, coordinate fusion, body stiffness |
+| 161 | [What Happens Beyond the Crash Peak? High-Speed DIC Reconstruction of Automotive Event Chains and Energy-Transfer Paths](articles/dic-automotive-crash-high-speed-event-chain-energy-path-validation.md#english-version) | Automotive crash, high-speed DIC, event chain, energy path, rigid-motion separation |
+| 162 | [Why Wait for a Crack Alarm in Durability Testing? Phase-Synchronized DIC for Cyclic Localization in Automotive Components](articles/dic-automotive-durability-cyclic-phase-locked-full-field-damage-evolution.md#english-version) | Automotive durability, phase synchronization, cyclic localization, fatigue precursor, full-field DIC |
+| 163 | [Why Do Nominally Identical Parts Behave Differently? DIC Field Fingerprints Linking Pilot Builds, Production, and Reliability](articles/dic-automotive-manufacturing-golden-sample-batch-field-quality-loop.md#english-version) | Automotive manufacturing, field fingerprint, golden specimen, batch consistency, reliability loop |
 
 ---
 
@@ -846,6 +851,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 156 | [杆件失稳能否提前识别：DIC曲率—应变梯度追踪网格件局部屈曲](articles/dic-lattice-irregular-compression-local-buckling-precursor-tracking.md#chinese-version) | 局部屈曲、曲率、应变梯度、失稳前兆、网格压缩 |
 | 157 | [不同网格拓扑如何公平比较：DIC同源区域配准与无量纲评价框架](articles/dic-lattice-irregular-compression-topology-orientation-comparison-framework.md#chinese-version) | 网格拓扑、同源区域、无量纲指标、设计对比、DIC |
 | 158 | [遮挡之后还能测多少：多视角DIC用于网格状异形件覆盖率与数据连续性设计](articles/dic-lattice-irregular-compression-multiview-occlusion-coverage-management.md#chinese-version) | 多视角DIC、遮挡、有效覆盖率、数据连续性、网格状异形件 |
+| 159 | [焊点没断为何车身刚度仍下降：DIC量化汽车连接界面开合、滑移与载荷传递](articles/dic-automotive-joint-weld-adhesive-relative-motion-load-transfer.md#chinese-version) | 汽车连接、焊点、结构胶、界面开合、滑移、载荷传递、DIC |
+| 160 | [一体化压铸件只看整体挠度够吗：多尺度DIC贯通车身全局扭转与局部筋位](articles/dic-automotive-large-casting-global-local-multiscale-coordinate-fusion.md#chinese-version) | 一体化压铸、多尺度DIC、全局局部测量、坐标融合、车身刚度 |
+| 161 | [碰撞峰值之外发生了什么：高速DIC重建汽车结构事件链与能量传递路径](articles/dic-automotive-crash-high-speed-event-chain-energy-path-validation.md#chinese-version) | 汽车碰撞、高速DIC、事件链、能量路径、刚体运动分离 |
+| 162 | [耐久试验为何等到裂纹才报警：相位同步DIC追踪汽车部件循环局部化](articles/dic-automotive-durability-cyclic-phase-locked-full-field-damage-evolution.md#chinese-version) | 汽车耐久、相位同步、循环局部化、疲劳前兆、全场DIC |
+| 163 | [同款零件为何批次表现不同：DIC场特征指纹连接试制、量产与可靠性闭环](articles/dic-automotive-manufacturing-golden-sample-batch-field-quality-loop.md#chinese-version) | 汽车智造、场特征指纹、黄金样件、批次一致性、可靠性闭环 |
 
 ---
 
