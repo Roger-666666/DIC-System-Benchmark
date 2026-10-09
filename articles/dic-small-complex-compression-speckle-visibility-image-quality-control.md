@@ -363,4 +363,3 @@ Mark the region unobservable or use separate node and edge tracking. Interpolati
 The first requirement for small-complex-part DIC is sustained visibility of the same surface. Pattern, illumination, background, depth of field, and occlusion form one measurement chain. Treating visibility as a deformation-dependent quantity—and marking failure honestly—prevents attractive contours from hiding missing evidence.
 
 </details>
-
