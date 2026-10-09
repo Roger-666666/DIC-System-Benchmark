@@ -409,6 +409,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 146 | [A Million Cycles Do Not Require a Million Image Sets: Multiscale-Time DIC and Event Tracking for Composite Fatigue](articles/dic-composite-fatigue-multiscale-time-event-triggered-monitoring.md#english-version) | Composite fatigue, multiscale-time acquisition, phase locking, event triggering, DIC |
 | 147 | [Why Can a Small Impact Dent Reduce Residual Capacity? Fusing DIC and Nondestructive Evidence for Composite Compression after Impact](articles/dic-composite-impact-compression-after-impact-ndt-evidence-fusion.md#english-version) | Compression after impact, residual capacity, nondestructive testing, evidence fusion, DIC |
 | 148 | [Can Flat-Specimen DIC Be Transferred to Curved Composite Structures? Surface Coordinates, Multiview Continuity, and Model Mapping](articles/dic-composite-curved-structure-surface-coordinates-multiview-model-mapping.md#english-version) | Curved composites, surface coordinates, multiview DIC, field mapping, model validation |
+| 149 | [Telecentric Monocular or Microscopic Stereo? Selecting a DIC Imaging Architecture for Small-Scale Compression](articles/dic-small-complex-compression-telecentric-monocular-stereo-imaging-selection.md#english-version) | Small-scale compression, telecentric imaging, microscopic DIC, stereo DIC, architecture selection |
+| 150 | [How Should Speckles Be Applied to Pores, Curves, and Shadowed Regions? Image-Quality Control for Small Complex Parts](articles/dic-small-complex-compression-speckle-visibility-image-quality-control.md#english-version) | Small complex parts, speckle pattern, visibility, lighting, DIC quality control |
+| 151 | [Is a Strain Window Still Meaningful When It Crosses a Pore? Spatial Scale and Virtual Gauge Length in Small Porous Structures](articles/dic-small-complex-compression-spatial-scale-virtual-gauge-strain-definition.md#english-version) | Porous structures, spatial scale, virtual gauge length, strain definition, DIC |
+| 152 | [How Trustworthy Is a Small Deformation? Uncertainty, Repeatability, and Rigid-Body Baselines for Small-Part Compression DIC](articles/dic-small-complex-compression-uncertainty-repeatability-rigid-baseline-validation.md#english-version) | Small deformation, DIC uncertainty, repeatability, rigid-body baseline, validation |
+| 153 | [Beyond Strain Contours: DIC Node–Strut Kinematics and Progressive Load-Path Tracking in Small Complex Structures](articles/dic-small-complex-compression-node-strut-load-path-progressive-collapse-tracking.md#english-version) | Node–strut kinematics, load path, progressive failure, lattice compression, DIC |
 
 ---
 
@@ -826,6 +831,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 146 | [百万循环不等于百万帧：复合材料疲劳DIC多时间尺度采集与损伤事件追踪](articles/dic-composite-fatigue-multiscale-time-event-triggered-monitoring.md#chinese-version) | 复合材料疲劳、多时间尺度采集、相位锁定、事件触发、DIC |
 | 147 | [冲击坑很小为何剩余承载下降：DIC与无损检测用于复合材料冲击后压缩证据融合](articles/dic-composite-impact-compression-after-impact-ndt-evidence-fusion.md#chinese-version) | 冲击后压缩、剩余承载、无损检测、证据融合、DIC |
 | 148 | [平板方法能否搬到曲面构件：DIC复合材料曲面坐标、多视场衔接与模型映射](articles/dic-composite-curved-structure-surface-coordinates-multiview-model-mapping.md#chinese-version) | 曲面复合材料、曲面坐标、多视场DIC、场映射、模型验证 |
+| 149 | [小尺寸压缩该选远心单目还是显微双目：DIC成像架构决策指南](articles/dic-small-complex-compression-telecentric-monocular-stereo-imaging-selection.md#chinese-version) | 小尺寸压缩、远心成像、显微DIC、双目DIC、架构选型 |
+| 150 | [孔隙、曲面与阴影怎么做散斑：小尺寸复杂件DIC纹理与可见性质量控制](articles/dic-small-complex-compression-speckle-visibility-image-quality-control.md#chinese-version) | 小尺寸复杂件、散斑纹理、可见性、照明、DIC质量控制 |
+| 151 | [应变窗口跨过一个孔还可信吗：小尺寸多孔件DIC空间尺度与虚拟标距](articles/dic-small-complex-compression-spatial-scale-virtual-gauge-strain-definition.md#chinese-version) | 多孔结构、空间尺度、虚拟标距、应变定义、DIC |
+| 152 | [微小变形结果有多可信：小尺寸压缩DIC不确定度、重复性与刚体基线验证](articles/dic-small-complex-compression-uncertainty-repeatability-rigid-baseline-validation.md#chinese-version) | 微小变形、DIC不确定度、重复性、刚体基线、验证 |
+| 153 | [云图之外怎样看载荷路径：DIC节点—杆件运动分解与渐进失效追踪](articles/dic-small-complex-compression-node-strut-load-path-progressive-collapse-tracking.md#chinese-version) | 节点—杆件运动、载荷路径、渐进失效、网格压缩、DIC |
 
 ---
 
@@ -835,4 +845,3 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 ---
 
 **[⬆ 返回英文版 / Back to English](#english-version)**
-
