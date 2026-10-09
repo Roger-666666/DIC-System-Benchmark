@@ -305,4 +305,3 @@ Use low-load trials, focus and scale checks, rigid-tilt tests, or comparison wit
 Selecting DIC for a small complex part is not a contest between telecentric and stereo hardware. It is a match between measurand, spatial scale, and motion degrees of freedom. Define the deformation first, then choose field, optics, and dimensionality so the data remain credible when instability begins.
 
 </details>
-
