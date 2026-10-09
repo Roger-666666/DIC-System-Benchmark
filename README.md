@@ -404,6 +404,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 141 | [Does a Frequency Shift Prove Damage? Full-Field DIC Identification of Modes, Damping, and Time-Varying Dynamics](articles/dic-seismic-full-field-modal-damping-time-varying-identification.md#english-version) | Modal identification, damping, time-varying dynamics, structural damage, full-field DIC |
 | 142 | [How Does a Structure Degrade before Visible Cracking? DIC-Based Stiffness Loss and Damage Localization under Cyclic Seismic Loading](articles/dic-seismic-cyclic-stiffness-degradation-damage-localization.md#english-version) | Cyclic seismic loading, stiffness degradation, damage localization, crack initiation, DIC |
 | 143 | [Why Do DIC, Accelerometers, and Displacement Sensors Disagree? Multisensor Synchronization and Model Validation in Seismic Tests](articles/dic-seismic-dic-accelerometer-displacement-multisensor-model-validation.md#english-version) | DIC, accelerometer, displacement sensor, synchronization, seismic model validation |
+| 144 | [How Should Composite Strain Direction Be Read? DIC Material Coordinates, Open-Hole Specimens, and Off-Axis Loading](articles/dic-composite-material-coordinate-open-hole-off-axis-anisotropy.md#english-version) | Composite anisotropy, material coordinates, open-hole testing, off-axis loading, DIC |
+| 145 | [Material Failure or Structural Instability? Using 3D-DIC to Separate Composite Imperfection, Out-of-Plane Buckling, and Boundary Effects](articles/dic-composite-compression-imperfection-out-of-plane-buckling-boundary-diagnosis.md#english-version) | Composite compression, initial imperfection, out-of-plane buckling, boundary diagnosis, 3D-DIC |
+| 146 | [A Million Cycles Do Not Require a Million Image Sets: Multiscale-Time DIC and Event Tracking for Composite Fatigue](articles/dic-composite-fatigue-multiscale-time-event-triggered-monitoring.md#english-version) | Composite fatigue, multiscale-time acquisition, phase locking, event triggering, DIC |
+| 147 | [Why Can a Small Impact Dent Reduce Residual Capacity? Fusing DIC and Nondestructive Evidence for Composite Compression after Impact](articles/dic-composite-impact-compression-after-impact-ndt-evidence-fusion.md#english-version) | Compression after impact, residual capacity, nondestructive testing, evidence fusion, DIC |
+| 148 | [Can Flat-Specimen DIC Be Transferred to Curved Composite Structures? Surface Coordinates, Multiview Continuity, and Model Mapping](articles/dic-composite-curved-structure-surface-coordinates-multiview-model-mapping.md#english-version) | Curved composites, surface coordinates, multiview DIC, field mapping, model validation |
 
 ---
 
@@ -816,6 +821,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 141 | [频率变了就代表损伤吗：DIC全场模态、阻尼与时变振动特性识别](articles/dic-seismic-full-field-modal-damping-time-varying-identification.md#chinese-version) | 模态识别、阻尼、时变动力特性、结构损伤、全场DIC |
 | 142 | [裂缝出现之前结构已如何退化：DIC循环地震加载刚度衰减与损伤定位](articles/dic-seismic-cyclic-stiffness-degradation-damage-localization.md#chinese-version) | 循环地震加载、刚度衰减、损伤定位、裂缝萌生、DIC |
 | 143 | [DIC、加速度计与位移计为何对不上：地震模拟多传感器同步与模型验证](articles/dic-seismic-dic-accelerometer-displacement-multisensor-model-validation.md#chinese-version) | DIC、加速度计、位移计、同步、地震模型验证 |
+| 144 | [复合材料应变方向怎么看：DIC材料坐标系、开孔试样与偏轴加载判读](articles/dic-composite-material-coordinate-open-hole-off-axis-anisotropy.md#chinese-version) | 复合材料各向异性、材料坐标、开孔试验、偏轴加载、DIC |
+| 145 | [压缩失效是材料破坏还是结构失稳：3D-DIC识别复合材料初始缺陷、离面屈曲与边界效应](articles/dic-composite-compression-imperfection-out-of-plane-buckling-boundary-diagnosis.md#chinese-version) | 复合材料压缩、初始缺陷、离面屈曲、边界诊断、3D-DIC |
+| 146 | [百万循环不等于百万帧：复合材料疲劳DIC多时间尺度采集与损伤事件追踪](articles/dic-composite-fatigue-multiscale-time-event-triggered-monitoring.md#chinese-version) | 复合材料疲劳、多时间尺度采集、相位锁定、事件触发、DIC |
+| 147 | [冲击坑很小为何剩余承载下降：DIC与无损检测用于复合材料冲击后压缩证据融合](articles/dic-composite-impact-compression-after-impact-ndt-evidence-fusion.md#chinese-version) | 冲击后压缩、剩余承载、无损检测、证据融合、DIC |
+| 148 | [平板方法能否搬到曲面构件：DIC复合材料曲面坐标、多视场衔接与模型映射](articles/dic-composite-curved-structure-surface-coordinates-multiview-model-mapping.md#chinese-version) | 曲面复合材料、曲面坐标、多视场DIC、场映射、模型验证 |
 
 ---
 
