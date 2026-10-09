@@ -414,6 +414,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 151 | [Is a Strain Window Still Meaningful When It Crosses a Pore? Spatial Scale and Virtual Gauge Length in Small Porous Structures](articles/dic-small-complex-compression-spatial-scale-virtual-gauge-strain-definition.md#english-version) | Porous structures, spatial scale, virtual gauge length, strain definition, DIC |
 | 152 | [How Trustworthy Is a Small Deformation? Uncertainty, Repeatability, and Rigid-Body Baselines for Small-Part Compression DIC](articles/dic-small-complex-compression-uncertainty-repeatability-rigid-baseline-validation.md#english-version) | Small deformation, DIC uncertainty, repeatability, rigid-body baseline, validation |
 | 153 | [Beyond Strain Contours: DIC Node–Strut Kinematics and Progressive Load-Path Tracking in Small Complex Structures](articles/dic-small-complex-compression-node-strut-load-path-progressive-collapse-tracking.md#english-version) | Node–strut kinematics, load path, progressive failure, lattice compression, DIC |
+| 154 | [Irregular Geometry Does Not Mean Ambiguous Motion: Local-Coordinate DIC for Lattice Compression](articles/dic-lattice-irregular-compression-specimen-coordinate-displacement-decomposition.md#english-version) | Irregular lattice, specimen coordinates, displacement decomposition, out-of-plane motion, DIC |
+| 155 | [What Happens at a Turn in the Load Curve? Synchronized DIC Stage Segmentation for Irregular Lattice Compression](articles/dic-lattice-irregular-compression-synchronized-event-stage-segmentation.md#english-version) | Load synchronization, stage segmentation, compression event, effective displacement, DIC |
+| 156 | [Can Member Instability Be Detected Early? DIC Curvature–Strain-Gradient Tracking for Local Buckling in Irregular Lattices](articles/dic-lattice-irregular-compression-local-buckling-precursor-tracking.md#english-version) | Local buckling, curvature, strain gradient, instability precursor, lattice compression |
+| 157 | [How Can Different Lattice Topologies Be Compared Fairly? Homologous-Region Registration and Dimensionless DIC Evaluation](articles/dic-lattice-irregular-compression-topology-orientation-comparison-framework.md#english-version) | Lattice topology, homologous regions, dimensionless metrics, design comparison, DIC |
+| 158 | [How Much Remains Measurable After Occlusion? Multi-View DIC Coverage and Continuity Design for Irregular Lattice Parts](articles/dic-lattice-irregular-compression-multiview-occlusion-coverage-management.md#english-version) | Multi-view DIC, occlusion, valid coverage, data continuity, irregular lattice |
 
 ---
 
@@ -836,6 +841,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 151 | [应变窗口跨过一个孔还可信吗：小尺寸多孔件DIC空间尺度与虚拟标距](articles/dic-small-complex-compression-spatial-scale-virtual-gauge-strain-definition.md#chinese-version) | 多孔结构、空间尺度、虚拟标距、应变定义、DIC |
 | 152 | [微小变形结果有多可信：小尺寸压缩DIC不确定度、重复性与刚体基线验证](articles/dic-small-complex-compression-uncertainty-repeatability-rigid-baseline-validation.md#chinese-version) | 微小变形、DIC不确定度、重复性、刚体基线、验证 |
 | 153 | [云图之外怎样看载荷路径：DIC节点—杆件运动分解与渐进失效追踪](articles/dic-small-complex-compression-node-strut-load-path-progressive-collapse-tracking.md#chinese-version) | 节点—杆件运动、载荷路径、渐进失效、网格压缩、DIC |
+| 154 | [异形不等于方向不明：DIC局部坐标分解网格件压缩三维位移](articles/dic-lattice-irregular-compression-specimen-coordinate-displacement-decomposition.md#chinese-version) | 网格状异形件、试件坐标、位移分解、离面运动、DIC |
+| 155 | [载荷曲线拐点发生了什么：DIC同步分段还原网格件压缩全过程](articles/dic-lattice-irregular-compression-synchronized-event-stage-segmentation.md#chinese-version) | 载荷同步、阶段分段、压缩事件、有效位移、DIC |
+| 156 | [杆件失稳能否提前识别：DIC曲率—应变梯度追踪网格件局部屈曲](articles/dic-lattice-irregular-compression-local-buckling-precursor-tracking.md#chinese-version) | 局部屈曲、曲率、应变梯度、失稳前兆、网格压缩 |
+| 157 | [不同网格拓扑如何公平比较：DIC同源区域配准与无量纲评价框架](articles/dic-lattice-irregular-compression-topology-orientation-comparison-framework.md#chinese-version) | 网格拓扑、同源区域、无量纲指标、设计对比、DIC |
+| 158 | [遮挡之后还能测多少：多视角DIC用于网格状异形件覆盖率与数据连续性设计](articles/dic-lattice-irregular-compression-multiview-occlusion-coverage-management.md#chinese-version) | 多视角DIC、遮挡、有效覆盖率、数据连续性、网格状异形件 |
 
 ---
 
