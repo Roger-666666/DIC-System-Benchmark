@@ -345,4 +345,3 @@ Critical location, deformation mode, and event order remain stable under reasona
 Trustworthy small-scale DIC is not one attractive low-noise number but a reviewable validation chain. Static, rigid, known-motion, and repeated-compression checks establish whether a small deformation is a structural signal, experimental scatter, or measurement artifact.
 
 </details>
-
