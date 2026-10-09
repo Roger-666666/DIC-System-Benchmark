@@ -335,4 +335,3 @@ Material, member, and structural scales can all be correct for different measura
 The challenge is not whether DIC can output strain, but which scale that strain represents. Separating local material strain, member kinematics, and structural equivalent strain—and disclosing window, gauge, and mask—makes the data useful for both material assessment and structural design.
 
 </details>
-
