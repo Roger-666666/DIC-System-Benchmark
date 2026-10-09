@@ -353,4 +353,3 @@ Pair measured nodes and members with model objects and compare trajectories, mod
 Contours show where change is strong; node–strut kinematics explain how the structure works. Converting fields into traceable structural units and topology events moves DIC from hotspot display toward load-path and progressive-failure interpretation.
 
 </details>
-
