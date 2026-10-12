@@ -424,10 +424,15 @@ If you have calibration data, application case studies, or corrected specificati
 | 161 | [What Happens Beyond the Crash Peak? High-Speed DIC Reconstruction of Automotive Event Chains and Energy-Transfer Paths](articles/dic-automotive-crash-high-speed-event-chain-energy-path-validation.md#english-version) | Automotive crash, high-speed DIC, event chain, energy path, rigid-motion separation |
 | 162 | [Why Wait for a Crack Alarm in Durability Testing? Phase-Synchronized DIC for Cyclic Localization in Automotive Components](articles/dic-automotive-durability-cyclic-phase-locked-full-field-damage-evolution.md#english-version) | Automotive durability, phase synchronization, cyclic localization, fatigue precursor, full-field DIC |
 | 163 | [Why Do Nominally Identical Parts Behave Differently? DIC Field Fingerprints Linking Pilot Builds, Production, and Reliability](articles/dic-automotive-manufacturing-golden-sample-batch-field-quality-loop.md#english-version) | Automotive manufacturing, field fingerprint, golden specimen, batch consistency, reliability loop |
+| 164 | [What Does “Memory” Mean in Foam? DIC Separates Instantaneous Rebound, Delayed Recovery, and Compression Set](articles/dic-foam-memory-recovery-metric-definition.md#english-version) | Foam memory, instantaneous rebound, delayed recovery, compression set, DIC |
+| 165 | [Fast Recovery Is Not Uniform Recovery: Spatiotemporal DIC Maps for Foam Viscoelastic Response](articles/dic-foam-memory-spatiotemporal-recovery-mapping.md#english-version) | Foam recovery, spatiotemporal DIC, recovery-time map, viscoelasticity, nonuniformity |
+| 166 | [One Compression Cannot Prove Durability: Phase-Aligned DIC Tracking of Foam Hysteresis and Accumulated Residual](articles/dic-foam-memory-cyclic-hysteresis-accumulated-residual.md#english-version) | Foam cyclic compression, hysteresis, accumulated residual, phase alignment, DIC |
+| 167 | [Platen Friction or Material Memory? DIC Boundary Diagnostics for Reliable Foam Recovery Tests](articles/dic-foam-memory-boundary-friction-error-diagnosis.md#english-version) | Foam recovery test, platen friction, boundary diagnosis, optical error, DIC |
+| 168 | [From Cushion Comfort to Reusable Packaging: Turning DIC Field Features into Foam Selection and Acceptance Evidence](articles/dic-foam-memory-material-selection-acceptance.md#english-version) | Foam selection, cushion comfort, packaging reuse, field fingerprint, acceptance testing |
 
 ---
 
-*Last updated: 2026-09*
+*Last updated: 2026-10*
 *Maintained by: DIC-Benchmark contributors*
 
 
@@ -856,12 +861,18 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 161 | [碰撞峰值之外发生了什么：高速DIC重建汽车结构事件链与能量传递路径](articles/dic-automotive-crash-high-speed-event-chain-energy-path-validation.md#chinese-version) | 汽车碰撞、高速DIC、事件链、能量路径、刚体运动分离 |
 | 162 | [耐久试验为何等到裂纹才报警：相位同步DIC追踪汽车部件循环局部化](articles/dic-automotive-durability-cyclic-phase-locked-full-field-damage-evolution.md#chinese-version) | 汽车耐久、相位同步、循环局部化、疲劳前兆、全场DIC |
 | 163 | [同款零件为何批次表现不同：DIC场特征指纹连接试制、量产与可靠性闭环](articles/dic-automotive-manufacturing-golden-sample-batch-field-quality-loop.md#chinese-version) | 汽车智造、场特征指纹、黄金样件、批次一致性、可靠性闭环 |
+| 164 | [海绵“记忆力”究竟测什么：DIC区分瞬时回弹、延迟恢复与永久压缩](articles/dic-foam-memory-recovery-metric-definition.md#chinese-version) | 海绵记忆力、瞬时回弹、延迟恢复、永久压缩、DIC |
+| 165 | [恢复快不等于恢复均匀：DIC时空恢复图量化海绵黏弹响应](articles/dic-foam-memory-spatiotemporal-recovery-mapping.md#chinese-version) | 海绵恢复、DIC时空图、恢复时间图、黏弹性、非均匀性 |
+| 166 | [一次压缩看不出耐久性：相位对齐DIC追踪海绵循环滞回与累积残余](articles/dic-foam-memory-cyclic-hysteresis-accumulated-residual.md#chinese-version) | 海绵循环压缩、滞回、累积残余、相位对齐、DIC |
+| 167 | [压板摩擦还是材料记忆：DIC边界诊断避免误判海绵恢复性能](articles/dic-foam-memory-boundary-friction-error-diagnosis.md#chinese-version) | 海绵恢复测试、压板摩擦、边界诊断、光学误差、DIC |
+| 168 | [从坐垫舒适到缓冲复用：DIC场特征如何进入海绵材料选型与验收](articles/dic-foam-memory-material-selection-acceptance.md#chinese-version) | 海绵选型、坐垫舒适、包装复用、场特征指纹、验收测试 |
 
 ---
 
-*最后更新：2026-09*  
+*最后更新：2026-10*
 *维护者：DIC-Benchmark 贡献者*
 
 ---
 
 **[⬆ 返回英文版 / Back to English](#english-version)**
+
