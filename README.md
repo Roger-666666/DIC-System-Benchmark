@@ -434,6 +434,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 171 | [Is the Chip Vibrating—or the Package and Fixture? Reference-Frame Diagnostics for Chip-Scale DIC Modal Tests](articles/dic-chip-package-fixture-boundary-relative-motion-diagnosis.md#english-version) | Chip package, fixture coupling, reference coordinates, relative motion, false-mode diagnosis |
 | 172 | [Is an Amplitude Contour Enough? Visualizing Phase, Nodes, and Propagating Response in Complex Chip DIC Mode Shapes](articles/dic-chip-complex-mode-shape-amplitude-phase-visualization.md#english-version) | Complex mode shape, phase field, node line, traveling response, chip DIC |
 | 173 | [Why Do DIC, Laser Vibrometry, and Accelerometers Disagree? A Multisensor Evidence Chain for Chip Modal Validation](articles/dic-chip-vibration-dic-ldv-accelerometer-multisensor-validation.md#english-version) | Chip modal validation, DIC, laser vibrometry, accelerometer, sensor fusion |
+| 174 | [Why Does PCB Warpage Move at the Same Temperature? Co-Registering DIC and Temperature Fields to Trace Thermo-Mechanical Transfer](articles/dic-pcb-thermal-temperature-field-deformation-coregistration.md#english-version) | PCB thermal warpage, temperature-field registration, thermal gradient, synchronization, thermo-mechanical transfer |
+| 175 | [Can Hidden Solder Joints Still Be Assessed? DIC Metrics for PCB–Package Relative Kinematics and Risk Proxies](articles/dic-pcb-package-relative-kinematics-solder-risk-proxy.md#english-version) | PCB package, relative kinematics, solder-joint risk proxy, curvature, evidence boundary |
+| 176 | [Why Does PCB Warpage Suddenly Reverse? DIC Diagnosis of Thermal Buckling, Mode Switching, and Bifurcation Regions](articles/dic-pcb-thermal-buckling-mode-switching-bifurcation-diagnosis.md#english-version) | PCB thermal buckling, shape-mode switching, bifurcation region, event detection, DIC |
+| 177 | [Does PCB Warpage Come From Stack-Up or Process? DOE and Variance Decomposition with DIC Field Features](articles/dic-pcb-thermal-warpage-doe-variance-factor-screening.md#english-version) | PCB DOE, variance decomposition, stack-up, process factors, DIC field features |
+| 178 | [One Maximum-Warpage Curve Cannot Describe a Field: DIC Shape Modes and PCB Batch Fingerprints](articles/dic-pcb-thermal-warpage-shape-mode-batch-fingerprint.md#english-version) | PCB batch fingerprint, shape modes, PCA, full-field DIC, process monitoring |
 
 ---
 
@@ -876,6 +881,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 171 | [振的是芯片还是封装与夹具：芯片DIC模态测试参考坐标与边界耦合诊断](articles/dic-chip-package-fixture-boundary-relative-motion-diagnosis.md#chinese-version) | 芯片封装、夹具耦合、参考坐标、相对运动、伪模态诊断 |
 | 172 | [只有振幅云图够吗：芯片DIC复数振型的相位、节点与传播响应可视化](articles/dic-chip-complex-mode-shape-amplitude-phase-visualization.md#chinese-version) | 复数振型、相位场、节点线、传播响应、芯片DIC |
 | 173 | [DIC、激光测振与加速度计为何对不上：芯片模态多传感器互证方法](articles/dic-chip-vibration-dic-ldv-accelerometer-multisensor-validation.md#chinese-version) | 芯片模态验证、DIC、激光测振、加速度计、多传感器互证 |
+| 174 | [温度相同为何翘曲位置不同：DIC与温度场配准还原PCB热—形变传递](articles/dic-pcb-thermal-temperature-field-deformation-coregistration.md#chinese-version) | PCB热翘曲、温度场配准、热梯度、同步测量、热—形变传递 |
+| 175 | [焊点看不见还能评估吗：DIC量化PCB—封装相对位姿与焊点风险代理量](articles/dic-pcb-package-relative-kinematics-solder-risk-proxy.md#chinese-version) | PCB封装、相对位姿、焊点风险代理量、局部曲率、证据边界 |
+| 176 | [PCB翘曲为何突然翻面：DIC识别热屈曲、模态跳变与分岔温区](articles/dic-pcb-thermal-buckling-mode-switching-bifurcation-diagnosis.md#chinese-version) | PCB热屈曲、形状模态跳变、分岔温区、事件识别、DIC |
+| 177 | [PCB翘曲差异来自叠层还是工艺：基于DIC场特征的DOE与方差分解](articles/dic-pcb-thermal-warpage-doe-variance-factor-screening.md#chinese-version) | PCB试验设计、方差分解、叠层、工艺因素、DIC场特征 |
+| 178 | [一条最大翘曲曲线装不下全场：DIC形状模态与PCB批次指纹](articles/dic-pcb-thermal-warpage-shape-mode-batch-fingerprint.md#chinese-version) | PCB批次指纹、形状模态、主成分分析、全场DIC、过程监控 |
 
 ---
 
@@ -885,4 +895,3 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 ---
 
 **[⬆ 返回英文版 / Back to English](#english-version)**
-
