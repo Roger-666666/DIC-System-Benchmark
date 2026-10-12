@@ -429,6 +429,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 166 | [One Compression Cannot Prove Durability: Phase-Aligned DIC Tracking of Foam Hysteresis and Accumulated Residual](articles/dic-foam-memory-cyclic-hysteresis-accumulated-residual.md#english-version) | Foam cyclic compression, hysteresis, accumulated residual, phase alignment, DIC |
 | 167 | [Platen Friction or Material Memory? DIC Boundary Diagnostics for Reliable Foam Recovery Tests](articles/dic-foam-memory-boundary-friction-error-diagnosis.md#english-version) | Foam recovery test, platen friction, boundary diagnosis, optical error, DIC |
 | 168 | [From Cushion Comfort to Reusable Packaging: Turning DIC Field Features into Foam Selection and Acceptance Evidence](articles/dic-foam-memory-material-selection-acceptance.md#english-version) | Foam selection, cushion comfort, packaging reuse, field fingerprint, acceptance testing |
+| 169 | [Do Smaller Chips Make Local Modes Easier to Miss? A High-Speed DIC Framework for Spatial Sampling and Full-Field Visualization](articles/dic-chip-vibration-full-field-spatial-sampling-visualization.md#english-version) | Chip vibration, high-speed DIC, spatial sampling, local modes, full-field visualization |
+| 170 | [Why Can a High Frame Rate Still Underestimate Vibration? Exposure, Sampling, and Spectral-Leakage Control for Chip DIC](articles/dic-chip-vibration-exposure-sampling-frequency-quality-control.md#english-version) | Chip modal testing, exposure, sampling, spectral leakage, temporal fidelity |
+| 171 | [Is the Chip Vibrating—or the Package and Fixture? Reference-Frame Diagnostics for Chip-Scale DIC Modal Tests](articles/dic-chip-package-fixture-boundary-relative-motion-diagnosis.md#english-version) | Chip package, fixture coupling, reference coordinates, relative motion, false-mode diagnosis |
+| 172 | [Is an Amplitude Contour Enough? Visualizing Phase, Nodes, and Propagating Response in Complex Chip DIC Mode Shapes](articles/dic-chip-complex-mode-shape-amplitude-phase-visualization.md#english-version) | Complex mode shape, phase field, node line, traveling response, chip DIC |
+| 173 | [Why Do DIC, Laser Vibrometry, and Accelerometers Disagree? A Multisensor Evidence Chain for Chip Modal Validation](articles/dic-chip-vibration-dic-ldv-accelerometer-multisensor-validation.md#english-version) | Chip modal validation, DIC, laser vibrometry, accelerometer, sensor fusion |
 
 ---
 
@@ -866,6 +871,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 166 | [一次压缩看不出耐久性：相位对齐DIC追踪海绵循环滞回与累积残余](articles/dic-foam-memory-cyclic-hysteresis-accumulated-residual.md#chinese-version) | 海绵循环压缩、滞回、累积残余、相位对齐、DIC |
 | 167 | [压板摩擦还是材料记忆：DIC边界诊断避免误判海绵恢复性能](articles/dic-foam-memory-boundary-friction-error-diagnosis.md#chinese-version) | 海绵恢复测试、压板摩擦、边界诊断、光学误差、DIC |
 | 168 | [从坐垫舒适到缓冲复用：DIC场特征如何进入海绵材料选型与验收](articles/dic-foam-memory-material-selection-acceptance.md#chinese-version) | 海绵选型、坐垫舒适、包装复用、场特征指纹、验收测试 |
+| 169 | [芯片尺寸越小越容易漏掉局部模态吗：高速DIC空间采样与全场可视化框架](articles/dic-chip-vibration-full-field-spatial-sampling-visualization.md#chinese-version) | 芯片振动、高速DIC、空间采样、局部模态、全场可视化 |
+| 170 | [帧率够高为何振幅仍偏小：芯片高速DIC曝光、采样与频谱泄漏控制](articles/dic-chip-vibration-exposure-sampling-frequency-quality-control.md#chinese-version) | 芯片模态测试、曝光、采样、频谱泄漏、时间保真 |
+| 171 | [振的是芯片还是封装与夹具：芯片DIC模态测试参考坐标与边界耦合诊断](articles/dic-chip-package-fixture-boundary-relative-motion-diagnosis.md#chinese-version) | 芯片封装、夹具耦合、参考坐标、相对运动、伪模态诊断 |
+| 172 | [只有振幅云图够吗：芯片DIC复数振型的相位、节点与传播响应可视化](articles/dic-chip-complex-mode-shape-amplitude-phase-visualization.md#chinese-version) | 复数振型、相位场、节点线、传播响应、芯片DIC |
+| 173 | [DIC、激光测振与加速度计为何对不上：芯片模态多传感器互证方法](articles/dic-chip-vibration-dic-ldv-accelerometer-multisensor-validation.md#chinese-version) | 芯片模态验证、DIC、激光测振、加速度计、多传感器互证 |
 
 ---
 
