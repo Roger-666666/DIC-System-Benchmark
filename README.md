@@ -439,6 +439,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 176 | [Why Does PCB Warpage Suddenly Reverse? DIC Diagnosis of Thermal Buckling, Mode Switching, and Bifurcation Regions](articles/dic-pcb-thermal-buckling-mode-switching-bifurcation-diagnosis.md#english-version) | PCB thermal buckling, shape-mode switching, bifurcation region, event detection, DIC |
 | 177 | [Does PCB Warpage Come From Stack-Up or Process? DOE and Variance Decomposition with DIC Field Features](articles/dic-pcb-thermal-warpage-doe-variance-factor-screening.md#english-version) | PCB DOE, variance decomposition, stack-up, process factors, DIC field features |
 | 178 | [One Maximum-Warpage Curve Cannot Describe a Field: DIC Shape Modes and PCB Batch Fingerprints](articles/dic-pcb-thermal-warpage-shape-mode-batch-fingerprint.md#english-version) | PCB batch fingerprint, shape modes, PCA, full-field DIC, process monitoring |
+| 179 | [Wafer “Bending” Is Not One Number: DIC Definitions for Bow, Warp, Tilt, and Local Curvature](articles/dic-wafer-thermal-bow-warp-datum-metric-definition.md#english-version) | Wafer thermal bending, bow, warp, datum, valid aperture, DIC |
+| 180 | [How Can DIC Measure a Mirror-Like Wafer? Quality Control for Speckles, Reflections, and Thermal Optics](articles/dic-wafer-reflective-surface-speckle-thermal-optical-quality-control.md#english-version) | Reflective wafer, DIC speckle, specular reflection, thermal optics, image quality |
+| 181 | [Is the Wafer Bending—or Is the Support Pushing It? DIC Separation of Gravity, Support, and Thermal-Chuck Effects](articles/dic-wafer-support-chuck-gravity-boundary-artifact-separation.md#english-version) | Wafer support, gravity, vacuum chuck, boundary effect, thermal warpage |
+| 182 | [Can Curvature Be Converted Directly into Thin-Film Stress? Assumptions, Validation, and Limits of DIC Wafer Inversion](articles/dic-wafer-thin-film-stress-curvature-inversion-validation.md#english-version) | Thin-film stress, curvature inversion, wafer DIC, model validation, evidence boundary |
+| 183 | [Why Does a Wafer Bend Differently at the Same Temperature? DIC Tracking of Thermal Lag, Shape Reversal, and Irreversible Residual](articles/dic-wafer-thermal-path-hysteresis-process-event-diagnosis.md#english-version) | Wafer thermal path, hysteresis, shape reversal, residual warpage, event diagnosis |
 
 ---
 
@@ -886,6 +891,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 176 | [PCB翘曲为何突然翻面：DIC识别热屈曲、模态跳变与分岔温区](articles/dic-pcb-thermal-buckling-mode-switching-bifurcation-diagnosis.md#chinese-version) | PCB热屈曲、形状模态跳变、分岔温区、事件识别、DIC |
 | 177 | [PCB翘曲差异来自叠层还是工艺：基于DIC场特征的DOE与方差分解](articles/dic-pcb-thermal-warpage-doe-variance-factor-screening.md#chinese-version) | PCB试验设计、方差分解、叠层、工艺因素、DIC场特征 |
 | 178 | [一条最大翘曲曲线装不下全场：DIC形状模态与PCB批次指纹](articles/dic-pcb-thermal-warpage-shape-mode-batch-fingerprint.md#chinese-version) | PCB批次指纹、形状模态、主成分分析、全场DIC、过程监控 |
+| 179 | [晶圆“弯”不是一个数：DIC区分Bow、Warp、倾斜与局部曲率](articles/dic-wafer-thermal-bow-warp-datum-metric-definition.md#chinese-version) | 晶圆热弯曲、Bow、Warp、基准面、有效口径、DIC |
+| 180 | [镜面晶圆怎样做DIC：散斑、反光与热光路的质量控制](articles/dic-wafer-reflective-surface-speckle-thermal-optical-quality-control.md#chinese-version) | 镜面晶圆、DIC散斑、镜面反光、热光路、图像质量 |
+| 181 | [晶圆真在弯还是支撑在推：DIC分离重力、托点与热盘边界效应](articles/dic-wafer-support-chuck-gravity-boundary-artifact-separation.md#chinese-version) | 晶圆支撑、重力、真空热盘、边界效应、热翘曲 |
+| 182 | [曲率能否直接等于薄膜应力：DIC晶圆形貌反演的假设、验证与边界](articles/dic-wafer-thin-film-stress-curvature-inversion-validation.md#chinese-version) | 薄膜应力、曲率反演、晶圆DIC、模型验证、证据边界 |
+| 183 | [同一温度为何晶圆弯得不同：DIC追踪热滞后、形貌翻转与不可逆残余](articles/dic-wafer-thermal-path-hysteresis-process-event-diagnosis.md#chinese-version) | 晶圆热路径、滞回、形貌翻转、残余翘曲、事件诊断 |
 
 ---
 
