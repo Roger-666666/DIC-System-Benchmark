@@ -449,6 +449,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 186 | [Is Wafer Thermal Bending Measured Reliably? DIC Uncertainty Budgets, Repeatability, and Evidence Chains](articles/dic-wafer-thermal-dic-uncertainty-repeatability-evidence-chain.md#english-version) | Wafer DIC uncertainty, repeatability, thermal optics, metrology, evidence chain |
 | 187 | [From a Single-Wafer Curve to Batch Fingerprints: DIC Thermal Shape Features for Process Screening](articles/dic-wafer-batch-thermal-shape-fingerprint-process-screening.md#english-version) | Wafer batch screening, thermal shape fingerprint, process drift, full-field DIC, anomaly review |
 | 188 | [Why Does Wafer Thermomechanical Simulation Disagree? Validating Finite-Element Models with Full-Field DIC Data](articles/dic-wafer-thermomechanical-fea-full-field-validation-digital-twin.md#english-version) | Wafer FEA validation, thermomechanical model, full-field residual, parameter identification, DIC |
+| 189 | [Can Tests with Different Excavation Steps Be Compared? Reconstructing Overburden Response with DIC Incremental Fields and Event Clocks](articles/dic-overburden-excavation-event-clock-incremental-field-normalization.md#english-version) | Staged excavation, event clock, incremental DIC field, response front, overburden |
+| 190 | [How Can Bedding Separation Be Quantified? DIC Relative Displacement, Closure, and Reopening Paths in Overburden](articles/dic-overburden-bedding-separation-relative-displacement-closure-reopening.md#english-version) | Bedding separation, relative displacement, aperture, slip, closure, DIC |
+| 191 | [Fracture Coalescence Is Not a Single Line: DIC Mapping of Overburden Network Topology and Block Kinematics](articles/dic-overburden-fracture-network-topology-connectivity-block-kinematics.md#english-version) | Fracture network, topology, connectivity, block kinematics, overburden DIC |
+| 192 | [Even a Planar Similarity Model Moves Out of Plane: 3D-DIC Diagnosis of False 2D Strain in Overburden Tests](articles/dic-overburden-3d-out-of-plane-motion-2d-false-strain-diagnosis.md#english-version) | 3D-DIC, out-of-plane motion, false 2D strain, similarity model, stereo validation |
+| 193 | [From Physical Similarity Models to Numerical Models: Validating Continuum–Discrete Overburden Simulations with Full-Field DIC](articles/dic-overburden-full-field-validation-continuum-discrete-element-model.md#english-version) | Numerical model validation, continuum-discrete, full-field DIC, overburden, parameter identification |
 
 ---
 
@@ -906,6 +911,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 186 | [晶圆热弯曲测得准不准：DIC不确定度预算、重复性与证据链](articles/dic-wafer-thermal-dic-uncertainty-repeatability-evidence-chain.md#chinese-version) | 晶圆DIC不确定度、重复性、热光路、量值验证、证据链 |
 | 187 | [从单片曲线到批次指纹：DIC晶圆热形貌特征用于工艺筛查](articles/dic-wafer-batch-thermal-shape-fingerprint-process-screening.md#chinese-version) | 晶圆批次筛查、热形貌指纹、工艺漂移、全场DIC、异常复核 |
 | 188 | [晶圆热力仿真为何对不上：用DIC全场数据验证有限元模型](articles/dic-wafer-thermomechanical-fea-full-field-validation-digital-twin.md#chinese-version) | 晶圆有限元验证、热力模型、全场残差、参数识别、DIC |
+| 189 | [开挖步长不同还能比较吗：DIC增量场与事件时钟重建覆岩响应](articles/dic-overburden-excavation-event-clock-incremental-field-normalization.md#chinese-version) | 分步开挖、事件时钟、DIC增量场、响应前缘、覆岩演化 |
+| 190 | [覆岩离层如何量化：DIC层间相对位移、闭合与再张开路径](articles/dic-overburden-bedding-separation-relative-displacement-closure-reopening.md#chinese-version) | 覆岩离层、层间相对位移、开度、滑移、闭合、DIC |
+| 191 | [裂隙贯通不是一条线：DIC揭示覆岩裂隙网络拓扑与块体运动](articles/dic-overburden-fracture-network-topology-connectivity-block-kinematics.md#chinese-version) | 裂隙网络、拓扑、连通性、块体运动、覆岩DIC |
+| 192 | [平面相似模型也会“出平面”：3D-DIC诊断覆岩试验中的二维假应变](articles/dic-overburden-3d-out-of-plane-motion-2d-false-strain-diagnosis.md#chinese-version) | 三维DIC、面外运动、二维假应变、相似模型、双目验证 |
+| 193 | [从相似模型到数值模型：用DIC全场数据验证覆岩连续—离散模拟](articles/dic-overburden-full-field-validation-continuum-discrete-element-model.md#chinese-version) | 数值模型验证、连续—离散、全场DIC、覆岩、参数识别 |
 
 ---
 
