@@ -444,6 +444,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 181 | [Is the Wafer Bending—or Is the Support Pushing It? DIC Separation of Gravity, Support, and Thermal-Chuck Effects](articles/dic-wafer-support-chuck-gravity-boundary-artifact-separation.md#english-version) | Wafer support, gravity, vacuum chuck, boundary effect, thermal warpage |
 | 182 | [Can Curvature Be Converted Directly into Thin-Film Stress? Assumptions, Validation, and Limits of DIC Wafer Inversion](articles/dic-wafer-thin-film-stress-curvature-inversion-validation.md#english-version) | Thin-film stress, curvature inversion, wafer DIC, model validation, evidence boundary |
 | 183 | [Why Does a Wafer Bend Differently at the Same Temperature? DIC Tracking of Thermal Lag, Shape Reversal, and Irreversible Residual](articles/dic-wafer-thermal-path-hysteresis-process-event-diagnosis.md#english-version) | Wafer thermal path, hysteresis, shape reversal, residual warpage, event diagnosis |
+| 184 | [Where Does Wafer Thermal Warpage Come From? Co-Registering DIC and Temperature Fields to Separate Uniform Heating from Thermal Gradients](articles/dic-wafer-temperature-field-deformation-coregistration-gradient-source-separation.md#english-version) | Wafer thermal warpage, temperature-field registration, thermal gradient, 3D-DIC, source separation |
+| 185 | [Which Region Bends First—the Edge, Notch, or Patterned Area? DIC Zonal Warpage Maps and Directional Analysis for Wafers](articles/dic-wafer-edge-notch-patterned-region-warpage-map.md#english-version) | Wafer edge warpage, notch region, patterned wafer, zonal map, directional curvature |
+| 186 | [Is Wafer Thermal Bending Measured Reliably? DIC Uncertainty Budgets, Repeatability, and Evidence Chains](articles/dic-wafer-thermal-dic-uncertainty-repeatability-evidence-chain.md#english-version) | Wafer DIC uncertainty, repeatability, thermal optics, metrology, evidence chain |
+| 187 | [From a Single-Wafer Curve to Batch Fingerprints: DIC Thermal Shape Features for Process Screening](articles/dic-wafer-batch-thermal-shape-fingerprint-process-screening.md#english-version) | Wafer batch screening, thermal shape fingerprint, process drift, full-field DIC, anomaly review |
+| 188 | [Why Does Wafer Thermomechanical Simulation Disagree? Validating Finite-Element Models with Full-Field DIC Data](articles/dic-wafer-thermomechanical-fea-full-field-validation-digital-twin.md#english-version) | Wafer FEA validation, thermomechanical model, full-field residual, parameter identification, DIC |
 
 ---
 
@@ -896,6 +901,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 181 | [晶圆真在弯还是支撑在推：DIC分离重力、托点与热盘边界效应](articles/dic-wafer-support-chuck-gravity-boundary-artifact-separation.md#chinese-version) | 晶圆支撑、重力、真空热盘、边界效应、热翘曲 |
 | 182 | [曲率能否直接等于薄膜应力：DIC晶圆形貌反演的假设、验证与边界](articles/dic-wafer-thin-film-stress-curvature-inversion-validation.md#chinese-version) | 薄膜应力、曲率反演、晶圆DIC、模型验证、证据边界 |
 | 183 | [同一温度为何晶圆弯得不同：DIC追踪热滞后、形貌翻转与不可逆残余](articles/dic-wafer-thermal-path-hysteresis-process-event-diagnosis.md#chinese-version) | 晶圆热路径、滞回、形貌翻转、残余翘曲、事件诊断 |
+| 184 | [晶圆热翘曲从哪里来：DIC与温度场配准分离均匀升温和热梯度](articles/dic-wafer-temperature-field-deformation-coregistration-gradient-source-separation.md#chinese-version) | 晶圆热翘曲、温度场配准、热梯度、三维DIC、来源分离 |
+| 185 | [晶圆边缘、缺口与图形区谁先弯：DIC分区热翘曲地图与方向性分析](articles/dic-wafer-edge-notch-patterned-region-warpage-map.md#chinese-version) | 晶圆边缘翘曲、缺口区域、图形化晶圆、分区地图、方向曲率 |
+| 186 | [晶圆热弯曲测得准不准：DIC不确定度预算、重复性与证据链](articles/dic-wafer-thermal-dic-uncertainty-repeatability-evidence-chain.md#chinese-version) | 晶圆DIC不确定度、重复性、热光路、量值验证、证据链 |
+| 187 | [从单片曲线到批次指纹：DIC晶圆热形貌特征用于工艺筛查](articles/dic-wafer-batch-thermal-shape-fingerprint-process-screening.md#chinese-version) | 晶圆批次筛查、热形貌指纹、工艺漂移、全场DIC、异常复核 |
+| 188 | [晶圆热力仿真为何对不上：用DIC全场数据验证有限元模型](articles/dic-wafer-thermomechanical-fea-full-field-validation-digital-twin.md#chinese-version) | 晶圆有限元验证、热力模型、全场残差、参数识别、DIC |
 
 ---
 
