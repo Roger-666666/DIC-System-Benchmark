@@ -186,7 +186,7 @@ The three difficulties differ in appearance but share operational checks. The ta
 | Check | Criterion | Symptom of failure | Action |
 | --- | --- | --- | --- |
 | Field coverage | Trough and shear band fall entirely inside the frame | Contours cut at the edge; a false local maximum | Enlarge the field or use zoned layout with overlap checks |
-| Reference region | Outside the influenced zone, location documented | All displacements systematically reduced | Reselect and re-process; do not reuse old results |
+| Reference region | Outside the influenced zone, location recorded | All displacements systematically reduced | Reselect and re-process; do not reuse old results |
 | Gaps and occlusion | Gap positions labelled, not interpolated | A continuous band with no visible source | Return to raw images; keep the gap |
 | Time alignment | Frames map one-to-one to excavation stages | Curve breakpoints shifted as a whole | Add hardware sync or event marks; re-align |
 | Colour scale | Fixed within one construction sequence | Adjacent stages look similar but differ several-fold | Fix the scale and annotate it |

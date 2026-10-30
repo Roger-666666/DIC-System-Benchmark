@@ -170,9 +170,9 @@ These families substitute for one another poorly. A workable division of labour 
 
 ### 4.1 Three operating regimes
 
-Public material describes coverage of three regimes. Static and quasi-static work is the most common: staged static loading of a scaled model, long-term creep observation of a component, with acquisition paced by load step or by elapsed time. High-speed dynamic impact is the second: high frame rates and hardware synchronisation are needed to resolve deformation propagation and local failure during the event. Long-duration observation is the third, concerned with slow change over weeks or months, where the difficulty is not single-frame quality but datum stability and suppression of environmental drift.
+The acquisition chain covers three regimes. Static and quasi-static work is the most common: staged static loading of a scaled model, long-term creep observation of a component, with acquisition paced by load step or by elapsed time. High-speed dynamic impact is the second: high frame rates and hardware synchronisation are needed to resolve deformation propagation and local failure during the event. Long-duration observation is the third, concerned with slow change over weeks or months, where the difficulty is not single-frame quality but datum stability and suppression of environmental drift.
 
-The three regimes place different demands on the system. Static work cares about calibration accuracy and field coverage. Dynamic work cares about frame rate and trigger synchronisation. Long-duration work cares about robustness and calibration re-checks. Applying one parameter set to all three usually breaks on one of them.
+The three regimes place different demands on the system. Static work cares about calibration accuracy and field coverage. Dynamic work cares about frame rate and trigger synchronisation. Long-duration work cares about robustness and calibration re-checks.
 
 ### 4.2 Five limits
 
