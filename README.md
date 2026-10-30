@@ -468,6 +468,13 @@ If you have calibration data, application case studies, or corrected specificati
 | 205 | [Shooting a Shaking-Table Slope Test Properly: High-Speed Capture, Markers, and Weak-Zone Localization with XTDIC](articles/dic-slope-shake-table-high-speed-weak-zone-capture.md#english-version) | Sampling rhythm, marker layout, camera reference, weak-zone localization, threshold limits |
 | 206 | [Choosing a Measurement Setup for Bridges, Tunnels and Slopes: An Adaptation Matrix for Static, Dynamic, High-Speed and Long-Term Conditions](articles/dic-bridge-tunnel-slope-const-strobe-spark-selection.md#english-version) | Operating-mode matrix, series positioning, point versus imaging, common mismatches |
 | 207 | [From a Single Measurement to a Comparable Long-Term Series: Data Governance and Delivery for DIC Monitoring of Bridges, Tunnels and Slopes](articles/dic-bridge-tunnel-slope-monitoring-data-comparability-delivery.md#english-version) | Station repeatability, reference frames, metadata, delivery checklist, warning limits |
+| 208 | [Why a Sponge's "Memory" Needs a Full-Field Optical System: A Compression-Set Testing Perspective](articles/dic-sponge-compression-set-full-field-overview.md#english-version) | Compression set, full-field optics, displacement field, strain contour, method boundaries |
+| 209 | [Configuring a Sponge Compression Test: What an XTDIC System Is Made Of](articles/dic-xtdic-sponge-compression-system-configuration.md#english-version) | System architecture, imaging unit, illumination, camera mount, synchronization |
+| 210 | [Half the System Beyond the Hardware: Four Software Capabilities of XTDIC in Extreme Foam Compression](articles/dic-xtdic-large-deformation-software-capabilities.md#english-version) | Large-deformation matching, dynamic reference frame, ROI averaging, full-field output |
+| 211 | [From Speckle to Report: An Equipment Workflow for Uniaxial Compression Testing of Sponge with XTDIC](articles/dic-xtdic-sponge-uniaxial-compression-workflow.md#english-version) | Speckle preparation, clamping, calibration, step synchronization, reporting |
+| 212 | [Reading Contours Against Curves: Interpreting the Output of Sponge Compression Tests with XTDIC](articles/dic-xtdic-sponge-compression-curve-cloudmap-reading.md#english-version) | ROI curve, three loading stages, contour interpretation, common misreadings |
+| 213 | [Measuring Sponge and Flexible Porous Materials: Four Approaches and Where XTDIC Fits](articles/dic-xtdic-flexible-porous-material-measurement-comparison.md#english-version) | Contact extensometer, single-point sensing, conventional DIC, large-deformation DIC |
+| 214 | [Where a 3D Full-Field System Sits in Development: Applications for Sponge and Foam](articles/dic-xtdic-sponge-foam-application-value.md#english-version) | Formulation iteration, batch consistency, simulation calibration, seating and packaging |
 
 ---
 
@@ -944,6 +951,13 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 205 | [振动台边坡试验怎么拍才有效：XTDIC高速采集、标记点与薄弱部位定位](articles/dic-slope-shake-table-high-speed-weak-zone-capture.md#chinese-version) | 采样节奏、标记点布设、相机基准、薄弱部位定位、阈值边界 |
 | 206 | [桥隧边坡测量方案怎么选：静态、动态、高速与长周期工况的适配矩阵](articles/dic-bridge-tunnel-slope-const-strobe-spark-selection.md#chinese-version) | 工况矩阵、系列定位、点式与影像分工、常见误配 |
 | 207 | [从一次测量到可比较的长期序列：桥隧边坡DIC监测的数据治理与交付](articles/dic-bridge-tunnel-slope-monitoring-data-comparability-delivery.md#chinese-version) | 站位复现、参考帧、元数据、交付清单、预警边界 |
+| 208 | [海绵的“记忆力”为什么要用全场光学设备测：XTDIC压缩永久变形测试设备视角](articles/dic-sponge-compression-set-full-field-overview.md#chinese-version) | 压缩永久变形、全场光学测量、位移场、应变云图、方法边界 |
+| 209 | [做一次海绵压缩试验要配什么：XTDIC系统构成与配置选择](articles/dic-xtdic-sponge-compression-system-configuration.md#chinese-version) | 系统构成、成像单元、照明、相机支架、同步 |
+| 210 | [硬件之外的半台设备：XTDIC软件在海绵超大压缩中的四项能力](articles/dic-xtdic-large-deformation-software-capabilities.md#chinese-version) | 大变形匹配、动态参考帧、ROI平均、全域输出 |
+| 211 | [从制斑到报告：XTDIC海绵单轴压缩试验的设备作业流程](articles/dic-xtdic-sponge-uniaxial-compression-workflow.md#chinese-version) | 散斑制备、装夹、标定、加载步同步、报告 |
+| 212 | [云图与曲线怎么对上：XTDIC海绵压缩试验的输出解读](articles/dic-xtdic-sponge-compression-curve-cloudmap-reading.md#chinese-version) | ROI曲线、三阶段、云图判读、常见误读 |
+| 213 | [海绵与柔性多孔材料怎么测：四类测量手段与XTDIC的适配边界](articles/dic-xtdic-flexible-porous-material-measurement-comparison.md#chinese-version) | 接触引伸计、单点传感、常规DIC、大变形DIC |
+| 214 | [一台XTDIC能放在研发流程的哪个位置：海绵与泡沫材料的应用落点](articles/dic-xtdic-sponge-foam-application-value.md#chinese-version) | 配方迭代、批次一致性、仿真标定、座椅与包装 |
 
 ---
 
