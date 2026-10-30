@@ -461,6 +461,13 @@ If you have calibration data, application case studies, or corrected specificati
 | 198 | [Strain Localization and Arc-Shaped Slip Surfaces in a Rainfall Soil Slope](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization.md#english-version) | Rainfall infiltration, principal strain, localization band, failure mode |
 | 199 | [Cross-Validating 3D-XTDIC, Displacement Sensors, and Finite Element Analysis on a Scaled Steel–Concrete Girder](articles/06-3d-xtdic-steel-concrete-girder-cross-validation.md#english-version) | Point histories, full-field fields, finite element residuals, uncertainty |
 | 200 | [Translating 3D-XTDIC Similar-Material Test Results into Rail-Transit Design Evidence](articles/07-3d-xtdic-model-test-engineering-translation.md#english-version) | Similarity relations, load-case mapping, support checks, decision boundaries |
+| 201 | [Why Bridges, Tunnels and Slopes Need Full-Field Deformation Monitoring: Capabilities and Limits of XTDIC 3D Full-Field Measurement](articles/dic-bridge-tunnel-slope-full-field-monitoring-overview.md#english-version) | Full-field displacement and strain, crack timing, point-sensor division, five limits |
+| 202 | [Six Core Algorithms Behind XTDIC 3D Full-Field Measurement: Sub-Pixel Matching, Large-Field Calibration and Noise Suppression](articles/dic-bridge-tunnel-slope-six-algorithm-capability.md#english-version) | Subpixel matching, wide-field calibration, outdoor robustness, time synchronization, crack thresholds |
+| 203 | [Placing Measurement Points for Full-Field Bridge Monitoring: XTDIC Layout Design for a Scaled Girder Test](articles/dic-bridge-girder-full-field-monitoring-layout-workflow.md#english-version) | Girder layout, web gradient, composite interface, staged-load mapping, scaling limits |
+| 204 | [Three Difficulties in Tunnel Deformation Monitoring: Crown Settlement, Haunch Shear Bands, and Undercrossing Disturbance](articles/dic-tunnel-crown-settlement-haunch-shear-diagnosis.md#english-version) | Settlement trough, plastic shear band, excavation-stage disturbance, inspection list |
+| 205 | [Shooting a Shaking-Table Slope Test Properly: High-Speed Capture, Markers, and Weak-Zone Localization with XTDIC](articles/dic-slope-shake-table-high-speed-weak-zone-capture.md#english-version) | Sampling rhythm, marker layout, camera reference, weak-zone localization, threshold limits |
+| 206 | [Choosing a Measurement Setup for Bridges, Tunnels and Slopes: An Adaptation Matrix for Static, Dynamic, High-Speed and Long-Term Conditions](articles/dic-bridge-tunnel-slope-const-strobe-spark-selection.md#english-version) | Operating-mode matrix, series positioning, point versus imaging, common mismatches |
+| 207 | [From a Single Measurement to a Comparable Long-Term Series: Data Governance and Delivery for DIC Monitoring of Bridges, Tunnels and Slopes](articles/dic-bridge-tunnel-slope-monitoring-data-comparability-delivery.md#english-version) | Station repeatability, reference frames, metadata, delivery checklist, warning limits |
 
 ---
 
@@ -930,6 +937,13 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 198 | [从应变集中到弧形滑移面：3D-XTDIC解析降雨土质边坡局部化破坏](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization.md#chinese-version) | 降雨入渗、主应变、局部化带、破坏模式 |
 | 199 | [3D-XTDIC、位移传感器与有限元如何互证：钢混主梁缩尺模型对比验证](articles/06-3d-xtdic-steel-concrete-girder-cross-validation.md#chinese-version) | 点位时程、全场响应、有限元残差、不确定度 |
 | 200 | [从模型云图到工程判据：3D-XTDIC相似材料试验成果如何服务轨道交通设计](articles/07-3d-xtdic-model-test-engineering-translation.md#chinese-version) | 相似关系、工况映射、支护校核、决策边界 |
+| 201 | [桥隧边坡为什么要做全域变形监测：XTDIC三维全场测量的能力与边界](articles/dic-bridge-tunnel-slope-full-field-monitoring-overview.md#chinese-version) | 位移场与应变场、裂纹时序、点位手段分工、五条边界 |
+| 202 | [XTDIC三维全场测量的六类核心算法：亚像素匹配、大视场标定与抗干扰](articles/dic-bridge-tunnel-slope-six-algorithm-capability.md#chinese-version) | 亚像素匹配、大视场标定、室外抗干扰、时序同步、裂纹阈值 |
+| 203 | [桥梁全域变形监测怎么布点：XTDIC在缩尺主梁加载中的方案设计](articles/dic-bridge-girder-full-field-monitoring-layout-workflow.md#chinese-version) | 布点与视场、腹板梯度、组合界面、工况映射、缩尺边界 |
+| 204 | [隧道变形监测的三个难点：拱顶沉降、拱腰剪切带与下穿扰动](articles/dic-tunnel-crown-settlement-haunch-shear-diagnosis.md#chinese-version) | 沉降漏斗、塑性剪切带、工序扰动、检查清单 |
+| 205 | [振动台边坡试验怎么拍才有效：XTDIC高速采集、标记点与薄弱部位定位](articles/dic-slope-shake-table-high-speed-weak-zone-capture.md#chinese-version) | 采样节奏、标记点布设、相机基准、薄弱部位定位、阈值边界 |
+| 206 | [桥隧边坡测量方案怎么选：静态、动态、高速与长周期工况的适配矩阵](articles/dic-bridge-tunnel-slope-const-strobe-spark-selection.md#chinese-version) | 工况矩阵、系列定位、点式与影像分工、常见误配 |
+| 207 | [从一次测量到可比较的长期序列：桥隧边坡DIC监测的数据治理与交付](articles/dic-bridge-tunnel-slope-monitoring-data-comparability-delivery.md#chinese-version) | 站位复现、参考帧、元数据、交付清单、预警边界 |
 
 ---
 
