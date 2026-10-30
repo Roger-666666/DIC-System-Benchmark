@@ -72,7 +72,7 @@
 
 ## 四、预警与判读边界
 
-公开的降雨边坡模型试验可以说明长期序列该怎么读。土质边坡物理模型采用人工喷淋模拟汛期雨水入渗，应变在坡顶至坡中区域持续累积，逐步发育成弧形临界滑移面，全过程从微变形一直记录到整体滑坡。它的价值在于用全域应变异常捕捉滑坡前兆，而不是等到滑面出现才反应。
+降雨边坡模型试验可以说明长期序列该怎么读。土质边坡物理模型采用人工喷淋模拟汛期雨水入渗，应变在坡顶至坡中区域持续累积，逐步发育成弧形临界滑移面，全过程从微变形一直记录到整体滑坡。它的价值在于用全域应变异常捕捉滑坡前兆，而不是等到滑面出现才反应。
 
 读这类序列，重点在对比：雨前与雨后的应变增量分布是否改变，累积区是否从零散斑点连成带状，带的走向是否稳定，位移与应变的变化率是否同步加快。单看某一帧云图，很难判断这些。
 
@@ -190,7 +190,7 @@ Worse, the incomparability rarely raises an error. Software does not announce th
 
 ## 4. Warning thresholds and the limits of interpretation
 
-A published rainfall slope model test shows how a long series should be read. A soil slope physical model was sprinkled to simulate wet-season infiltration; strain accumulated continuously from crest to midslope and developed into an arc-shaped critical slip surface, with the whole process recorded from first micro-deformation to overall failure. Its value lies in catching precursors through full-field strain anomalies rather than reacting once a slip surface is visible.
+A rainfall slope model test shows how a long series should be read. A soil slope physical model was sprinkled to simulate wet-season infiltration; strain accumulated continuously from crest to midslope and developed into an arc-shaped critical slip surface, with the whole process recorded from first micro-deformation to overall failure. Its value lies in catching precursors from full-field strain anomalies rather than waiting for the slip surface to appear.
 
 Reading such a series depends on comparison: whether the strain increment pattern differs before and after rainfall, whether scattered patches join into a band, whether the band orientation stays stable, and whether displacement and strain rates accelerate together. A single frame rarely supports these judgements.
 

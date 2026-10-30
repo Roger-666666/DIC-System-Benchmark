@@ -53,7 +53,7 @@
 
 影像类方法的优势在空间连续分布。一次采集就能得到成千上万个测点的位移，可以直观看到应力集中区的形状、塑性区的发展方向、裂纹两侧的位移跳变。短板是它只测表面，而且对表面纹理质量、光照和振动比较敏感。
 
-这几种方法不是互相替代的关系。比较合理的组合是：全站仪或 GNSS 建绝对基准，位移计与应变片在控制断面提供高信噪比时程，影像方法补齐空间分布、圈出异常区域，再反过来加密点位观测。点位手段的"准"和影像手段的"全"各在其位。
+这几种方法不是替代关系。合理组合是：全站仪或 GNSS 建绝对基准，位移计与应变片在控制断面提供高信噪比时程，影像方法补齐空间分布、圈出异常区域，再反过来加密点位。点位手段的"准"和影像手段的"全"各在其位。
 
 | 手段 | 主要输出 | 擅长的事 | 局限 |
 | --- | --- | --- | --- |
@@ -66,23 +66,23 @@
 
 ### 4.1 三类工况
 
-从公开资料看，这类系统覆盖三类工况。静态与准静态最常见，比如缩尺模型的分级静力加载、构件的长期蠕变观测，采集节奏可以按荷载级安排，也可以按小时间隔安排。高速动态冲击是另一类，需要高帧率采集与硬件同步，用来观察冲击瞬间的变形传播与局部失效。长周期持续观测是第三类，测的是几周到几个月尺度上的缓慢变化，难点不在单帧质量，而在基准稳定性和环境波动的抑制。
+这套系统的采集能力覆盖三类工况。静态与准静态最常见，如缩尺模型的分级静力加载、构件长期蠕变观测，采集节奏可按荷载级或小时间隔安排。高速动态冲击是另一类，要高帧率采集与硬件同步，用来观察冲击瞬间的变形传播与局部失效。长周期持续观测是第三类，测的是几周到几个月尺度上的缓慢变化，难点不在单帧质量，而在基准稳定性和环境波动的抑制。
 
-三类工况对系统的要求并不相同。静态工况更在意标定精度和视场覆盖，动态工况更在意帧率与触发同步，长周期工况更在意抗干扰能力和标定复核。
+三类工况要求不同：静态更在意标定精度与视场覆盖，动态更在意帧率与触发同步，长周期更在意抗干扰与标定复核。
 
 ### 4.2 五条边界
 
-第一，只测可观测表面。系统只给出相机可见面的位移与应变，构件内部、被遮挡面、埋入部分都不在其内。由表面应变反推内部应力，需要本构假设和边界条件，那属于分析。
+第一，只测可观测表面。系统只给出相机可见面的位移与应变，构件内部、被遮挡面、埋入部分都不在其内。由表面应变反推内部应力需本构假设与边界条件，那属于分析。
 
-第二，散斑或天然纹理的质量决定可用性。表面没有可追踪的特征，匹配就无从谈起。人造散斑的颗粒大小、密度、对比度要与视场和子区尺寸匹配；混凝土的骨料、岩石的矿物颗粒这类天然纹理能不能直接用，得在现场先做试采集再判断。
+第二，散斑或天然纹理的质量决定可用性。表面没有可追踪特征，匹配就无从谈起。人造散斑的颗粒大小、密度、对比度要与视场和子区尺寸匹配；混凝土骨料、岩石矿物颗粒这类天然纹理能否直接用，得先试采集再判断。
 
-第三，视场越大，空间分辨率越低。相机分辨率是固定的，视场扩大意味着每个像素代表的物理尺寸变大，能分辨的最小应变梯度随之变粗。长大构件需要分区布置多对相机，用重叠区做跨区一致性检查，而不是单纯把镜头拉远。
+第三，视场越大，空间分辨率越低。相机分辨率固定，视场扩大则每个像素代表的物理尺寸变大，可分辨的最小应变梯度变粗。长大构件宜分区布置多对相机，用重叠区做跨区一致性检查，而不是把镜头拉远。
 
-第四，风振、光照变化、温度漂移需要抑制。户外观测中，相机支架的微小晃动会被解算成结构变形；日照引起的表面亮度变化会降低匹配质量；温度变化让支架和构件产生不同的热膨胀。这些无法靠算法完全消除，得在硬件和流程两头处理：支架与加载装置独立、加遮光与补光、在长过程里安排静态段复核。
+第四，风振、光照变化、温度漂移需要抑制。户外观测中，相机支架的微小晃动会被解算成结构变形；日照引起的亮度变化会降低匹配质量；温度变化让支架和构件产生不同的热膨胀。这些无法靠算法消除，得在硬件和流程两头处理：支架与加载装置独立、加遮光与补光、长过程里安排静态段复核。
 
-第五，0.01 mm 亚毫米级的标称精度，是公开资料在适宜条件下给出的指标，不等于任意现场都能达到。视场尺度、表面质量、环境稳定性、标定质量都会影响实际能达到的水平。把它理解成"什么场景都能到 0.01 mm"，是常见误读。
+第五，0.01 mm 这个量级对应适宜条件下的位移分辨能力，不是与场景无关的常数。视场从几米拉到几十米，单像素覆盖的实际尺寸变大，同一套硬件能分出的最小位移跟着变大；纹理、光照、标定质量再叠加，远距离大视场的分辨水平自然与室内短视场不在同一档。
 
-知道它能做什么、不能做什么之后，下一步就该问：这些能力究竟由哪些算法撑着。标定怎么建基准，亚像素怎么抠出位移，抗干扰怎么压噪声，时序同步怎么把曲线和荷载对上——这些才是决定数据能不能用的地方。
+知道边界之后，下一步该问：这些能力由哪些算法撑着。标定怎么建基准，亚像素怎么抠位移，抗干扰怎么压噪声，时序同步怎么把曲线和荷载对上——这些才决定数据能不能用。
 
 ## 五、常见问题
 
@@ -98,9 +98,9 @@
 
 不是。视场扩大，单个像素对应的物理尺寸变大，空间分辨率下降，窄剪切带和细小裂纹容易糊成一片。长大构件更适合分区多对相机加重叠区。
 
-**4. 标称 0.01 mm 的精度，现场一定拿得到吗？**
+**4. 视场扩大以后，0.01 mm 级的分辨力还成立吗？**
 
-不一定。这个指标有适用条件，实际能达到的水平受视场尺度、表面纹理、光照稳定性、支架刚度和标定质量影响，需要结合现场条件评估。
+不成立。视场扩大意味着单个像素覆盖更大的实际尺寸，同一台相机能分出的最小位移随之变大；再加上表面纹理、光照稳定性、支架刚度和标定残差的叠加，远距离大视场下的分辨力与近距离短视场不在同一量级。要保住分辨力，要么缩小视场，要么提高成像端的解析能力。
 
 </details>
 
@@ -113,7 +113,7 @@
 
 # Why Bridges, Tunnels and Slopes Need Full-Field Deformation Monitoring: Capabilities and Limits of XTDIC 3D Full-Field Measurement
 
-> **Abstract:** Deformation in bridges, tunnels and slopes is rarely uniform. Displacement transducers and strain gauges deliver high signal-to-noise time histories at discrete points, but stress concentrations, plastic development and crack initiation often occur between those points. This article separates full-field monitoring into three distinct outputs — the displacement field, the strain field, and crack propagation over time — explains what each one actually answers, and describes how imaging methods complement point sensors and absolute-position instruments. It then sets out three operating regimes and five practical limits, including the gap between a nominal sub-millimetre specification and what a given site can really deliver.
+> **Abstract:** Deformation in bridges, tunnels and slopes is rarely uniform. Displacement transducers and strain gauges deliver high signal-to-noise time histories at discrete points, but stress concentrations, plastic development and crack initiation often occur between those points. This article separates full-field monitoring into three distinct outputs — the displacement field, the strain field, and crack propagation over time — explains what each one actually answers, and describes how imaging methods complement point sensors and absolute-position instruments. It then sets out three operating regimes and five practical limits, including how field of view, speckle quality and calibration set the smallest displacement that can still be resolved.
 
 > **Keywords:** XTDIC 3D full-field measurement; digital image correlation; full-field deformation monitoring; displacement field; strain field; crack propagation
 
@@ -184,7 +184,7 @@ Third, a larger field of view means lower spatial resolution. Sensor resolution 
 
 Fourth, wind-induced vibration, illumination change and thermal drift must be suppressed. Outdoors, small movement of the camera support is solved as structural deformation; sunlight-driven brightness change degrades matching; temperature change makes the support and the structure expand differently. Algorithms alone will not remove these. They are handled in hardware — independent mounts, shading, supplementary lighting — and in procedure, through static-period re-checks during long campaigns.
 
-Fifth, the 0.01 mm sub-millimetre figure is a nominal specification reported in public material under suitable conditions. It is not a guarantee for any given site. Field of view, surface quality, environmental stability and calibration quality all shift what is actually achievable. Reading it as "0.01 mm everywhere" is the most common misunderstanding of this class of technique.
+Fifth, the 0.01 mm band corresponds to displacement resolution under suitable conditions; it is not a constant independent of the scene. Stretching the field from a few metres to tens of metres enlarges the physical area covered by one pixel, so the smallest displacement the same hardware can separate grows with it. Surface texture, illumination stability and calibration quality then stack on that chain, which puts long-range wide-field resolution in a different band from a short indoor view.
 
 Once the capability and its limits are clear, the next question is which algorithms actually deliver them: how the coordinate datum is built, how displacement is resolved below a pixel, how noise is suppressed, and how image frames are tied to load steps.
 
@@ -202,8 +202,8 @@ Not necessarily. Displacement includes rigid-body translation and rotation, so c
 
 No. Widening the view increases the physical size per pixel and reduces spatial resolution, so narrow shear bands and fine cracks blur together. Long members are better served by multiple camera pairs covering adjacent zones with overlap.
 
-**4. Can the nominal 0.01 mm accuracy be reached on any site?**
+**4. Does 0.01 mm resolution still hold once the field of view widens?**
 
-Not necessarily. That figure has conditions attached. What is achievable in practice depends on field-of-view scale, surface texture, illumination stability, mount stiffness and calibration quality, and should be assessed against the actual site.
+No. A wider view means each pixel covers a larger physical area, so the smallest resolvable displacement grows for the same camera. Surface texture, illumination stability, mount stiffness and calibration residuals add to that chain, which puts long-range wide-field resolution in a different band from a short indoor view. Keeping resolution means accepting a smaller field, or raising the resolution of the imaging end.
 
 </details>

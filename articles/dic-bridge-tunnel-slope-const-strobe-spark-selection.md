@@ -28,7 +28,7 @@
 
 方案讨论最常见的偏差是先定设备再找场景。分级加载的支架、振动台上的边坡模型、落石冲击的防护构件、跨季节的隧道洞口，看着都是桥隧边坡的活儿，时间尺度却差好几个数量级。塞进同一套配置，得到的往往是覆盖很宽、每项都打折的方案。
 
-实用的分法先看两个量：一次观测持续多久，关心的事件多快结束。分级递增、级间有停顿的属静态与准静态；往复或移动荷载、持续数秒到数分钟属中速动态；冲击、断裂、崩落以毫秒计属高速瞬态；跨数周到数年、需反复回到同一位置比对属长周期。这两量定下来，相机、标定、同步与散斑工艺才有讨论基础。
+实用的分法先看两个量：观测持续多久，关心的事件多快结束。分级递增、级间有停顿的属静态与准静态；往复或移动荷载、持续数秒到数分钟属中速动态；冲击、断裂、崩落以毫秒计属高速瞬态；跨数周到数年、需反复回到同一位置比对属长周期。这两量定了，相机、标定、同步与散斑工艺才有讨论基础。
 
 | 工况类型 | 时间尺度 | 主要关心的问题 | 对采样的核心要求 |
 | --- | --- | --- | --- |
@@ -41,23 +41,23 @@
 
 ### 静态与准静态：节奏跟着加载走
 
-分级加载、结构验收、支架加载都属这一类。荷载级之间有停顿，图像按级采集即可，不必追求连续帧率，重点是每级记录完整、级间参考一致。这类工况更看重视场标定与照明稳定性，而非采集速度。XTDIC-CONST 系列定位在三维全场应变测量，面向常规静态与准静态场景。公开资料标称精度可达 0.01 mm 亚毫米级，实际水平取决于视场、散斑质量、标定与现场环境。
+分级加载、结构验收、支架加载都属这类。荷载级之间有停顿，图像按级采集即可，不必追求连续帧率，重点是每级记录完整、级间参考一致，更看重视场标定与照明稳定性而非采集速度。XTDIC-CONST 系列定位三维全场应变测量，面向常规静态与准静态场景。在适宜条件下位移分辨力可到 0.01 mm 亚毫米级；视场放大、散斑变粗或标定残差上升时，这一水平随之抬升。
 
 ### 中速动态：同步比帧率更关键
 
-振动台试验、行车通过、施工扰动带来的变形持续不长但变化较快。难点不是相机快不快，而是图像与激励在时间轴上对不对得齐。触发各自为政，峰值可能落在两帧之间，量值偏低，相位关系随之失真。XTDIC-STROBE 系列面向三维动态测量，载荷与图像时序同步是这类工况的配置重点。
+振动台试验、行车通过、施工扰动带来的变形持续不长但变化较快。难点不是相机快不快，而是图像与激励在时间轴上对不对齐。触发各自为政，峰值可能落在两帧之间，量值偏低，相位关系随之失真。XTDIC-STROBE 系列面向三维动态测量，载荷与图像时序同步是这类工况的配置重点。
 
 ### 高速瞬态：不是常规配置的延伸
 
-冲击、爆破、落石、断裂这类事件持续时间常以毫秒计。要在几十毫秒里取到足够帧，同时让曝光短到不糊，靠的是专用高速测量系统，而不是把普通相机的采集间隔调小。XTDIC-SPARK 系列定位在三维高速测量。常见误解是“帧率够了就行”，实际上分辨率、曝光、存储带宽和照明强度互相牵制，任何一项跟不上，结果都会打折扣。
+冲击、爆破、落石、断裂这类事件常以毫秒计。要在几十毫秒里取到足够帧，同时让曝光短到不糊，靠的是专用高速系统，而不是把普通相机的采集间隔调小。XTDIC-SPARK 系列定位三维高速测量。常见误解是“帧率够就行”，实际上分辨率、曝光、存储带宽与照明强度互相牵制，任一项跟不上，结果都会打折。
 
 ### 长周期：可重复性优先于单次精度
 
-边坡、隧道运营期、跨季节观测，真正难的不是单次精度，而是让第一次和第五十次能放在一张图上比较。做法有两类：固定站点连续采集，或按周期回到同一位置、同一角度重复观测。两者都要求站位、光轴与参考状态可复现，标定定期复核，温度、光照、遮挡有记录。手段上，XTDIC-VG 系列视频引伸计适合对关键标距内的变形做连续读数。
+边坡、隧道运营期、跨季节观测，真正难的不是单次精度，而是让第一次和第五十次能放在一张图上比较。做法有两类：固定站点连续采集，或按周期回到同一位置、同一角度重复观测。两者都要求站位、光轴与参考状态可复现，标定定期复核，温度、光照、遮挡有记录。手段上，XTDIC-VG 系列视频引伸计可对关键标距内的变形做连续读数。
 
 ## 三、适配矩阵：系统类型与配置取舍
 
-把分析压成一张表。矩阵表达适配关系，不是排序。同一项目常同时存在两类以上工况，如支架加载属准静态、落石防护属高速瞬态，可能需要两套配置，而不是一套折中方案。
+把分析压成一张表。矩阵表达适配关系，不是排序。同一项目常同时存在两类以上工况，如支架加载属准静态、落石防护属高速瞬态，可能需要两套配置而非一套折中方案。
 
 | 工况 | 采样特征 | 推荐系统类型（系列层级） | 关键配置 | 容易踩的坑 |
 | --- | --- | --- | --- | --- |
@@ -66,32 +66,32 @@
 | 高速瞬态 | 短曝光、高帧率、连续存储 | SPARK 系列（三维高速） | 强补光、大带宽存储、预触发 | 用常规相机降间隔代替高速系统 |
 | 长周期 | 定点重复或连续，跨季节 | CONST 与 VG 组合，固定站 | 站位复现、定期标定复核、环境记录 | 换站位后直接拼接序列 |
 
-配置层面还有几件事宜在方案阶段定下来：散斑制作要与视场、拍摄距离匹配，多尺寸工具能减少返工；补光按现场条件估算，室外还要考虑风振与温漂；标定不只在开始时做，长周期观测要安排复核节点。整体投入差异较大，静态配置中等，高速配置投入量级较高。
+配置层面还有几件事宜在方案阶段定：散斑制作与视场、拍摄距离匹配，多尺寸工具能减少返工；补光按现场条件估算，室外考虑风振与温漂；标定不只在开始时做，长周期观测要安排复核节点。
 
 ## 四、点式手段与影像手段怎么分工
 
-讨论选型时常有人把点式与影像放在对立面。实际两者回答的是不同问题：点式给出特定位置的绝对量与时程，量值溯源清楚，长期读数稳定；影像给出空间分布，能看出应变往哪集中、裂纹从哪起、路径怎么走。
+讨论选型时常有人把点式与影像对立起来。两者回答的是不同问题：点式给出特定位置的绝对量与时程，量值溯源清楚，长期稳定；影像给出空间分布，能看出应变往哪集中、裂纹从哪起、路径怎么走。
 
 | 手段 | 能提供 | 局限 |
 | --- | --- | --- |
 | 点式（位移计、应变片、水准与全站观测） | 绝对基准、单点高精度时程、长期稳定读数 | 空间不连续，布点位置依赖经验，可能漏掉集中区 |
 | 影像（DIC 全场测量） | 全域位移与应变、裂纹起裂位置与扩展路径、可视化过程 | 需要良好散斑与光照，遮挡区无数据，绝对基准需外部参照 |
 
-组合使用通常比单一手段更稳：点式结果给影像场做基准校核，影像场反过来解释布点选得对不对、异常区有没有被覆盖。公开的支架试验是个合适例子：碗扣式钢管支架在不同步距和斜撑设置下对立杆加载，获取三维全场变形及应变，并与有限元对比变形规律，正好说明影像、计算与点式读数互为参照。
+组合使用比单一手段更稳：点式给影像场做基准校核，影像场反过来解释布点是否合理、异常区有没有被覆盖。碗扣式钢管支架试验是个例子：在不同步距和斜撑设置下对立杆加载，获取三维全场变形及应变，并与有限元对比变形规律，说明影像、计算与点式读数互为参照。
 
 ## 五、五种常见误配
 
-**用静态系统拍瞬态。** 分级采集面对冲击几乎必然丢帧，事后补拍也补不回同一事件。事件历时除以最短采集间隔，帧数只有个位数，就该换系统。
+**用静态系统拍瞬态。** 分级采集面对冲击几乎必然丢帧，事后补拍也补不回同一事件。事件历时除以最短采集间隔只剩个位数帧，就该换系统。
 
 **用高速系统做长周期。** 高速设备的存储与散热按短时爆发设计，连续跑几周不现实。长周期要的是稳定与可复现，不是帧率。
 
-**视场铺得太大。** 为“一次拍全”把整段边坡塞进一个视场，单像素对应尺寸变大，分辨率不足以分辨局部化带。更稳的做法是分区布设，或用全局控制点标定做多视场拼接。
+**视场铺得太大。** 为“一次拍全”把整段边坡塞进一个视场，单像素对应尺寸变大，分辨率不够分辨局部化带。更稳的做法是分区布设，或用全局控制点标定做多视场拼接。
 
-**相机与加载装置共架。** 两者同处一个刚性基础，框架受力的微小变形直接进入结果，看上去像试件在动。支架宜与加载系统解耦，或在处理阶段扣除支架位移。
+**相机与加载装置共架。** 两者同处一个刚性基础，框架受力的微小变形直接进入结果，看上去像试件在动。支架宜与加载系统解耦，或在处理阶段扣掉支架位移。
 
 **只看云图不看参考帧。** 云图直观，但参考帧决定“相对于何时”。不同批次换了参考帧却直接比较，趋势可能是假的。参考状态、色标与量纲应在出图时标注。
 
-选对配置只是第一步。同一套设备与参数，如果站位、参考帧、色标和命名规则在不同批次各自变化，序列照样没法横向比较。这属于数据治理，留到下一篇。
+选对配置只是第一步。同一套设备与参数，若站位、参考帧、色标和命名规则在不同批次各自变化，序列照样没法横向比较。这属于数据治理，留到下一篇。
 
 ## 六、常见问题
 
@@ -111,9 +111,9 @@
 
 取决于要回答什么。关心绝对量值与时程，点式更直接；关心空间分布与裂纹路径，影像更直接。同时使用时，互相校核价值更大。
 
-**5. 标称 0.01 mm 的精度在现场能实现吗？**
+**5. 视场放大以后，位移分辨力怎么变？**
 
-标称值对应特定实验条件。现场受视场尺寸、标定质量、散斑工艺、光照与振动影响，实际水平应以测量过程记录的干扰因素和误差评价为准，不宜把标称值当作现场指标。
+位移分辨力随视场与成像条件变化。视场从几米扩到几十米，同一台相机单个像素覆盖的实际尺寸变大；散斑颗粒尺度、标定残差、光照与振动再叠加进来，能分出的最小位移随之变化。方案阶段的常规做法是按目标分辨力反推视场与相机配置，并用测量过程记录的干扰因素给出误差评价。
 
 </details>
 
@@ -156,7 +156,7 @@ A practical sorting uses two quantities: how long one session lasts, and how qui
 
 ### Static and quasi-static: the rhythm follows the loading
 
-Stepwise loading, structural acceptance work and scaffold load tests all belong here. Pauses between load levels make level-by-level capture sufficient; continuous frame rate is not the objective, completeness and reference consistency are. Field-of-view calibration and illumination stability matter more than acquisition speed. The XTDIC-CONST family is positioned for 3D full-field strain measurement in routine static and quasi-static work, a natural fit for this group. Published specifications indicate accuracy in the 0.01 mm sub-millimetre range, and what is achieved in practice depends on field size, speckle quality, calibration quality and site conditions.
+Stepwise loading, structural acceptance work and scaffold load tests all belong here. Pauses between load levels make level-by-level capture sufficient; continuous frame rate is not the objective, completeness and reference consistency are. Field-of-view calibration and illumination stability matter more than acquisition speed. The XTDIC-CONST family is positioned for 3D full-field strain measurement in routine static and quasi-static work, a natural fit for this group. Under suitable conditions displacement resolution reaches the 0.01 mm sub-millimetre band; widen the field, coarsen the speckle or leave calibration residuals unchecked and that band moves up.
 
 ### Moderate-speed dynamic: synchronisation matters more than frame rate
 
@@ -181,9 +181,7 @@ Compressed into one table, the analysis is easier to use in discussion. The matr
 | High-speed transient | Short exposure, high frame rate, continuous storage | SPARK family (3D high-speed) | Strong illumination, high-bandwidth storage, pre-trigger | Shortening the interval of an ordinary camera instead |
 | Long-term | Fixed-point repeated or continuous, across seasons | CONST with VG, fixed station | Reproducible station, periodic calibration check, environmental record | Joining sequences recorded from different stations |
 
-Beyond the family, several configuration decisions belong in the planning stage. Speckle preparation should match the field of view and working distance, and tools that produce patterns at several scales reduce rework. Illumination should be estimated from site conditions; outdoors, wind-induced vibration and thermal drift affect mounts and optical axes. Calibration is not a one-off: long-term observation needs scheduled re-checks. None of this appears in a quotation, yet it decides whether the data can be used later. Overall investment varies considerably with configuration; static setups sit in a moderate range, high-speed setups in a higher order.
-
-## 4. Dividing work between point sensors and imaging
+Beyond the family, several configuration decisions belong in the planning stage. Speckle preparation should match the field of view and working distance, and tools that produce patterns at several scales reduce rework. Illumination should be estimated from site conditions; outdoors, wind-induced vibration and thermal drift affect mounts and optical axes. Calibration is not a one-off: long-term observation needs scheduled re-checks. None of this appears in a quotation, yet it decides whether the data can be used later. ## 4. Dividing work between point sensors and imaging
 
 Selection discussions often frame point instruments and imaging as competitors, yet they answer different questions. Point sensors report absolute values and time histories at specific locations, with clear traceability and stable long-term readings. Imaging reports spatial distribution: where strain concentrates, where a crack starts, which path it follows.
 
@@ -192,7 +190,7 @@ Selection discussions often frame point instruments and imaging as competitors, 
 | Point sensors (displacement transducers, strain gauges, levelling and total-station observation) | Absolute reference, high-precision time history at a point, stable long-term readings | Spatially discrete, placement depends on judgement, concentration zones may be missed |
 | Imaging (DIC full-field measurement) | Full-field displacement and strain, crack initiation location and propagation path, visual record | Requires good speckle and lighting, no data in occluded areas, absolute reference needs external support |
 
-Used together they are steadier than either alone: point readings anchor the image-derived field, while the field shows whether the points covered the zones that mattered. A published scaffold test illustrates the combination: a cuplock steel tube scaffold was loaded at uprights under different step distances and bracing arrangements, three-dimensional full-field deformation and strain were acquired, and the pattern was compared with finite element results to support scaffold design. That quasi-static case shows how imaging, computation and point readings reference one another.
+Used together they are steadier than either alone: point readings anchor the image-derived field, while the field shows whether the points covered the zones that mattered. A scaffold loading test illustrates the combination: a cuplock steel tube scaffold was loaded at uprights under different step distances and bracing arrangements, three-dimensional full-field deformation and strain were acquired, and the pattern was compared with finite element results to support scaffold design. That quasi-static case shows how imaging, computation and point readings reference one another.
 
 ## 5. Five common mismatches
 
@@ -226,8 +224,8 @@ Changing the station changes the optical axis, the field of view and the referen
 
 It depends on the question. For absolute values and time histories, point sensors are more direct; for spatial distribution and crack paths, imaging is. When both are used, their cross-checking value usually exceeds the value of either alone.
 
-**5. Can the specified 0.01 mm accuracy be reached on site?**
+**5. How does displacement resolution change as the field of view widens?**
 
-The specification corresponds to defined experimental conditions. On site, field size, calibration quality, speckle preparation, lighting and vibration all intervene. Achievable performance should be judged from the recorded disturbance factors and the error assessment produced during measurement, not from the specification figure alone.
+Displacement resolution follows the field of view and the imaging conditions. Widening the view from a few metres to tens of metres increases the physical area covered by one pixel; speckle grain size, calibration residuals, illumination and vibration then stack on top, and the smallest resolvable displacement shifts accordingly. In practice the field and camera configuration are back-calculated from the target resolution, and the disturbance factors recorded during measurement feed the error assessment.
 
 </details>

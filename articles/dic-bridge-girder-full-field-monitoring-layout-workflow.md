@@ -111,7 +111,7 @@
 
 缩尺模型的结论不能直接搬到实桥。几何缩尺改变了厚度与跨度之比，也改变了自重与荷载的比例；材料相似很难做到，骨料尺寸不随缩尺缩小；模型边界比现场理想，支座是理想铰或滚轴，现场还有沉降、摩阻与温度约束。
 
-测量层面更直接：模型在室内，光照稳、无风、温差小，视场不过几米；现场视场可能几十米，风振、日照、温差全进来，标称精度能否达到要看具体条件，模型上分辨得出的梯度到现场可能就分辨不出来。
+测量层面更直接：模型在室内，光照稳、无风、温差小，视场不过几米；现场视场可能几十米，风振、日照、温差全进来，分辨力随视场放大而下降，模型上分辨得出的梯度到现场可能就分辨不出来。
 
 所以能迁移的是机理认识和趋势判断，不能迁移的是数值。报告宜写"在该模型中观察到应力沿某路径扩散"，而不是"该桥的应力集中位于某处"。
 
@@ -246,7 +246,7 @@ Tie every jump to a load event. A sudden strain change at a step with no loading
 
 Model conclusions do not transfer directly to a real bridge. Geometric scaling changes the ratio of thickness to span and the balance of self-weight against load. Material similarity is never exact: aggregate size does not shrink with the model. Boundary conditions are far more ideal — hinges and rollers versus settlement, friction and thermal restraint.
 
-The measurement differences are more immediate. A model sits indoors with stable lighting, no wind and small temperature swings, across a field of a few metres. A site is outdoors, the field may span tens of metres, and wind, sunlight and the diurnal cycle all enter. Whether the nominal accuracy figure is reached depends on those conditions, and a gradient resolved on a model may vanish once the field widens.
+The measurement differences are more immediate. A model sits indoors with stable lighting, no wind and small temperature swings, across a field of a few metres. A site is outdoors, the field may span tens of metres, and wind, sunlight and the diurnal cycle all enter. Resolution falls as the field widens, and a gradient resolved on a model may disappear once the field opens up.
 
 What transfers is mechanistic understanding and trend judgement. What does not is the number. A report should say that stress was observed to spread along a given path in that model, not that stress concentrates at a given location in that bridge.
 

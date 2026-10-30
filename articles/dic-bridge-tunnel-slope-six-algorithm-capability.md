@@ -11,7 +11,7 @@
 <details open>
 <summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
 
-> **摘要：** 三维全场测量的误差不是凭空来的，每一种都有对应的环节。本文按采集、标定、匹配、重建、时序绑定、后处理的链路顺序，拆解XTDIC公开资料中的六类自研算法，逐条说明它针对哪种误差源、具体做了什么、缺失或误用会出现什么假象，并讨论算法之间的依赖关系，以及为什么标定复核不是一次性的前置动作。
+> **摘要：** 三维全场测量的误差不是凭空来的，每一种都有对应的环节。本文按采集、标定、匹配、重建、时序绑定、后处理的链路顺序，拆解XTDIC的六类核心算法，逐条说明它针对哪种误差源、怎么做、缺失或误用会出现什么假象，并讨论算法间的依赖关系，以及为什么标定复核不是一次性的前置动作。
 
 > **关键词：** XTDIC三维全场测量；数字图像相关技术；亚像素匹配；大视场标定；抗干扰算法；时序同步
 
@@ -29,7 +29,7 @@
 
 每一段都会引入自己的误差。镜头畸变与标定关系不准，整个视场的坐标就带着系统偏差；匹配只到整像素，位移被量化成台阶，早期微变形看不出来；户外风一吹支架动一点，解算出来的就是结构在变形；图像帧与荷载级对不上，曲线拐点就落在错误位置；后处理换了参考帧或色标，跨级比较立刻失真。
 
-所以讨论精度不能只盯着一个数字。0.01 mm 亚毫米级是整条链路配合的结果，任何一段掉链子，数据都到不了那个水平。下面六类算法，对应六个关口。
+所以精度不能只盯着一个数字。亚毫米级位移分辨力靠整条链路配合，任何一段掉链子，数据都到不了那个水平。下面六类算法对应六个关口。
 
 ## 二、六类算法各自挡住哪种误差
 
@@ -157,7 +157,7 @@ Three-dimensional digital image correlation follows a fixed sequence. Cameras ca
 
 Every stage contributes its own error. Lens distortion and a poor calibration bias coordinates across the whole field. Matching that stops at whole pixels quantises displacement into steps and hides early micro-deformation. A gust of wind that nudges the mount is solved as the structure deforming. Frames not tied to load steps shift inflection points. Post-processing that changes the reference frame or colour scale destroys comparability between load levels.
 
-Accuracy is therefore not a single number. The nominal 0.01 mm sub-millimetre figure is the result of the whole chain working together; if one link fails, the data will not reach it. The six algorithms below sit at six of those links.
+Accuracy is therefore not a single number. Sub-millimetre displacement resolution is the result of the whole chain working together; if one link fails, the data will not reach it. The six algorithms below sit at six of those links.
 
 ## 2. What Each of the Six Algorithms Blocks
 

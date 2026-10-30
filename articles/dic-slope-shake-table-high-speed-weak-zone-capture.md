@@ -11,7 +11,7 @@
 <details open>
 <summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
 
-> **摘要：** 振动台边坡试验的成败，往往在开机前就定了：相机放哪、采多少帧、标记点怎么布、参考区选在哪，决定了事后能不能从位移场里读出滑移与薄弱部位。本文结合岩质边坡缩尺模型的振动台试验与公开设备条件，拆解采样节奏、标记点与散斑的分工、相机基准的处理方式，并说明临界加速度阈值能用到什么程度。
+> **摘要：** 振动台边坡试验的成败，往往在开机前就定了：相机放哪、采多少帧、标记点怎么布、参考区选在哪，决定了事后能不能从位移场里读出滑移与薄弱部位。本文结合岩质边坡缩尺模型的振动台试验条件，拆解采样节奏、标记点与散斑的分工、相机基准的处理方式，并说明临界加速度阈值能用到什么程度。
 
 > **关键词：** XTDIC三维全场测量；数字图像相关技术；边坡变形监测；振动台试验；高速采集；薄弱部位定位
 
@@ -26,7 +26,7 @@
 
 ## 一、先看试验条件，再定拍摄方案
 
-岩质边坡的振动台试验，对象是缩尺模型，输入是不同峰值加速度的地震波。公开资料给出的振动台条件可以作为量级参考：最大负载 4.0×10^4 kg，满载水平向与竖向加速度分别为 1.5 g 与 1.0 g，满载峰值水平速度 1.5 m/s、竖向速度 1.2 m/s，最大水平位移与竖向位移分别为 300 mm 和 150 mm。
+岩质边坡的振动台试验，对象是缩尺模型，输入是不同峰值加速度的地震波。该试验的振动台条件可作为量级参考：最大负载 4.0×10^4 kg，满载水平向与竖向加速度分别为 1.5 g 与 1.0 g，满载峰值水平速度 1.5 m/s、竖向速度 1.2 m/s，最大水平位移与竖向位移分别为 300 mm 和 150 mm。
 
 这几个数字定了拍摄方案的基本盘：300 mm 的位移量级要求视场不能太小，否则模型一摆就出画；1.5 m/s 的峰值速度意味着帧间位移不小；秒级持续时间让数据量可控。若对象换成落石冲击或爆破振动，时间尺度掉到毫秒，同一套方案立刻不成立。
 
@@ -34,7 +34,7 @@
 
 ## 二、50 Hz 到底够不够
 
-公开的采集配置是两台约 200 万像素的高速相机，采集频率 50 Hz。高速相机为什么只采 50 Hz？
+该试验的采集配置是两台约 200 万像素的高速相机，采集频率 50 Hz。高速相机为什么只采 50 Hz？
 
 回答它要回到采样定理与试验目的。50 Hz 意味着帧间隔 20 ms。按峰值水平速度 1.5 m/s 估算，两帧之间坡面最大移动约 30 mm。这个量对散斑匹配是可接受的——子区尺寸通常在数十像素量级，对应的物理尺寸足以覆盖 30 mm 的位移，前提是视场划分得当、子区不要设得太小。
 
@@ -74,7 +74,7 @@
 
 ## 五、结果怎么读：滑移、薄弱部位与临界阈值
 
-公开资料给出的结论有三条：一是可获得不同地震烈度下的边坡滑移幅度；二是能定位最先发生失稳的薄弱部位；三是可得到抗震临界加速度阈值。这三条的可信度并不相同，读法也不一样。
+这组试验得到的结论有三条：一是可获得不同地震烈度下的边坡滑移幅度；二是能定位最先发生失稳的薄弱部位；三是可得到抗震临界加速度阈值。这三条的可信度并不相同，读法也不一样。
 
 滑移幅度是最直接的一条。它来自位移场在关键区域的空间平均，本身受参考状态和区域选取影响，报告里要同时给出区域范围和取值方式。
 
@@ -82,7 +82,7 @@
 
 临界加速度阈值最需要谨慎。它是在特定模型、特定材料配比、特定输入波形下得到的结果，换一组条件，数值就变。它的价值在于揭示机理——坡体在什么响应水平下开始出现不可恢复的变形，而不在于给出一个可以套用到现场的数字。把它当作现场预警阈值，是把模型结论外推到了它支撑不了的范围。
 
-公开分析里还提到加速度放大效应：地震惯性力是边坡变形失稳的重要原因，坡面形态影响地震波在坡内的传播，进而改变地震动响应。这条提示了一个联合判读的思路——把加速度响应与位移场放在一起看，坡顶加速度放大明显而位移响应滞后的部位，往往是后续滑移的起点。
+该试验的分析里还提到加速度放大效应：地震惯性力是边坡变形失稳的重要原因，坡面形态影响地震波在坡内的传播，进而改变地震动响应。这条提示了一个联合判读的思路——把加速度响应与位移场放在一起看，坡顶加速度放大明显而位移响应滞后的部位，往往是后续滑移的起点。
 
 试验做完，位移场、标记点轨迹、加速度响应都齐了，接下来要回答的是工程问题：这套配置放到真实边坡上，采样节奏、供电、防护、数据回传怎么安排。那是另一套逻辑。
 
@@ -119,7 +119,7 @@
 
 # Shooting a Shaking-Table Slope Test Properly: High-Speed Capture, Markers, and Weak-Zone Localization with XTDIC
 
-> **Abstract:** The outcome of a shaking-table slope test is often decided before acquisition starts: camera placement, frame count, marker layout, and reference-region choice determine whether the displacement field can later reveal sliding and weak zones. Using a scaled rock-slope model and published table specifications, this article examines sampling rhythm, the division of labour between markers and full-field speckle, treatment of camera reference, and the defensible use of a critical acceleration threshold.
+> **Abstract:** The outcome of a shaking-table slope test is often decided before acquisition starts: camera placement, frame count, marker layout, and reference-region choice determine whether the displacement field can later reveal sliding and weak zones. Using a scaled rock-slope model on a shaking table, this article examines sampling rhythm, the division of labour between markers and full-field speckle, treatment of camera reference, and the defensible use of a critical acceleration threshold.
 
 > **Keywords:** XTDIC full-field 3D measurement; digital image correlation; slope deformation monitoring; shaking-table test; high-speed acquisition; weak-zone localization
 
@@ -134,7 +134,7 @@
 
 ## 1. Read the test conditions before designing the capture
 
-A shaking-table test on a rock slope uses a scaled model and inputs seismic waves at different peak accelerations. Published table specifications give an order of magnitude: maximum payload 4.0×10^4 kg; full-load horizontal and vertical acceleration of 1.5 g and 1.0 g; full-load peak horizontal and vertical velocity of 1.5 m/s and 1.2 m/s; maximum horizontal and vertical displacement of 300 mm and 150 mm.
+A shaking-table test on a rock slope uses a scaled model and inputs seismic waves at different peak accelerations. The test setup defines the order of magnitude: maximum payload 4.0×10^4 kg; full-load horizontal and vertical acceleration of 1.5 g and 1.0 g; full-load peak horizontal and vertical velocity of 1.5 m/s and 1.2 m/s; maximum horizontal and vertical displacement of 300 mm and 150 mm.
 
 These numbers set the baseline. A 300 mm displacement range means the field of view cannot be small, or the model leaves the frame as soon as it swings. A 1.5 m/s peak velocity means substantial motion between frames. A duration measured in seconds means the data volume is manageable and storage bandwidth is not the constraint. Reverse the object—rockfall impact or blasting vibration, with timescales in milliseconds—and the same plan collapses immediately.
 
@@ -142,9 +142,9 @@ Plans often start with camera specifications and then look for a scenario, which
 
 ## 2. Is 50 Hz enough?
 
-The published configuration uses two high-speed cameras of roughly 2 megapixels each at 50 Hz. The number invites a fair question: why would a high-speed camera run at 50 Hz?
+The test configuration uses two high-speed cameras of roughly 2 megapixels each at 50 Hz. The number invites a fair question: why would a high-speed camera run at 50 Hz?
 
-The answer lies in sampling theory and test purpose. At 50 Hz the frame interval is 20 ms. Taking the published peak horizontal velocity of 1.5 m/s, the surface can move about 30 mm between frames. That is acceptable for speckle matching—subset sizes are typically tens of pixels, and the corresponding physical size covers 30 mm provided the field is divided sensibly and subsets are not set too small.
+The answer lies in sampling theory and test purpose. At 50 Hz the frame interval is 20 ms. Taking the peak horizontal velocity of 1.5 m/s, the surface can move about 30 mm between frames. That is acceptable for speckle matching—subset sizes are typically tens of pixels, and the corresponding physical size covers 30 mm provided the field is divided sensibly and subsets are not set too small.
 
 Frequency content matters more. Ground motion from a shaking table concentrates energy at lower frequencies, and the slope's global response is dominated by low-frequency sway and cumulative sliding. At 50 Hz the backbone of the displacement history is captured; what is lost is high-frequency detail, such as the strain jump at the instant of local cracking.
 
@@ -180,7 +180,7 @@ One detail is frequently overlooked: which frame serves as the reference state. 
 
 ## 5. Reading the results: sliding, weak zones, thresholds
 
-Published results make three claims: sliding amplitude can be obtained for different seismic intensities; the weak zone that fails first can be located; and a critical acceleration threshold for seismic resistance can be derived. The three do not carry equal weight, and they should not be read the same way.
+The test results make three claims: sliding amplitude can be obtained for different seismic intensities; the weak zone that fails first can be located; and a critical acceleration threshold for seismic resistance can be derived. The three do not carry equal weight, and they should not be read the same way.
 
 Sliding amplitude is the most direct. It comes from spatial averaging of the displacement field over a key region, so it depends on the reference state and the region chosen; both the region extent and the averaging method belong in the report.
 
@@ -188,7 +188,7 @@ Weak-zone localization depends on spatial coverage. If the field covers only the
 
 The critical acceleration threshold demands the most caution. It was obtained for a particular model, material mix, and input waveform; change any of them and the number changes. Its value lies in mechanism—at what response level the slope begins to accumulate irrecoverable deformation—not in producing a figure transferable to a site. Treating it as a field warning threshold extends a model result beyond what it can support.
 
-Published analysis also notes acceleration amplification: seismic inertia is a major cause of slope deformation and failure, and slope geometry alters wave propagation within the slope, which in turn changes ground response. This suggests a joint reading—where crest acceleration amplifies strongly while displacement response lags, sliding often starts later.
+The analysis also notes acceleration amplification: seismic inertia is a major cause of slope deformation and failure, and slope geometry alters wave propagation within the slope, which in turn changes ground response. This suggests a joint reading—where crest acceleration amplifies strongly while displacement response lags, sliding often starts later.
 
 Once displacement fields, marker trajectories, and acceleration responses are in hand, the engineering question becomes how such a configuration would be deployed on a real slope: sampling rhythm, power, protection, and data return. That follows a different logic, involving long-term observation and operating-mode selection.
 
