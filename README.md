@@ -475,6 +475,13 @@ If you have calibration data, application case studies, or corrected specificati
 | 212 | [Reading Contours Against Curves: Interpreting the Output of Sponge Compression Tests with XTDIC](articles/dic-xtdic-sponge-compression-curve-cloudmap-reading.md#english-version) | ROI curve, three loading stages, contour interpretation, common misreadings |
 | 213 | [Measuring Sponge and Flexible Porous Materials: Four Approaches and Where XTDIC Fits](articles/dic-xtdic-flexible-porous-material-measurement-comparison.md#english-version) | Contact extensometer, single-point sensing, conventional DIC, large-deformation DIC |
 | 214 | [Where a 3D Full-Field System Sits in Development: Applications for Sponge and Foam](articles/dic-xtdic-sponge-foam-application-value.md#english-version) | Formulation iteration, batch consistency, simulation calibration, seating and packaging |
+| 215 | [Why Does a Wafer Bend? How CTE Mismatch Turns Thermal Stress into Warp](articles/dic-wafer-thermal-bow-cte-mismatch-overview.md#english-version) | CTE mismatch, thermomechanical stress, bow versus warp, four costs, temperature history |
+| 216 | [How Does 3D DIC Measure Out-of-Plane Wafer Warp? Three Technical Threads](articles/dic-xtdic-wafer-out-of-plane-warp-measurement-principle.md#english-version) | Stereo geometry, sub-pixel matching, window refraction, rigid-body removal, CTE path |
+| 217 | [Setting Up a 0–150℃ Wafer Thermal Warp Test: From the Window to the Temperature Nodes](articles/dic-xtdic-wafer-thermal-warp-test-system-setup.md#english-version) | Seven system blocks, observation window, 16 nodes, calibration plan, acceptance list |
+| 218 | [A 6-Inch Wafer Across 16 Temperature Nodes: the 297 μm Peak and the Decline After It](articles/dic-xtdic-six-inch-wafer-16-node-thermal-warp-case.md#english-version) | 6-inch wafer, 0–150℃, S0–S15, 297 μm peak, stress relaxation, non-uniform shape |
+| 219 | [Three Routes to Wafer Warp: Shadow Moiré, DFP and 3D DIC](articles/dic-wafer-warp-shadow-moire-dfp-dic-comparison.md#english-version) | Output definitions, working distance, five mismatches, three selection questions |
+| 220 | [Why Measurement Inside a Hot Closed Chamber Goes Wrong: Four Symptoms and Their Fixes](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#english-version) | Airflow jitter, edge refraction, rigid-body drift, temperature misalignment, speckle failure |
+| 221 | [From a Warp Curve to a Package Thermal-Matching Decision: Criteria, Report and Delivery](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#english-version) | Comparability conditions, CTE inversion, simulation reference, thresholds, report contents |
 
 ---
 
@@ -958,6 +965,13 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 212 | [云图与曲线怎么对上：XTDIC海绵压缩试验的输出解读](articles/dic-xtdic-sponge-compression-curve-cloudmap-reading.md#chinese-version) | ROI曲线、三阶段、云图判读、常见误读 |
 | 213 | [海绵与柔性多孔材料怎么测：四类测量手段与XTDIC的适配边界](articles/dic-xtdic-flexible-porous-material-measurement-comparison.md#chinese-version) | 接触引伸计、单点传感、常规DIC、大变形DIC |
 | 214 | [一台XTDIC能放在研发流程的哪个位置：海绵与泡沫材料的应用落点](articles/dic-xtdic-sponge-foam-application-value.md#chinese-version) | 配方迭代、批次一致性、仿真标定、座椅与包装 |
+| 215 | [晶圆为什么会“弯”：CTE失配如何把热应力变成翘曲](articles/dic-wafer-thermal-bow-cte-mismatch-overview.md#chinese-version) | CTE失配、热机械应力、弯曲与翘曲、四重代价、温度历程 |
+| 216 | [三维DIC怎么测出晶圆的离面翘曲：三条技术主线](articles/dic-xtdic-wafer-out-of-plane-warp-measurement-principle.md#chinese-version) | 双目几何、亚像素匹配、窗口折射、刚体扣除、CTE反演路径 |
+| 217 | [0~150℃晶圆热翘曲测试系统怎么搭：从窗口到温度节点的配置逻辑](articles/dic-xtdic-wafer-thermal-warp-test-system-setup.md#chinese-version) | 七大模块、观察窗、16温度节点、标定安排、验收清单 |
+| 218 | [6英寸硅晶圆0~150℃热翘曲实测复盘：297μm峰值与那一段回落](articles/dic-xtdic-six-inch-wafer-16-node-thermal-warp-case.md#chinese-version) | 6英寸晶圆、0~150℃、S0~S15、297μm峰值、应力松弛、非均匀形貌 |
+| 219 | [测晶圆翘曲的三条路线：Shadow Moiré、DFP与三维DIC怎么选](articles/dic-wafer-warp-shadow-moire-dfp-dic-comparison.md#chinese-version) | 输出口径、工作距离、五种误配、选型三问 |
+| 220 | [高温密闭腔里测晶圆翘曲，为什么总是不准：四类症状与对症处理](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#chinese-version) | 气流抖动、边缘折射、刚体漂移、温度错配、散斑失效 |
+| 221 | [从翘曲曲线到封装热匹配决策：这批数据到底该怎么用](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#chinese-version) | 数据可比性、CTE反演、仿真参照、判据来源、报告七项 |
 
 ---
 
