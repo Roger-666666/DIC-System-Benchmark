@@ -454,6 +454,13 @@ If you have calibration data, application case studies, or corrected specificati
 | 191 | [Fracture Coalescence Is Not a Single Line: DIC Mapping of Overburden Network Topology and Block Kinematics](articles/dic-overburden-fracture-network-topology-connectivity-block-kinematics.md#english-version) | Fracture network, topology, connectivity, block kinematics, overburden DIC |
 | 192 | [Even a Planar Similarity Model Moves Out of Plane: 3D-DIC Diagnosis of False 2D Strain in Overburden Tests](articles/dic-overburden-3d-out-of-plane-motion-2d-false-strain-diagnosis.md#english-version) | 3D-DIC, out-of-plane motion, false 2D strain, similarity model, stereo validation |
 | 193 | [From Physical Similarity Models to Numerical Models: Validating Continuum–Discrete Overburden Simulations with Full-Field DIC](articles/dic-overburden-full-field-validation-continuum-discrete-element-model.md#english-version) | Numerical model validation, continuum-discrete, full-field DIC, overburden, parameter identification |
+| 194 | [Calibration and Synchronization for 3D-XTDIC in Large-Scale Shield-Tunneling Similar-Material Models](articles/01-3d-xtdic-shield-model-calibration_en.md) · [中文](articles/01-3d-xtdic-shield-model-calibration_zh.md) | Multi-camera calibration, overlapping fields, pulse triggering, settlement interpretation |
+| 195 | [Speckle Preparation and Subset Selection for Geotechnical Similar-Material Models](articles/02-3d-xtdic-speckle-subset-geotechnical-model_en.md) · [中文](articles/02-3d-xtdic-speckle-subset-geotechnical-model_zh.md) | Speckle quality, subset size and spacing, data gaps, observation windows |
+| 196 | [Four-Point Bending of a Scaled Concrete Beam with 3D-XTDIC](articles/03-3d-xtdic-concrete-beam-deformation-cracking_en.md) · [中文](articles/03-3d-xtdic-concrete-beam-deformation-cracking_zh.md) | Staged loading, shear strain, crack evolution, displacement histories |
+| 197 | [Rock-Slope Failure Precursors from Multiview 3D-XTDIC Displacement Histories](articles/04-3d-xtdic-rock-slope-failure-precursors_en.md) · [中文](articles/04-3d-xtdic-rock-slope-failure-precursors_zh.md) | Shaking table, residual displacement, response timing, spatial migration |
+| 198 | [Strain Localization and Arc-Shaped Slip Surfaces in a Rainfall Soil Slope](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization_en.md) · [中文](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization_zh.md) | Rainfall infiltration, principal strain, localization band, failure mode |
+| 199 | [Cross-Validating 3D-XTDIC, Displacement Sensors, and Finite Element Analysis on a Scaled Steel–Concrete Girder](articles/06-3d-xtdic-steel-concrete-girder-cross-validation_en.md) · [中文](articles/06-3d-xtdic-steel-concrete-girder-cross-validation_zh.md) | Point histories, full-field fields, finite element residuals, uncertainty |
+| 200 | [Translating 3D-XTDIC Similar-Material Test Results into Rail-Transit Design Evidence](articles/07-3d-xtdic-model-test-engineering-translation_en.md) · [中文](articles/07-3d-xtdic-model-test-engineering-translation_zh.md) | Similarity relations, load-case mapping, support checks, decision boundaries |
 
 ---
 
@@ -916,6 +923,13 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 191 | [裂隙贯通不是一条线：DIC揭示覆岩裂隙网络拓扑与块体运动](articles/dic-overburden-fracture-network-topology-connectivity-block-kinematics.md#chinese-version) | 裂隙网络、拓扑、连通性、块体运动、覆岩DIC |
 | 192 | [平面相似模型也会“出平面”：3D-DIC诊断覆岩试验中的二维假应变](articles/dic-overburden-3d-out-of-plane-motion-2d-false-strain-diagnosis.md#chinese-version) | 三维DIC、面外运动、二维假应变、相似模型、双目验证 |
 | 193 | [从相似模型到数值模型：用DIC全场数据验证覆岩连续—离散模拟](articles/dic-overburden-full-field-validation-continuum-discrete-element-model.md#chinese-version) | 数值模型验证、连续—离散、全场DIC、覆岩、参数识别 |
+| 194 | [3D-XTDIC在大尺度盾构相似模型试验中的标定与同步](articles/01-3d-xtdic-shield-model-calibration_zh.md) · [English](articles/01-3d-xtdic-shield-model-calibration_en.md) | 多机位标定、重叠视场、脉冲触发、沉降解释 |
+| 195 | [岩土相似模型散斑怎么做：3D-XTDIC制斑、子区选择与数据空洞控制](articles/02-3d-xtdic-speckle-subset-geotechnical-model_zh.md) · [English](articles/02-3d-xtdic-speckle-subset-geotechnical-model_en.md) | 散斑质量、子区大小与间距、数据空洞、观测窗 |
+| 196 | [混凝土缩尺梁四点弯曲全过程：3D-XTDIC记录位移、剪应变与裂纹演化](articles/03-3d-xtdic-concrete-beam-deformation-cracking_zh.md) · [English](articles/03-3d-xtdic-concrete-beam-deformation-cracking_en.md) | 分级加载、剪应变、裂纹演化、位移时程 |
+| 197 | [岩质边坡失稳前有哪些信号：3D-XTDIC多视角位移时程与前兆识别](articles/04-3d-xtdic-rock-slope-failure-precursors_zh.md) · [English](articles/04-3d-xtdic-rock-slope-failure-precursors_en.md) | 振动台、残余位移、响应时差、空间迁移 |
+| 198 | [从应变集中到弧形滑移面：3D-XTDIC解析降雨土质边坡局部化破坏](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization_zh.md) · [English](articles/05-3d-xtdic-rainfall-soil-slope-strain-localization_en.md) | 降雨入渗、主应变、局部化带、破坏模式 |
+| 199 | [3D-XTDIC、位移传感器与有限元如何互证：钢混主梁缩尺模型对比验证](articles/06-3d-xtdic-steel-concrete-girder-cross-validation_zh.md) · [English](articles/06-3d-xtdic-steel-concrete-girder-cross-validation_en.md) | 点位时程、全场响应、有限元残差、不确定度 |
+| 200 | [从模型云图到工程判据：3D-XTDIC相似材料试验成果如何服务轨道交通设计](articles/07-3d-xtdic-model-test-engineering-translation_zh.md) · [English](articles/07-3d-xtdic-model-test-engineering-translation_en.md) | 相似关系、工况映射、支护校核、决策边界 |
 
 ---
 
