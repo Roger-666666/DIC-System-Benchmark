@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; similar-material model; speckle pattern; subset selection; data gaps
 
-[中文版](02-3d-xtdic-speckle-subset-geotechnical-model_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](02-3d-xtdic-speckle-subset-geotechnical-model_zh.md)
+> - [English Version](02-3d-xtdic-speckle-subset-geotechnical-model_en.md)
 
 ## Contents
 

@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; steel–concrete girder; scaled model; full-field strain measurement; finite element cross-validation
 
-[中文版](06-3d-xtdic-steel-concrete-girder-cross-validation_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](06-3d-xtdic-steel-concrete-girder-cross-validation_zh.md)
+> - [English Version](06-3d-xtdic-steel-concrete-girder-cross-validation_en.md)
 
 ## Contents
 

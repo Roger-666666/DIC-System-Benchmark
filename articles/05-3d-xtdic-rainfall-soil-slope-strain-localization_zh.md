@@ -4,7 +4,11 @@
 
 > **关键词：**3D-XTDIC；数字图像相关；降雨边坡；相似材料模型；应变局部化；全场应变测量；变形破坏特征
 
-[English](05-3d-xtdic-rainfall-soil-slope-strain-localization_en.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](05-3d-xtdic-rainfall-soil-slope-strain-localization_zh.md)
+> - [English Version](05-3d-xtdic-rainfall-soil-slope-strain-localization_en.md)
 
 ## 目录
 

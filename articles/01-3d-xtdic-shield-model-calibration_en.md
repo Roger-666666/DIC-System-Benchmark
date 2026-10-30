@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; similar-material model; multi-camera calibration; timeline alignment; full-field strain measurement
 
-[中文版](01-3d-xtdic-shield-model-calibration_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](01-3d-xtdic-shield-model-calibration_zh.md)
+> - [English Version](01-3d-xtdic-shield-model-calibration_en.md)
 
 ## Contents
 

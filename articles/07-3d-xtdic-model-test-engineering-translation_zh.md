@@ -4,7 +4,11 @@
 
 > **关键词：** 3D-XTDIC；相似材料模型；数字图像相关；变形破坏特征；轨道交通；全场应变测量
 
-[English](07-3d-xtdic-model-test-engineering-translation_en.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](07-3d-xtdic-model-test-engineering-translation_zh.md)
+> - [English Version](07-3d-xtdic-model-test-engineering-translation_en.md)
 
 ## 目录
 

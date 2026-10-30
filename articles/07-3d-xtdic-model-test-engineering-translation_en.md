@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; similar-material model; digital image correlation; deformation and failure characteristics; rail transit; full-field strain measurement
 
-[中文版](07-3d-xtdic-model-test-engineering-translation_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](07-3d-xtdic-model-test-engineering-translation_zh.md)
+> - [English Version](07-3d-xtdic-model-test-engineering-translation_en.md)
 
 ## Contents
 

@@ -4,7 +4,11 @@
 
 > **关键词：** 3D-XTDIC；数字图像相关技术；相似材料模型；散斑制作；子区选择；数据空洞
 
-[English](02-3d-xtdic-speckle-subset-geotechnical-model_en.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](02-3d-xtdic-speckle-subset-geotechnical-model_zh.md)
+> - [English Version](02-3d-xtdic-speckle-subset-geotechnical-model_en.md)
 
 ## 目录
 

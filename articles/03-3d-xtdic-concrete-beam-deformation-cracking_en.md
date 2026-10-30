@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; scaled concrete beam; four-point bending; full-field strain measurement; crack evolution
 
-[中文版](03-3d-xtdic-concrete-beam-deformation-cracking_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](03-3d-xtdic-concrete-beam-deformation-cracking_zh.md)
+> - [English Version](03-3d-xtdic-concrete-beam-deformation-cracking_en.md)
 
 ## Contents
 

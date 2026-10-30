@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; rainfall soil slope; physical similarity model; strain localization; full-field strain measurement; deformation and failure characteristics
 
-[中文版](05-3d-xtdic-rainfall-soil-slope-strain-localization_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](05-3d-xtdic-rainfall-soil-slope-strain-localization_zh.md)
+> - [English Version](05-3d-xtdic-rainfall-soil-slope-strain-localization_en.md)
 
 ## Contents
 

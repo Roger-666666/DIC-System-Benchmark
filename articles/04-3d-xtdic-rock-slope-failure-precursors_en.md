@@ -4,7 +4,11 @@
 
 > **Keywords:** 3D-XTDIC; digital image correlation; rock slope; similarity model; deformation and failure characteristics; full-field strain measurement; rail transit
 
-[中文版](04-3d-xtdic-rock-slope-failure-precursors_zh.md)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:**
+>
+> - [中文版](04-3d-xtdic-rock-slope-failure-precursors_zh.md)
+> - [English Version](04-3d-xtdic-rock-slope-failure-precursors_en.md)
 
 ## Contents
 
