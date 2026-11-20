@@ -483,16 +483,16 @@ If you have calibration data, application case studies, or corrected specificati
 | 220 | [Why Measurement Inside a Hot Closed Chamber Goes Wrong: Four Symptoms and Their Fixes](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#english-version) | Airflow jitter, edge refraction, rigid-body drift, temperature misalignment, speckle failure |
 | 221 | [From a Warp Curve to a Package Thermal-Matching Decision: Criteria, Report and Delivery](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#english-version) | Comparability conditions, CTE inversion, simulation reference, thresholds, report contents |
 | 222 | [XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](articles/xtdic-infrared-hot-tension-case.md#english-version) | Hot tensile tests, full-field strain, infrared thermography, necking |
-| 223 | [Synchronizing XTDIC Strain, Infrared Temperature and Load in Hot Tensile Tests](articles/xtdic-infrared-hot-tension-timing.md#english-version) | Hardware triggering, timestamps, load and temperature histories |
-| 224 | [Locating Hot Regions in Tension: Three Ways to Compare Thermograms with XTDIC Strain Fields](articles/xtdic-infrared-hot-tension-registration.md#english-version) | Spatial registration, fixed regions, material tracking |
-| 225 | [High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks](articles/xtdic-infrared-hot-tension-surface.md#english-version) | Inorganic speckles, window refraction, emissivity |
-| 226 | [Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](articles/xtdic-infrared-hot-tension-necking.md#english-version) | Average elongation, principal strain, neck identification |
-| 227 | [Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](articles/xtdic-infrared-hot-tension-validation.md#english-version) | Thermomechanical simulation, material calibration, independent validation |
-| 228 | [Measuring Crane Boom Sway After Slew Stops with XTDIC Stereo Tracking](articles/xtdic-crane-boom-slew-sway-case.md#english-version) | Crane slewing, lateral sway, peak-to-peak displacement, residual vibration |
-| 229 | [Planning an Outdoor Large-Field Stereo DIC Test for a Crane Boom with XTDIC-STROBE](articles/xtdic-crane-boom-outdoor-stereo-setup.md#english-version) | Large-field calibration, stereo placement, depth of field, coded targets |
-| 230 | [Choosing Equipment for Crane Boom Motion: XTDIC-STROBE, Displacement Sensors, Accelerometers and Video](articles/xtdic-crane-boom-displacement-equipment-selection.md#english-version) | Equipment selection, 3D trajectories, point displacement, accelerometers |
-| 231 | [Quantifying Concrete Pump Boom Recoil and Delivery Motion from 3D Tip Trajectories](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#english-version) | Concrete pump boom, recoil, resultant displacement, delivery trajectory |
-| 232 | [Validating Crane Boom Sway Control with XTDIC Multipoint Trajectories and Dynamic Models](articles/xtdic-crane-boom-anti-sway-validation.md#english-version) | Sway control, settling time, dynamic modelling, design validation |
+| 223 | [Coupled Thermal and Mechanical Testing with Synchronized XTDIC and Infrared Thermography](articles/xtdic-infrared-hot-tension-timing.md#english-version) | Hardware triggering, timestamps, load and temperature histories |
+| 224 | [Localizing High-Temperature Material Damage with XTDIC Strain Fields and Thermography](articles/xtdic-infrared-hot-tension-registration.md#english-version) | Spatial registration, fixed regions, material tracking |
+| 225 | [Configuring XTDIC for Non-Contact Strain Measurement Inside High-Temperature Furnaces](articles/xtdic-infrared-hot-tension-surface.md#english-version) | Inorganic speckles, window refraction, emissivity |
+| 226 | [Investigating Necking and Failure of Hot Metals with XTDIC Full-Field Strain Measurement](articles/xtdic-infrared-hot-tension-necking.md#english-version) | Average elongation, principal strain, neck identification |
+| 227 | [Material Calibration and Finite Element Validation with XTDIC and Infrared Thermal Measurements](articles/xtdic-infrared-hot-tension-validation.md#english-version) | Thermomechanical simulation, material calibration, independent validation |
+| 228 | [XTDIC-STROBE for Three-Dimensional Dynamic Sway Measurement of Large Crane Booms](articles/xtdic-crane-boom-slew-sway-case.md#english-version) | Crane slewing, lateral sway, peak-to-peak displacement, residual vibration |
+| 229 | [Implementing Large-Field Outdoor Boom Measurement with XTDIC-STROBE](articles/xtdic-crane-boom-outdoor-stereo-setup.md#english-version) | Large-field calibration, stereo placement, depth of field, coded targets |
+| 230 | [Selecting Dynamic Displacement Equipment for Machinery: The Role of XTDIC-STROBE](articles/xtdic-crane-boom-displacement-equipment-selection.md#english-version) | Equipment selection, 3D trajectories, point displacement, accelerometers |
+| 231 | [XTDIC Three-Dimensional Measurement of Concrete Pump Boom Recoil and Delivery Paths](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#english-version) | Concrete pump boom, recoil, resultant displacement, delivery trajectory |
+| 232 | [XTDIC-STROBE Multipoint Testing for Machinery Sway Control and Dynamic Validation](articles/xtdic-crane-boom-anti-sway-validation.md#english-version) | Sway control, settling time, dynamic modelling, design validation |
 
 ---
 
@@ -984,16 +984,16 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 220 | [高温密闭腔里测晶圆翘曲，为什么总是不准：四类症状与对症处理](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#chinese-version) | 气流抖动、边缘折射、刚体漂移、温度错配、散斑失效 |
 | 221 | [从翘曲曲线到封装热匹配决策：这批数据到底该怎么用](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#chinese-version) | 数据可比性、CTE反演、仿真参照、判据来源、报告七项 |
 | 222 | [DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](articles/xtdic-infrared-hot-tension-case.md#chinese-version) | 高温圆棒拉伸、全场应变、红外热成像、颈缩 |
-| 223 | [高温拉伸同步采集方法：如何对齐 XTDIC 应变、红外温度与载荷记录](articles/xtdic-infrared-hot-tension-timing.md#chinese-version) | 硬件触发、时间戳、载荷与温升 |
-| 224 | [高温拉伸热区定位：红外热像与 XTDIC 应变场的三种对照方法](articles/xtdic-infrared-hot-tension-registration.md#chinese-version) | 空间配准、固定测区、材料跟踪 |
-| 225 | [隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案](articles/xtdic-infrared-hot-tension-surface.md#chinese-version) | 无机散斑、炉窗折射、发射率 |
-| 226 | [高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](articles/xtdic-infrared-hot-tension-necking.md#chinese-version) | 平均伸长、主应变、颈缩识别 |
-| 227 | [高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](articles/xtdic-infrared-hot-tension-validation.md#chinese-version) | 热力耦合仿真、材料标定、独立验证 |
-| 228 | [起重机回转停止后，吊臂还会摆多久？XTDIC 三维动态位移测量案例](articles/xtdic-crane-boom-slew-sway-case.md#chinese-version) | 起重机回转、吊臂偏摆、峰峰值、停后余振 |
-| 229 | [大型吊臂在室外怎样布置三维 DIC？XTDIC-STROBE 大视场测试方案](articles/xtdic-crane-boom-outdoor-stereo-setup.md#chinese-version) | 大视场标定、双目机位、景深、编码点跟踪 |
-| 230 | [吊臂动态位移测量设备怎么选？XTDIC-STROBE 与位移计、加速度计及视频的任务对比](articles/xtdic-crane-boom-displacement-equipment-selection.md#chinese-version) | 动态位移测量设备、三维轨迹、单点位移、加速度计 |
-| 231 | [泵车端头回摆量怎么算？从制动到送料的三维位移与轨迹判读](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#chinese-version) | 混凝土泵车、回摆量、空间合位移、送料轨迹 |
-| 232 | [吊臂抑摆控制改进如何验证？用 XTDIC 多点轨迹对标制动策略与动力学仿真](articles/xtdic-crane-boom-anti-sway-validation.md#chinese-version) | 抑摆控制、停稳时间、动力学仿真、机型验证 |
+| 223 | [高温材料热力耦合测试方案：XTDIC 联动红外热像实现载荷、温度与应变同步测量](articles/xtdic-infrared-hot-tension-timing.md#chinese-version) | 硬件触发、时间戳、载荷与温升 |
+| 224 | [高温材料局部损伤监测：XTDIC 全场应变与红外温度场联合定位方案](articles/xtdic-infrared-hot-tension-registration.md#chinese-version) | 空间配准、固定测区、材料跟踪 |
+| 225 | [高温炉内非接触应变测量：XTDIC 光学测试系统的配置与应用](articles/xtdic-infrared-hot-tension-surface.md#chinese-version) | 无机散斑、炉窗折射、发射率 |
+| 226 | [高温金属颈缩与失效研究：XTDIC 全场应变测量揭示局部变形演化](articles/xtdic-infrared-hot-tension-necking.md#chinese-version) | 平均伸长、主应变、颈缩识别 |
+| 227 | [高温材料本构与有限元验证：XTDIC 联动红外热像的多场试验方案](articles/xtdic-infrared-hot-tension-validation.md#chinese-version) | 热力耦合仿真、材料标定、独立验证 |
+| 228 | [大型起重机吊臂偏摆测试：XTDIC-STROBE 三维动态位移测量应用方案](articles/xtdic-crane-boom-slew-sway-case.md#chinese-version) | 起重机回转、吊臂偏摆、峰峰值、停后余振 |
+| 229 | [大视场吊臂测量如何落地？XTDIC-STROBE 户外非接触动态测试方案](articles/xtdic-crane-boom-outdoor-stereo-setup.md#chinese-version) | 大视场标定、双目机位、景深、编码点跟踪 |
+| 230 | [工程机械动态位移测量设备选型：XTDIC-STROBE 多点三维测试的适用价值](articles/xtdic-crane-boom-displacement-equipment-selection.md#chinese-version) | 动态位移测量设备、三维轨迹、单点位移、加速度计 |
+| 231 | [混凝土泵车臂端回摆与送料轨迹测量：XTDIC 三维动态测试应用](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#chinese-version) | 混凝土泵车、回摆量、空间合位移、送料轨迹 |
+| 232 | [工程机械抑摆控制与动力学验证：XTDIC-STROBE 多点位移测试方案](articles/xtdic-crane-boom-anti-sway-validation.md#chinese-version) | 抑摆控制、停稳时间、动力学仿真、机型验证 |
 
 ---
 

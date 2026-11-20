@@ -1,54 +1,52 @@
-# 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案
+# 高温炉内非接触应变测量：XTDIC 光学测试系统的配置与应用
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案</b></summary>
+<summary><b>中文版 · 高温炉内非接触应变测量：XTDIC 光学测试系统的配置与应用</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温材料变形与损伤测量系列 · 试验方案*
+高温炉内的材料试验需要同时满足加热、加载和观察要求。观察窗折射、热辐射、表面纹理变化以及试样运动，都会影响光学测量的有效范围。XTDIC 三维应变测量方案通过双目成像、适配高温的散斑和实际光路校核，将非接触测量引入炉内拉伸与变形研究；联合红外热像时，还能为力学响应补充表面温度条件。
 
-高温炉中的同一根金属圆棒，对两套相机提出了不同要求。XTDIC 需要能随材料移动并持续辨认的表面纹理；热像仪需要知道有多少红外辐射由试样发出，又有多少来自反射或观察窗本身。配置联合试验时，要把散斑、可见光光路和红外光路分别核查，再决定哪些区域可以同时用于应变和温度分析。
+**目录**
 
-**本文目录**
-
-- [测试难点来自哪里](#chinese-section-1)
-- [XTDIC 案例怎样建立可用的变形记录](#chinese-section-2)
-- [同一表面怎样用于红外测温](#chinese-section-3)
-- [入炉前怎样试做散斑](#chinese-section-4)
-- [炉窗更换后，哪些检查必须重做](#chinese-section-5)
-- [复核实例：一块亮斑跟不跟试样走](#chinese-section-6)
-- [选区失效后怎样决定是否复测](#chinese-section-7)
-- [方案适用边界](#chinese-section-8)
+- [实验室对高温光学测量的需求](#chinese-section-1)
+- [XTDIC 系统构成与工作方式](#chinese-section-2)
+- [从成像质量到可靠应变结果](#chinese-section-3)
+- [高温散斑的制备与适用性验证](#chinese-section-4)
+- [炉窗与双通道光路校核](#chinese-section-5)
+- [有效区域与试验结果的完整性](#chinese-section-6)
+- [适用场景与配置选择](#chinese-section-7)
+- [应用问答](#chinese-section-8)
 
 <a id="chinese-section-1"></a>
 
-## 测试难点来自哪里
+## 实验室对高温光学测量的需求
 
-圆棒表面光滑，拉伸前后相邻位置在可见光照片里可能很相似。升温还会改变亮度和图案对比度，使原本可跟踪的区域变得模糊。炉窗的折射会影响双目重建时物点的位置；热像仪工作在不同于可见光的波段，一块肉眼透明的窗口，其红外透过率仍需按实际波段确认。这几种干扰作用在不同环节，单纯增加照明无法一并解决。
+材料进入高温加载阶段后，观测条件会随时间改变。保温时对比度良好的花纹，拉伸后可能变稀；静止时完整的工作段，显著伸长后可能接近视野边缘。设计测试系统时，需要把初始图像和最终待观察状态一起考虑，确保所关心的过程具备连续的观测条件。
+
+非接触方案的优势在于测量头可以布置在加载区外，虚拟标距和局部选区通过软件定义。材料研发人员既可以获得平均伸长，也可以研究同一工作段内不同位置的变形分配。对断前失稳研究，原始图像还保留了轮廓变化和表面特征，方便与计算结果相互核对。
 
 <a id="chinese-section-2"></a>
 
-## XTDIC 案例怎样建立可用的变形记录
+## XTDIC 系统构成与工作方式
 
-公开试验在圆棒工作段制备耐高温无机散斑，让双目相机在加载期间跟踪同一片表面。案例还说明了针对炉窗的折射校准。实际部署时，应在与试验一致的观察条件下检查标定和成像，保留保温阶段的照片作参考。若试样尚未加载，图像中却出现移动的波纹，应先排查热气流等光学因素。若只有一小块花纹开裂或剥落，则要在后续分析中单独标记这块区域。
+典型配置包括双目测量头、镜头与照明、稳定支架、图像采集和分析软件，并与试验机的加载记录建立时间联系。采用红外通道时，根据相机波段规划独立的辐射观测路径。可见光几何标定与红外温度校核各自服务于不同测量量，都应落实到最终使用的观察条件。
+
+XTDIC 对表面纹理进行匹配并重建位移，随后计算应变。为了适应炉窗观测，应将窗口位置、相机朝向和视场纳入校核。工作段使用能够经历预定温度与变形过程的散斑，使纹理稳定附着于材料。配置的完整性体现在加载前、加载中和临近失效时都能说明哪些区域可靠。
 
 <a id="chinese-section-3"></a>
 
-## 同一表面怎样用于红外测温
+## 从成像质量到可靠应变结果
 
-热像仪把接收到的辐射换算成温度，需要考虑表面发射率，也就是材料表面在该波段发射热辐射的能力。涂层和裸露金属即使同温，也可能给出不同的辐射信号。若涂层边缘在加载前就呈现明显温差，加载后出现相似边界时，直接把它归因于塑性发热就缺少依据。
+试验可按室温检查、热态保温和正式加载逐段实施。室温阶段确认尺度、几何与花纹可辨性，热态阶段检查光路扰动和表观应变，加载阶段关注目标是否出画、拖影或局部失配。每个阶段保留原始图像，便于定位异常是从何时出现的。
 
-| 观察到的现象 | 可以安排的核查 | 对分析区域的处理 |
-| --- | --- | --- |
-| 保温时散斑局部脱落 | 回看原始照片，检查时间上的连续性 | 标记失去跟踪的区域和起始帧 |
-| 热像明暗边界与涂层边缘一致 | 对照加载前热像，检查发射率设置和独立温度参考 | 单独评估该处测温可信度 |
-| 两个镜头对圆棒边缘的可见范围不同 | 对照轮廓与相机视角 | 取两路都能可靠观测的表面范围 |
+计算时依据材料变形程度和花纹质量选择适当的相关与应变范围。较大的空间平均可能使图像更平稳，同时会摊开窄小局部化；更细的分析也需要足够清晰的原始纹理。设备评估因此应使用接近真实工况的试样，检查目标区域所能分辨的细节，而不只比较最终云图是否平滑。
 
 <a id="chinese-section-4"></a>
 
-## 入炉前怎样试做散斑
+## 高温散斑的制备与适用性验证
 
 制备散斑时，实验室容易先看涂层在肉眼下是否黑白分明。真正参与计算的却是相机在工作距离和曝光条件下拍到的小片图案。斑点太密，缩小到最终图像后可能连成一片灰色；斑点太稀，软件用于比对的一小块图像里又缺少足够独特的特征。可以先用与正式试样表面处理一致的留样试做，在实际镜头、视场和照明下拍摄，放大检查中部和弧面两侧是否都能辨认局部花纹。
 
@@ -56,7 +54,7 @@
 
 <a id="chinese-section-5"></a>
 
-## 炉窗更换后，哪些检查必须重做
+## 炉窗与双通道光路校核
 
 **可见光一侧。** 窗口的厚度、安装角度和相机观察方向共同影响折射路径。若更换窗口或重新装夹相机，应在正式观察路径下检验测量尺度和重建结果。一个便于理解的检查是让带有稳定纹理的对象整体移动，观察计算出的位移是否与已知运动一致，并查看本应接近零的应变是否出现固定的空间图案。这种试验能发现光路或标定问题。它和高温保温下的稳定性检查各自针对不同干扰。
 
@@ -64,15 +62,7 @@
 
 <a id="chinese-section-6"></a>
 
-## 复核实例：一块亮斑跟不跟试样走
-
-设想保温时圆棒一侧有一块亮斑。开始拉伸后，圆棒上的材料向上移动，亮斑却仍停在画面里相近的位置。这个现象提示应检查反射源、窗口或背景。另一个可能的情况是亮斑始终贴着同一片散斑移动，且在加载前就已经存在。此时材料表面状态造成的辐射差异值得优先检查。只有在保温基线、表面处理和光路影响都得到解释以后，加载阶段新出现并随局部化发展的温度变化才适合进一步分析。这是故障排查示例，实际归因还需要相应对照。
-
-若同一时间在应变图也出现了窄带，回查原始双目照片往往比同时调两套后处理参数更有效。两路可见光图像都能认出连续花纹，而热像读数只在涂层边界突变，应优先核查红外测温；若其中一台可见光相机拍到过曝白斑，双目重建在此处就可能失去有效匹配。分别标记哪个通道失效，仍可保留其他通道在该时段可靠的记录。
-
-<a id="chinese-section-7"></a>
-
-## 选区失效后怎样决定是否复测
+## 有效区域与试验结果的完整性
 
 局部失去跟踪是否影响整件试验，取决于研究问题。若只考察某一均匀阶段的平均轴向伸长，而有效选区仍覆盖定义好的标距两端，可对该阶段保留结果，并说明剔除了哪些位置。若目的是确定颈缩带的最大局部应变，缺失区域又正好位于带中心，则周围仍有数据也无法补足该量。应先确定失效源，再调整布光、窗口或散斑工艺，使用可比较的新试样复测。
 
@@ -86,66 +76,69 @@
 
 完整的选型依据还包括实验室需要什么结果。若只追踪较宽工作段的平均伸长，适合该任务的光学配置未必能分辨窄小颈缩带；若要定量描述颈缩中心附近的温升，哪怕全幅热像视觉上很清楚，也要核实该处的有效覆盖和表面状态。在方案阶段把最终要读的量写清楚，更容易决定下一次试拍是扩大视野、提高局部采样，还是安排独立温度核查。
 
+<a id="chinese-section-7"></a>
+
+## 适用场景与配置选择
+
+该配置适用于高温金属拉伸、热处理状态对照以及材料局部失稳研究。需要表面温度与应变联系时，可以加入红外记录；需要更细局部尺度时，应根据视场与可见性重新选择光学配置。相同设备用于不同任务，其镜头、标距与分析区也应跟随研究目标调整。
+
+实验室交付可以同时包含平均伸长、局部应变历程、位移场和对应照片。保留有效区域及参考状态后，同一组记录能够服务材料比较、模型验证和失效复盘。XTDIC 的应用价值由此落在可复用的测量信息上，使高温试验从单一整体曲线扩展到可定位的表面变形过程。
+
 <a id="chinese-section-8"></a>
 
-## 方案适用边界
+## 应用问答
 
-上述核查适用于透过观察口开展的高温拉伸，也适用于更换散斑工艺、窗口或热像仪之后的复测。交付结果时，保留一张加载前的可见光图、一张对应热像，以及可用于联合分析的区域说明，比只给出最后一幅彩色云图更方便复核。公开案例确认了散斑处理、炉窗校准及同步采集；表中的异常是方案设计时需要考虑的情形，不代表该案例实际发生过。
+**更换炉窗后怎样继续使用系统？**
 
-[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+根据新窗口及相机安装关系复核可见光几何，并按红外波段检查透过与辐射条件。保温阶段的基线有助于评价实际热态稳定性。
 
-## 系列阅读
+**设备能否同时提供平均与局部伸长？**
 
-- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
-- [226 · 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
+在有效图像范围内，可设置虚拟标距获得整体伸长，也可提取不同区域的局部应变。两类结果宜保留各自的空间范围与参考状态。
+
+**技术资料**
+
+[设备与应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [应用素材](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
 
 <details>
-<summary><b>English · High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks</b></summary>
+<summary><b>English · Configuring XTDIC for Non-Contact Strain Measurement Inside High-Temperature Furnaces</b></summary>
 
 <a id="english-version"></a>
 
-# High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks
+# Configuring XTDIC for Non-Contact Strain Measurement Inside High-Temperature Furnaces
 
-*Measuring deformation and damage at elevated temperature · Test configuration*
-
-The same hot round bar places different demands on its cameras. XTDIC needs a recognisable surface texture that moves with the material. A thermal camera needs information about radiation emitted by the specimen, reflected from its surroundings and transmitted or emitted by the window. A joint test therefore calls for checks on speckles and on each optical path before selecting an area for combined strain and temperature analysis.
+Furnace testing combines heating, loading and observation. Window refraction, radiation, changing texture and specimen motion affect optical measurements. Stereo imaging, heat-resistant patterns and checks through the actual optical path allow XTDIC to measure deformation without a contact extensometer at the gauge section. Thermography adds surface thermal conditions.
 
 **Contents**
 
-- [Sources of difficulty](#english-section-1)
-- [Establishing a deformation record](#english-section-2)
-- [Using the surface for infrared thermometry](#english-section-3)
+- [Laboratory requirements](#english-section-1)
+- [System configuration and operation](#english-section-2)
+- [From images to strain results](#english-section-3)
 - [Testing the pattern before installing a specimen](#english-section-4)
 - [Checks after a window change](#english-section-5)
-- [Diagnostic example of a bright patch](#english-section-6)
-- [Deciding whether to repeat a test](#english-section-7)
-- [Scope of the arrangement](#english-section-8)
+- [Deciding whether to repeat a test](#english-section-6)
+- [Applications and configuration choices](#english-section-7)
+- [Application questions](#english-section-8)
 
 <a id="english-section-1"></a>
 
-## Sources of difficulty
+## Laboratory requirements
 
-Adjacent points on a smooth bar can look alike in visible photographs. Heating changes brightness and contrast, and a trackable region can become indistinct. Window refraction affects the location reconstructed by the stereo system. A window transparent to the eye also needs a transmission check in the infrared camera’s wavelength band. These effects enter at different stages of the measurement.
+Conditions evolve from the hot hold to large extension. Plan coverage for both the initial specimen and its expected final state. Remote cameras and software-defined gauges support average extension and local deformation analysis, while photographs preserve shape and texture evidence.
 
 <a id="english-section-2"></a>
 
-## Establishing a deformation record
+## System configuration and operation
 
-The published experiment used heat-resistant inorganic speckles on the gauge section and corrected for refraction through the furnace window. In an implementation, check calibration and image quality through the actual observation path and keep images from the hot hold as a reference. Ripples crossing a stationary, unloaded specimen warrant a check for optical disturbances such as moving hot air. Local cracking or loss of the speckle coating calls for marking the affected region and frames.
+A typical installation combines stereo cameras, optics, illumination, stable supports, acquisition and analysis with machine timing. An infrared channel has its own wavelength-dependent path. Calibrate visible geometry through the intended window and prepare a pattern that remains attached during heating and stretching.
 
 <a id="english-section-3"></a>
 
-## Using the surface for infrared thermometry
+## From images to strain results
 
-Converting received radiation into temperature requires the surface emissivity in the relevant wavelength band. A coating and exposed metal can emit different amounts of radiation at the same temperature. If an apparent temperature step already follows a coating edge before loading, a similar boundary during pulling needs additional evidence before it can be attributed to plastic heating.
-
-| Observation | Check | Treatment in analysis |
-| --- | --- | --- |
-| Local speckle loss during the hold | Inspect the original image sequence | Mark where and when tracking was lost |
-| Thermal contrast follows a coating edge | Review the unloaded thermogram, emissivity and independent temperature reference | Assess local temperature reliability separately |
-| The cameras see different portions of the curved edge | Compare outlines and viewing angles | Use the common observable surface |
+Use room-temperature, hot-hold and loading checks to establish scale, optical stability and tracking continuity. Select correlation and strain neighbourhoods for the texture and deformation. Broad averaging smooths narrow features, while fine analysis requires sufficiently resolved images. Assess actual specimen conditions.
 
 <a id="english-section-4"></a>
 
@@ -165,14 +158,6 @@ Surviving the hold is only part of the requirement. The coating must deform with
 
 <a id="english-section-6"></a>
 
-## Diagnostic example of a bright patch
-
-Suppose a bright area appears during the hold. The bar moves upwards during loading but the bright patch stays near a fixed image location. Inspect reflections, the window and the background. If instead it follows the same speckles and already existed before loading, surface radiation properties merit attention. New warming associated with localization becomes more interpretable once pre-load contrast and optical effects have been considered. These are diagnostic scenarios requiring independent controls for attribution.
-
-When a strain band appears at the same time, the original stereo photographs can help identify the affected channel. If both views retain continuous texture and the thermal step follows a coating edge, inspect the thermal measurement first. If one visible camera recorded a saturated patch, stereo matching there may be invalid. Marking each channel separately preserves the useful observations from the other instruments.
-
-<a id="english-section-7"></a>
-
 ## Deciding whether to repeat a test
 
 The consequence of lost tracking depends on the question. Average extension during uniform tension may remain available if both ends of the defined gauge length are observed. Report the usable interval and excluded locations. For peak local strain at the neck, loss of its centre leaves that quantity unresolved even with good surrounding data. Identify the cause, adjust the lighting, window or pattern and repeat using a comparable specimen if that quantity matters.
@@ -187,17 +172,26 @@ To evaluate a different visible light source, hold specimen and camera positions
 
 Tie the final choice to the required result. Optics suitable for average extension over a broad gauge may not resolve a narrow neck. A thermal view that looks clear overall still needs adequate local coverage and a characterised surface at the neck centre. Defining the target quantity helps select a wider view, finer local sampling or an independent temperature check.
 
+<a id="english-section-7"></a>
+
+## Applications and configuration choices
+
+Applications include hot tensile tests, heat-treatment comparisons and localization studies. Add thermography for thermal context or change optics for finer regions. Deliver average extension, local histories, fields, images, valid areas and reference states so one run can support material comparison and model assessment.
+
 <a id="english-section-8"></a>
 
-## Scope of the arrangement
+## Application questions
 
-These checks apply to tensile tests through furnace ports and to repeat tests after a change of coating, window or thermal camera. A pre-load photograph, its matching thermogram and a record of the valid common area make final maps easier to audit. The public case documents the speckle preparation, window calibration and synchronous acquisition. The anomalies in the table are implementation considerations, not reported events in that specimen.
+**What follows a window replacement?**
 
-[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+Recheck visible geometry and infrared transmission and radiation conditions, including a hot-hold baseline.
 
-## In this series
+**Can average and local extension be obtained together?**
 
-- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
-- [226 · Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
+Virtual gauges and regional strain can be extracted from valid images with their own spatial definitions and references.
+
+**Technical resources**
+
+[Equipment and application information](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>

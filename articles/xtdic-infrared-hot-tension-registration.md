@@ -1,71 +1,77 @@
-# 高温拉伸热区定位：红外热像与 XTDIC 应变场的三种对照方法
+# 高温材料局部损伤监测：XTDIC 全场应变与红外温度场联合定位方案
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 高温拉伸热区定位：红外热像与 XTDIC 应变场的三种对照方法</b></summary>
+<summary><b>中文版 · 高温材料局部损伤监测：XTDIC 全场应变与红外温度场联合定位方案</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温材料变形与损伤测量系列 · 方法比较*
+高温材料的局部变形往往隐藏在整体伸长之中。某一小段持续拉长时，试验机仍可能给出平滑的载荷曲线；局部温差也可能被单个控温读数掩盖。XTDIC 三维应变测量与红外热像相结合，可在可见工作段内定位变形集中区域，并追踪对应材料的表面温度，为局部损伤研究、热处理评价和试样结构优化提供空间依据。
 
-分析高温金属圆棒时，“工作段中部偏热”“颈缩区附近偏热”和“温度最高点与最大应变点重合”是三种精细程度不同的结论。XTDIC 与红外相机分别从自己的视角观察圆棒。时间上同步以后，空间上选择哪一种对照方法，取决于需要把结论落实到整段、某一块材料，还是某一个局部峰值。
+**目录**
 
-**本文目录**
-
-- [三种方法分别适合回答什么问题](#chinese-section-1)
-- [以圆棒中部的一条应变带为例](#chinese-section-2)
-- [圆棒与平板的差别体现在哪里](#chinese-section-3)
-- [建立对应关系后，怎样独立检查偏差](#chinese-section-4)
-- [示例：围绕最终颈缩区提取温度历程](#chinese-section-5)
-- [对读结果做一次位置敏感性检查](#chinese-section-6)
-- [怎么判断“重合”这个词用得是否合适](#chinese-section-7)
+- [高温试样局部异常的识别需求](#chinese-section-1)
+- [三维表面测量与温度定位协同](#chinese-section-2)
+- [从整段热状态到局部材料历程](#chinese-section-3)
+- [曲面试样的共同视野与三维对应](#chinese-section-4)
+- [空间配准的独立验证](#chinese-section-5)
+- [颈缩候选区的材料温度历程](#chinese-section-6)
+- [局部热区的位置敏感性分析](#chinese-section-7)
+- [测量结果在材料研发中的用途](#chinese-section-8)
+- [应用问答](#chinese-section-9)
 
 <a id="chinese-section-1"></a>
 
-## 三种方法分别适合回答什么问题
+## 高温试样局部异常的识别需求
 
-| 方法 | 读取对象 | 适合的任务 | 主要限制 |
-| --- | --- | --- | --- |
-| 按工作段分区 | 将两幅图各自分成靠近两端和中部的区域 | 检查保温后哪一段存在温差 | 难以确定窄带或峰值的位置 |
-| 固定位置对照 | 在相机坐标下持续观察同一位置 | 分析炉内指定位置的温度随加载怎样变化 | 拉伸中经过此处的材料会改变 |
-| 跟随材料区域 | 用 DIC 跟踪一块材料，把各时刻的位置对应到热像 | 研究最终颈缩区的温度与应变历程 | 需要空间配准，并验证跟踪有效性 |
+材料的组织状态、截面过渡、装夹约束和局部温度都可能影响变形分配。研究人员需要先找到异常区域，再判断它的形成过程。对于细长试样，沿轴线的平均值便于描述总体趋势；对于未来可能形成细颈的区域，还需要保持对同一片材料的连续观察。
+
+全场应变测量可以在试验结束后回到原始图像，选择集中带以及带外的邻近区域进行对照。这种先记录整体、再提取局部的工作方式，适合集中位置事前无法准确预测的材料试验，也便于在同一批数据上检验不同的分析假设。
 
 <a id="chinese-section-2"></a>
 
-## 以圆棒中部的一条应变带为例
+## 三维表面测量与温度定位协同
 
-当研究任务是确认试样是否已经均温，把工作段分区通常就能提供可读的结果。此时更有意义的是比较中部与端部各自的温度范围，并检查差异能否在保温期持续观察到。若问题转为“后来形成颈缩的材料，在开始集中伸长前是否已经偏热”，就需要改变取样方式。工作段会随拉伸伸长，屏幕中间的光标即使没动，经过它的表面材料也可能已经换了。
+XTDIC 从双目图像恢复可见表面的空间运动，使目标区域具有随材料变化的位置。红外相机提供另一视角的温度分布。通过建立两种观测之间的空间对应，可把温度信息赋给所观察的材料区域，从而形成局部应变与温度随加载变化的联合记录。
 
-较细致的做法是先在 DIC 图像中跟踪材料区域，再给热像找到相应的位置。这一步称为空间配准。它需要让两套成像系统对同一物理位置建立对应，并用独立的可识别位置检验偏差。圆棒边缘弯曲，两台相机能同时看见的表面有限；如果目标区域转出其中一个镜头的有效视野，后续帧就应标记为无法比较。
+这种配置的工程价值体现于位置可追溯。研究人员能够说明温度来自哪个表面区域，所取区域在拉伸后移动到哪里，以及热像实际覆盖了多少有效材料。对曲面试样，应结合表面形状和相机视角确定共同可见范围，以免把边缘背景或另一侧材料读入温度结果。
 
 <a id="chinese-section-3"></a>
 
-## 圆棒与平板的差别体现在哪里
+## 从整段热状态到局部材料历程
+
+测试设计可以从宽到窄展开。保温阶段先比较工作段各区域的温度，确认材料的初始热状态；加载初期观察位移与应变是否平缓；局部化发展后，沿材料轨迹追踪集中区和对照区。三个阶段使用的尺度不同，但都依托同一坐标与时间记录。
+
+若试样在运动中转出热像视野，应保留这一段的有效性标记。局部热区比热像分辨尺度更小时，可报告邻域温度及其变化，并继续保留应变场自身能够分辨的细节。对研发人员而言，知道每项结果覆盖的真实区域，比单纯叠加两张彩色图更方便进一步建模。
+
+<a id="chinese-section-4"></a>
+
+## 曲面试样的共同视野与三维对应
 
 从正面看，圆棒的工作段像一条长方形色带。实际上，中线两侧的表面逐渐转向侧面。在一台相机里只占很窄的一列像素，放到圆棒曲面上却可能覆盖较宽的一片材料。另一台侧向布置的相机看过去，这片材料可能位于视野边缘，甚至被圆棒自身遮挡。因此，以两幅图中轮廓的左边和右边分别对齐，只能保证可见轮廓看起来接近；两个轮廓之间的材料仍可能一前一后。
 
 做初步筛查时，可将研究范围限在两套设备都能清楚看到的工作段正面，把靠近切线方向的细窄边缘留在比较范围之外。对精细定位，可以利用双目 DIC 重建的表面形状，根据热像仪与这套坐标系的相对位置，将表面区域投影到热像中。若装置只对某一平面建立了映射，需要核对圆棒表面偏离该平面的程度。颈缩加深后曲面发生变化，加载前建立的平面对应关系也可能逐渐失去适用性。
 
-<a id="chinese-section-4"></a>
+<a id="chinese-section-5"></a>
 
-## 建立对应关系后，怎样独立检查偏差
+## 空间配准的独立验证
 
 校准时若用一组特征求得映射，再用完全相同的一组特征检查，得到的小偏差主要说明计算能解释这些点。为了知道它在真正关心的位置是否可用，可以留出一组没有参与拟合的可识别位置，分布在工作段中部、两端及实际要读数的区域附近。将其投影到热像后，记录预测位置和观察位置的距离，并用当地的图像比例估算它在试样上大约占多宽。
 
 这些偏差的方向也值得保留。若所有点都朝相近方向偏移，可优先检查相机或支架位置是否有变化；若中间较准而越到边缘越偏，应审视曲面、镜头畸变或平面近似带来的影响。把偏差在图上画成带方向的小箭头，往往比只给出全幅平均误差更能说明哪里可以追踪窄带。图像边缘正好是结论所在的位置时，局部偏差比全幅平均更重要。
 
-<a id="chinese-section-5"></a>
+<a id="chinese-section-6"></a>
 
-## 示例：围绕最终颈缩区提取温度历程
+## 颈缩候选区的材料温度历程
 
 假设希望比较颈缩区与附近完整区域的热历程。可以从轮廓仍完整、细颈已可辨认的一帧着手，沿着圆棒轴向圈定一小块目标材料。在 DIC 有效的前提下，把这个区域追溯至保温结束时，再将它在各时刻的位置映射到相应热像上。邻近对照区可选在相似视角、相似涂层但远离明显变形带的位置。这样比较起来，表面状态与观察方向的差异较小，判断更集中于材料经历的差别。
 
 读取温度时，应同时记录选区内有效热像像素的覆盖情况。颈缩前宽裕的区域，颈缩后可能只剩少量像素可靠地落在试样上，边缘点还可能混入炉内背景。此时可收缩可用区域，但要在曲线上注明选区发生改变的时刻；如果保留下来的已不是同一片材料，则应结束原曲线，另列后续观察。整条曲线看起来连续，并不自动意味着被测对象一直相同。
 
-<a id="chinese-section-6"></a>
+<a id="chinese-section-7"></a>
 
-## 对读结果做一次位置敏感性检查
+## 局部热区的位置敏感性分析
 
 对结论影响较大的热区，可以把选定区域按校核得到的配准偏差向周围小幅移动，重新读取温度趋势。若这些合理的位置变动都保留了“该区域较邻近区持续偏热”的判断，区域层面的结论就有较好的支撑。若仅把选区挪到另一侧，温度差便消失甚至反向，说明结果对边界很敏感，此时宜扩大报告的位置范围，并保留原始热像供复查。
 
@@ -79,63 +85,72 @@
 
 剖面图旁最好附一张原始轮廓与路径示意，标出圆棒朝向、坐标原点和共同可见范围。仅留下两条看起来起伏相似的曲线，试验交接后就很难追溯它们究竟来自同一块表面，还是来自两条恰好形状相似的取样线。
 
-<a id="chinese-section-7"></a>
+<a id="chinese-section-8"></a>
 
-## 怎么判断“重合”这个词用得是否合适
+## 测量结果在材料研发中的用途
 
-热像上一个有效测量区域可能覆盖应变带和两侧材料。此时热像记录包含邻近表面的贡献，最亮位置也会受观察范围和分辨率影响。如果两个峰值之间的距离与配准偏差相当，较为稳妥的表述是“在同一局部区域观察到温度与应变变化”。要精确报告峰值间距，则应同时交代空间尺度、有效视野和定位偏差。
+在热处理工艺筛选中，可比较不同状态下的集中带是否在相近热条件下形成，结合断后形貌研究变形分配。对于几何过渡或连接附近的试样，可用局部场判断异常是否始终伴随同一结构位置，为改进试样设计和加载方式提供依据。
 
-公开试验提供了同步位移、应变和温度记录。上面的三种方法是利用这类记录开展分析时可以选择的路径。做均温检查可以采用分区比较；追溯颈缩区的材料经历，应采用跟随材料的区域；评估细小热点时，则需要先确认现有热像能否分辨目标。
+XTDIC 联动热像的适用价值，是让材料团队在单次测试中同时获得位置、伸长与热状态，并能反复选区分析。设备配置应围绕实际试样的共同视野、曲率和最小目标区域验证，交付数据则保留坐标、时间、有效区域与处理参数，使不同批次的试验具有可比较的基础。
 
-[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+<a id="chinese-section-9"></a>
 
-## 系列阅读
+## 应用问答
 
-- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
-- [225 · 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#chinese-version)
+**哪些试样适合联合定位？**
+
+两套相机能够共同观察、表面具有可跟踪纹理且红外条件可校核的试样，更适合开展联合定位。曲面对象需要确认各时刻的共同可见区域。
+
+**局部选区能否在试验后调整？**
+
+原始图像和坐标保存完整时，可重新定义有效区域并提取历程。分析精细程度仍由原始采样和两种测量的空间分辨能力决定。
+
+**技术资料**
+
+[设备与应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [应用素材](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
 
 <details>
-<summary><b>English · Locating Hot Regions in Tension: Three Ways to Compare Thermograms with XTDIC Strain Fields</b></summary>
+<summary><b>English · Localizing High-Temperature Material Damage with XTDIC Strain Fields and Thermography</b></summary>
 
 <a id="english-version"></a>
 
-# Locating Hot Regions in Tension: Three Ways to Compare Thermograms with XTDIC Strain Fields
+# Localizing High-Temperature Material Damage with XTDIC Strain Fields and Thermography
 
-*Measuring deformation and damage at elevated temperature · Method comparison*
-
-“The middle of the gauge section was warmer,” “the neck region was warmer,” and “the temperature and strain peaks coincided” require different levels of spatial evidence. XTDIC and infrared cameras observe a round bar from their respective viewpoints. Once the records are synchronized, the choice of spatial comparison depends on whether the conclusion concerns a section, a particular material patch or a local maximum.
+Local extension and temperature differences can be hidden within smooth global force records. Combining XTDIC stereo strain measurement with thermography locates concentrated deformation and follows the surface temperature of the corresponding material, supporting heat-treatment assessment, specimen development and damage research.
 
 **Contents**
 
-- [Comparing the available methods](#english-section-1)
-- [Applying the distinction to a strain band](#english-section-2)
-- [Why a round bar differs from a flat coupon](#english-section-3)
-- [Checking the mapping independently](#english-section-4)
-- [Example of a temperature history for the eventual neck](#english-section-5)
-- [Testing sensitivity to location](#english-section-6)
-- [Choosing the precision of the claim](#english-section-7)
+- [The need to locate local changes](#english-section-1)
+- [Combining surface reconstruction and temperature](#english-section-2)
+- [From gauge-section conditions to material histories](#english-section-3)
+- [Why a round bar differs from a flat coupon](#english-section-4)
+- [Checking the mapping independently](#english-section-5)
+- [Example of a temperature history for the eventual neck](#english-section-6)
+- [Testing sensitivity to location](#english-section-7)
+- [Use in materials development](#english-section-8)
+- [Application questions](#english-section-9)
 
 <a id="english-section-1"></a>
 
-## Comparing the available methods
+## The need to locate local changes
 
-| Method | What is sampled | Suitable question | Main limitation |
-| --- | --- | --- | --- |
-| Gauge-section zones | End and central regions defined in both views | Where does a temperature difference persist after the hold? | Limited localization of a narrow band |
-| Fixed spatial region | The same location in camera coordinates | How does temperature at a furnace location evolve? | Material can pass through the region |
-| Material-following region | A surface patch tracked by DIC and located in each thermogram | What history did the future neck experience? | Requires registration and valid tracking |
+Microstructure, section transitions, gripping and temperature can all affect the distribution of extension. Full-field acquisition allows a concentrating region and neighbouring control to be selected after the run, which is useful when the eventual site is unknown before testing.
 
 <a id="english-section-2"></a>
 
-## Applying the distinction to a strain band
+## Combining surface reconstruction and temperature
 
-For a temperature-uniformity check, splitting the gauge length into zones can be sufficient. Compare the temperature ranges near the centre and ends and examine whether the difference persists during the hold. Asking whether the material that eventually necked was already warm requires another sampling strategy. During tension, the gauge section extends. A stationary cursor in the middle of the screen can sample a succession of different pieces of metal.
-
-A material-following comparison tracks a patch in DIC and finds its counterpart in the thermal image. This spatial correspondence is called registration. Features at known common locations establish the mapping, and independent features can test its error. Curvature limits how much of the round bar both cameras can see. When a patch moves out of either usable view, the comparison ends for those frames.
+Stereo reconstruction supplies the spatial motion of the visible surface. Registering the infrared view to that surface associates temperature with material regions. For curved specimens, shared visibility must be established so that an edge or background does not enter the temperature history.
 
 <a id="english-section-3"></a>
+
+## From gauge-section conditions to material histories
+
+Begin with thermal zones during the hold, inspect distributed motion early in loading and then follow the concentrating patch. Preserve validity flags if it leaves the thermal view. When thermal resolution is coarser than the strain band, report neighbourhood temperature alongside the finer strain information.
+
+<a id="english-section-4"></a>
 
 ## Why a round bar differs from a flat coupon
 
@@ -143,7 +158,7 @@ Viewed from the front, the gauge section resembles a rectangular strip. Away fro
 
 For a screening comparison, restrict the study to a shared frontal region with clear views and exclude the narrow zones near tangency. Finer localization can use the surface reconstructed by stereo DIC and the thermal camera pose to project patches into the thermal image. If calibration established a mapping only for one plane, assess how far the observed surface departs from it. As a neck develops, its changing curvature can progressively invalidate an initial planar approximation.
 
-<a id="english-section-4"></a>
+<a id="english-section-5"></a>
 
 ## Checking the mapping independently
 
@@ -151,7 +166,7 @@ Small errors on the same features used to fit a mapping primarily show how well 
 
 Keep the direction as well as the magnitude of each error. A common offset suggests checking camera or support movement. Small central errors increasing toward the edges warrant examination of curvature, distortion or a planar approximation. Arrows plotted at the check locations give a better picture of where narrow-band comparisons are credible than a single average error. Local error matters particularly when the result of interest lies at the edge.
 
-<a id="english-section-5"></a>
+<a id="english-section-6"></a>
 
 ## Example of a temperature history for the eventual neck
 
@@ -159,7 +174,7 @@ Start from a frame in which narrowing is visible but the outline is intact. Sele
 
 Record the valid thermal coverage as well as the temperature. A region well sampled before necking can later cover few valid pixels, with background radiation contributing at the boundary. A reduced usable area may be reported if the change is marked. If what remains no longer represents the original material, end that history and report subsequent observations separately. A visually continuous curve alone does not establish material continuity.
 
-<a id="english-section-6"></a>
+<a id="english-section-7"></a>
 
 ## Testing sensitivity to location
 
@@ -175,19 +190,26 @@ Identify the band interior, its boundary and a remote reference region on the pr
 
 A specimen outline showing the sampled path, origin, orientation and common coverage lets a later analyst determine whether two similar profiles actually came from the same material.
 
-<a id="english-section-7"></a>
+<a id="english-section-8"></a>
 
-## Choosing the precision of the claim
+## Use in materials development
 
-A thermally resolved area may include a narrow strain band and the surface on either side. Neighbouring radiation contributes to the reading, and the position of the apparent maximum depends on spatial resolution. When the separation between two peaks is comparable to registration error, the evidence supports changes in the same local region. Reporting a peak-to-peak distance also calls for the spatial scale, valid common field of view and localization error.
+Compare heat treatments at comparable thermal states, and investigate whether localization repeatedly follows a geometric transition. The combined record provides position, stretch and thermal state within one run. Configure shared coverage for the actual curvature and target size and deliver coordinates, timing, valid areas and processing settings.
 
-The published experiment provides synchronized displacement, strain and temperature records. The three methods above describe possible analyses of such records. Zonal comparison serves thermal uniformity studies. Tracking serves material histories. Investigating a small hot spot first requires evidence that the thermal view resolves the target.
+<a id="english-section-9"></a>
 
-[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+## Application questions
 
-## In this series
+**Which specimens support joint localization?**
 
-- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
-- [225 · High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#english-version)
+Those with shared visibility, trackable texture and characterised infrared conditions. Curved surfaces require time-dependent visibility checks.
+
+**Can regions be changed later?**
+
+Retained images and coordinates allow new valid regions to be analysed within the original spatial resolution.
+
+**Technical resources**
+
+[Equipment and application information](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>

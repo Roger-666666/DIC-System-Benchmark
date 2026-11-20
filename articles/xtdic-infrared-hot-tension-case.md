@@ -94,11 +94,11 @@
 
 ## 系列阅读
 
-- [223 · 高温拉伸同步采集方法：如何对齐 XTDIC 应变、红外温度与载荷记录](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#chinese-version)
-- [224 · 高温拉伸热区定位：红外热像与 XTDIC 应变场的三种对照方法](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#chinese-version)
-- [225 · 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#chinese-version)
-- [226 · 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
-- [227 · 高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
+- [223 · 高温材料热力耦合测试方案：XTDIC 联动红外热像实现载荷、温度与应变同步测量](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#chinese-version)
+- [224 · 高温材料局部损伤监测：XTDIC 全场应变与红外温度场联合定位方案](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#chinese-version)
+- [225 · 高温炉内非接触应变测量：XTDIC 光学测试系统的配置与应用](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#chinese-version)
+- [226 · 高温金属颈缩与失效研究：XTDIC 全场应变测量揭示局部变形演化](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
+- [227 · 高温材料本构与有限元验证：XTDIC 联动红外热像的多场试验方案](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
 
 </details>
 
@@ -196,10 +196,10 @@ For material screening, the records can distinguish similar overall elongation f
 
 ## In this series
 
-- [223 · Synchronizing XTDIC Strain, Infrared Temperature and Load in Hot Tensile Tests](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#english-version)
-- [224 · Locating Hot Regions in Tension: Three Ways to Compare Thermograms with XTDIC Strain Fields](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#english-version)
-- [225 · High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#english-version)
-- [226 · Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
-- [227 · Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
+- [223 · Coupled Thermal and Mechanical Testing with Synchronized XTDIC and Infrared Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#english-version)
+- [224 · Localizing High-Temperature Material Damage with XTDIC Strain Fields and Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#english-version)
+- [225 · Configuring XTDIC for Non-Contact Strain Measurement Inside High-Temperature Furnaces](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#english-version)
+- [226 · Investigating Necking and Failure of Hot Metals with XTDIC Full-Field Strain Measurement](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
+- [227 · Material Calibration and Finite Element Validation with XTDIC and Infrared Thermal Measurements](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
 
 </details>

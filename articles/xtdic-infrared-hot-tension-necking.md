@@ -1,72 +1,77 @@
-# 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析
+# 高温金属颈缩与失效研究：XTDIC 全场应变测量揭示局部变形演化
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析</b></summary>
+<summary><b>中文版 · 高温金属颈缩与失效研究：XTDIC 全场应变测量揭示局部变形演化</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温材料变形与损伤测量系列 · 原理与应用*
+高温金属的拉伸性能既体现在整体承载能力，也体现在变形能否持续分散到工作段。当伸长逐渐集中到局部，试样可能形成细颈并最终断裂。XTDIC 全场应变测量能够追踪可见表面的变形分布，将平均伸长、局部应变与轮廓变化联系起来，为材料延性评价和失效机制研究提供连续的空间观察。
 
-颈缩是拉伸试样在某一局部逐渐变细的现象。对于高温金属圆棒，颈缩位置关系到后续断裂发生在哪一段，也是研究材料局部变形能力的重要依据。XTDIC 高温拉伸案例显示，在圆棒外形明显收窄之前，主应变图上已经可以分辨出变形集中的区域。应变集中、外形颈缩与最终断裂各有对应的观测证据，标记这几个阶段时需要说清各自采用的判据。
+**目录**
 
-**本文目录**
-
-- [为什么平均伸长容易遗漏局部变化](#chinese-section-1)
-- [从试验信号识别变形阶段](#chinese-section-2)
-- [沿轴线读剖面，比追逐最高像素更稳定](#chinese-section-3)
-- [圆棒边缘怎样提供第二条证据](#chinese-section-4)
-- [同一份记录为什么会读出不同的颈缩时刻](#chinese-section-5)
-- [断裂前最后几帧怎么取舍](#chinese-section-6)
-- [常见问题](#chinese-section-7)
+- [材料评价从整体延伸到局部](#chinese-section-1)
+- [全场测量怎样识别变形集中](#chinese-section-2)
+- [拉伸试验中的空间分析方法](#chinese-section-3)
+- [轴向应变剖面与集中带表征](#chinese-section-4)
+- [局部轮廓与截面收缩分析](#chinese-section-5)
+- [局部化与颈缩的阶段定义](#chinese-section-6)
+- [近断裂阶段的数据有效性](#chinese-section-7)
+- [面向材料筛选的工程价值](#chinese-section-8)
+- [应用问答](#chinese-section-9)
 
 <a id="chinese-section-1"></a>
 
-## 为什么平均伸长容易遗漏局部变化
+## 材料评价从整体延伸到局部
 
-若在标距段的两端做标记，拉伸前后测量两点的距离变化，就能得到这段材料的平均伸长信息。局部化初期，只有很短的一段比周围伸得快，其变化在沿整段求平均时会被摊薄。两件试样即使达到相近的总伸长，也可能在不同位置形成不同宽度的集中区。要了解损伤在何处发展，需要把测量范围从两端之间的一个平均值，扩展到可见表面的许多小区域。
+同样的平均伸长可能来自较均匀的变形，也可能由很短的一段贡献。只用工作段两端的距离变化评价延性，难以说明局部最先发生在哪里以及集中区域如何扩展。这些信息对于热处理方案比较、试样几何设计和局部失稳分析尤其重要。
 
-数字图像相关法跟踪表面花纹的运动，从局部位移变化计算应变。主应变描述局部沿主方向的拉伸或压缩程度，其中最大主应变有助于寻找伸长最为集中的区域。读图时应查看图例与方向定义，并让不同时刻的图使用相同色标。若每张图都把本帧最大值显示为红色，仅凭红色面积很难比较集中程度是否加重。
+双目图像保留了工作段上许多位置的运动，实验室可以先观察全局，再选择有代表性的局部区域。若试样最终在预期之外的位置失效，仍有机会从已有图像追溯此前的集中过程。这种空间覆盖使材料试验可以围绕实际发生的现象展开分析。
 
 <a id="chinese-section-2"></a>
 
-## 从试验信号识别变形阶段
+## 全场测量怎样识别变形集中
 
-| 试验阶段 | 优先观察的证据 | 可以作出的判断 |
-| --- | --- | --- |
-| 较均匀的拉伸 | 轴向位移沿标距连续变化，应变分布较平缓 | 观察范围内伸长较为分散 |
-| 局部应变集中 | 同一区域连续多帧比两旁伸得更快 | 可将该区域列为后续颈缩的观察对象 |
-| 可见颈缩 | 原始照片上局部宽度持续减小，且与邻近区域拉开差异 | 可以定位可见表面的收窄区域 |
-| 接近断裂 | 轮廓继续演变，部分散斑可能无法匹配 | 标明最后可靠的应变帧，另存断裂照片 |
+DIC 通过比较表面散斑在连续图像中的位置获得位移，再计算邻近材料的相对伸长。轴向应变适合分析沿加载方向的分布，最大主应变则有助于寻找局部拉伸最强的方向和区域。两者结合原始轮廓，可以描述集中带形成后是否伴随持续收窄。
+
+XTDIC 可用软件选区提取多个局部历程，与整体载荷和虚拟标距伸长相对应。将集中区和邻近区放在同一时间轴上，可观察它们何时开始持续分化。需要热条件时，联动红外图像能够补充对应区域的表面温度，帮助分析局部环境与变形之间的关系。
 
 <a id="chinese-section-3"></a>
 
-## 沿轴线读剖面，比追逐最高像素更稳定
+## 拉伸试验中的空间分析方法
+
+开始加载前定义参考状态，保持比较图像使用一致的应变定义和色标。沿轴线布置剖面或窄条区域，记录各位置随加载的应变变化。随后在候选集中区读取轮廓宽度，并与邻近截面作同阶段比较，从伸长分布和形状两方面观察局部化。
+
+接近断裂时，保留最后有效的应变帧和之后的原始照片。裂口打开后，两侧相对运动包含分离量，适合用于研究开口和断后运动；完整材料的应变分析应限定在相关计算仍可靠的区域和时段。这样可同时保存失效过程和各项结果的物理含义。
+
+<a id="chinese-section-4"></a>
+
+## 轴向应变剖面与集中带表征
 
 对圆棒表面的应变图，可以沿工作段轴线取一条剖面，横坐标为材料沿轴线的位置，纵坐标为局部轴向应变。在较均匀的阶段，曲线通常在相近水平上缓慢变化。若某一处在相邻时刻连续形成隆起，两边的应变仍较低，就能观察这处隆起是逐渐变高、变窄，还是随材料一道移动。对中线附近一条有宽度的区域做平均，也能减少孤立异常像素对位置判断的影响。平均范围应当公开，便于读者分辨实际带宽与分析设置带来的平滑。
 
 主应变图适合寻找可能的集中区；沿轴线的剖面则适合量化带内外的伸长差。两种应变定义并不总是给出相同峰值。若拉伸伴随局部剪切或弯曲，最大主应变方向就可能偏离轴线。报告可在同一时刻标出轴向分量、最大主应变及其方向，说明最终所说的“峰值”来自哪一项。参考状态也应保持一致，避免一个图从保温结束起算、另一个图从较晚的加载阶段起算。
 
-<a id="chinese-section-4"></a>
+<a id="chinese-section-5"></a>
 
-## 圆棒边缘怎样提供第二条证据
+## 局部轮廓与截面收缩分析
 
 在颈缩候选区域沿垂直于局部轴线的方向提取轮廓宽度，同时在其两侧选择外形连续的邻近截面。随后跟着这些截面对应的材料位置重读后续图像。仅观察某处宽度变小还不充分，因为较均匀拉伸阶段整个工作段也会横向收缩。如果候选截面的宽度相对于两旁持续减小，轴向应变剖面又在同一带形成持续峰值，就有更直接的依据描述局部收窄。
 
 轮廓宽度在圆棒转动、中心线偏移或边缘被夹具遮住时会受到影响。可将两侧边缘的位置和中心线轨迹同时保留。如果看起来只有一侧边缘移动，而试样中心线也在画面中明显偏移，要先查是否同时发生刚体运动或弯曲。单个视角给出的宽度是投影量；要据此求截面面积或断面收缩率，应额外检验截面几何假设，必要时采用独立的断后尺寸测量。
 
-<a id="chinese-section-5"></a>
+<a id="chinese-section-6"></a>
 
-## 同一份记录为什么会读出不同的颈缩时刻
+## 局部化与颈缩的阶段定义
 
 关注材料稳定性的人可能用相邻区域的应变增长开始分化作为局部化起点。关注外形的人可能把轮廓首次出现持续收窄作为颈缩的可见起点。关注整件承载的人则更习惯记录最大拉力时刻。它们描述的是不同尺度的事件。在同一页上分别报出“集中带开始持续发展”“轮廓可辨收窄”和“整体载荷达到峰值”，读者就能知道研究者追踪的是哪一个过程。
 
 比较不同试样前，可以用相同的剖面宽度、时序判据和轮廓提取方法复算一遍。如果缩小应变计算的邻域，一条窄带可能显得更尖锐，同时也更容易受噪声影响；如果过度平滑，早期的局部变化又可能被摊开。对一个合理范围内的计算尺度重复分析，记录在各设置下都能辨认的部位与时间区间，有助于判断“较早出现颈缩”的材料差异是否大于方法本身的变化。
 
-<a id="chinese-section-6"></a>
+<a id="chinese-section-7"></a>
 
-## 断裂前最后几帧怎么取舍
+## 近断裂阶段的数据有效性
 
 最后的红色区域常常最吸引注意，却也是最需要查看原始图像的地方。一侧花纹被拉散、轮廓突然断开或裂口出现后，跨越缺口计算的位移梯度会混入表面分离量。若继续用平滑补满这片区域，可能得到一条视觉上连续、物理意义却已经改变的应变曲线。此时可以保留裂口两侧仍有效的位移，用于描述两侧表面如何分开，并明确局部材料应变在哪里终止。
 
@@ -80,66 +85,72 @@
 
 在材料批次评价中还应保留异常位置的证据。某件试样在肩部过渡区收窄、另一件在工作段中部收窄，即使各自最大应变接近，几何与约束环境也不同。把两类试样分别展示并说明断口位置，比简单取一个批次平均峰值更有助于判断是否需要复查试样加工与装夹。
 
-<a id="chinese-section-7"></a>
+<a id="chinese-section-8"></a>
 
-## 常见问题
+## 面向材料筛选的工程价值
 
-**载荷开始下降，能直接定位颈缩吗？** 载荷峰值能确定值得回看的时段。要找位置，还需要这一时段的应变场和试样轮廓。比较轮廓时可跟随同一小段材料，避免把材料沿轴向移动误当成局部宽度变化。
+比较材料状态时，可在相同热参考条件和平均伸长下观察集中带的宽度与局部峰值，再结合载荷水平评价变形分配。研究几何过渡时，则可查看集中位置是否重复出现在肩部或其他特定区域，为改进设计和加载条件提供方向。
 
-**热像上的亮点能作为颈缩起点吗？** 亮点可以协助选择复查区域。识别颈缩仍要看材料是否局部收窄，并核对温度差在加载前是否已经存在。热像的意义在于为已定位的变形区域补充热状态。
+XTDIC 输出的空间场还能支持本构与失稳模型的检验。模型既需要解释整件试样的载荷，也需要合理预测局部伸长发生的位置和范围。对材料研发团队而言，一次试验中同时保留整体与局部响应，有助于减少仅靠最终断口猜测过程的困难。
 
-**局部应变大就代表出现了内部裂纹吗？** 表面应变图提供的是表面运动信息。要确认内部裂纹或损伤机制，还要结合截面、断口或其他独立检查。对于材料筛选，可以先比较各试样的集中位置与发展过程；对于失效分析，则应把这些记录与断后证据相对应。
+<a id="chinese-section-9"></a>
 
-[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+## 应用问答
 
-## 系列阅读
+**颈缩评价优先看哪些结果？**
 
-- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
-- [227 · 高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
+可结合轴向应变分布、局部轮廓宽度和对应载荷阶段，观察集中带是否持续发展。使用一致的空间尺度有助于跨试样比较。
+
+**能否由表面应变直接判断内部裂纹？**
+
+内部裂纹需要独立观测。表面变形历程可帮助确定值得检查的区域，并与断口或截面结果建立位置联系。
+
+**技术资料**
+
+[设备与应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [应用素材](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
 
 <details>
-<summary><b>English · Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain</b></summary>
+<summary><b>English · Investigating Necking and Failure of Hot Metals with XTDIC Full-Field Strain Measurement</b></summary>
 
 <a id="english-version"></a>
 
-# Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain
+# Investigating Necking and Failure of Hot Metals with XTDIC Full-Field Strain Measurement
 
-*Measuring deformation and damage at elevated temperature · Measurement principles*
-
-Necking is the progressive local narrowing of a specimen under tension. Its location in a hot round bar matters both to the eventual fracture site and to the assessment of local deformability. In the published XTDIC test, strain concentration could be identified before narrowing became obvious in the outline. Localized strain, a visible neck and final fracture each have their own observable evidence.
+The tensile behaviour of hot metal depends on both overall load capacity and how extension is distributed. Localization can develop into a neck and eventual fracture. XTDIC links average extension, local surface strain and changing outlines to support ductility assessment and failure research.
 
 **Contents**
 
-- [Why average extension can miss an early change](#english-section-1)
-- [Evidence for successive stages](#english-section-2)
-- [Following an axial profile](#english-section-3)
-- [Using the outline as independent evidence](#english-section-4)
-- [Why onset depends on the stated criterion](#english-section-5)
-- [Interpreting the last frames](#english-section-6)
-- [Frequently asked questions](#english-section-7)
+- [From global response to local behaviour](#english-section-1)
+- [Identifying localization with full-field measurement](#english-section-2)
+- [Spatial analysis during tension](#english-section-3)
+- [Following an axial profile](#english-section-4)
+- [Using the outline as independent evidence](#english-section-5)
+- [Why onset depends on the stated criterion](#english-section-6)
+- [Interpreting the last frames](#english-section-7)
+- [Value for material screening](#english-section-8)
+- [Application questions](#english-section-9)
 
 <a id="english-section-1"></a>
 
-## Why average extension can miss an early change
+## From global response to local behaviour
 
-Two marks at the ends of a gauge length give an average measure of extension between them. Early in localization, a short section stretches faster than its surroundings. Averaging across the gauge length dilutes its contribution. Two specimens with similar overall extension can develop concentrated bands in different locations and over different widths. Studying that process requires observations across many small regions on the visible surface.
-
-Digital image correlation tracks surface texture and estimates strain from spatial changes in displacement. Principal strains describe extension or contraction along local principal directions. The maximum principal strain helps locate regions of concentrated stretch. Interpretation requires the plotted quantity and a consistent colour scale. If every map displays its own highest value in red, red area alone gives a poor comparison across time.
+Similar gauge extension can conceal different local distributions. Stereo images allow the actual localization region to be selected after the experiment, including an unexpected failure site.
 
 <a id="english-section-2"></a>
 
-## Evidence for successive stages
+## Identifying localization with full-field measurement
 
-| Stage | Evidence to examine | Supported interpretation |
-| --- | --- | --- |
-| Relatively uniform tension | Continuous axial displacement and broadly distributed strain | Extension is shared across the observed length |
-| Strain localization | The same patch stretches faster than adjacent patches in successive frames | A region to follow for later necking |
-| Visible necking | Local width persistently decreases relative to neighbouring sections | The visible narrowing can be located |
-| Approaching fracture | The outline evolves and some speckles may cease to match | Identify the last reliable strain map and retain the fracture image separately |
+DIC estimates displacement from texture motion and strain from relative motion. Axial strain describes loading-direction extension, while major principal strain locates local tensile directions. Region histories can be related to load, virtual-gauge extension and, where available, thermal observations.
 
 <a id="english-section-3"></a>
+
+## Spatial analysis during tension
+
+Use a consistent reference, strain definition and colour scale. Track axial profiles and compare the candidate neck width with neighbouring sections. Retain the last valid strain frame separately from later photographs when an opening crack changes the meaning of relative motion.
+
+<a id="english-section-4"></a>
 
 ## Following an axial profile
 
@@ -147,7 +158,7 @@ Take a profile down the gauge section with material position on the horizontal a
 
 Principal strain helps locate a candidate band. An axial profile quantifies the contrast in longitudinal extension. Their peaks need not agree: local shear or bending can rotate the major principal direction away from the bar axis. Showing axial strain, maximum principal strain and its direction at the same time makes the definition of a peak explicit. All maps in the comparison need the same reference state.
 
-<a id="english-section-4"></a>
+<a id="english-section-5"></a>
 
 ## Using the outline as independent evidence
 
@@ -155,7 +166,7 @@ Measure width across the candidate region perpendicular to its local centreline 
 
 Rotation, translation of the centreline or partial occlusion can affect projected width. Retain both edge positions and the centreline trajectory. Motion of only one apparent edge accompanied by substantial centreline movement warrants checking rigid motion or bending. A width from one view is a projection. Converting it into cross-sectional area or reduction of area requires additional geometric assumptions or independent post-test measurements.
 
-<a id="english-section-5"></a>
+<a id="english-section-6"></a>
 
 ## Why onset depends on the stated criterion
 
@@ -163,7 +174,7 @@ A material-stability study may define localization by the first persistent diffe
 
 Before comparing specimens, reprocess them with the same profile width, time criterion and edge method. A smaller strain neighbourhood can sharpen a narrow peak but also amplify noise. Excess smoothing can spread the first sign of localization over a larger region. Repeating the analysis over a reasonable range of scales identifies sites and onset intervals that remain stable and indicates whether an apparent material difference exceeds the sensitivity of the method.
 
-<a id="english-section-6"></a>
+<a id="english-section-7"></a>
 
 ## Interpreting the last frames
 
@@ -179,21 +190,26 @@ Then examine the interval between localization and visible narrowing. Additional
 
 Retain unusual sites in a batch assessment. A neck in the shoulder transition and one in the middle of the gauge experience different geometries and constraints, even if their peak strains are similar. Reporting these groups and their fracture locations separately is more informative for a review of machining or gripping than pooling all maxima into one average.
 
-<a id="english-section-7"></a>
+<a id="english-section-8"></a>
 
-## Frequently asked questions
+## Value for material screening
 
-**Does a fall in load locate the neck?** Peak force identifies a time interval worth reviewing. Strain fields and specimen outlines locate the region. Following the same material section avoids confusing axial motion with a change in local width.
+Compare localization width and local peaks at similar thermal states and average extension. Recurrent localization near transitions can guide geometric changes. Spatial fields also test model predictions of where and over what range extension accumulates.
 
-**Does a bright thermal spot mark necking onset?** It can direct attention to a region. Identification still requires evidence of local narrowing and consideration of any temperature difference present before loading. Thermograms describe the thermal state of the identified region.
+<a id="english-section-9"></a>
 
-**Does high local strain establish an internal crack?** A surface strain map describes surface motion. Sectioning, fracture-surface observations or another independent inspection are needed for an internal crack or damage mechanism. Material screening can compare localization histories, while a failure investigation can connect those histories to post-fracture evidence.
+## Application questions
 
-[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+**Which outputs serve necking assessment?**
 
-## In this series
+Combine axial strain, local width and loading stage with consistent spatial resolution across specimens.
 
-- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
-- [227 · Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
+**Does surface strain identify internal cracking?**
+
+Internal cracks need independent observations. Surface histories identify regions for examination and correlation with sections or fracture surfaces.
+
+**Technical resources**
+
+[Equipment and application information](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>

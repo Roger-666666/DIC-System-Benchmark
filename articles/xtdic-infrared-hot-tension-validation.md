@@ -1,73 +1,77 @@
-# 高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标
+# 高温材料本构与有限元验证：XTDIC 联动红外热像的多场试验方案
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标</b></summary>
+<summary><b>中文版 · 高温材料本构与有限元验证：XTDIC 联动红外热像的多场试验方案</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温材料变形与损伤测量系列 · 仿真验证*
+高温材料模型决定热加工载荷、变形分布与局部失稳的预测结果。模型验证需要在相应热条件下同时考察整体受力和局部响应。XTDIC 三维应变测量系统联动红外热像，可提供位移场、应变场和表面温度历程，并与试验机载荷对应，为本构参数识别和有限元验证建立多种独立的比较量。
 
-验证高温拉伸仿真，可以先核对试样经历的温度，再比较整体拉力，最后检查局部变形。对于要预测颈缩位置的模型，拉力曲线接近试验值只回答了整体受力问题，还应确认应变集中出现的阶段、位置和范围。XTDIC 高温圆棒拉伸案例提供了开展这类比较所需的多种实验记录。
+**目录**
 
-**本文目录**
-
-- [试验为计算提供了哪些依据](#chinese-section-1)
-- [一条载荷曲线吻合，为什么还要看云图](#chinese-section-2)
-- [在模型上建立与试样相同的虚拟标距](#chinese-section-3)
-- [从温度分布走到材料模型](#chinese-section-4)
-- [把计算云图与实测云图放到同一张图上](#chinese-section-5)
-- [验证结果怎样转化为使用范围](#chinese-section-6)
-- [适用场景与常见问题](#chinese-section-7)
+- [仿真研发需要怎样的试验数据](#chinese-section-1)
+- [XTDIC 与热像建立多场观测](#chinese-section-2)
+- [从参数标定到独立验证](#chinese-section-3)
+- [虚拟标距与模型边界对应](#chinese-section-4)
+- [温度场输入与材料响应](#chinese-section-5)
+- [有限元表面场与实测场比较](#chinese-section-6)
+- [模型适用范围与跨工况验证](#chinese-section-7)
+- [材料与结构设计中的应用](#chinese-section-8)
+- [应用问答](#chinese-section-9)
 
 <a id="chinese-section-1"></a>
 
-## 试验为计算提供了哪些依据
+## 仿真研发需要怎样的试验数据
 
-公开案例在多个温度工况下对圆棒升温、保温并拉伸，保留了与载荷对应的位移、主应变和红外温度图。从建模角度看，保温结束时的热像可以检查“整段试样均温”这一假定是否合理；轴向位移场可以协助判断标距段的实际运动是否接近模型施加的位移；加载后的应变场则可用于检查模型把新增变形分配到了哪里。这些是方法上的用途，公开资料没有给出某个具体仿真模型的验证误差。
+整体载荷曲线能够约束模型的承载响应，局部场则检验变形在空间中的分配。两个模型可能给出接近的总伸长和反力，却预测出不同宽度或不同位置的集中带。设计任务涉及局部失效时，这种差异会直接影响模型的使用范围。
 
-| 对标层次 | 试验记录 | 仿真侧应提供的同类量 |
-| --- | --- | --- |
-| 热条件 | 可见表面在保温末期和加载中的温度分布 | 相同表面、相同时刻的预测温度 |
-| 整体响应 | 试验机载荷及对应位移 | 对应边界的反力，以及同一对位置的相对位移 |
-| 局部响应 | 指定方向或主方向的表面应变、集中带位置与宽度 | 同一表面、同一应变定义下的预测场 |
+高温测试还需要明确材料实际经历的热条件。炉温设定、可见表面温度与试样内部温度属于不同信息。红外观测可用于检查表面温度分布，内部热状态则需通过相应传热模型或附加测量推定。将边界输入与独立观测说明清楚，后续模型比较才有明确依据。
 
 <a id="chinese-section-2"></a>
 
-## 一条载荷曲线吻合，为什么还要看云图
+## XTDIC 与热像建立多场观测
 
-设想两个模型在整段标距上的伸长相同：一个把伸长均匀分摊，另一个把它集中到狭窄区域。仅看端部位移无法区分这两种结果。可从实测应变图选取集中带以及带外的邻近区域，分别对照模型在这些区域的应变历程。若模型能重现整体拉力，却把集中带预测得过宽，应先核对比较尺度、热条件和边界约束，再判断是否需要调整材料参数。
+双目相机记录散斑运动，XTDIC 将其转换为表面位移和应变。研究人员可在试样上定义虚拟标距，也可针对集中带及邻近区域提取历程。红外通道同时记录表面热分布，通过共同时间把力、温度和局部伸长联系起来。
 
-尤其要留意“最大应变”的尺度。DIC 通过一片表面区域估计应变，计算模型则可能输出单个小单元中的峰值。直接拿两者最大的数字作比，差异中混有空间平均的影响。将计算得到的表面位移按接近实测的尺度处理，使用相同参考状态、坐标方向和时刻，更容易发现真正需要解释的偏差。
+配置时需要确定观察表面、参考状态和载荷方向，并考虑试样在加载后的运动范围。热态标定与图像质量校核保证空间数据可用，时间对应则让模型输出和实测数据能够比较同一阶段。软件生成的图形之外，还应保留可导出的坐标、位移及有效区域。
 
 <a id="chinese-section-3"></a>
 
-## 在模型上建立与试样相同的虚拟标距
+## 从参数标定到独立验证
+
+可先使用较均匀变形阶段的载荷和工作段伸长约束材料参数，再以局部化阶段的空间场检验模型对分布的预测。若某组实测位移直接用于施加模型边界，它就成为输入；模型反力与其他部位的运动则可以作为独立检验对象。
+
+为了评价跨工况能力，可以将一部分温度或加载条件用于参数识别，其余条件用于预测比较。每次修正模型时记录希望改变的响应，例如均匀阶段反力、集中带宽度或表面温度梯度。用预先保留的观测检查这些变化，有助于识别修正是否具有可迁移性。
+
+<a id="chinese-section-4"></a>
+
+## 虚拟标距与模型边界对应
 
 试验机的横梁位移可能包含夹具与连接件的弹性变形，加载初期还可能包含装夹间隙被消除的过程。若模型只保留圆棒工作段，把横梁位移全都施加到这个短模型上，会把系统其他部分的运动也分配给试样。可以利用 XTDIC 的表面位移在工作段两端建立虚拟标距，提取两端小区域沿拉伸方向的相对位移。在模型上找出相同位置，得到与试验量具有相同含义的伸长。这样便能区分总行程与材料本身伸长的差异。
 
 若把实测标距两端的位移直接用于驱动模型，这项位移就是已知输入。模型对这对位置的位移复现得再好，也不能单独作为预测有效的证据。更有区分力的比较是固定这项输入，检查计算的反力能否跟随实测载荷，以及两端之间各小段的伸长是否分配正确。对于截去了夹持端的局部模型，还应说明工作段截面上的横向约束如何设置，因为相同的轴向位移可以伴随不同的横向收缩。
 
-<a id="chinese-section-4"></a>
+<a id="chinese-section-5"></a>
 
-## 从温度分布走到材料模型
+## 温度场输入与材料响应
 
 高温圆棒的试验温度常用一个工况标签表示，热像却可能在同一时刻显示从中部到两端的温度变化。可先把模型表面温度和热像映射到相同的轴向区域，按保温末期、较均匀拉伸期和局部化期分别比较。若表面温差在加载前已经存在，应先检查加热方式、夹具传热和边界散热能否解释这条分布。若把所有差异都归入温度对材料强度的影响，即使拟合出合适的拉力，也可能掩盖热边界条件的偏差。
 
-为了辨认热场输入对结论有多大影响，可以分别使用合理的均温近似和受实测表面温度约束的热场，保持几何、力学边界和材料参数一致，查看预测集中带的位置与范围是否明显改变。若两组结果都能描述峰值拉力，局部场却出现不同趋势，下一步最有价值的测量可能是补充温度参考，而非立即增加材料模型的自由参数。这里描述的是可实施的对照设计，并不代表公开试样已经完成这两组计算。
+为了辨认热场输入对结论有多大影响，可以分别使用合理的均温近似和受实测表面温度约束的热场，保持几何、力学边界和材料参数一致，查看预测集中带的位置与范围是否明显改变。若两组结果都能描述峰值拉力，局部场却出现不同趋势，下一步最有价值的测量可能是补充温度参考，而非立即增加材料模型的自由参数。
 
-<a id="chinese-section-5"></a>
+<a id="chinese-section-6"></a>
 
-## 把计算云图与实测云图放到同一张图上
+## 有限元表面场与实测场比较
 
 有限元结果可以覆盖整根圆棒内部，DIC 则只能给出两台可见光相机共同观察到的表面。导出结果时应只取与试验同侧的表面，统一轴向、朝向与参考时刻，屏蔽被遮挡和散斑失配的区域。初始坐标与变形后的坐标也要分清：若一幅图按初始材料位置绘制，另一幅按当前外形显示，误差最大的带状区域可能只是同一段材料在两张图上被放到了不同位置。
 
 具体比较可从工作段的轴向剖面开始。沿相同材料路径求模型与试验的差值，分别观察均匀区的系统偏差、集中区中心的偏移，以及集中带沿轴线延伸的宽度。如果差值在带的一侧为正、另一侧为负，而两幅图的峰值相近，可能意味着带的位置错开。若中心位置相近但模型峰值明显更尖，则需核对网格、材料局部化处理和应变平均尺度。把这两种偏差压缩成一个全场平均误差，容易丢失下一步修正需要的线索。
 
-<a id="chinese-section-6"></a>
+<a id="chinese-section-7"></a>
 
-## 验证结果怎样转化为使用范围
+## 模型适用范围与跨工况验证
 
 模型可能很好地重现均匀伸长阶段的载荷，却无法稳定预测颈缩后的轮廓。这种情况仍可形成有用的工程结论，例如把模型用于目标热状态下的整体拉力估算，并明确局部失稳仍需额外验证。对于要预测断裂位置的用途，要求则更高。应确认局部化在独立试样上也具有可重复的空间特征，并检查试样几何偏差、装夹偏心或初始温差是否足以改变预测位置。
 
@@ -81,66 +85,72 @@
 
 交付时可把每次比较归纳为“模型用途、采用的输入、独立比较量、剩余偏差”四栏。举例而言，一个用于估算拉伸力的模型与一个用于预测局部颈缩的模型，可以共享几何和材料记录，却需要不同的独立证据。保留这个对应关系，有助于后续设计人员在使用预测时找到与自己问题最接近的那项验证。
 
-<a id="chinese-section-7"></a>
+<a id="chinese-section-8"></a>
 
-## 适用场景与常见问题
+## 材料与结构设计中的应用
 
-**为热成形模型标定材料参数，应优先使用哪部分数据？** 可结合温度较均匀、应变测量可靠阶段的载荷与局部伸长，明确参数适用的温度及变形范围。若关心颈缩之后的行为，还需要相应阶段可靠的截面或形状信息。
+热加工研究可利用联动测量评估温度差与变形不均匀之间的联系。材料开发可以比较不同工艺状态的局部化特征，结构设计则可关注截面过渡附近的应变分配。对每个任务，模型应接受与最终用途相匹配的试验检验。
 
-**可以把热像直接当作内部温度吗？** 热像提供可见表面的观测。在计算内部温度时，需要材料传热参数和边界条件。已用作模型输入的表面温度也应与独立保留的验证观测区分开。
+XTDIC 的工程价值是使同一组试验数据具有多尺度用途。整体曲线用于反力与平均变形，局部历程用于关键区域，空间场用于分布与位置。加上可追溯的热条件后，实验室能够把模型的有效范围写清楚，为后续设计复用提供实测依据。
 
-**怎样判断模型有跨工况预测能力？** 可用一部分温度工况标定模型，将其余工况留作独立比较。报告同时交代对整体载荷、局部位置和应变分布的预测表现，能让使用者判断模型适合估算拉力，还是也具备用于局部变形分析的依据。
+<a id="chinese-section-9"></a>
 
-[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+## 应用问答
 
-## 系列阅读
+**哪些实测量适合留作独立验证？**
 
-- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
+模型使用某处位移作为边界输入时，可保留其他位置的响应与整体反力进行比较。参与调参的工况与独立预测工况应明确记录。
+
+**不同网格与光学尺度怎样比较？**
+
+可把计算位移投影到实际观测表面，按与实测接近的空间范围求应变，再比较位置、幅值与带宽。
+
+**技术资料**
+
+[设备与应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [应用素材](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
 
 <details>
-<summary><b>English · Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves</b></summary>
+<summary><b>English · Material Calibration and Finite Element Validation with XTDIC and Infrared Thermal Measurements</b></summary>
 
 <a id="english-version"></a>
 
-# Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves
+# Material Calibration and Finite Element Validation with XTDIC and Infrared Thermal Measurements
 
-*Measuring deformation and damage at elevated temperature · Model validation*
-
-A hot tensile simulation can be assessed in stages. Check the thermal history experienced by the specimen, compare its overall force response, then examine local deformation. For a model intended to predict a neck, a close force curve answers only the global question. The loading stage, position and extent of strain localization also matter. The published XTDIC round-bar test supplies several records that support this approach.
+High-temperature material models predict process loads, deformation and local instability. Validation needs both global and local responses under the relevant thermal conditions. XTDIC linked with thermography supplies displacement, strain and surface temperature histories related to machine force for calibration and independent assessment.
 
 **Contents**
 
-- [What the experiment can supply](#english-section-1)
-- [Why compare maps after the force curves agree?](#english-section-2)
-- [Establishing a matching virtual gauge length](#english-section-3)
-- [Connecting the temperature field to the mechanical model](#english-section-4)
-- [Putting predicted and measured fields on one plot](#english-section-5)
-- [Defining the range of supported use](#english-section-6)
-- [Applications and common questions](#english-section-7)
+- [Experimental evidence for modelling](#english-section-1)
+- [Establishing mechanical and thermal observations](#english-section-2)
+- [From calibration to independent validation](#english-section-3)
+- [Establishing a matching virtual gauge length](#english-section-4)
+- [Connecting the temperature field to the mechanical model](#english-section-5)
+- [Putting predicted and measured fields on one plot](#english-section-6)
+- [Defining the range of supported use](#english-section-7)
+- [Applications in material and structural design](#english-section-8)
+- [Application questions](#english-section-9)
 
 <a id="english-section-1"></a>
 
-## What the experiment can supply
+## Experimental evidence for modelling
 
-The public case describes heating, holding and pulling round bars at several temperature levels, with displacement, principal strain and thermograms related to load. An end-of-hold thermogram can test the assumption of a uniform gauge-section temperature. Axial displacement can show whether motion in the gauge section is consistent with the imposed model displacement. Later strain maps can show where additional deformation accumulated. These are uses of the experimental records. The case does not report a validation error for a particular model.
-
-| Comparison | Experimental record | Corresponding model output |
-| --- | --- | --- |
-| Thermal conditions | Surface temperature at the end of the hold and during loading | Temperature on the same surface at corresponding times |
-| Global response | Machine force and associated movement | Reaction force at the matching boundary and relative displacement between equivalent locations |
-| Local response | Directional or principal surface strain, location and width of the concentrated band | Predicted field on the same surface using the same strain definition |
+Global force constrains load response, while fields test spatial distribution. Similar reactions can conceal different localization sites. Distinguish furnace settings, measured surface temperature and inferred interior temperature when defining thermal inputs.
 
 <a id="english-section-2"></a>
 
-## Why compare maps after the force curves agree?
+## Establishing mechanical and thermal observations
 
-Consider two displacement fields that produce the same gauge-length extension. One shares the extension broadly, while the other concentrates it in a narrow region. End displacement cannot distinguish them. Selecting the observed band and an adjacent region makes it possible to compare the evolution of strain inside and outside the band. If force agrees but the predicted band is too wide, measurement scale, thermal conditions and boundary constraints merit examination before changing material parameters.
-
-Peak strain deserves particular care. DIC estimates strain over a surface neighbourhood. A simulation can report a peak from one small element. Comparing the two maxima directly mixes a difference in spatial averaging into the apparent model error. Processing predicted surface displacement over a scale comparable to the measurement, with matching reference state, direction and time, improves interpretation.
+Stereo texture tracking supplies displacement and strain, virtual gauges and regional histories. Thermography adds surface conditions on the same timeline. Specify the observed surface, reference state, axes, motion coverage and exportable data with validity information.
 
 <a id="english-section-3"></a>
+
+## From calibration to independent validation
+
+Use distributed deformation for parameter identification and spatial localization for further assessment. Imposed measured boundary motion is an input, leaving reaction and other regions as independent outputs. Hold out thermal or loading conditions and state what each model update is expected to improve.
+
+<a id="english-section-4"></a>
 
 ## Establishing a matching virtual gauge length
 
@@ -148,15 +158,15 @@ Crosshead travel can include elastic deformation of grips and load-train compone
 
 If the two measured end displacements drive the model, reproducing them is a consequence of the input. Independent comparisons can use reaction force and the distribution of extension between those ends. A shortened model should also document lateral constraints at the cut sections. Identical axial movements can accompany different transverse contractions.
 
-<a id="english-section-4"></a>
+<a id="english-section-5"></a>
 
 ## Connecting the temperature field to the mechanical model
 
 A single temperature label can conceal a centre-to-end gradient in a hot round bar. Map predicted surface temperatures and thermograms to the same axial zones at the end of the hold, during distributed extension and during localization. A pre-existing temperature difference calls for examination of heating, grip conduction and heat loss. Assigning all disagreement to temperature-dependent material strength can yield an acceptable force fit while concealing an incorrect thermal boundary.
 
-One sensitivity comparison uses a plausible uniform-temperature approximation and a field constrained by measured surface temperatures. Hold geometry, mechanical constraints and material parameters fixed, then examine the predicted location and width of localization. Similar peak forces alongside different local fields may justify an additional temperature reference before adding material parameters. This is a comparison design, rather than a calculation reported for the published specimen.
+One sensitivity comparison uses a plausible uniform-temperature approximation and a field constrained by measured surface temperatures. Hold geometry, mechanical constraints and material parameters fixed, then examine the predicted location and width of localization. Similar peak forces alongside different local fields may justify an additional temperature reference before adding material parameters.
 
-<a id="english-section-5"></a>
+<a id="english-section-6"></a>
 
 ## Putting predicted and measured fields on one plot
 
@@ -164,7 +174,7 @@ Finite element results cover the interior, whereas DIC covers the surface visibl
 
 Start with axial profiles on the same material path. Examine bias in the uniform region, displacement of the band centre and axial band width separately. Positive differences on one side of a band and negative differences on the other, with similar peak levels, may indicate a location offset. A sharper calculated peak at a similar centre warrants checks on mesh, localization treatment and strain-averaging scale. A single field-average error can obscure these different directions for investigation.
 
-<a id="english-section-6"></a>
+<a id="english-section-7"></a>
 
 ## Defining the range of supported use
 
@@ -180,20 +190,26 @@ State which observation a change is expected to affect. A grip heat-transfer cha
 
 A handover can record model purpose, imposed input, independent comparison and remaining discrepancy. A force-estimation model and a neck-localization model can share geometry and material records while requiring different independent evidence. This distinction helps designers find the validation relevant to their intended use.
 
-<a id="english-section-7"></a>
+<a id="english-section-8"></a>
 
-## Applications and common questions
+## Applications in material and structural design
 
-**Which records suit material calibration for hot forming?** Force and local extension from stages with reasonably uniform temperature and reliable strain measurements can constrain the applicable temperature and deformation ranges. Post-necking behaviour requires suitable cross-section or shape information for that stage.
+Applications include thermal processing, heat-treatment comparison and deformation at section transitions. Global curves, regional histories and spatial fields test different scales of prediction. Traceable thermal conditions help define where the resulting model can be reused.
 
-**Can a thermogram be used as internal temperature?** It measures the visible surface. Interior estimates require thermal properties and boundary conditions. Surface temperatures already imposed as model inputs should also be distinguished from independent observations retained for assessment.
+<a id="english-section-9"></a>
 
-**How can prediction across conditions be examined?** Reserve temperature conditions that were not used for parameter fitting. Reporting performance for global load, localization site and strain distribution lets a user decide whether the model is supported for force estimation and for local deformation analysis.
+## Application questions
 
-[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+**Which observations can remain independent?**
 
-## In this series
+When a displacement drives the model, other locations and reaction force provide separate comparisons. Record calibration and held-out conditions.
 
-- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
+**How should different spatial scales be compared?**
+
+Project predictions onto the measured surface and evaluate strain over comparable neighbourhoods before comparing position, magnitude and band width.
+
+**Technical resources**
+
+[Equipment and application information](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
