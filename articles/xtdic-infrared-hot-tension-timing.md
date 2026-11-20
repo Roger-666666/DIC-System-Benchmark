@@ -1,27 +1,40 @@
 # 高温材料热力耦合测试方案：XTDIC 联动红外热像实现载荷、温度与应变同步测量
 
-> [中文版](#chinese-version) · [English version](#english-version)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:** [中文版](#chinese-version) · [English](#english-version)
 
 <details open>
-<summary><b>中文版 · 高温材料热力耦合测试方案：XTDIC 联动红外热像实现载荷、温度与应变同步测量</b></summary>
+<summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
 
 <a id="chinese-version"></a>
 
-高温合金研发、热加工工艺验证与材料失效研究，都需要回答同一个问题：材料在怎样的温度下承受了多大载荷，又从哪里开始发生局部变形。XTDIC 三维应变测量系统与红外热像仪联动，可将表面位移、应变和温度记录对应到加载过程，为高温力学试验增加空间信息与时间联系。实验室能够沿着一次加载过程追踪局部响应，也能够在不同热状态之间比较材料的变形分配。
+## 目录
 
-**目录**
-
-- [高温测试需要同时掌握热状态与力学响应](#chinese-section-1)
-- [XTDIC 与红外热像的协同分工](#chinese-section-2)
-- [从试样准备到同步采集的实施过程](#chinese-section-3)
-- [同步数据怎样支持材料分析](#chinese-section-4)
-- [同步采集中的触发、曝光与数据记录](#chinese-section-5)
-- [全加载周期的采集安排](#chinese-section-6)
-- [面向材料研发与热加工的应用](#chinese-section-7)
-- [实验室配置与数据交付](#chinese-section-8)
-- [应用问答](#chinese-section-9)
+- [核心结论](#chinese-section-1)
+- [高温测试需要同时掌握热状态与力学响应](#chinese-section-2)
+- [测量需求与 XTDIC 配置](#chinese-section-3)
+- [XTDIC 与红外热像的协同分工](#chinese-section-4)
+- [从试样准备到同步采集的实施过程](#chinese-section-5)
+- [同步数据怎样支持材料分析](#chinese-section-6)
+- [同步采集中的触发、曝光与数据记录](#chinese-section-7)
+- [全加载周期的采集安排](#chinese-section-8)
+- [面向材料研发与热加工的应用](#chinese-section-9)
+- [实验室配置与数据交付](#chinese-section-10)
+- [试验实施流程](#chinese-section-11)
+- [XTDIC 设备定位与应用价值](#chinese-section-12)
+- [常见问答](#chinese-section-13)
+- [结语](#chinese-section-14)
+- [参考资料](#chinese-section-15)
 
 <a id="chinese-section-1"></a>
+
+## 核心结论
+
+高温合金研发、热加工工艺验证与材料失效研究，都需要回答同一个问题：材料在怎样的温度下承受了多大载荷，又从哪里开始发生局部变形。XTDIC 三维应变测量系统与红外热像仪联动，可将表面位移、应变和温度记录对应到加载过程，为高温力学试验增加空间信息与时间联系。实验室能够沿着一次加载过程追踪局部响应，也能够在不同热状态之间比较材料的变形分配。
+
+数字图像相关（Digital Image Correlation，DIC）通过跟踪试样表面散斑的图像变化计算位移，并由位移的空间变化求取应变。红外热像补充表面温度信息，载荷则来自试验机或力传感器；这些通道建立时间与空间对应后，才构成可分析的热力耦合记录。
+
+<a id="chinese-section-2"></a>
 
 ## 高温测试需要同时掌握热状态与力学响应
 
@@ -29,7 +42,19 @@
 
 研发工作因此需要将温度、载荷与局部应变放到共同的观测框架中。例如评估一种热处理状态是否改善塑性，可以比较同等整体伸长下的局部集中程度；研究某处为何先发生颈缩，可以追溯该处加载前的热状态。同步测量为这些问题保留同一次试验中的对应关系，减少跨次试验拼接信息带来的条件差异。
 
-<a id="chinese-section-2"></a>
+<a id="chinese-section-3"></a>
+
+## 测量需求与 XTDIC 配置
+
+高温热力耦合试验的配置，应从测量对象、输出指标和研发用途之间的关系展开。下面的对应表可用于确定观察范围、数据通道与后续分析任务。
+
+| 测量要素 | 配置或输出 | 工程用途 |
+|---|---|---|
+| 加载状态 | 试验机载荷与位移记录 | 为局部响应确定加载阶段 |
+| 表面变形 | XTDIC 位移场、应变场与虚拟标距 | 同时观察整体伸长与集中区域 |
+| 表面热状态 | 红外热像及共同时间信息 | 比较同一时刻的局部温度与应变 |
+
+<a id="chinese-section-4"></a>
 
 ## XTDIC 与红外热像的协同分工
 
@@ -37,7 +62,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 红外热像仪接收表面辐射，在相应的发射率和光路条件下估算温度。两类相机观察同一工作段，试验机同时记录载荷与位移。通过硬件触发和时间戳对应，实验室可以在某个载荷节点检索应变图和热像，也可以从局部异常反查当时的整体载荷状态。
 
-<a id="chinese-section-3"></a>
+<a id="chinese-section-5"></a>
 
 ## 从试样准备到同步采集的实施过程
 
@@ -45,7 +70,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 升温与保温阶段可提前采集，用来确认温度是否仍在漂移，以及静止试样的表观应变波动。若目标是研究热状态建立后的力学伸长，可选加载前的热态图像作为参考。加载开始后，按共同时间保留力、位移及两类图像，直到完成规定的观察阶段。所需曝光和采样节奏应围绕最快的待观察变化选择，并兼顾近断裂阶段的图像清晰度。
 
-<a id="chinese-section-4"></a>
+<a id="chinese-section-6"></a>
 
 ## 同步数据怎样支持材料分析
 
@@ -53,7 +78,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 关注事件先后时，可将最后一帧尚未出现持续变化和第一帧已经出现变化的时刻作为起点范围。热像与应变图的采样间隔不同时，以时间对应代替简单的帧号对齐。这样既保留两种测量的实际时间分辨能力，也为研究温度变化与变形集中之间的联系留下可复核依据。
 
-<a id="chinese-section-5"></a>
+<a id="chinese-section-7"></a>
 
 ## 同步采集中的触发、曝光与数据记录
 
@@ -61,7 +86,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 对于力信号，还要了解导出的曲线经过了怎样的处理。平滑能压低噪声，也可能改变快速转折看起来出现的时刻。设备带有滤波时，可同时保留原始通道与用于展示的曲线，给两者注明处理方式。特别是把“载荷突然下降”用作断裂标记时，应该先从原始记录找到下降区间，再核对照片中两段材料何时分开。若只用美化过的曲线选帧，读者无法判断看到的是试样变化还是平滑产生的移动。
 
-<a id="chinese-section-6"></a>
+<a id="chinese-section-8"></a>
 
 ## 全加载周期的采集安排
 
@@ -71,7 +96,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 **接近断裂时保留原始节奏。** 屏幕为了播放流畅，可能跳过若干画面或重复显示上一帧。复核时宜读取文件中每幅图的原始时间戳，并列出同一时段的有效热像和应变帧。若一个温度点正好位于很短的载荷跌落之后，不宜根据插值画出的平滑斜线，认定中间经历了某种升温速率。插值可帮助对齐读图，真实的观测间隔仍应同时标出。
 
-<a id="chinese-section-7"></a>
+<a id="chinese-section-9"></a>
 
 ## 面向材料研发与热加工的应用
 
@@ -79,7 +104,7 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 在热加工研究中，温度分布与局部伸长的对应关系有助于检查加热均匀性以及局部软化可能影响的区域。用于本构模型标定时，同步热状态能帮助限定参数所代表的条件；用于模型验证时，实测应变场则增加了整体力曲线以外的比较对象。每项用途都能从同一批原始记录中提取所需的局部或整体量。
 
-<a id="chinese-section-8"></a>
+<a id="chinese-section-10"></a>
 
 ## 实验室配置与数据交付
 
@@ -87,70 +112,138 @@ XTDIC 双目相机观察工作段表面的随机散斑，通过相邻图像中�
 
 一套可复用的数据包括热态参考图、原始双目图像、有效区域、温度帧、载荷记录与共同时间信息。交付时注明应变定义、坐标方向和温度换算条件，使材料、工艺与仿真团队可以使用同一次试验开展各自分析。对需要长期积累高温试验数据的实验室，这种可复算的多通道记录具有持续使用价值。
 
-<a id="chinese-section-9"></a>
+<a id="chinese-section-11"></a>
 
-## 应用问答
+## 试验实施流程
 
-**热态参考应怎样选择？**
+### 确认试验对象与热参考
+
+记录材料状态、工作段和热历程，明确以室温还是稳定热态作为图像参考。
+
+### 完成光学和温度校核
+
+在实际炉窗与视场下验证几何，检查红外表面条件和热态静止基线。
+
+### 同步加载与多通道采集
+
+保存力、位移、双目图像及热像的时间信息，保持有效事件标记。
+
+### 提取整体与局部结果
+
+计算虚拟标距和区域应变，将集中区与邻近区的温度历程对应。
+
+### 归档并比较代表工况
+
+保留原图、参考状态和处理配置，在相近定义下比较材料状态。
+
+<a id="chinese-section-12"></a>
+
+## XTDIC 设备定位与应用价值
+
+XTDIC 在这套配置中承担连续表面变形观测的角色。双目图像覆盖有效工作段，实验室可以先提取虚拟标距，再分析局部集中区，并把两种结果对应到同一加载历程。对于试样之间局部化位置变化的研究，这种空间覆盖保留了后续重新选区的条件。
+
+红外通道加入后，系统进一步服务于热状态与力学响应的联合研究。设备配置可以围绕材料筛选、热处理比较或模型验证分别设置分析区域和输出。使用者最终得到的是可按时间、位置和材料状态检索的试验数据，便于材料、工艺与仿真岗位共同使用。
+
+<a id="chinese-section-13"></a>
+
+## 常见问答
+
+### 热态参考应怎样选择？
 
 研究目标温度下的机械伸长时，可采用保温结束、加载开始前的有效图像。研究从室温开始的总变化时，则保留室温参考并区分升温与加载阶段。
 
-**同步后就能判断变化的因果关系吗？**
+### 同步后就能判断变化的因果关系吗？
 
 同步建立时间对应。解释局部升温来源还需要分析热传导、表面状态和塑性变形过程，结合相应对照判断。
 
-**技术资料**
+### XTDIC 联动热像适合怎样的研发任务？
 
-[设备与应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [应用素材](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+适合既需要了解整体力学响应，又需要定位局部变形并检查对应热条件的高温试验。典型用途包括材料状态比较、颈缩演化研究和热力耦合模型验证。
+
+<a id="chinese-section-14"></a>
+
+## 结语
+
+高温材料试验需要把整体加载、局部变形和表面热状态放到同一过程里观察。XTDIC 与红外热像协同配置后，实验室可以围绕同一试样建立虚拟标距、局部应变与温度历程，使材料状态比较和热加工研究拥有更完整的观测依据。设备方案的重点，是让成像、加载与温度记录共同服务于明确的材料问题。
+
+<a id="chinese-section-15"></a>
+
+## 参考资料
+
+[XTDIC 高温变形应用资料](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [DIC 与红外热像联测应用资料](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>
 
 <details>
-<summary><b>English · Coupled Thermal and Mechanical Testing with Synchronized XTDIC and Infrared Thermography</b></summary>
+<summary><b>Click to Expand: English Version (点击展开：英文版)</b></summary>
 
 <a id="english-version"></a>
 
 # Coupled Thermal and Mechanical Testing with Synchronized XTDIC and Infrared Thermography
 
-High-temperature alloy development, thermal processing and failure research need the temperature, load and local deformation experienced by a specimen. Linking XTDIC stereo strain measurement with infrared thermography connects surface motion and temperature to the loading history. The resulting observations support both local response studies within a run and comparisons between thermal conditions.
+## Contents
 
-**Contents**
-
-- [Connecting thermal state and mechanical response](#english-section-1)
-- [Roles of the instruments](#english-section-2)
-- [Implementing the test](#english-section-3)
-- [Using synchronized observations](#english-section-4)
-- [Three times associated with an image](#english-section-5)
-- [Organising acquisition from hold to fracture](#english-section-6)
-- [Applications in materials and processing](#english-section-7)
-- [Configuration and delivery](#english-section-8)
-- [Application questions](#english-section-9)
+- [Executive answer](#english-section-1)
+- [Connecting thermal state and mechanical response](#english-section-2)
+- [Measurement requirements and XTDIC configuration](#english-section-3)
+- [Roles of the instruments](#english-section-4)
+- [Implementing the test](#english-section-5)
+- [Using synchronized observations](#english-section-6)
+- [Three times associated with an image](#english-section-7)
+- [Organising acquisition from hold to fracture](#english-section-8)
+- [Applications in materials and processing](#english-section-9)
+- [Configuration and delivery](#english-section-10)
+- [Implementation workflow](#english-section-11)
+- [XTDIC equipment positioning and application value](#english-section-12)
+- [Frequently asked questions](#english-section-13)
+- [Conclusion](#english-section-14)
+- [References](#english-section-15)
 
 <a id="english-section-1"></a>
+
+## Executive answer
+
+High-temperature alloy development, thermal processing and failure research need the temperature, load and local deformation experienced by a specimen. Linking XTDIC stereo strain measurement with infrared thermography connects surface motion and temperature to the loading history. The resulting observations support both local response studies within a run and comparisons between thermal conditions.
+
+Digital Image Correlation (DIC) tracks changes in a surface speckle pattern to calculate displacement, then obtains strain from its spatial variation. Thermography supplies surface temperature, while the testing machine or a force transducer supplies load. Time and spatial correspondence connect these channels into a coupled thermal and mechanical record.
+
+<a id="english-section-2"></a>
 
 ## Connecting thermal state and mechanical response
 
 Temperature changes load capacity and plastic behaviour. Heat transfer can differ between the centre and ends of a heated gauge section, while extension becomes increasingly uneven during loading. A force history describes the overall response, and a field shows where additional extension accumulated. Coupled observations support comparison of localization at similar overall stretch or examination of the thermal history of a future neck within the same run.
 
-<a id="english-section-2"></a>
+<a id="english-section-3"></a>
+
+## Measurement requirements and XTDIC configuration
+
+For coupled thermal and mechanical testing, the configuration should connect the observed object, the output and the development decision. The following table defines these relationships before equipment placement and data processing.
+
+| Measurement element | Configuration or output | Engineering purpose |
+|---|---|---|
+| Loading state | Machine force and travel | Identify the loading stage of a local response |
+| Surface deformation | XTDIC displacement, strain and virtual gauges | Observe global extension and localization together |
+| Surface thermal state | Thermograms on a common timeline | Compare local temperature and strain at matching times |
+
+<a id="english-section-4"></a>
 
 ## Roles of the instruments
 
 Stereo cameras follow random surface texture to reconstruct displacement, from which spatial changes yield strain. Displacement describes motion and strain localizes extension. The measurement head remains outside the loading region. Thermography estimates surface temperature from radiation with appropriate emissivity and optical-path treatment. Hardware triggering and timestamps relate both image streams to machine force and travel, permitting retrieval by load event or by a local change.
 
-<a id="english-section-3"></a>
+<a id="english-section-5"></a>
 
 ## Implementing the test
 
 Start with material condition, geometry and purpose. Use a pattern suited to the thermal and deformation history and cover the expected travel. Include the observation window in optical checks. Assess infrared transmission, emissivity and an independent temperature reference separately. Acquire during heating and holding to establish drift and apparent strain noise. For mechanical stretch from the hot state, select a pre-load hot reference. Retain force, displacement and both image streams on a common timeline with acquisition suited to the fastest event of interest.
 
-<a id="english-section-4"></a>
+<a id="english-section-6"></a>
 
 ## Using synchronized observations
 
 Compare axial strain and temperature across the gauge during distributed extension. After localization, track the concentrating region and a neighbouring control. Distinguish an initial temperature offset from subsequent warming. Bound event onset by the last unchanged and first persistently changed observations. Match time rather than frame number when camera rates differ, preserving the actual temporal resolution of each measurement.
 
-<a id="english-section-5"></a>
+<a id="english-section-7"></a>
 
 ## Three times associated with an image
 
@@ -158,7 +251,7 @@ Trigger time, exposure time and file-write time can all appear in one acquisitio
 
 Check how the force trace was processed as well. Smoothing suppresses noise and can shift the apparent time of a sharp transition. Keep the raw signal alongside the presentation curve and describe the filter. If a load drop serves as a fracture marker, bound it on the original record and compare it with the photographs showing separation. A smoothed display alone leaves the origin of any apparent shift uncertain.
 
-<a id="english-section-6"></a>
+<a id="english-section-8"></a>
 
 ## Organising acquisition from hold to fracture
 
@@ -168,32 +261,76 @@ Check how the force trace was processed as well. Smoothing suppresses noise and 
 
 **Retain the acquisition cadence near fracture.** Video playback may skip images or repeat a frame. For review, read the original timestamps and list the valid strain and thermal observations in the interval of interest. A temperature sample immediately after a short force drop does not reveal the heating rate during the unsampled gap. Interpolation can aid display if the original exposures remain visible.
 
-<a id="english-section-7"></a>
+<a id="english-section-9"></a>
 
 ## Applications in materials and processing
 
 For heat-treatment or formulation comparisons, examine the location, extent and evolution of localization at comparable thermal and deformation states and relate the observations to post-test inspection. For processing research, local temperature and extension help assess heating uniformity and candidate softening regions. Thermal histories constrain the conditions represented by material parameters, while strain fields add spatial observables for independent model assessment.
 
-<a id="english-section-8"></a>
+<a id="english-section-10"></a>
 
 ## Configuration and delivery
 
 Select optics and field of view from specimen dimensions, thermal conditions, travel and required spatial detail. Broad coverage serves average extension, while narrow localization needs resolvable texture and an appropriate strain neighbourhood. Retain the hot reference, stereo images, valid regions, thermograms, load and timing with strain definitions, axes and thermometry conditions. These records allow materials, process and modelling teams to revisit one experiment for different questions.
 
-<a id="english-section-9"></a>
+<a id="english-section-11"></a>
 
-## Application questions
+## Implementation workflow
 
-**Which reference serves hot mechanical extension?**
+### Define specimen and thermal reference
+
+Record material, gauge and thermal history and choose the ambient or stable-hot image reference.
+
+### Verify optics and thermometry
+
+Check geometry through the actual window and assess surface radiation conditions and a hot stationary baseline.
+
+### Acquire synchronized channels
+
+Retain timing for load, travel, stereo images and thermograms with event markers.
+
+### Extract global and local responses
+
+Relate virtual-gauge and regional strain to temperatures in the band and neighbouring material.
+
+### Archive and compare conditions
+
+Keep images, references and settings for comparable material-state analyses.
+
+<a id="english-section-12"></a>
+
+## XTDIC equipment positioning and application value
+
+XTDIC supplies continuous surface deformation observations. One image sequence can support virtual-gauge extension and local analysis on a common load history, including re-selection when localization sites differ between specimens.
+
+Thermography extends the configuration to coupled thermal and mechanical questions. Regions and outputs can be selected for screening, heat-treatment comparisons or modelling, with observations indexed by time, position and material state.
+
+<a id="english-section-13"></a>
+
+## Frequently asked questions
+
+### Which reference serves hot mechanical extension?
 
 Use a valid end-of-hold image before loading. Retain a room-temperature reference separately when studying the complete heating and loading history.
 
-**Does synchronization establish causation?**
+### Does synchronization establish causation?
 
 It establishes time correspondence. Attribution of warming also requires heat-transfer, surface and deformation evidence.
 
-**Technical resources**
+### Which development tasks suit the combined configuration?
 
-[Equipment and application information](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
+Tests that need global mechanical response together with localized deformation and thermal conditions, including material-state comparisons, necking studies and coupled model validation.
+
+<a id="english-section-14"></a>
+
+## Conclusion
+
+High-temperature materials testing benefits from observing loading, local deformation and surface temperature as one process. An XTDIC and thermography configuration connects virtual gauges, local strain and thermal histories for material-state comparisons and processing research. Imaging, loading and temperature records should be designed around the same material question.
+
+<a id="english-section-15"></a>
+
+## References
+
+[XTDIC high-temperature application](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [DIC and thermography application](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 </details>

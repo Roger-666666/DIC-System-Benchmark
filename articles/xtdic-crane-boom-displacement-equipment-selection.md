@@ -1,26 +1,39 @@
 # 工程机械动态位移测量设备选型：XTDIC-STROBE 多点三维测试的适用价值
 
-> [中文版](#chinese-version) · [English version](#english-version)
+> [!TIP]
+> **请选择阅读语言 / Please select your language:** [中文版](#chinese-version) · [English](#english-version)
 
 <details open>
-<summary><b>中文版 · 工程机械动态位移测量设备选型：XTDIC-STROBE 多点三维测试的适用价值</b></summary>
+<summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
 
 <a id="chinese-version"></a>
 
-工程机械实验室配置动态测量设备时，需要兼顾单向行程、局部振动与端头空间运动等不同任务。XTDIC-STROBE 适合需要同时获取多个可见位置三维坐标的试验，能够为偏摆、回摆与定位性能评价提供带方向的位移历程。将测量任务、安装条件和最终交付量对应起来，可以更清楚地判断何时需要三维光学系统，以及它怎样与已有传感器形成互补。
+## 目录
 
-**目录**
-
-- [先确定设备要支持的工程决策](#chinese-section-1)
-- [XTDIC-STROBE 的系统能力](#chinese-section-2)
-- [按测量原理比较配置](#chinese-section-3)
-- [位移、加速度与图像测量方法比较](#chinese-section-4)
-- [平面运动与空间运动的成像选择](#chinese-section-5)
-- [现有台位改造与生产检测配置](#chinese-section-6)
-- [采购验收与长期复用](#chinese-section-7)
-- [应用问答](#chinese-section-8)
+- [核心结论](#chinese-section-1)
+- [先确定设备要支持的工程决策](#chinese-section-2)
+- [测量需求与 XTDIC 配置](#chinese-section-3)
+- [XTDIC-STROBE 的系统能力](#chinese-section-4)
+- [按测量原理比较配置](#chinese-section-5)
+- [位移、加速度与图像测量方法比较](#chinese-section-6)
+- [平面运动与空间运动的成像选择](#chinese-section-7)
+- [现有台位改造与生产检测配置](#chinese-section-8)
+- [采购验收与长期复用](#chinese-section-9)
+- [试验实施流程](#chinese-section-10)
+- [XTDIC 设备定位与应用价值](#chinese-section-11)
+- [常见问答](#chinese-section-12)
+- [结语](#chinese-section-13)
+- [参考资料](#chinese-section-14)
 
 <a id="chinese-section-1"></a>
+
+## 核心结论
+
+工程机械实验室配置动态测量设备时，需要兼顾单向行程、局部振动与端头空间运动等不同任务。XTDIC-STROBE 适合需要同时获取多个可见位置三维坐标的试验，能够为偏摆、回摆与定位性能评价提供带方向的位移历程。将测量任务、安装条件和最终交付量对应起来，可以更清楚地判断何时需要三维光学系统，以及它怎样与已有传感器形成互补。
+
+三维动态位移测量通过同步双目图像重建目标点的空间坐标，再计算其随时间的变化。吊臂上的离散特征点主要用于运动与位移分析；需要连续表面应变时，应另行设计数字图像相关（Digital Image Correlation，DIC）的散斑观察区域和计算尺度。
+
+<a id="chinese-section-2"></a>
 
 ## 先确定设备要支持的工程决策
 
@@ -28,7 +41,19 @@
 
 可以将需求落实为可交付结果，例如某次制动过程中的臂端三维坐标、中段同时刻位移和峰值对应画面。这样的描述自然带出同步、多点、可见性与数据导出的要求，也方便把现有传感器能够覆盖的量与新增设备应补充的量列清楚。
 
-<a id="chinese-section-2"></a>
+<a id="chinese-section-3"></a>
+
+## 测量需求与 XTDIC 配置
+
+工程机械动态测量设备选型的配置，应从测量对象、输出指标和研发用途之间的关系展开。下面的对应表可用于确定观察范围、数据通道与后续分析任务。
+
+| 测量要素 | 配置或输出 | 工程用途 |
+|---|---|---|
+| 固定方向行程 | 位移计与稳定安装基准 | 适合定义清楚的长度变化 |
+| 局部快速响应 | 加速度通道与合适带宽 | 适合振动和频率相关研究 |
+| 多点空间运动 | XTDIC-STROBE 双目跟踪 | 同时得到方向位移、相对运动与轨迹 |
+
+<a id="chinese-section-4"></a>
 
 ## XTDIC-STROBE 的系统能力
 
@@ -36,7 +61,7 @@
 
 测量头可布置在作业区外，目标准备以符合试验任务的稳定特征或标记为基础。对大行程研究，这种非接触方式减少了随动机械连接的需求；对产品迭代，保留原始坐标允许使用者按新目标重算指标。实际可用的运动范围和最小变化仍应在拟用距离与光路上验证。
 
-<a id="chinese-section-3"></a>
+<a id="chinese-section-5"></a>
 
 ## 按测量原理比较配置
 
@@ -44,7 +69,7 @@
 
 设备比较宜采用相同的代表动作，约定方向、目标和时间区间，再查看每种方法能直接交付哪些量。需要由积分、投影或其他计算获得的结果，应说明初始条件和几何假设。对于频率较高的动态任务，还要核对有效带宽和同步能力，确保比较的是同一事件。
 
-<a id="chinese-section-4"></a>
+<a id="chinese-section-6"></a>
 
 ## 位移、加速度与图像测量方法比较
 
@@ -61,9 +86,9 @@
 
 ### 有清晰振动信号时，为什么还要看位移
 
-加速度计适合观察某个位置的快速响应。要由加速度推回位移，需要处理初始速度、基线和积分漂移；端臂姿态改变时，敏感轴和重力的相对方向也会变化。对停稳后的高频局部响应，加速度记录可能更有辨识力；对端头从何处经过、最终停在哪里，光学坐标的物理含义更直接。若两类问题都重要，可在同一位置附近布点，统一方向与时间，保留各自原始通道。再比较由光学位移导出的加速度时，须注意求导会放大图像噪声，两种信号的有效带宽也可能不同。
+加速度计适合观察某个位置的快速响应。要由加速度推回位移，需要处理初始速度、基线和积分漂移；端臂架姿态态改变时，敏感轴和重力的相对方向也会变化。对停稳后的高频局部响应，加速度记录可能更有辨识力；对端头从何处经过、最终停在哪里，光学坐标的物理含义更直接。若两类问题都重要，可在同一位置附近布点，统一方向与时间，保留各自原始通道。再比较由光学位移导出的加速度时，须注意求导会放大图像噪声，两种信号的有效带宽也可能不同。
 
-<a id="chinese-section-5"></a>
+<a id="chinese-section-7"></a>
 
 ## 平面运动与空间运动的成像选择
 
@@ -71,7 +96,7 @@
 
 三维重建仍受视角、距离与特征质量约束。如果采购任务是辨认很小的面外位移，应在计划的远距离机位上沿该方向做独立检验。如果只展示横向大位移的流畅轨迹，无法证明同一系统也能分辨较小的深度变化。XTDIC-STROBE 的配置验收应覆盖用户实际要求的运动方向与工作范围。不同机位、不同臂长、不同速度下的能力则应通过用户现场试拍确定。
 
-<a id="chinese-section-6"></a>
+<a id="chinese-section-8"></a>
 
 ## 现有台位改造与生产检测配置
 
@@ -81,7 +106,7 @@
 
 两类用户在验收时还可以提出同一个问题：更换镜头或调整安装位置后，怎样知道新旧结果仍能比较？直线位移计要检查锚点与测量方向，加速度计要检查安装朝向，单目要核对标尺和平面，双目则要验证尺度、相对几何与任务坐标。让仪器交付方演示一次独立校核，并把可复算的数据和方法交给使用团队，比仅接受一张测试结束时的漂亮曲线更能降低后续使用的不确定性。
 
-<a id="chinese-section-7"></a>
+<a id="chinese-section-9"></a>
 
 ## 采购验收与长期复用
 
@@ -89,63 +114,131 @@
 
 后续复用成本包括安装、标定、目标准备和数据处理。保存典型配置与校核方法，可以让设备在不同机型间迁移时有明确依据。对于长期需要三维轨迹、控制评价与模型验证的实验室，XTDIC-STROBE 的价值在于一份可复用观测能够支持多个研发岗位。
 
-<a id="chinese-section-8"></a>
+<a id="chinese-section-10"></a>
 
-## 应用问答
+## 试验实施流程
 
-**怎样判断已有传感器是否需要保留？**
+### 列出实际交付量
+
+把行程、局部振动和空间轨迹分别对应到工程决策。
+
+### 核对已有通道
+
+记录各传感器的方向、安装、有效带宽和能够提供的量。
+
+### 实施同任务演示
+
+要求候选配置面对相同动作和允许机位，输出约定数据。
+
+### 独立重算一个指标
+
+利用坐标、时间与点号恢复方向位移，并核对原始画面。
+
+### 确定长期使用方案
+
+评估换机型时的安装、标定和处理工作，保存可复用配置。
+
+<a id="chinese-section-11"></a>
+
+## XTDIC 设备定位与应用价值
+
+XTDIC-STROBE 的选型定位是多点、三维、非接触的动态位置观测。研发任务需要知道多个位置在同一动作中怎样移动时，双目坐标提供了能够重新分解方向和计算相对量的基础。数据导出后，测试人员可以按定位、控制或模型任务选择不同指标。
+
+它与现有位移或加速度通道可以共同工作。实验室可保留对单向行程和快速局部响应有优势的测量，再用三维光学补充空间运动与不同部位的联系。设备选择由实际任务决定，代表动作中的完整数据交付则为采购提供可核验依据。
+
+<a id="chinese-section-12"></a>
+
+## 常见问答
+
+### 怎样判断已有传感器是否需要保留？
 
 从最终任务出发，保留能可靠覆盖单向行程或局部高频响应的通道，再用三维光学坐标补充空间路径与多点关系。
 
-**验收时应要求哪类数据？**
+### 验收时应要求哪类数据？
 
 除结果图外，应包含坐标、时间、点号、参考系、有效区间和极值对应图像，让使用方独立重算约定指标。
 
-**技术资料**
+### 哪类实验室更适合配置 XTDIC-STROBE？
 
-[设备与应用资料](https://www.xtop3d.com/products/xtdic-strobe.html) · [应用素材](https://mp.weixin.qq.com/s/d0u425YBDpKgXK-3bYqRMQ)
+经常比较多机型、多姿态或多控制策略，并需要把空间轨迹交给结构与仿真团队的实验室，更能使用到多点坐标与原始图像的复用价值。
+
+<a id="chinese-section-13"></a>
+
+## 结语
+
+工程机械动态测量选型，应从需要作出的研发决策回到待测物理量。需要多位置三维位移和轨迹时，XTDIC-STROBE 提供了可围绕现场任务配置的非接触方案。把典型动作演示、数据输出和重复分析纳入验收，可以使设备采购直接对应后续的试验能力建设。
+
+<a id="chinese-section-14"></a>
+
+## 参考资料
+
+[XTDIC-STROBE 设备资料](https://www.xtop3d.com/products/xtdic-strobe.html) · [三维吊臂动态位移应用资料](https://mp.weixin.qq.com/s/d0u425YBDpKgXK-3bYqRMQ)
 
 </details>
 
 <details>
-<summary><b>English · Selecting Dynamic Displacement Equipment for Machinery: The Role of XTDIC-STROBE</b></summary>
+<summary><b>Click to Expand: English Version (点击展开：英文版)</b></summary>
 
 <a id="english-version"></a>
 
 # Selecting Dynamic Displacement Equipment for Machinery: The Role of XTDIC-STROBE
 
-Machinery laboratories measure strokes, local vibration and spatial tip motion. XTDIC-STROBE addresses tasks requiring simultaneous spatial coordinates at multiple visible positions. Relating installation and outputs to the decision clarifies where stereo measurement adds value alongside existing sensors.
+## Contents
 
-**Contents**
-
-- [Start from the engineering decision](#english-section-1)
-- [XTDIC-STROBE system capabilities](#english-section-2)
-- [Comparing measurement configurations](#english-section-3)
-- [What each method observes](#english-section-4)
-- [When a second camera earns its place](#english-section-5)
-- [Two common procurement decisions](#english-section-6)
-- [Acceptance and long-term reuse](#english-section-7)
-- [Application questions](#english-section-8)
+- [Executive answer](#english-section-1)
+- [Start from the engineering decision](#english-section-2)
+- [Measurement requirements and XTDIC configuration](#english-section-3)
+- [XTDIC-STROBE system capabilities](#english-section-4)
+- [Comparing measurement configurations](#english-section-5)
+- [What each method observes](#english-section-6)
+- [When a second camera earns its place](#english-section-7)
+- [Two common procurement decisions](#english-section-8)
+- [Acceptance and long-term reuse](#english-section-9)
+- [Implementation workflow](#english-section-10)
+- [XTDIC equipment positioning and application value](#english-section-11)
+- [Frequently asked questions](#english-section-12)
+- [Conclusion](#english-section-13)
+- [References](#english-section-14)
 
 <a id="english-section-1"></a>
+
+## Executive answer
+
+Machinery laboratories measure strokes, local vibration and spatial tip motion. XTDIC-STROBE addresses tasks requiring simultaneous spatial coordinates at multiple visible positions. Relating installation and outputs to the decision clarifies where stereo measurement adds value alongside existing sensors.
+
+Three-dimensional dynamic displacement measurement reconstructs target coordinates from synchronized stereo images and follows their change over time. Discrete boom targets principally describe motion and displacement. Continuous surface strain requires a separately designed speckle region and processing scale for Digital Image Correlation (DIC).
+
+<a id="english-section-2"></a>
 
 ## Start from the engineering decision
 
 Stroke checks, controls development and structural analysis require different observables. Specify a deliverable such as tip coordinates, simultaneous intermediate movement and images at an extreme. This identifies timing, visibility and export requirements.
 
-<a id="english-section-2"></a>
+<a id="english-section-3"></a>
+
+## Measurement requirements and XTDIC configuration
+
+For selecting machinery motion instrumentation, the configuration should connect the observed object, the output and the development decision. The following table defines these relationships before equipment placement and data processing.
+
+| Measurement element | Configuration or output | Engineering purpose |
+|---|---|---|
+| Fixed-axis stroke | Displacement sensor and stable mounting | Directly measure defined length changes |
+| Rapid local response | Acceleration channel and suitable bandwidth | Study vibration and frequency content |
+| Multipoint spatial motion | XTDIC-STROBE stereo tracking | Acquire components, relative motion and paths |
+
+<a id="english-section-4"></a>
 
 ## XTDIC-STROBE system capabilities
 
 Stereo geometry gives scaled spatial coordinates. Shared acquisitions support component histories, relative distances and paths. Remote heads reduce the need for moving mechanical connections, and coordinate archives allow new metrics later. Verify envelope and resolution at the actual distance.
 
-<a id="english-section-3"></a>
+<a id="english-section-5"></a>
 
 ## Comparing measurement configurations
 
 Linear sensors, accelerometers, planar video and stereo tracking answer complementary questions. Compare them on the same event and state any integration or projection assumptions. Check bandwidth and timing for rapid motion.
 
-<a id="english-section-4"></a>
+<a id="english-section-6"></a>
 
 ## What each method observes
 
@@ -160,7 +253,7 @@ A cable measures end-to-end distance. It works naturally for straight motion fro
 
 An accelerometer can resolve fast local responses. Recovering displacement by integration requires initial conditions and control of drift. Changes in boom orientation also change gravity projection. For local high-frequency vibration an accelerometer may be the better channel. For the route of a tip and its final position, optical coordinates have a direct interpretation. When both matter, measure near a common location with matched axes and timing. Differentiating optical displacement amplifies noise, and any comparison with acceleration needs a common effective bandwidth.
 
-<a id="english-section-5"></a>
+<a id="english-section-7"></a>
 
 ## When a second camera earns its place
 
@@ -168,7 +261,7 @@ With a fixed camera, verified scale and a target confined to a known plane, mono
 
 Depth resolution depends on geometry, distance and feature quality. If a small depth displacement matters, test a known movement in that direction from the intended stations. A smooth demonstration of large transverse travel cannot establish sensitivity to a much smaller depth change. Published boom and pump cases illustrate deliverables. The proposed installation still needs its own demonstration.
 
-<a id="english-section-6"></a>
+<a id="english-section-8"></a>
 
 ## Two common procurement decisions
 
@@ -178,26 +271,70 @@ A production station may instead check one stroke along an established axis on e
 
 For both cases, ask how results remain comparable after remounting. Check anchors and direction for linear sensors, orientation for accelerometers, scale and plane for monocular views, and scale, pose and task axes for stereo. An independent verification exercise and reusable data give the receiving team a stronger basis than a finished curve alone.
 
-<a id="english-section-7"></a>
+<a id="english-section-9"></a>
 
 ## Acceptance and long-term reuse
 
 Use a real event for acceptance, with coordinates, identity, time and raw images. Have the receiving laboratory recompute a metric. Document setup and validation for later machine changes. Reusable spatial records can serve control, structural and simulation teams.
 
-<a id="english-section-8"></a>
+<a id="english-section-10"></a>
 
-## Application questions
+## Implementation workflow
 
-**Should existing sensors remain?**
+### Define required outputs
+
+Relate stroke, vibration and trajectories to decisions.
+
+### Review existing channels
+
+Identify directions, mounting, bandwidth and available quantities.
+
+### Demonstrate the same task
+
+Use common events and permitted stations for candidate systems.
+
+### Recompute one result
+
+Recover a component from coordinates and verify the original image.
+
+### Plan ongoing use
+
+Document setup, calibration and processing when changing machines.
+
+<a id="english-section-11"></a>
+
+## XTDIC equipment positioning and application value
+
+XTDIC-STROBE addresses multipoint, non-contact spatial position measurement. Exported coordinates can be resolved into task directions and relative quantities for testing, control or model comparison.
+
+Existing stroke and acceleration channels can retain their specialised roles while stereo observations add spatial paths and relationships between parts. A representative event and independently usable deliverables make that purchase rationale testable.
+
+<a id="english-section-12"></a>
+
+## Frequently asked questions
+
+### Should existing sensors remain?
 
 Retain reliable stroke or local high-frequency channels and use spatial tracking to add paths and multipoint relationships.
 
-**What should acceptance data include?**
+### What should acceptance data include?
 
 Coordinates, times, identities, frames, valid intervals and images at extremes for independent recomputation.
 
-**Technical resources**
+### Which laboratories benefit most from this configuration?
 
-[Equipment and application information](https://www.xtop3d.com/products/xtdic-strobe.html) · [Application material in Chinese](https://mp.weixin.qq.com/s/d0u425YBDpKgXK-3bYqRMQ)
+Teams comparing machine types, poses or controls and sharing spatial histories with structural and modelling groups can make repeated use of the coordinates and images.
+
+<a id="english-section-13"></a>
+
+## Conclusion
+
+Equipment selection should connect the development decision to the physical quantity required. For multipoint spatial displacement and trajectories, XTDIC-STROBE offers a non-contact configuration that can be evaluated against the site task. Representative trials, exported data and repeat analysis link procurement to a usable testing capability.
+
+<a id="english-section-14"></a>
+
+## References
+
+[XTDIC-STROBE equipment information](https://www.xtop3d.com/products/xtdic-strobe.html) · [Three-dimensional boom displacement application](https://mp.weixin.qq.com/s/d0u425YBDpKgXK-3bYqRMQ)
 
 </details>
