@@ -1,67 +1,87 @@
-# 断口形成之前，金属从哪里开始变细？沿着应变图找颈缩
+# 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 断口形成之前，金属从哪里开始变细？沿着应变图找颈缩</b></summary>
+<summary><b>中文版 · 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温拉伸中的变形与损伤 · 专题四*
+*高温材料变形与损伤测量系列 · 原理与应用*
 
-一根拉断的金属试样摆在桌上，断口两侧往往留着一段明显变细的部分。工程师把拉伸时局部截面逐渐收小的现象叫作颈缩。断后的形状很直观，但如果把问题改成“它从什么时候开始变细”，仅凭这两截金属就很难回答。XTDIC 高温拉伸案例给了另一种看法：从应变开始向一处集中时看起，再跟踪那里的外形。
+颈缩是拉伸试样在某一局部逐渐变细的现象。对于高温金属圆棒，颈缩位置关系到后续断裂发生在哪一段，也是研究材料局部变形能力的重要依据。XTDIC 高温拉伸案例显示，在圆棒外形明显收窄之前，主应变图上已经可以分辨出变形集中的区域。应变集中、外形颈缩与最终断裂各有对应的观测证据，标记这几个阶段时需要说清各自采用的判据。
 
-## 为什么一条总伸长曲线还不够
+## 为什么平均伸长容易遗漏局部变化
 
-想象夹具之间有几段相邻的金属，同样的总伸长，可以由每一段大致均摊，也可以是其中很短的一段承担了大部分。试验机记录的拉力和位移能交代整根试样受力的经过，却很难从一条曲线上读出究竟是哪一段变了。尤其是拉力达到峰值的那个点，能把观察范围缩到一段重要的时间，却无法在试样表面替人圈出一个位置。
+若在标距段的两端做标记，拉伸前后测量两点的距离变化，就能得到这段材料的平均伸长信息。局部化初期，只有很短的一段比周围伸得快，其变化在沿整段求平均时会被摊薄。两件试样即使达到相近的总伸长，也可能在不同位置形成不同宽度的集中区。要了解损伤在何处发展，需要把测量范围从两端之间的一个平均值，扩展到可见表面的许多小区域。
 
-## 沿着颜色变集中的地方看轮廓
+数字图像相关法跟踪表面花纹的运动，从局部位移变化计算应变。主应变描述局部沿主方向的拉伸或压缩程度，其中最大主应变有助于寻找伸长最为集中的区域。读图时应查看图例与方向定义，并让不同时刻的图使用相同色标。若每张图都把本帧最大值显示为红色，仅凭红色面积很难比较集中程度是否加重。
 
-公开案例里的主应变图显示了材料表面各处沿局部最大拉伸方向的应变。读图时，可以先找一片最初伸长较为接近的区域，再把相邻时刻的图放在同一色标下比较。如果后来有一小段持续比两旁伸得快，这一带就值得在原始照片上追踪。把该处两侧边缘之间的宽度，与附近仍较均匀处的宽度随时间对照，可以观察局部收窄是否也在同一带发展。应变集中提供了早期线索，轮廓补上了看得见的形状变化。
+## 从试验信号识别变形阶段
 
-照片里还可能出现另一种情形。越接近断裂，表面花纹越容易拉散，裂口也可能把原来相连的花纹分到两侧。此时云图上缺了一块颜色，只能说明这块区域缺少可靠的应变读数。原始轮廓仍然值得看，最后一张可靠的应变图也值得保留，两者对应的时刻要分别说清楚。
+| 试验阶段 | 优先观察的证据 | 可以作出的判断 |
+| --- | --- | --- |
+| 较均匀的拉伸 | 轴向位移沿标距连续变化，应变分布较平缓 | 观察范围内伸长较为分散 |
+| 局部应变集中 | 同一区域连续多帧比两旁伸得更快 | 可将该区域列为后续颈缩的观察对象 |
+| 可见颈缩 | 原始照片上局部宽度持续减小，且与邻近区域拉开差异 | 可以定位可见表面的收窄区域 |
+| 接近断裂 | 轮廓继续演变，部分散斑可能无法匹配 | 标明最后可靠的应变帧，另存断裂照片 |
 
-## 热像给颈缩增加了什么信息
+## 常见问题
 
-知道细颈的位置之后，就可以回到红外录像，查看这块材料在收窄前、收窄中经历了怎样的表面温度变化。即使附近没有清楚可辨的热点，轮廓和应变记录依然有助于识别颈缩。反过来，只有一处变热，证据还不足以认定那里已经变细。把这几种观察按发生顺序接起来，才说得清材料从局部伸长走向断裂的过程，也能看清哪一步仍然缺少证据。
+**载荷开始下降，能直接定位颈缩吗？** 载荷峰值能确定值得回看的时段。要找位置，还需要这一时段的应变场和试样轮廓。比较轮廓时可跟随同一小段材料，避免把材料沿轴向移动误当成局部宽度变化。
 
-[原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验与图像](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+**热像上的亮点能作为颈缩起点吗？** 亮点可以协助选择复查区域。识别颈缩仍要看材料是否局部收窄，并核对温度差在加载前是否已经存在。热像的意义在于为已定位的变形区域补充热状态。
+
+**局部应变大就代表出现了内部裂纹吗？** 表面应变图提供的是表面运动信息。要确认内部裂纹或损伤机制，还要结合截面、断口或其他独立检查。对于材料筛选，可以先比较各试样的集中位置与发展过程；对于失效分析，则应把这些记录与断后证据相对应。
+
+[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 ## 系列阅读
 
-[222 · 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version) · [227 · 电脑算出的金属拉伸过程可信吗？用一次高温试验检验仿真](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
+- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
+- [227 · 高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
 
 </details>
 
 <details>
-<summary><b>English · Where Does Hot Metal Begin to Narrow? Following a Neck Before Fracture</b></summary>
+<summary><b>English · Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain</b></summary>
 
 <a id="english-version"></a>
 
-# Where Does Hot Metal Begin to Narrow? Following a Neck Before Fracture
+# Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain
 
-*Deformation and damage in hot tension · Part 4*
+*Measuring deformation and damage at elevated temperature · Measurement principles*
 
-A broken tensile specimen often has a visibly thinned section on either side of the fracture. The progressive local reduction in cross-section during stretching is called necking. Its final shape is easy to recognise on a bench. Its beginning is harder to date from the broken pieces. The XTDIC hot tensile case offers another starting point. Follow the patch where strain begins to concentrate, then watch what happens to its outline.
+Necking is the progressive local narrowing of a specimen under tension. Its location in a hot round bar matters both to the eventual fracture site and to the assessment of local deformability. In the published XTDIC test, strain concentration could be identified before narrowing became obvious in the outline. Localized strain, a visible neck and final fracture each have their own observable evidence.
 
-## Why total elongation leaves the location open
+## Why average extension can miss an early change
 
-Imagine the material between the grips divided into neighbouring lengths. The same overall extension could be shared quite evenly or taken up mainly by one short length. The machine records how the force and displacement develop for the specimen as a whole. The peak force marks an interesting part of that history, but it has no spatial coordinate on the specimen.
+Two marks at the ends of a gauge length give an average measure of extension between them. Early in localization, a short section stretches faster than its surroundings. Averaging across the gauge length dilutes its contribution. Two specimens with similar overall extension can develop concentrated bands in different locations and over different widths. Studying that process requires observations across many small regions on the visible surface.
 
-## Follow the band back to the photograph
+Digital image correlation tracks surface texture and estimates strain from spatial changes in displacement. Principal strains describe extension or contraction along local principal directions. The maximum principal strain helps locate regions of concentrated stretch. Interpretation requires the plotted quantity and a consistent colour scale. If every map displays its own highest value in red, red area alone gives a poor comparison across time.
 
-The principal strain maps in the case show local strain in the direction of greatest extension at each surface point. Start with a region that initially stretches fairly evenly. Compare successive maps using the same colour scale. If a short length repeatedly stretches faster than the material on either side, follow it in the photographs. Comparing the distance between its two edges with the width of a neighbouring section over time reveals whether a local narrowing is developing there. The strain map offers an early lead. The outline supplies visible evidence of the change in shape.
+## Evidence for successive stages
 
-Close to fracture, the pattern may stretch beyond recognition or split across an opening crack. A blank area in a strain map then means reliable strain readings are missing there. The original outline may remain readable. Keeping the last trustworthy strain map and the later photograph with their respective times preserves both pieces of evidence.
+| Stage | Evidence to examine | Supported interpretation |
+| --- | --- | --- |
+| Relatively uniform tension | Continuous axial displacement and broadly distributed strain | Extension is shared across the observed length |
+| Strain localization | The same patch stretches faster than adjacent patches in successive frames | A region to follow for later necking |
+| Visible necking | Local width persistently decreases relative to neighbouring sections | The visible narrowing can be located |
+| Approaching fracture | The outline evolves and some speckles may cease to match | Identify the last reliable strain map and retain the fracture image separately |
 
-## What the thermal record adds
+## Frequently asked questions
 
-Once the neck has been located, the infrared recording can reveal the surface temperature history of that piece of material before and during narrowing. Even without a distinct hot spot, the edge and strain records can support identification of a neck. A warm patch by itself is insufficient evidence of narrowing. Reading the observations in sequence shows how far the experiment can trace the path from concentrated stretch toward fracture.
+**Does a fall in load locate the neck?** Peak force identifies a time interval worth reviewing. Strain fields and specimen outlines locate the region. Following the same material section avoids confusing axial motion with a change in local width.
 
-[Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test and images](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+**Does a bright thermal spot mark necking onset?** It can direct attention to a region. Identification still requires evidence of local narrowing and consideration of any temperature difference present before loading. Thermograms describe the thermal state of the identified region.
+
+**Does high local strain establish an internal crack?** A surface strain map describes surface motion. Sectioning, fracture-surface observations or another independent inspection are needed for an internal crack or damage mechanism. Material screening can compare localization histories, while a failure investigation can connect those histories to post-fracture evidence.
+
+[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 ## In this series
 
-[222 · Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version) · [227 · Can a Simulation Predict Where Hot Metal Will Stretch? Testing It Against a Tensile Experiment](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
+- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
+- [227 · Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
 
 </details>

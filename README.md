@@ -482,12 +482,12 @@ If you have calibration data, application case studies, or corrected specificati
 | 219 | [Three Routes to Wafer Warp: Shadow Moiré, DFP and 3D DIC](articles/dic-wafer-warp-shadow-moire-dfp-dic-comparison.md#english-version) | Output definitions, working distance, five mismatches, three selection questions |
 | 220 | [Why Measurement Inside a Hot Closed Chamber Goes Wrong: Four Symptoms and Their Fixes](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#english-version) | Airflow jitter, edge refraction, rigid-body drift, temperature misalignment, speckle failure |
 | 221 | [From a Warp Curve to a Package Thermal-Matching Decision: Criteria, Report and Delivery](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#english-version) | Comparability conditions, CTE inversion, simulation reference, thresholds, report contents |
-| 222 | [Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography](articles/xtdic-infrared-hot-tension-case.md#english-version) | Hot tensile testing, digital image correlation, infrared thermography, strain localization |
-| 223 | [Did the Metal Warm Up or Start to Neck First? Putting Two Cameras on the Same Clock](articles/xtdic-infrared-hot-tension-timing.md#english-version) | Timestamps, exposure timing, event ordering |
-| 224 | [Is the Hottest Spot Also the Most Stretched Part of the Metal?](articles/xtdic-infrared-hot-tension-registration.md#english-version) | Spatial registration, material coordinates, thermal resolution |
-| 225 | [Why Speckle Hot Metal? One Surface Seen by Two Different Cameras](articles/xtdic-infrared-hot-tension-surface.md#english-version) | High-temperature speckles, emissivity, infrared thermometry |
-| 226 | [Where Does Hot Metal Begin to Narrow? Following a Neck Before Fracture](articles/xtdic-infrared-hot-tension-necking.md#english-version) | Necking onset, local strain, width profile |
-| 227 | [Can a Simulation Predict Where Hot Metal Will Stretch? Testing It Against a Tensile Experiment](articles/xtdic-infrared-hot-tension-validation.md#english-version) | Thermomechanical validation, temperature boundary, field residuals |
+| 222 | [XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](articles/xtdic-infrared-hot-tension-case.md#english-version) | Hot tensile tests, full-field strain, infrared thermography, necking |
+| 223 | [Synchronizing XTDIC Strain, Infrared Temperature and Load in Hot Tensile Tests](articles/xtdic-infrared-hot-tension-timing.md#english-version) | Hardware triggering, timestamps, load and temperature histories |
+| 224 | [Locating Hot Regions in Tension: Three Ways to Compare Thermograms with XTDIC Strain Fields](articles/xtdic-infrared-hot-tension-registration.md#english-version) | Spatial registration, fixed regions, material tracking |
+| 225 | [High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks](articles/xtdic-infrared-hot-tension-surface.md#english-version) | Inorganic speckles, window refraction, emissivity |
+| 226 | [Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](articles/xtdic-infrared-hot-tension-necking.md#english-version) | Average elongation, principal strain, neck identification |
+| 227 | [Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](articles/xtdic-infrared-hot-tension-validation.md#english-version) | Thermomechanical simulation, material calibration, independent validation |
 
 ---
 
@@ -978,12 +978,12 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 219 | [测晶圆翘曲的三条路线：Shadow Moiré、DFP与三维DIC怎么选](articles/dic-wafer-warp-shadow-moire-dfp-dic-comparison.md#chinese-version) | 输出口径、工作距离、五种误配、选型三问 |
 | 220 | [高温密闭腔里测晶圆翘曲，为什么总是不准：四类症状与对症处理](articles/dic-wafer-high-temperature-chamber-measurement-pitfalls.md#chinese-version) | 气流抖动、边缘折射、刚体漂移、温度错配、散斑失效 |
 | 221 | [从翘曲曲线到封装热匹配决策：这批数据到底该怎么用](articles/dic-wafer-warp-data-encapsulation-thermal-matching-decision.md#chinese-version) | 数据可比性、CTE反演、仿真参照、判据来源、报告七项 |
-| 222 | [一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸](articles/xtdic-infrared-hot-tension-case.md#chinese-version) | 高温拉伸、数字图像相关、红外热成像、应变局部化 |
-| 223 | [金属是先升温，还是先被拉细？把高温拉伸的两段录像对到同一刻](articles/xtdic-infrared-hot-tension-timing.md#chinese-version) | 统一时间戳、曝光时间、事件先后 |
-| 224 | [热像里最热的地方，真是金属被拉得最厉害的地方吗？](articles/xtdic-infrared-hot-tension-registration.md#chinese-version) | 空间配准、材料坐标、热像分辨率 |
-| 225 | [为什么要给高温试样做散斑？从一块金属表面读懂两台相机](articles/xtdic-infrared-hot-tension-surface.md#chinese-version) | 高温散斑、表面发射率、红外测温 |
-| 226 | [断口形成之前，金属从哪里开始变细？沿着应变图找颈缩](articles/xtdic-infrared-hot-tension-necking.md#chinese-version) | 颈缩起点、局部应变、宽度变化 |
-| 227 | [电脑算出的金属拉伸过程可信吗？用一次高温试验检验仿真](articles/xtdic-infrared-hot-tension-validation.md#chinese-version) | 热力耦合仿真、温度边界、全场残差 |
+| 222 | [DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](articles/xtdic-infrared-hot-tension-case.md#chinese-version) | 高温圆棒拉伸、全场应变、红外热成像、颈缩 |
+| 223 | [高温拉伸同步采集方法：如何对齐 XTDIC 应变、红外温度与载荷记录](articles/xtdic-infrared-hot-tension-timing.md#chinese-version) | 硬件触发、时间戳、载荷与温升 |
+| 224 | [高温拉伸热区定位：红外热像与 XTDIC 应变场的三种对照方法](articles/xtdic-infrared-hot-tension-registration.md#chinese-version) | 空间配准、固定测区、材料跟踪 |
+| 225 | [隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案](articles/xtdic-infrared-hot-tension-surface.md#chinese-version) | 无机散斑、炉窗折射、发射率 |
+| 226 | [高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](articles/xtdic-infrared-hot-tension-necking.md#chinese-version) | 平均伸长、主应变、颈缩识别 |
+| 227 | [高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](articles/xtdic-infrared-hot-tension-validation.md#chinese-version) | 热力耦合仿真、材料标定、独立验证 |
 
 ---
 

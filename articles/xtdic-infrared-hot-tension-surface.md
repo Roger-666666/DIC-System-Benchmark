@@ -1,67 +1,85 @@
-# 为什么要给高温试样做散斑？从一块金属表面读懂两台相机
+# 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案
 
 > [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>中文版 · 为什么要给高温试样做散斑？从一块金属表面读懂两台相机</b></summary>
+<summary><b>中文版 · 隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案</b></summary>
 
 <a id="chinese-version"></a>
 
-*高温拉伸中的变形与损伤 · 专题三*
+*高温材料变形与损伤测量系列 · 试验方案*
 
-光滑的金属条被慢慢拉长，肉眼看两端就能发现它变长了。可如果只看金属条中间一小块光亮的表面，怎样认出上一张照片里那块材料去了哪里？旁边的材料看起来几乎一模一样。这正是高温数字图像相关测量要在试样表面制作散斑的原因。小斑点一旦组成不规则的花纹，相机就有了能沿途辨认的标记。
+高温炉中的同一根金属圆棒，对两套相机提出了不同要求。XTDIC 需要能随材料移动并持续辨认的表面纹理；热像仪需要知道有多少红外辐射由试样发出，又有多少来自反射或观察窗本身。配置联合试验时，要把散斑、可见光光路和红外光路分别核查，再决定哪些区域可以同时用于应变和温度分析。
 
-## 斑点必须跟着金属一起走
+## 测试难点来自哪里
 
-XTDIC 比较连续照片中局部花纹的位置，根据邻近花纹间距的变化计算应变。对于高温拉伸，花纹需要经历升温、保温和随后的拉伸。如果涂层在保温时已经剥落，两张照片里最相似的亮点可能属于不同位置。如果涂层在拉伸时开裂，花纹自身也会发生突变。软件在这些区域给出的突变，首先需要回到照片上辨认来源。看到一条突出的色带时，检查斑点有没有随金属完整移动，是很实际的一步。
+圆棒表面光滑，拉伸前后相邻位置在可见光照片里可能很相似。升温还会改变亮度和图案对比度，使原本可跟踪的区域变得模糊。炉窗的折射会影响双目重建时物点的位置；热像仪工作在不同于可见光的波段，一块肉眼透明的窗口，其红外透过率仍需按实际波段确认。这几种干扰作用在不同环节，单纯增加照明无法一并解决。
 
-## 同一层散斑，到了红外相机里是什么
+## XTDIC 案例怎样建立可用的变形记录
 
-热像仪根据接收到的红外辐射估计表面温度。这里有一个和金属表面状态密切相关的量，叫作发射率。可以这样理解：即使处在相同温度，裸露金属和表面涂层发出的红外辐射也可能不同。光亮的金属还可能把炉壁的辐射反射到镜头里。因此，一块在热像上显得特别亮的区域，可能真的更热，也可能与它的表面状态有关。可见光照片里斑点的黑白深浅，不能直接给出红外相机要用的发射率。
+公开试验在圆棒工作段制备耐高温无机散斑，让双目相机在加载期间跟踪同一片表面。案例还说明了针对炉窗的折射校准。实际部署时，应在与试验一致的观察条件下检查标定和成像，保留保温阶段的照片作参考。若试样尚未加载，图像中却出现移动的波纹，应先排查热气流等光学因素。若只有一小块花纹开裂或剥落，则要在后续分析中单独标记这块区域。
 
-## 一个能在加力前问清的问题
+## 同一表面怎样用于红外测温
 
-设想样品还在保温，试验机尚未开始拉。若热像中一道明暗分界恰好沿着涂层边缘延伸，这个时候就值得把原始热像留下，核查表面处理、热像波段和观察窗的透过特性，并与独立测温位置作比较。等到拉伸后再看到同一条边界，有了加载前的记录，就不容易把它误读为刚刚发生的局部发热。这是对公开试验方法的读图举例，并非该试样出现过的异常。
+热像仪把接收到的辐射换算成温度，需要考虑表面发射率，也就是材料表面在该波段发射热辐射的能力。涂层和裸露金属即使同温，也可能给出不同的辐射信号。若涂层边缘在加载前就呈现明显温差，加载后出现相似边界时，直接把它归因于塑性发热就缺少依据。
 
-同一块表面要同时回答两个问题。散斑附着得好，才有把握判断材料在哪里伸长；辐射条件核查清楚，才有把握判断那里是否变热。两种证据都在，局部温升和局部变形之间的联系才值得进一步追究。
+| 观察到的现象 | 可以安排的核查 | 对分析区域的处理 |
+| --- | --- | --- |
+| 保温时散斑局部脱落 | 回看原始照片，检查时间上的连续性 | 标记失去跟踪的区域和起始帧 |
+| 热像明暗边界与涂层边缘一致 | 对照加载前热像，检查发射率设置和独立温度参考 | 单独评估该处测温可信度 |
+| 两个镜头对圆棒边缘的可见范围不同 | 对照轮廓与相机视角 | 取两路都能可靠观测的表面范围 |
 
-[原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验与图像](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+## 方案适用边界
+
+上述核查适用于透过观察口开展的高温拉伸，也适用于更换散斑工艺、窗口或热像仪之后的复测。交付结果时，保留一张加载前的可见光图、一张对应热像，以及可用于联合分析的区域说明，比只给出最后一幅彩色云图更方便复核。公开案例确认了散斑处理、炉窗校准及同步采集；表中的异常是方案设计时需要考虑的情形，不代表该案例实际发生过。
+
+[查看 XTDIC 试样、设备及实测云图](https://www.xtop3d.com/casesdetail/gwhwbxlc.html) · [微信原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 ## 系列阅读
 
-[222 · 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version) · [226 · 断口形成之前，金属从哪里开始变细？沿着应变图找颈缩](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
+- [222 · DIC 技术联动红外热像仪：高温金属圆棒拉伸变形与损伤表征案例](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version)
+- [226 · 高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
 
 </details>
 
 <details>
-<summary><b>English · Why Speckle Hot Metal? One Surface Seen by Two Different Cameras</b></summary>
+<summary><b>English · High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks</b></summary>
 
 <a id="english-version"></a>
 
-# Why Speckle Hot Metal? One Surface Seen by Two Different Cameras
+# High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks
 
-*Deformation and damage in hot tension · Part 3*
+*Measuring deformation and damage at elevated temperature · Test configuration*
 
-A smooth strip of metal lengthens as its ends move apart. Looking at the grips makes that easy to see. Looking only at a tiny shiny patch in the middle poses a harder question. Where did the piece of material in the previous photograph go? Its neighbours look almost identical. This is why a digital image correlation test gives the surface an irregular speckle pattern. A small cluster of marks can be recognised again as it moves.
+The same hot round bar places different demands on its cameras. XTDIC needs a recognisable surface texture that moves with the material. A thermal camera needs information about radiation emitted by the specimen, reflected from its surroundings and transmitted or emitted by the window. A joint test therefore calls for checks on speckles and on each optical path before selecting an area for combined strain and temperature analysis.
 
-## The marks must travel with the metal
+## Sources of difficulty
 
-XTDIC compares patches in successive photographs and uses their relative motion to calculate strain. During a hot tensile test the pattern goes through heating, a hold and stretching. If a coating flakes during the hold, a bright spot in the next picture may belong to a different patch. If the coating itself cracks under tension, its pattern changes abruptly. A striking band on the strain map warrants a look at the original photographs. Did the pattern remain attached and move with the underlying surface?
+Adjacent points on a smooth bar can look alike in visible photographs. Heating changes brightness and contrast, and a trackable region can become indistinct. Window refraction affects the location reconstructed by the stereo system. A window transparent to the eye also needs a transmission check in the infrared camera’s wavelength band. These effects enter at different stages of the measurement.
 
-## What the infrared camera sees
+## Establishing a deformation record
 
-A thermal camera estimates surface temperature from the infrared radiation reaching it. Emissivity describes how effectively a surface emits thermal radiation compared with an ideal emitter at the same temperature. A coating and bare metal can emit different amounts even when equally hot. Shiny metal can also reflect radiation from a furnace wall into the lens. A bright patch on a thermogram can therefore reflect temperature, surface condition or both. The shade of a speckle in a visible photograph does not supply its infrared emissivity.
+The published experiment used heat-resistant inorganic speckles on the gauge section and corrected for refraction through the furnace window. In an implementation, check calibration and image quality through the actual observation path and keep images from the hot hold as a reference. Ripples crossing a stationary, unloaded specimen warrant a check for optical disturbances such as moving hot air. Local cracking or loss of the speckle coating calls for marking the affected region and frames.
 
-## A question worth asking before the pull
+## Using the surface for infrared thermometry
 
-Imagine the specimen during its hot hold, before the force is applied. A boundary between bright and dark areas on the thermal image follows the edge of a coating. Saving this frame gives the analyst a chance to check the surface treatment, the infrared wavelength band and window transmission, and to compare a location with an independent temperature reading. If the same boundary reappears during loading, there is already evidence of what it looked like beforehand. This is an example of interpreting the test, rather than a reported defect in the published specimen.
+Converting received radiation into temperature requires the surface emissivity in the relevant wavelength band. A coating and exposed metal can emit different amounts of radiation at the same temperature. If an apparent temperature step already follows a coating edge before loading, a similar boundary during pulling needs additional evidence before it can be attributed to plastic heating.
 
-The two cameras ask different things of one surface. A pattern that stays attached lets the reader follow the stretch. Understanding how radiation reaches the camera makes the temperature reading interpretable. Together these checks give a local rise in temperature a sound basis for comparison with local deformation.
+| Observation | Check | Treatment in analysis |
+| --- | --- | --- |
+| Local speckle loss during the hold | Inspect the original image sequence | Mark where and when tracking was lost |
+| Thermal contrast follows a coating edge | Review the unloaded thermogram, emissivity and independent temperature reference | Assess local temperature reliability separately |
+| The cameras see different portions of the curved edge | Compare outlines and viewing angles | Use the common observable surface |
 
-[Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test and images](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+## Scope of the arrangement
+
+These checks apply to tensile tests through furnace ports and to repeat tests after a change of coating, window or thermal camera. A pre-load photograph, its matching thermogram and a record of the valid common area make final maps easier to audit. The public case documents the speckle preparation, window calibration and synchronous acquisition. The anomalies in the table are implementation considerations, not reported events in that specimen.
+
+[XTDIC specimen, equipment and measured fields](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html) · [Original article in Chinese](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg)
 
 ## In this series
 
-[222 · Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version) · [226 · Where Does Hot Metal Begin to Narrow? Following a Neck Before Fracture](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
+- [222 · XTDIC and Infrared Thermography for Hot Tensile Testing of Metal Round Bars](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version)
+- [226 · Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
 
 </details>
