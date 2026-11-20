@@ -488,6 +488,11 @@ If you have calibration data, application case studies, or corrected specificati
 | 225 | [High-Temperature DIC and Thermography Through Furnace Ports: Specimen Preparation and Optical Checks](articles/xtdic-infrared-hot-tension-surface.md#english-version) | Inorganic speckles, window refraction, emissivity |
 | 226 | [Identifying Necking in Hot Metal: From Average Elongation to Full-Field Principal Strain](articles/xtdic-infrared-hot-tension-necking.md#english-version) | Average elongation, principal strain, neck identification |
 | 227 | [Validating a Hot Tensile Simulation with XTDIC Strain Fields, Thermograms and Load Curves](articles/xtdic-infrared-hot-tension-validation.md#english-version) | Thermomechanical simulation, material calibration, independent validation |
+| 228 | [Measuring Crane Boom Sway After Slew Stops with XTDIC Stereo Tracking](articles/xtdic-crane-boom-slew-sway-case.md#english-version) | Crane slewing, lateral sway, peak-to-peak displacement, residual vibration |
+| 229 | [Planning an Outdoor Large-Field Stereo DIC Test for a Crane Boom with XTDIC-STROBE](articles/xtdic-crane-boom-outdoor-stereo-setup.md#english-version) | Large-field calibration, stereo placement, depth of field, coded targets |
+| 230 | [Choosing Equipment for Crane Boom Motion: XTDIC-STROBE, Displacement Sensors, Accelerometers and Video](articles/xtdic-crane-boom-displacement-equipment-selection.md#english-version) | Equipment selection, 3D trajectories, point displacement, accelerometers |
+| 231 | [Quantifying Concrete Pump Boom Recoil and Delivery Motion from 3D Tip Trajectories](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#english-version) | Concrete pump boom, recoil, resultant displacement, delivery trajectory |
+| 232 | [Validating Crane Boom Sway Control with XTDIC Multipoint Trajectories and Dynamic Models](articles/xtdic-crane-boom-anti-sway-validation.md#english-version) | Sway control, settling time, dynamic modelling, design validation |
 
 ---
 
@@ -984,6 +989,11 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 225 | [隔着炉窗做高温 DIC 与红外测温：圆棒散斑、光路与表面校核方案](articles/xtdic-infrared-hot-tension-surface.md#chinese-version) | 无机散斑、炉窗折射、发射率 |
 | 226 | [高温金属拉伸的颈缩识别：从平均伸长到 XTDIC 全场主应变分析](articles/xtdic-infrared-hot-tension-necking.md#chinese-version) | 平均伸长、主应变、颈缩识别 |
 | 227 | [高温拉伸仿真如何验证？用 XTDIC 应变场、红外温度场与载荷曲线对标](articles/xtdic-infrared-hot-tension-validation.md#chinese-version) | 热力耦合仿真、材料标定、独立验证 |
+| 228 | [起重机回转停止后，吊臂还会摆多久？XTDIC 三维动态位移测量案例](articles/xtdic-crane-boom-slew-sway-case.md#chinese-version) | 起重机回转、吊臂偏摆、峰峰值、停后余振 |
+| 229 | [大型吊臂在室外怎样布置三维 DIC？XTDIC-STROBE 大视场测试方案](articles/xtdic-crane-boom-outdoor-stereo-setup.md#chinese-version) | 大视场标定、双目机位、景深、编码点跟踪 |
+| 230 | [吊臂动态位移测量设备怎么选？XTDIC-STROBE 与位移计、加速度计及视频的任务对比](articles/xtdic-crane-boom-displacement-equipment-selection.md#chinese-version) | 动态位移测量设备、三维轨迹、单点位移、加速度计 |
+| 231 | [泵车端头回摆量怎么算？从制动到送料的三维位移与轨迹判读](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#chinese-version) | 混凝土泵车、回摆量、空间合位移、送料轨迹 |
+| 232 | [吊臂抑摆控制改进如何验证？用 XTDIC 多点轨迹对标制动策略与动力学仿真](articles/xtdic-crane-boom-anti-sway-validation.md#chinese-version) | 抑摆控制、停稳时间、动力学仿真、机型验证 |
 
 ---
 
