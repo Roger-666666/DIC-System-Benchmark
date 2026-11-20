@@ -1,65 +1,67 @@
-# 高温拉伸中温升和应变集中谁先出现？XTDIC 与红外热像的时间同步
+# 金属是先升温，还是先被拉细？把高温拉伸的两段录像对到同一刻
 
-> [!TIP]
-> **请选择阅读语言 / Please select your language:**
->
-> - [中文版](#chinese-version)
-> - [English Version](#english-version)
+> [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
+<summary><b>中文版 · 金属是先升温，还是先被拉细？把高温拉伸的两段录像对到同一刻</b></summary>
 
 <a id="chinese-version"></a>
 
-**关键词**　统一时间戳、曝光时间、事件先后
+*高温拉伸中的变形与损伤 · 专题一*
 
-高温拉伸临近断裂时，温度曲线和应变曲线的峰值可能出现在相邻帧。要判断先后，需要知道两台设备各自在什么时候看到了试样。XTDIC 高温拉伸案例采用统一时间戳。复用这一方法时，还要确认时间戳对应触发、曝光还是数据到达。
+把高温拉伸的两段录像并排播放。在左边，试样中部有一小段伸长得越来越快；在右边，附近的颜色慢慢变亮。哪件事先发生？如果两段视频是分别按下播放键的，凭眼睛看到的先后，很可能只说明哪段视频先开始播放。要讨论材料本身，得先找出两个镜头拍到的同一刻。
 
-## 用一次共同事件检查时间轴
+## 用试验机把两个画面串起来
 
-正式加载前，可在两路视场中移动一个边界清晰、与背景有温差的标记。记录标记通过同一物理位置的时刻，再在采集结束前重复检查。两次偏差相近，可以估计固定延迟；偏差随记录时长改变，则要检查时钟漂移。保存原始采样时刻，便于发现漏帧。
+在 XTDIC 公开的金属拉伸试验中，试验机、观察表面变形的相机和红外热像仪接收共同的硬件触发信号，记录带有统一时间戳。可以把它理解成每次拍摄都留下了一张写着时间的便签。研究人员在拉力曲线上选中某个时刻，就可以去找这个时刻附近的试样照片和热像。即使两台相机拍的张数不同，也能知道画面相隔了多久。
 
-## 把起点写成区间
+## “开始升温”究竟指什么时候
 
-选定随材料移动的标距区域，用稳定保温段估计温度和应变各自的波动。事先约定何种持续偏离算作事件。将最后一个仍处于背景范围的观测与第一个持续偏离的观测作为区间两端，并考虑曝光时长及同步偏差。若温升和局部化两个起始区间重叠，报告可写为“在当前采样条件下，两者先后未分辨”。
+假设想判断将来形成细颈的位置何时变热。这个位置可能在加载前就比旁边热一点。因此，观察要从保温阶段开始。先看这块材料原有温度怎样波动，拉伸时再跟着它移动，观察温度何时持续偏离原来的范围。应变也可以这样读：观察这一段与相邻材料的伸长何时开始持续拉开差距。把偶然跳动的一帧当成起点，会让先后次序取决于噪声。
 
-## 报告中怎样画曲线
+还有一个容易忽略的细节。假如一幅热像里温度还在原来的范围，下一幅才看出升温，能确定的是变化发生在这两次拍摄之间。期间即使有好几张清晰的应变图，也补不出没有拍到的热像。如果两个变化的时间范围重叠，恰当的描述就是“在同一观测时段内出现”。这样的判断比硬选一个先后更有信息量，读者知道相机究竟分辨到了什么程度。
 
-在同一时间轴保留两路原始采样点，以阴影标出事件区间。热像采样较慢时，插值可用于显示，新增的曲线点仍不能缩短观测间隔。载荷通道如需参与判断，也要通过同样的时间校验。
+## 先后关系能告诉工程师什么
 
-[返回系列导读](xtdic-infrared-hot-tension-case.md#chinese-version)
+如果某处在施加拉力前就持续偏热，值得先查看加热是否均匀。如果局部伸长已经持续了一段时间，随后才在这一带观察到额外温升，局部塑性变形产生的热就成为值得检验的解释，同时还要考虑热量传入和散出的影响。这是同一套记录可能帮助区分的两种情形。公开案例给出了对齐记录的方法；要判定某个试样属于哪一种，仍须读取那次试验的原始时间序列。
 
-案例来源：[原文入口](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验说明](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+[原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验与图像](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+
+## 系列阅读
+
+[222 · 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version) · [224 · 热像里最热的地方，真是金属被拉得最厉害的地方吗？](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#chinese-version)
 
 </details>
 
----
-
 <details>
-<summary><b>Click to Expand: English Version (点击展开：英文版)</b></summary>
+<summary><b>English · Did the Metal Warm Up or Start to Neck First? Putting Two Cameras on the Same Clock</b></summary>
 
 <a id="english-version"></a>
 
-# Which Came First in Hot Tension? Synchronizing XTDIC Strain and Infrared Temperature Histories
+# Did the Metal Warm Up or Start to Neck First? Putting Two Cameras on the Same Clock
 
-**Keywords**　Timestamps, exposure timing, event ordering
+*Deformation and damage in hot tension · Part 1*
 
-Near fracture, a temperature peak and a strain peak may fall in adjacent frames. Deciding which occurred first requires the observation time of each instrument. The XTDIC hot tensile case used a common timestamp. In a repeat test, document whether each timestamp refers to a trigger, exposure or arrival of a recorded frame.
+Play two recordings of a hot tensile test side by side. In one, a short section begins to stretch faster. In the other, a nearby area grows brighter on the temperature scale. Which happened first? If someone started the two players separately, the apparent order may tell us more about playback than about the metal.
 
-## Check the clocks with a common event
+## A shared clock for the load and the images
 
-Before loading, move a distinct target with thermal contrast through both fields of view. Record its passage across the same physical position. Repeat the check near the end of acquisition. Similar offsets support a fixed-delay estimate. A changing offset calls for a clock-drift check. Retain native acquisition times so dropped frames remain visible.
+In the published XTDIC test the tensile machine, deformation cameras and infrared camera used a common hardware trigger and shared timestamps. Each record therefore carries its place on the test clock. A reader can select a moment on the force curve and find both the specimen photograph and the thermal image closest to it. Cameras can take different numbers of pictures and still reveal how far apart two exposures were.
 
-## Give onset a time interval
+## What counts as the beginning of warming?
 
-Track one material region. Use the stable hot dwell to characterize variation in temperature and strain separately, and define a sustained departure before inspecting the event. Bracket onset between the last background observation and the first of the sustained departures. Account for exposure duration and synchronization error. If the two intervals overlap, report that their order was unresolved at the available sampling rate.
+Consider the piece of material that eventually forms the neck. It may have been warmer than its neighbours before loading. Its temperature during the hold gives a baseline. During the pull, that same piece can be followed to see when its temperature departs persistently from the previous range. The strain record poses a similar question. When does stretching in this region begin to outpace stretching on either side? A single flicker makes a poor start time for either event.
 
-## Plot the observations
+Suppose the temperature is within its earlier range in one thermal image and clearly elevated in the next. The onset lies somewhere between those exposures. Several sharp strain images may fall inside that gap, but they cannot reconstruct a missing thermal observation. If the two onset intervals overlap, “within the same observation interval” is a meaningful result. It says exactly how well the experiment resolved their order.
 
-Show native samples on one time axis and shade the onset intervals. Interpolation can make a slower thermal trace easier to read, but the interval between observations stays the same. A force channel used to judge timing also needs a verified time reference.
+## What the timing can explain
 
-[Back to the case overview](xtdic-infrared-hot-tension-case.md#english-version)
+A region that stays warmer even before force is applied warrants a look at the heating conditions. If concentrated stretching persists first and additional warming appears later in that region, heat generated during plastic deformation becomes one explanation to test alongside heat entering and leaving the region. These are possible interpretations. The published setup establishes how to put the records on one clock. Determining which sequence a particular specimen followed requires its original time histories.
 
-Case documentation: [Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test description](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+[Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test and images](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+
+## In this series
+
+[222 · Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version) · [224 · Is the Hottest Spot Also the Most Stretched Part of the Metal?](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#english-version)
 
 </details>

@@ -1,77 +1,79 @@
-# 高温金属拉伸时怎样同时看见温度与变形？XTDIC 与红外热像联动试验
+# 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸
 
-> [!TIP]
-> **请选择阅读语言 / Please select your language:**
->
-> - [中文版](#chinese-version)
-> - [English Version](#english-version)
+> [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
+<summary><b>中文版 · 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸</b></summary>
 
 <a id="chinese-version"></a>
 
-**关键词**　高温拉伸、数字图像相关、红外热成像、应变局部化
+*高温拉伸中的变形与损伤 · 系列主文*
 
-同一根金属试样受拉时，拉力可以从试验机读出，最先集中变形的位置却需要在标距段里寻找。XTDIC 公开案例在不同温度条件下开展金属拉伸，用双目数字图像相关（DIC）记录表面运动，再按时间戳与红外热像记录对照。这样可以回到颈缩前的一帧，查看当时哪段材料已经拉长，以及对应区域的表面温度怎样变化。
+把一根金属试样加热，夹住两端，慢慢拉，直到它断开。取出试样，可以看见它断在什么地方。更难回答的是，断口附近那一小段从什么时候开始比别处伸得快？在它变细之前，那里的温度已经和周围不同了吗？XTDIC 的高温拉伸案例值得读，就因为它把断裂前的过程也记录了下来。
 
-## 两幅图各自测到了什么
+## 从炉子里的那一小段金属说起
 
-XTDIC 从可见光图像中跟踪随试样移动的散斑，根据标定后的双目图像重建表面位移，再由邻域位移变化求应变。红外热像仪接收辐射，结合表面发射率和光路条件换算温度。前者的空间尺度取决于相关计算与应变拟合范围，后者受热像采样与光学分辨能力约束。一个很窄的颈缩区可能在两幅图上呈现不同宽度。
+夹具之间有一段专门用来观察伸长的区域，叫作标距段。试验先把金属加热并保温，再开始拉伸。这个顺序很重要。金属受热本身就会膨胀，如果想知道拉力让金属又伸长了多少，一个合适的起点是保温后、加载前的那张照片。红外热像在这时就有用处了。炉子的设定温度只有一个数，热像却能显示标距段的中间和两端是否一样热。
 
-## 怎样读一次拉伸记录
+## 照片怎样变成一张应变图
 
-先在加载前的稳定温度段取参考帧，再沿拉伸轴观察应变是否从较宽区域向窄带集中。回到相同时段的原始照片，查找标距段轮廓收窄的位置。随后提取该材料区域和邻近区域的温度历程，并标记载荷变化。若热点跟着收窄处移动，可以报告两种表面现象的时空对应；要解释热量来源，还要考虑炉内加热、传热与表面状态。
+试样表面布有细小、无规则的斑点。相邻两张照片里，同一小簇斑点往哪里移，可以靠图案认出来。这就是数字图像相关法（DIC）的起点。试想在金属表面选两处斑点：如果它们一起往上移，间距没变，这段金属只是换了位置；如果间距逐渐变大，这段金属就在伸长。把增加的距离与原来的间距相比，就能描述这一段的拉伸应变。
 
-## 试验报告值得保留哪一页
+XTDIC 用双目相机从不同角度观察这些图案。沿着试样表面许多相邻的小区域重复比较，就能画出一张应变图。读者可以拿它回答一个单靠总伸长量答不了的问题：这一回，是整段金属都伸长了一些，还是大部分伸长已经集中到一小段？
 
-把加载前、局部化发展期和断裂前最后一个相关有效时刻排成一页。每列保留原始轮廓、轴向应变图、同步热像与载荷位置，旁注参考帧及缺测范围。这一页既能交代试样经历了什么，也让读者判断“温度与应变同时集中”的说法能得到多细的证据支持。
+## 再回到断口附近
 
-## 专题阅读
+公开案例展示了位移图、主应变图和同一时段的热像。案例中，在试样轮廓明显收窄之前，应变图上已经可以辨认出变形集中的区域。此时回看原始照片，外形的变化可能还很轻微。再往后比较相邻时刻的轮廓，才更容易看清局部变细的过程，这种逐渐形成细颈的现象叫作颈缩。
 
-- [223 · 高温拉伸中温升和应变集中谁先出现？XTDIC 与红外热像的时间同步](xtdic-infrared-hot-tension-timing.md#chinese-version)
-- [224 · 红外热点与应变带是否落在同一处？高温拉伸的双场空间配准](xtdic-infrared-hot-tension-registration.md#chinese-version)
-- [225 · 高温散斑会改变红外读数吗？XTDIC 联动测试的表面核查](xtdic-infrared-hot-tension-surface.md#chinese-version)
-- [226 · 高温拉伸怎样识别颈缩起点？结合 XTDIC 局部应变、轮廓与热像](xtdic-infrared-hot-tension-necking.md#chinese-version)
-- [227 · 热力耦合仿真如何用 XTDIC 和红外热像验证？从温度边界到应变残差](xtdic-infrared-hot-tension-validation.md#chinese-version)
+热像给这个故事补上了另一层信息。找到正在变细的材料，回看它在加载前和加载中的表面温度，就能分清哪些温差原先就存在，哪些出现在拉伸过程中。两幅图即使在同一处出现变化，也还需要更多证据解释热量的来源。一根断后的试样只留下最后的形状；这些按时间对应的记录，让人可以从断口往前追，看到局部变形是怎样一步步发展起来的。
 
-案例来源：[原文入口](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验说明](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+[原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验与图像](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+
+## 五篇专题
+
+- [223 · 金属是先升温，还是先被拉细？把高温拉伸的两段录像对到同一刻](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#chinese-version)
+- [224 · 热像里最热的地方，真是金属被拉得最厉害的地方吗？](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#chinese-version)
+- [225 · 为什么要给高温试样做散斑？从一块金属表面读懂两台相机](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#chinese-version)
+- [226 · 断口形成之前，金属从哪里开始变细？沿着应变图找颈缩](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#chinese-version)
+- [227 · 电脑算出的金属拉伸过程可信吗？用一次高温试验检验仿真](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#chinese-version)
 
 </details>
 
----
-
 <details>
-<summary><b>Click to Expand: English Version (点击展开：英文版)</b></summary>
+<summary><b>English · Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography</b></summary>
 
 <a id="english-version"></a>
 
-# Measuring Temperature and Deformation Together in a Hot Tensile Test with XTDIC and Infrared Thermography
+# Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography
 
-**Keywords**　Hot tensile testing, digital image correlation, infrared thermography, strain localization
+*Deformation and damage in hot tension · Series introduction*
 
-A load cell records the force on a hot metal coupon. Locating the first concentration of deformation requires observations along its gauge section. In the published XTDIC case, stereo digital image correlation (DIC) followed the surface of metal specimens in tensile tests at different temperatures. Timestamps linked deformation records with infrared images. An analyst can revisit a frame before necking and ask which material region was already stretching and how its surface temperature evolved.
+Take a metal specimen, heat it, grip both ends and pull until it breaks. The broken pieces show where it failed. They say much less about the moments before failure. When did that short section begin to stretch faster than its neighbours? Was it already warmer before it narrowed? The XTDIC hot tensile test preserves a record of those earlier moments.
 
-## What each field measures
+## The part of the specimen that matters
 
-XTDIC tracks visible speckles attached to the specimen, reconstructs surface displacement from calibrated stereo views and estimates strain over a neighborhood. A thermal camera measures radiation and uses surface emissivity and optical-path information to estimate temperature. Strain fitting and thermal imaging have different spatial resolutions. The same narrow neck can therefore have different apparent widths in the two maps.
+Between the grips lies the gauge section, the length over which stretching is observed. In the published test the specimen was heated and held at temperature before loading began. Metal expands during heating, so a picture taken after the hold and just before loading is a useful starting point for measuring the additional stretch under tension. An infrared image already has a job at this stage. The furnace has one setpoint, while the middle and ends of the specimen can have different surface temperatures.
 
-## Reading the tensile history
+## How a photograph becomes a strain map
 
-Choose a reference image during the stable hot interval before loading. Follow the axial strain field as deformation concentrates into a band, then inspect the specimen outline for narrowing. Extract temperature histories from that material region and an adjacent region, and mark the corresponding load history. A hot region traveling with the neck supports a spatial and temporal association. Interpreting the heat source also requires information about external heating, heat transfer and the surface condition.
+Small, irregular speckles cover the observed surface. Digital image correlation (DIC) recognises the same patch of speckles in successive pictures. Imagine following two patches. If both move upwards and their separation stays constant, the material between them has moved. If their separation grows, that length of material has stretched. Dividing the increase in separation by the original separation gives a measure of tensile strain along that line.
 
-## A useful case-report page
+XTDIC uses two camera views to follow the surface in three dimensions. Comparing motion across many neighbouring patches produces a strain map. It answers a question that total elongation leaves open. Is the whole gauge section stretching a little, or is a short length now taking up much of the additional extension?
 
-Arrange the unloaded hot state, developing localization and last valid pre-fracture frame in columns. For each, show the original outline, axial strain map, thermogram and position on the load curve. Record the reference frame and missing areas. This layout lets a reader assess the timing and spatial detail behind a claim that temperature and strain concentrated together.
+## Looking back from the fracture
 
-## Further reading
+The published case shows displacement maps, principal strain maps and thermal images from the test. A region of concentrated deformation could be identified in the strain field before narrowing was obvious in the specimen outline. Returning to the photographs and following both edges makes the later change easier to recognise. The formation of this locally narrowed section is called necking.
 
-- [223 · Which Came First in Hot Tension? Synchronizing XTDIC Strain and Infrared Temperature Histories](xtdic-infrared-hot-tension-timing.md#english-version)
-- [224 · Do the Hot Spot and Strain Band Coincide? Spatial Registration in Hot Tensile Testing](xtdic-infrared-hot-tension-registration.md#english-version)
-- [225 · Can a High-Temperature Speckle Pattern Change Infrared Readings? Surface Checks for XTDIC Tests](xtdic-infrared-hot-tension-surface.md#english-version)
-- [226 · Identifying Necking Onset in Hot Tension with XTDIC Strain, Specimen Outlines and Thermograms](xtdic-infrared-hot-tension-necking.md#english-version)
-- [227 · Validating a Thermomechanical Tensile Model with XTDIC and Infrared Data](xtdic-infrared-hot-tension-validation.md#english-version)
+The infrared record adds the temperature history of the same material. Looking back to the unloaded frame helps distinguish a temperature difference that existed before the pull from one that developed during loading. Overlapping changes alone do not identify the source of the heat. What these records provide is a way to start at the fracture and work backwards through the deformation that preceded it.
 
-Case documentation: [Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test description](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+[Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test and images](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+
+## Five companion articles
+
+- [223 · Did the Metal Warm Up or Start to Neck First? Putting Two Cameras on the Same Clock](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-timing.md#english-version)
+- [224 · Is the Hottest Spot Also the Most Stretched Part of the Metal?](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-registration.md#english-version)
+- [225 · Why Speckle Hot Metal? One Surface Seen by Two Different Cameras](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#english-version)
+- [226 · Where Does Hot Metal Begin to Narrow? Following a Neck Before Fracture](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-necking.md#english-version)
+- [227 · Can a Simulation Predict Where Hot Metal Will Stretch? Testing It Against a Tensile Experiment](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-validation.md#english-version)
 
 </details>

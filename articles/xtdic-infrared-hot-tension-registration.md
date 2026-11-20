@@ -1,65 +1,67 @@
-# 红外热点与应变带是否落在同一处？高温拉伸的双场空间配准
+# 热像里最热的地方，真是金属被拉得最厉害的地方吗？
 
-> [!TIP]
-> **请选择阅读语言 / Please select your language:**
->
-> - [中文版](#chinese-version)
-> - [English Version](#english-version)
+> [中文版](#chinese-version) · [English version](#english-version)
 
 <details open>
-<summary><b>点击展开：中文版 (Click to Expand: Chinese Version)</b></summary>
+<summary><b>中文版 · 热像里最热的地方，真是金属被拉得最厉害的地方吗？</b></summary>
 
 <a id="chinese-version"></a>
 
-**关键词**　空间配准、材料坐标、热像分辨率
+*高温拉伸中的变形与损伤 · 专题二*
 
-试样拉长后，热像中固定像素看到的材料会改变。若要回答“出现热点的这块材料随后是否颈缩”，需要用 XTDIC 跟踪材料点，并把该点的当前位置投影到红外热像上。时间对齐只是这项分析的起点。
+在一张应变图上圈出伸长最集中的地方，再把这张图盖到红外热像上。如果两个圈重合，能说明那一小块金属又热、又被拉得厉害吗？对于透过炉窗观察的高温拉伸试验，先得弄清楚一个朴素的问题：两个镜头里的圈，究竟有没有圈到同一块材料？
 
-## 怎样建立对应位置
+## 让不同角度拍到的试样对得上
 
-在预期标距段和运动深度范围内，用可被两类相机识别的标记建立几何对应，再用未参与拟合的标记复查偏差。若只能做平面映射，应在侧向弯曲、转动或厚度变化时检查其适用范围。设备从相反方向观察时，前后表面属于不同的观测面，应按各自表面标记结果。
+XTDIC 的双目相机用可见光观察试样，热像仪从自己的位置接收红外辐射。试样在一幅图上可能显得较宽，在另一幅上可能稍微倾斜。即使把两幅图裁成一样大，让中心重叠，靠近边缘的细节也可能错开。这个误差对于一整段标距或许不显眼，对于一条窄窄的应变带，却足以把要比较的区域移到旁边。
 
-## 用一条剖面检验重合程度
+把两个视角对应起来，称为空间配准。可以借助两种相机都能辨认的定位特征，在试样所在的位置建立对应关系，再用没有参与计算的特征检验映射是否可靠。炉窗、相机位置和观察距离都属于这次测量的条件。如果改变了光路，曾经对齐的图像也值得重新检查。
 
-沿标距段布置材料测线，保存每帧的三维位置。在共同有效区内提取轴向应变和表面温度剖面。把较细的场按较粗通道的空间尺度汇总，再比较高值带的位置和宽度。将映射按实测配准偏差轻微移动后重算。如果“重合”随这点移动就消失，热像只支持区域级对应。
+## 画面中的位置不动，材料却会走
 
-## 遇到遮挡怎样交付
+用笔在屏幕上指住试样中部。随着夹具拉开，原来在指尖下的那块材料可能已经移到上方。此后一直读取指尖处的温度，得到的就是陆续经过这里的材料温度。要追问“后来变细的这一块经历了怎样的温度变化”，就应利用 DIC 跟踪那一簇斑点，再到各时刻的热像中寻找对应区域。前一种读法适合研究炉内固定位置，后一种适合研究随试样移动的材料。
 
-在轮廓、夹具和断口附近输出共同可见范围。保留最终有效测线、映射复查误差以及原始图像。读者便能区分“同一材料区域同时升温和拉伸”与“两个相邻区域分别出现高值”，进而决定后续取样位置。
+## 两片颜色相遇，可以得出多细的结论
 
-[返回系列导读](xtdic-infrared-hot-tension-case.md#chinese-version)
+还要考虑热像能看清多小的细节。假如应变集中在一条很窄的带内，而一个热像测量区域已经同时覆盖窄带和两旁材料，温度读数就混入了周围的贡献。此时可以比较窄带附近与远处的温度趋势。要进一步断言温度最高点正好落在应变最高点上，就需要比两点间距更精细的空间证据。这样读图，结论会落在实际可辨的那块金属上。
 
-案例来源：[原文入口](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验说明](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+[原文](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC 公开试验与图像](https://www.xtop3d.com/casesdetail/gwhwbxlc.html)
+
+## 系列阅读
+
+[222 · 一根金属拉断之前发生了什么？用 XTDIC 和红外热像看懂高温拉伸](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#chinese-version) · [225 · 为什么要给高温试样做散斑？从一块金属表面读懂两台相机](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#chinese-version)
 
 </details>
 
----
-
 <details>
-<summary><b>Click to Expand: English Version (点击展开：英文版)</b></summary>
+<summary><b>English · Is the Hottest Spot Also the Most Stretched Part of the Metal?</b></summary>
 
 <a id="english-version"></a>
 
-# Do the Hot Spot and Strain Band Coincide? Spatial Registration in Hot Tensile Testing
+# Is the Hottest Spot Also the Most Stretched Part of the Metal?
 
-**Keywords**　Spatial registration, material coordinates, thermal resolution
+*Deformation and damage in hot tension · Part 2*
 
-As a coupon elongates, a fixed thermal pixel sees different material. To ask whether a hot material region later develops a neck, track that region with XTDIC and project its current position into the infrared view. The two frames must also correspond in time.
+Circle the area of greatest stretch on a strain map and lay it over a thermal image. If the circles overlap, have the cameras found a piece of metal that is both hot and highly strained? In a furnace test the answer begins with a simpler question. Did the two cameras actually see the same piece of material inside those circles?
 
-## Establish spatial correspondence
+## Matching the views
 
-Use features visible to both optical systems throughout the gauge area and expected depth range. Check the mapping on features withheld from the fit. If only a planar transformation is available, test its validity when the coupon bends, rotates or changes thickness. Opposite-side observations refer to different physical faces and should be labeled by face.
+XTDIC’s stereo cameras observe the specimen in visible light. The infrared camera receives radiation from its own position. The strip may look wider in one view and slightly tilted in the other. Cropping the images to the same size and lining up their centres can still leave their edges displaced. An offset that looks small across the full gauge section can move a narrow strain band entirely outside the area being compared.
 
-## Test overlap on a profile
+Establishing this correspondence is called spatial registration. Features visible to both systems can establish a mapping at the specimen position. Other features, left out of that calculation, can independently show how well the mapping works. The window, viewing distance and camera positions belong to this particular setup. Changing the optical path gives a reason to check the alignment again.
 
-Place a material line along the gauge and retain its three-dimensional position in each frame. Extract axial strain and surface temperature along the common visible segment. Average the finer field to a support comparable to the coarser channel before comparing band position and width. Perturb the mapping within its measured registration error and repeat. Overlap that disappears under this change supports only a regional association.
+## A stationary cursor can sample moving material
 
-## Deliver the common visible area
+Hold a finger against the middle of the specimen on a screen. As the grips separate, the surface patch beneath the fingertip may move upwards. Reading temperature at the fingertip then gives a history of successive pieces of material passing through one location. To recover the history of the piece that eventually necks, the analyst can follow its speckles with DIC and locate the corresponding area in each thermal image. A fixed point answers a question about a place in the furnace. A moving patch answers a question about the metal.
 
-Mask boundaries, grips and the opening fracture where either view loses the specimen. Supply the last valid profile, the registration check and original images. A reader can then distinguish a material region that heats and stretches from neighboring regions with separate peaks, which matters when choosing a location for follow-up inspection.
+## How close is close enough?
 
-[Back to the case overview](xtdic-infrared-hot-tension-case.md#english-version)
+A thermal measurement area may cover a narrow strain band and material on both sides. Its reading then includes contributions from the neighbours. Comparing temperatures near the band with temperatures farther away can still reveal a regional difference. To claim that the hottest point coincides with the most highly strained point, the images and their alignment must resolve the separation in question. The size of the region the cameras can distinguish determines how precisely the conclusion can be stated.
 
-Case documentation: [Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test description](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+[Original article](https://mp.weixin.qq.com/s/fac1eqMF2A5h3gOePYX3Yg) · [XTDIC test and images](https://www.xtop3d.com/en/casesdetail/high-temperature-tensile-testing-dic-infrared-thermography.html)
+
+## In this series
+
+[222 · Before Hot Metal Breaks: Reading a Tensile Test with XTDIC and Infrared Thermography](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-case.md#english-version) · [225 · Why Speckle Hot Metal? One Surface Seen by Two Different Cameras](https://github.com/Roger-666666/DIC-System-Benchmark/blob/master/articles/xtdic-infrared-hot-tension-surface.md#english-version)
 
 </details>
