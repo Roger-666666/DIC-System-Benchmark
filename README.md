@@ -493,6 +493,13 @@ If you have calibration data, application case studies, or corrected specificati
 | 230 | [Selecting Dynamic Displacement Equipment for Machinery: The Role of XTDIC-STROBE](articles/xtdic-crane-boom-displacement-equipment-selection.md#english-version) | Equipment selection, 3D trajectories, point displacement, accelerometers |
 | 231 | [XTDIC Three-Dimensional Measurement of Concrete Pump Boom Recoil and Delivery Paths](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#english-version) | Concrete pump boom, recoil, resultant displacement, delivery trajectory |
 | 232 | [XTDIC-STROBE Multipoint Testing for Machinery Sway Control and Dynamic Validation](articles/xtdic-crane-boom-anti-sway-validation.md#english-version) | Sway control, settling time, dynamic modelling, design validation |
+| 233 | [What a Coupled DIC and Infrared System Adds: Four Outputs of an XTDIC High-Temperature Setup](articles/xtdic-infrared-coupled-four-outputs-overview.md#english-version) | Full-field displacement, strain, surface temperature field, coupled load–deformation–temperature history |
+| 234 | [What a Coupled High-Temperature System Contains: Reading the XTDIC, Thermal Camera and Synchronisation Configuration](articles/xtdic-infrared-coupled-system-hardware-configuration.md#english-version) | 12-megapixel camera, 50 mm lens, 64 mm by 48 mm field, emissivity, hardware trigger |
+| 235 | [Four Built-In Capabilities: VRO Calibration, Hot Speckle Tracking, Timing Synchronisation and Full-Field Post-Processing](articles/xtdic-infrared-coupled-four-built-in-capabilities.md#english-version) | VRO refraction calibration, robust speckle tracking, timing alignment, post-processing |
+| 236 | [From 200℃ to 1000℃: Applicability Limits of a Coupled XTDIC and Infrared System](articles/xtdic-infrared-coupled-temperature-limits.md#english-version) | Five temperature steps, window refraction, convection, grey-level drift, rejection criteria |
+| 237 | [Reading Three Contours and One Curve: Interpreting Coupled XTDIC and Infrared Output](articles/xtdic-infrared-coupled-output-reading.md#english-version) | Displacement contour, principal strain, thermal field, characteristic events, four misreadings |
+| 238 | [From Speckle to Delivery: A Seven-Stage Workflow for Coupled XTDIC and Infrared Testing](articles/xtdic-infrared-coupled-workflow-checklist.md#english-version) | Seven-stage workflow, inorganic speckle, soaking, synchronised acquisition, delivery checklist |
+| 239 | [When Is the Coupled System Worth It: Method Comparison and the Place of XTDIC](articles/xtdic-infrared-coupled-method-selection.md#english-version) | Five method classes, capability matrix, three demand types, when the setup is excessive |
 
 ---
 
@@ -994,6 +1001,13 @@ LaVision（德国哥廷根）在光学诊断领域有悠久传承，产品涵盖
 | 230 | [工程机械动态位移测量设备选型：XTDIC-STROBE 多点三维测试的适用价值](articles/xtdic-crane-boom-displacement-equipment-selection.md#chinese-version) | 动态位移测量设备、三维轨迹、单点位移、加速度计 |
 | 231 | [混凝土泵车臂端回摆与送料轨迹测量：XTDIC 三维动态测试应用](articles/xtdic-pump-boom-outlet-recoil-trajectory.md#chinese-version) | 混凝土泵车、回摆量、空间合位移、送料轨迹 |
 | 232 | [工程机械抑摆控制与动力学验证：XTDIC-STROBE 多点位移测试方案](articles/xtdic-crane-boom-anti-sway-validation.md#chinese-version) | 抑摆控制、停稳时间、动力学仿真、机型验证 |
+| 233 | [DIC 与红外热像联动能多给出什么：XTDIC 高温测试系统的四类输出](articles/xtdic-infrared-coupled-four-outputs-overview.md#chinese-version) | 全场位移、全场应变、表面温度场、载荷—变形—温度时序 |
+| 234 | [高温联动测试系统由哪些设备组成：XTDIC、热像仪与同步单元的配置解读](articles/xtdic-infrared-coupled-system-hardware-configuration.md#chinese-version) | 1200万像素、50mm镜头、64mm×48mm视场、发射率、硬件触发 |
+| 235 | [设备自带的四项能力：VRO 校准、高温散斑追踪、时序同步与全场后处理](articles/xtdic-infrared-coupled-four-built-in-capabilities.md#chinese-version) | VRO视窗校准、高温散斑追踪、时序同步、全场后处理 |
+| 236 | [200℃ 到 1000℃，设备要扛住什么：XTDIC 联动系统的适用边界](articles/xtdic-infrared-coupled-temperature-limits.md#chinese-version) | 五档温度阶梯、视窗折射、热气流、灰度漂移、剔除判据 |
+| 237 | [三张云图加一条曲线怎么读：XTDIC 联动测试的输出解读](articles/xtdic-infrared-coupled-output-reading.md#chinese-version) | 位移云图、主应变、热像温度场、特征节点、四种误读 |
+| 238 | [从制斑到交付：XTDIC 联动红外热像的七段作业流程](articles/xtdic-infrared-coupled-workflow-checklist.md#chinese-version) | 七段作业流程、无机散斑、保温热平衡、同步采集、交付清单 |
+| 239 | [什么时候值得上这套系统：高温变形测量手段对比与 XTDIC 的应用位置](articles/xtdic-infrared-coupled-method-selection.md#chinese-version) | 五类手段、能力矩阵、三种典型需求、配置过剩情形 |
 
 ---
 
